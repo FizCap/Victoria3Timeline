@@ -1,0 +1,18 @@
+﻿CHARACTERS = {
+	c:BAD = {
+		create_character = {
+			first_name = "Ludwig_Wilhelm_I"
+			last_name = "von_Zahringen"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_1
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1655.4.8
+			traits = {
+				basic_political_operator direct 
+			}
+		}
+
+	}
+}

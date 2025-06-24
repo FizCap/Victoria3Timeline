@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X43 = {
+		create_character = {
+			first_name = "Diego_Tellez-Giron"
+			ruler = yes
+			culture = cu:neo-mexico_colony-castillian
+			religion = rel:catholic
+			birth_date = 1674.9.1
+			traits = {
+				experienced_diplomat 
+			}
+		}
+
+	}
+}

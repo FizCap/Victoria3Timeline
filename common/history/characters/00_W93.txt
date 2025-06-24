@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W93 = {
+		create_character = {
+			first_name = "Johann_Philipp_von_Lamberg"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1652.5.25
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

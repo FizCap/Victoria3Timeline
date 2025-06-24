@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KBA = {
+		create_character = {
+			first_name = "Misha_mi-Shyaang"
+			last_name = "Kuba"
+			ruler = yes
+			culture = cu:mongo
+			religion = rel:animist
+			birth_date = 1679.1.1
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

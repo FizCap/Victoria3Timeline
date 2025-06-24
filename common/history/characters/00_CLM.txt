@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:CLM = {
+		create_character = {
+			first_name = "Hermenegildo_de_Egmont"
+			ruler = yes
+			culture = cu:north_andean
+			religion = rel:catholic
+			birth_date = 1669.9.1
+			traits = {
+				expert_political_operator 
+			}
+		}
+
+	}
+}

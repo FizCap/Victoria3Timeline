@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:CAM = {
+		create_character = {
+			first_name = "Chey_Chettha_IV"
+			last_name = "Khmer"
+			ruler = yes
+			culture = cu:khmer
+			religion = rel:theravada
+			birth_date = 1655.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

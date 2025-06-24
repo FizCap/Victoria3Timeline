@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:SLS = {
+		create_character = {
+			first_name = "Chtsimpt_Swinomish"
+			ruler = yes
+			culture = cu:salish
+			religion = rel:animist
+			birth_date = 1681.9.1
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:MJT = {
+		create_character = {
+			first_name = "Uthman_I"
+			last_name = "Harti"
+			ruler = yes
+			culture = cu:somali
+			religion = rel:sunni
+			birth_date = 1661.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

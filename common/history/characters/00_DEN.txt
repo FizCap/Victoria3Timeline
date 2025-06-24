@@ -1,0 +1,97 @@
+﻿CHARACTERS = {
+	c:DEN = {
+		create_character = {
+			first_name = "Christian_Reventlow"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1684.1.1
+			traits = {
+				inexperienced 
+			}
+		}
+
+		create_character = {
+			first_name = "Christian_Sehested"
+			is_admiral = yes
+			commander_rank = commander_rank_3
+			birth_date = 1684.1.1
+		}
+
+		create_character = {
+			first_name = "Christian"
+			last_name = "von_Oldenburg"
+			heir = yes
+			culture = cu:danish
+			religion = rel:protestant
+			birth_date = 1699.11.30
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Louise"
+			last_name = "von_Mecklenburg"
+			female = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1667.8.28
+			traits = {
+				ambitious 
+			}
+		}
+
+		create_character = {
+			first_name = "Frederik_IV"
+			last_name = "von_Oldenburg"
+			ruler = yes
+			culture = cu:danish
+			religion = rel:protestant
+			birth_date = 1671.10.11
+			traits = {
+				pious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Christian_Gyldenlowe"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1680.1.1
+		}
+
+		create_character = {
+			first_name = "Friedrich_von_Trampe"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1677.1.1
+			traits = {
+				cocaine_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Frederik_Gersdorff"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1677.1.1
+			traits = {
+				cocaine_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Andreas_Harboe"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1674.1.1
+			traits = {
+				alcoholic 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W26 = {
+		create_character = {
+			first_name = "Khadag_Rai"
+			last_name = "Gangavanshi"
+			heir = yes
+			culture = cu:oriya
+			religion = rel:hindu
+			birth_date = 1650.1.1
+			traits = {
+				basic_political_operator cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Jugasai_Deo_III"
+			last_name = "Gangavanshi"
+			ruler = yes
+			culture = cu:oriya
+			religion = rel:hindu
+			birth_date = 1675.1.1
+			traits = {
+				basic_diplomat cautious 
+			}
+		}
+
+	}
+}

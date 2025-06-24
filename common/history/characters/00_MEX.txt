@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:MEX = {
+		create_character = {
+			first_name = "Sebastian_de_Egmont"
+			ruler = yes
+			culture = cu:neo-mexico_colony-castillian
+			religion = rel:catholic
+			birth_date = 1670.9.1
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+	}
+}

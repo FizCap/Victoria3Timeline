@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:LUC = {
+		create_character = {
+			first_name = "Davide_di_Farnese"
+			ruler = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			birth_date = 1652.9.1
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W98 = {
+		create_character = {
+			first_name = "Domenico_Gozze"
+			ruler = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			birth_date = 1653.9.1
+			traits = {
+				basic_political_operator meticulous 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ANK = {
+		create_character = {
+			first_name = "Ntare_IV"
+			last_name = "Hinda"
+			ruler = yes
+			culture = cu:baganda
+			religion = rel:animist
+			birth_date = 1670.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

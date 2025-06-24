@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:V45 = {
+		create_character = {
+			first_name = "Cuong"
+			last_name = "Trinh"
+			heir = yes
+			culture = cu:vietnamese
+			religion = rel:mahayana
+			birth_date = 1686.1.1
+			traits = {
+				arrogant 
+			}
+		}
+
+		create_character = {
+			first_name = "Can"
+			last_name = "Trinh"
+			ruler = yes
+			culture = cu:vietnamese
+			religion = rel:mahayana
+			birth_date = 1662.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

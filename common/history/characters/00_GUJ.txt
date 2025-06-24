@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:GUJ = {
+		create_character = {
+			first_name = "Muzaffar_Shah_III"
+			last_name = "Muzaffarid"
+			ruler = yes
+			culture = cu:gujarati
+			religion = rel:sunni
+			birth_date = 1543.4.11
+			traits = {
+				direct senile 
+			}
+		}
+
+	}
+}

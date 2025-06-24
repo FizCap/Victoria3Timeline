@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:C10 = {
+		create_character = {
+			first_name = "Xocoyol_Huemac"
+			ruler = yes
+			culture = cu:oodham
+			religion = rel:animist
+			birth_date = 1681.9.1
+			traits = {
+				cocaine_addiction 
+			}
+		}
+
+	}
+}

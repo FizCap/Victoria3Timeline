@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:CHE = {
+		create_character = {
+			first_name = "Amatoya_Moytoy"
+			ruler = yes
+			culture = cu:cherokee
+			religion = rel:animist
+			birth_date = 1682.1.1
+			traits = {
+				shellshocked 
+			}
+		}
+
+	}
+}

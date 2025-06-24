@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:WUR = {
+		create_character = {
+			first_name = "Karl_Alexander"
+			last_name = "von_Wurttemberg"
+			heir = yes
+			culture = cu:south_german
+			religion = rel:protestant
+			birth_date = 1684.5.24
+			traits = {
+				basic_political_operator cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Eberhard_Ludwig"
+			last_name = "von_Wurttemberg"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:protestant
+			birth_date = 1676.9.18
+			traits = {
+				basic_political_operator persistent 
+			}
+		}
+
+	}
+}

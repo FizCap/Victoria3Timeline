@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BUK = {
+		create_character = {
+			first_name = "Subhan_Quli"
+			last_name = "Genghisid"
+			ruler = yes
+			culture = cu:uzbek
+			religion = rel:sunni
+			birth_date = 1661.10.27
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

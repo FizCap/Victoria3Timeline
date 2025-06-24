@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KRG = {
+		create_character = {
+			first_name = "Mwanga"
+			last_name = "Banyambo"
+			ruler = yes
+			culture = cu:baganda
+			religion = rel:animist
+			birth_date = 1660.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

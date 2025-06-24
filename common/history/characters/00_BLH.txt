@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:BLH = {
+		create_character = {
+			first_name = "Ahmad"
+			last_name = "Kambarani"
+			heir = yes
+			culture = cu:baluchi
+			religion = rel:sunni
+			birth_date = 1680.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Samandar"
+			last_name = "Kambarani"
+			ruler = yes
+			culture = cu:baluchi
+			religion = rel:sunni
+			birth_date = 1678.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

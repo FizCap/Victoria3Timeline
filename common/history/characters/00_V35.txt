@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V35 = {
+		create_character = {
+			first_name = "Haimona_I"
+			last_name = "Ngati_Hine"
+			ruler = yes
+			culture = cu:maori
+			religion = rel:animist
+			birth_date = 1681.9.1
+			traits = {
+				direct experienced_colonial_administrator 
+			}
+		}
+
+	}
+}

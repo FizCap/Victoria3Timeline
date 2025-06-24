@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X75 = {
+		create_character = {
+			first_name = "Nara_Bhupal"
+			last_name = "Shah"
+			ruler = yes
+			culture = cu:nepali
+			religion = rel:hindu
+			birth_date = 1643.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

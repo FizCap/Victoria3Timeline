@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V17 = {
+		create_character = {
+			first_name = "Rajsinghdeva"
+			last_name = "Haihaya"
+			ruler = yes
+			culture = cu:gondi
+			religion = rel:hindu
+			birth_date = 1670.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

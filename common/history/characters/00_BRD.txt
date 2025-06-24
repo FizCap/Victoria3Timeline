@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BRD = {
+		create_character = {
+			first_name = "Mwambutsa_II"
+			last_name = "Ntwero"
+			ruler = yes
+			culture = cu:rundi
+			religion = rel:animist
+			birth_date = 1660.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

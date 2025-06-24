@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KZM = {
+		create_character = {
+			first_name = "Munona"
+			last_name = "Shila"
+			ruler = yes
+			culture = cu:luba
+			religion = rel:animist
+			birth_date = 1660.1.1
+			traits = {
+				imposing 
+			}
+		}
+
+	}
+}

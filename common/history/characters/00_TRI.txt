@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:TRI = {
+		create_character = {
+			first_name = "Osman"
+			last_name = "al-Kahwadji"
+			ruler = yes
+			culture = cu:maghrebi
+			religion = rel:sunni
+			birth_date = 1644.5.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

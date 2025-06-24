@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V42 = {
+		create_character = {
+			first_name = "Muhammad_III"
+			last_name = "Askia"
+			ruler = yes
+			culture = cu:tuareg
+			religion = rel:sunni
+			birth_date = 1648.1.1
+			traits = {
+				compliant 
+			}
+		}
+
+	}
+}

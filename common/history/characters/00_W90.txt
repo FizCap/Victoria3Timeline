@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W90 = {
+		create_character = {
+			first_name = "Bira_Padmanabh"
+			last_name = "Gajapati"
+			heir = yes
+			culture = cu:oriya
+			religion = rel:hindu
+			birth_date = 1686.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Sarbajgan_Jagannatha"
+			last_name = "Gajapati"
+			ruler = yes
+			culture = cu:oriya
+			religion = rel:hindu
+			birth_date = 1668.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:AWS = {
+		create_character = {
+			first_name = "Umardin"
+			last_name = "Karanle"
+			ruler = yes
+			culture = cu:afar
+			religion = rel:sunni
+			birth_date = 1626.1.1
+			traits = {
+				ambitious senile 
+			}
+		}
+
+	}
+}

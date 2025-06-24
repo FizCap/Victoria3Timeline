@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:JAP = {
+		create_character = {
+			first_name = "Tsunayoshi"
+			last_name = "Tokugawa"
+			ruler = yes
+			culture = cu:japanese
+			religion = rel:mahayana
+			traits = {
+				imperious sickly 
+			}
+		}
+
+	}
+}

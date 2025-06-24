@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W49 = {
+		create_character = {
+			first_name = "Chokkanatha_II"
+			last_name = "Nayaka"
+			ruler = yes
+			culture = cu:tamil
+			religion = rel:hindu
+			birth_date = 1670.1.1
+			traits = {
+				tactful 
+			}
+		}
+
+	}
+}

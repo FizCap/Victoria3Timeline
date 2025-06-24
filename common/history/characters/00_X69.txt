@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X69 = {
+		create_character = {
+			first_name = "Wali"
+			last_name = "Deogadhi"
+			heir = yes
+			culture = cu:gondi
+			religion = rel:hindu
+			birth_date = 1670.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Chand_Sultan"
+			last_name = "Deogadhi"
+			ruler = yes
+			culture = cu:gondi
+			religion = rel:hindu
+			birth_date = 1670.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

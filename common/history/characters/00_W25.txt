@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W25 = {
+		create_character = {
+			first_name = "Gopinath"
+			last_name = "Bhanj"
+			heir = yes
+			culture = cu:oriya
+			religion = rel:hindu
+			birth_date = 1700.1.1
+			traits = {
+				alcoholic trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Raghunath"
+			last_name = "Bhanj"
+			ruler = yes
+			culture = cu:oriya
+			religion = rel:hindu
+			birth_date = 1681.1.1
+			traits = {
+				compliant 
+			}
+		}
+
+	}
+}

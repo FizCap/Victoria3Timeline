@@ -1,0 +1,124 @@
+﻿POWER_BLOCS = {
+	c:CHI = {
+		create_power_bloc = {
+			name = CHI_BLOC
+			map_color = { 252 185 61 }
+			founding_date = 1645.7.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:KOR
+		}
+	}
+
+	c:ENG = {
+		create_power_bloc = {
+			name = ENG_BLOC
+			map_color = { 180 99 58 }
+			founding_date = 1652.4.21
+			identity = identity_trade_league
+			principle = principle_internal_trade_1
+			
+			member = c:NET
+			member = c:SCO
+		}
+	}
+
+	c:POR = {
+		create_power_bloc = {
+			name = POR_BLOC
+			map_color = { 28 82 148 }
+			founding_date = 1505.7.15
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:V67
+			member = c:V70
+			member = c:W64
+		}
+	}
+
+	c:RUS = {
+		create_power_bloc = {
+			name = RUS_BLOC
+			map_color = { 47 91 18 }
+			founding_date = 1654.1.8
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:V69
+		}
+	}
+
+	c:TUR = {
+		create_power_bloc = {
+			name = TUR_BLOC
+			map_color = { 170 206 162 }
+			founding_date = 1478.5.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:ALD
+			member = c:CRI
+			member = c:HDJ
+			member = c:MOL
+			member = c:TRI
+			member = c:TUN
+			member = c:W98
+			member = c:WAL
+			member = c:X07
+		}
+	}
+
+	c:AUS = {
+		create_power_bloc = {
+			name = HOLY_ROMAN_EMPIRE_BLOC
+			map_color = { 150 177 161 }
+			founding_date = 962.2.2
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_2
+			
+			member = c:ANH
+			member = c:BAD
+			member = c:BAV
+			member = c:BRA
+			member = c:BRE
+			member = c:FRM
+			member = c:HAM
+			member = c:HAN
+			member = c:HES
+			member = c:HOL
+			member = c:LUB
+			member = c:MEC
+			member = c:NAS
+			member = c:PRU
+			member = c:SAX
+			member = c:V18
+			member = c:V26
+			member = c:V39
+			member = c:V44
+			member = c:V47
+			member = c:V50
+			member = c:V53
+			member = c:V59
+			member = c:W32
+			member = c:W41
+			member = c:W45
+			member = c:W50
+			member = c:W63
+			member = c:W71
+			member = c:W80
+			member = c:W85
+			member = c:W93
+			member = c:W99
+			member = c:WUR
+			member = c:X00
+			member = c:X17
+			member = c:X18
+			member = c:X32
+			member = c:X61
+			member = c:X73
+		}
+	}
+
+}

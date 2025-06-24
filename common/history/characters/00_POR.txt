@@ -1,0 +1,48 @@
+﻿CHARACTERS = {
+	c:POR = {
+		create_character = {
+			first_name = "Antonio_Luis_de_Sousa"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1684.1.1
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Joao"
+			last_name = "de_Braganca"
+			heir = yes
+			culture = cu:portuguese
+			religion = rel:catholic
+			birth_date = 1689.10.22
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Francisco_da_Silva"
+			is_admiral = yes
+			commander_rank = commander_rank_2
+			birth_date = 1669.12.1
+			traits = {
+				cocaine_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Pedro_II"
+			last_name = "de_Braganca"
+			ruler = yes
+			culture = cu:portuguese
+			religion = rel:catholic
+			birth_date = 1648.4.26
+			traits = {
+				ambitious experienced_colonial_administrator 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:V33 = {
+		create_character = {
+			first_name = "Mustafa_Shafi"
+			last_name = "Adinda"
+			heir = yes
+			culture = cu:moro
+			religion = rel:sunni
+			birth_date = 1660.1.1
+			traits = {
+				basic_political_operator direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Shihab_ud_Din"
+			last_name = "Adinda"
+			ruler = yes
+			culture = cu:moro
+			religion = rel:sunni
+			birth_date = 1667.1.1
+			traits = {
+				compliant 
+			}
+		}
+
+	}
+}

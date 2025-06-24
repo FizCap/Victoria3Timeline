@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:NTO = {
+		create_character = {
+			first_name = "Tayn_I"
+			last_name = "Ngati_Pikiao"
+			ruler = yes
+			culture = cu:maori
+			religion = rel:animist
+			birth_date = 1680.9.1
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}
