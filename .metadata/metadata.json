@@ -1,34 +1,12 @@
 {
-	"name" : "Extended Timeline : 1700",
+  "name" : "Start Boost",
 	"id" : "",
-	"version" : "1.0",
-	"picture" : "thumbnail.png",
-	"supported_game_version" : "1.9.*",
-	"short_description" : "Play Victoria 3 in 1700",
-	"tags" : ["Alternative History", "Conversion"],
-	"relationships" : [],
-	"game_custom_data" : {
-		"multiplayer_synchronized" : true,
-		"replace_paths" : [
-			"common/cultures",
-			"common/country_definitions",
-			"common/history/buildings",
-			"common/history/characters",
-			"common/history/countries",
-			"common/history/diplomacy",
-			"common/history/diplomatic_plays",
-			"common/history/governments",
-			"common/history/interests",
-			"common/history/lobbies",
-			"common/history/military_deployments",
-			"common/history/military_formations",
-			"common/history/pops",
-			"common/history/population",
-			"common/history/power_blocs",
-			"common/history/production_methods",
-			"common/history/states",
-			"common/history/trade_routes",
-			"common/religions"
-		]
-	}
+  "version" : "",
+  "supported_game_version" : "",
+  "short_description" : "",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
 }
