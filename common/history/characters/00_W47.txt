@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W47 = {
+		create_character = {
+			first_name = "Tawhiri_I"
+			last_name = "Ngati_Kahu"
+			ruler = yes
+			culture = cu:maori
+			religion = rel:animist
+			birth_date = 1683.9.1
+			traits = {
+				basic_diplomat charismatic 
+			}
+		}
+
+	}
+}

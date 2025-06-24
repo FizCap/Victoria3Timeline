@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:OMA = {
+		create_character = {
+			first_name = "Sultan_II"
+			last_name = "Ya_ariba"
+			heir = yes
+			culture = cu:bedouin
+			religion = rel:ibadi
+			birth_date = 1679.1.1
+			traits = {
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Sayf_I"
+			last_name = "Ya_ariba"
+			ruler = yes
+			culture = cu:bedouin
+			religion = rel:ibadi
+			birth_date = 1659.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

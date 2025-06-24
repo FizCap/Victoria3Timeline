@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:LNG = {
+		create_character = {
+			first_name = "Ntangu"
+			last_name = "Loanga"
+			heir = yes
+			culture = cu:bakongo
+			religion = rel:animist
+			birth_date = 1680.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Afonso"
+			last_name = "Loanga"
+			ruler = yes
+			culture = cu:bakongo
+			religion = rel:animist
+			birth_date = 1620.1.1
+			traits = {
+				cautious senile 
+			}
+		}
+
+	}
+}

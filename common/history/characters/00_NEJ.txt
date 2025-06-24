@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:NEJ = {
+		create_character = {
+			first_name = "_Abd_Allah"
+			last_name = "Sa_ud"
+			heir = yes
+			culture = cu:bedouin
+			religion = rel:sunni
+			birth_date = 1680.1.1
+			traits = {
+				arrogant 
+			}
+		}
+
+		create_character = {
+			first_name = "Sultan"
+			last_name = "Sa_ud"
+			ruler = yes
+			culture = cu:bedouin
+			religion = rel:sunni
+			birth_date = 1678.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

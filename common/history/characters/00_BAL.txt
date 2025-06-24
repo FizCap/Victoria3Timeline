@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:BAL = {
+		create_character = {
+			first_name = "Dewa_Agung_Jambe"
+			last_name = "Samprangan"
+			heir = yes
+			culture = cu:javan
+			religion = rel:hindu
+			birth_date = 1686.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Dalem_Di_Made_II"
+			last_name = "Samprangan"
+			ruler = yes
+			culture = cu:javan
+			religion = rel:hindu
+			birth_date = 1668.1.1
+			traits = {
+				compliant 
+			}
+		}
+
+	}
+}

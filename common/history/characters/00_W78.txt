@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W78 = {
+		create_character = {
+			first_name = "Soholoesee_Osceola"
+			ruler = yes
+			culture = cu:muskogean
+			religion = rel:animist
+			birth_date = 1680.9.1
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+	}
+}

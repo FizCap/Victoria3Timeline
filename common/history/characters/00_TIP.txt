@@ -1,0 +1,29 @@
+﻿CHARACTERS = {
+	c:TIP = {
+		create_character = {
+			first_name = "Narendra"
+			last_name = "Manikya"
+			heir = yes
+			culture = cu:manipuri
+			religion = rel:hindu
+			birth_date = 1690.1.1
+			traits = {
+				opium_addiction trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Ratna"
+			last_name = "Manikya"
+			ruler = yes
+			female = yes
+			culture = cu:manipuri
+			religion = rel:hindu
+			birth_date = 1682.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

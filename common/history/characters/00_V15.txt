@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V15 = {
+		create_character = {
+			first_name = "Amarji"
+			last_name = "Jadeja"
+			ruler = yes
+			culture = cu:gujarati
+			religion = rel:hindu
+			birth_date = 1602.1.1
+			traits = {
+				direct senile 
+			}
+		}
+
+	}
+}

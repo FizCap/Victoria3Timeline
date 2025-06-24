@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:HOL = {
+		create_character = {
+			first_name = "Karl_Friedrich"
+			last_name = "von_Holstein-Gottorp"
+			heir = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1700.4.30
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Friedrich_IV"
+			last_name = "von_Holstein-Gottorp"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1671.10.18
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

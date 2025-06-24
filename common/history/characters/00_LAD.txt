@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:LAD = {
+		create_character = {
+			first_name = "Deskyong"
+			last_name = "Namgyal"
+			heir = yes
+			culture = cu:tibetan
+			religion = rel:gelugpa
+			birth_date = 1680.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Nyima"
+			last_name = "Namgyal"
+			ruler = yes
+			culture = cu:tibetan
+			religion = rel:gelugpa
+			birth_date = 1676.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

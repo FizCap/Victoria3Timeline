@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X80 = {
+		create_character = {
+			first_name = "Native_Council"
+			last_name = "Uygulaan"
+			ruler = yes
+			culture = cu:yakut
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1390.11.11
+			traits = {
+				basic_political_operator kidney_stones 
+			}
+		}
+
+	}
+}

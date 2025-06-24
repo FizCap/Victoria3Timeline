@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:PTN = {
+		create_character = {
+			first_name = "Prithviraj"
+			last_name = "Chauhan"
+			heir = yes
+			culture = cu:oriya
+			religion = rel:hindu
+			birth_date = 1700.1.1
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Rai"
+			last_name = "Chauhan"
+			ruler = yes
+			culture = cu:oriya
+			religion = rel:hindu
+			birth_date = 1665.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W39 = {
+		create_character = {
+			first_name = "Native_Council"
+			last_name = "Iyo"
+			ruler = yes
+			culture = cu:melanesian
+			religion = rel:animist
+			birth_date = 1383.11.11
+			traits = {
+				basic_political_operator kidney_stones 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KAT = {
+		create_character = {
+			first_name = "Jafar_ibn_Badr"
+			last_name = "Al_Kathiri"
+			ruler = yes
+			culture = cu:yemenite
+			religion = rel:sunni
+			birth_date = 1669.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

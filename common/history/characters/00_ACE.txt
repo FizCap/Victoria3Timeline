@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ACE = {
+		create_character = {
+			first_name = "Badr_ad-Din_Sharif_Hashim"
+			last_name = "Mugayat"
+			ruler = yes
+			culture = cu:sumatran
+			religion = rel:sunni
+			birth_date = 1679.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

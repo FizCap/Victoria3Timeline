@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X71 = {
+		create_character = {
+			first_name = "Abu_III"
+			last_name = "Banu_Khalef"
+			ruler = yes
+			culture = cu:maghrebi
+			religion = rel:sunni
+			birth_date = 1671.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:MKT = {
+		create_character = {
+			first_name = "Bakan_Kayom"
+			ruler = yes
+			culture = cu:miskito
+			religion = rel:animist
+			birth_date = 1680.9.1
+			traits = {
+				basic_political_operator cautious 
+			}
+		}
+
+	}
+}

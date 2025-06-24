@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X98 = {
+		create_character = {
+			first_name = "Ahmad_Tajuddin_Halim_Shah"
+			last_name = "Kedah"
+			heir = yes
+			culture = cu:malay
+			religion = rel:sunni
+			birth_date = 1690.1.1
+			traits = {
+				alcoholic trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Abdullah_Mu_adzam_Shah"
+			last_name = "Kedah"
+			ruler = yes
+			culture = cu:malay
+			religion = rel:sunni
+			birth_date = 1679.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

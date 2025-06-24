@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V59 = {
+		create_character = {
+			first_name = "Johann_von_Greiffenklau"
+			last_name = "von_Ratzeburg"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1652.2.13
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+	}
+}

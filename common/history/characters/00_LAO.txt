@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:LAO = {
+		create_character = {
+			first_name = "Ong_Long"
+			last_name = "Khun_Lo"
+			heir = yes
+			culture = cu:lao
+			religion = rel:theravada
+			birth_date = 1691.1.1
+			traits = {
+				inexperienced trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Setthathirat_II"
+			last_name = "Khun_Lo"
+			ruler = yes
+			culture = cu:lao
+			religion = rel:theravada
+			birth_date = 1678.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

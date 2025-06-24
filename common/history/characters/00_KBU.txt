@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KBU = {
+		create_character = {
+			first_name = "Saamanka_Dala"
+			last_name = "Jeenung"
+			ruler = yes
+			culture = cu:wolof
+			religion = rel:sunni
+			birth_date = 1606.1.1
+			traits = {
+				ambitious cancer 
+			}
+		}
+
+	}
+}

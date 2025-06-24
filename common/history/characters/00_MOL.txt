@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:MOL = {
+		create_character = {
+			first_name = "Constantin_IV"
+			last_name = "Duca"
+			ruler = yes
+			culture = cu:romanian
+			religion = rel:orthodox
+			birth_date = 1675.3.30
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

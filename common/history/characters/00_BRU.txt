@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:BRU = {
+		create_character = {
+			first_name = "Kamal_ad-Din"
+			last_name = "Bolkiah"
+			heir = yes
+			culture = cu:bornean
+			religion = rel:sunni
+			birth_date = 1690.1.1
+			traits = {
+				basic_colonial_administrator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Nasr_ad-Din"
+			last_name = "Bolkiah"
+			ruler = yes
+			culture = cu:bornean
+			religion = rel:sunni
+			birth_date = 1670.1.1
+			traits = {
+				romantic 
+			}
+		}
+
+	}
+}

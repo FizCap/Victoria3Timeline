@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W50 = {
+		create_character = {
+			first_name = "Lothar_Franz_I"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1655.10.4
+			traits = {
+				basic_colonial_administrator charismatic 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:SAX = {
+		create_character = {
+			first_name = "Friedrich_August"
+			last_name = "von_Wettin"
+			heir = yes
+			culture = cu:north_german
+			religion = rel:protestant
+			birth_date = 1696.10.17
+			traits = {
+				cocaine_addiction trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Friedrich_August_I"
+			last_name = "von_Wettin"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1670.5.12
+			traits = {
+				romantic 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:O02 = {
+		create_character = {
+			first_name = "Thowonawa_Meshkemau"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1682.9.1
+		}
+
+	}
+}

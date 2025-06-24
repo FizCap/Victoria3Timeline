@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W57 = {
+		create_character = {
+			first_name = "Tsileliki_II"
+			last_name = "Manhelle"
+			ruler = yes
+			culture = cu:malagasy
+			religion = rel:animist
+			birth_date = 1679.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

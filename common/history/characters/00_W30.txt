@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W30 = {
+		create_character = {
+			first_name = "Narendra"
+			last_name = "Dinajara"
+			heir = yes
+			culture = cu:sinhala
+			religion = rel:theravada
+			birth_date = 1690.1.1
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Vimala_Dharmasuriya_II"
+			last_name = "Dinajara"
+			ruler = yes
+			culture = cu:sinhala
+			religion = rel:theravada
+			birth_date = 1669.1.1
+			traits = {
+				pious 
+			}
+		}
+
+	}
+}

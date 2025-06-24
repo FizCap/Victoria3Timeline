@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:LBA = {
+		create_character = {
+			first_name = "Nday"
+			last_name = "Luba"
+			ruler = yes
+			culture = cu:luba
+			religion = rel:animist
+			birth_date = 1681.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X73 = {
+		create_character = {
+			first_name = "Waldemar_Alvensleben"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1650.9.1
+			traits = {
+				basic_diplomat hedonist 
+			}
+		}
+
+	}
+}

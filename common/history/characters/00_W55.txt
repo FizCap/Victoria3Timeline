@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W55 = {
+		create_character = {
+			first_name = "Yeshaq_II"
+			last_name = "Bahrid"
+			ruler = yes
+			culture = cu:tigray
+			religion = rel:oriental_orthodox
+			birth_date = 1557.1.1
+			traits = {
+				arrogant senile 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:K13 = {
+		create_character = {
+			first_name = "Arunta_Jarrah"
+			ruler = yes
+			culture = cu:aborigine
+			religion = rel:animist
+			birth_date = 1682.9.1
+			traits = {
+				basic_political_operator meticulous 
+			}
+		}
+
+	}
+}

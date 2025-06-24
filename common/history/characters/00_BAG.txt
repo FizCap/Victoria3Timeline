@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BAG = {
+		create_character = {
+			first_name = "Avadhut_Singh"
+			last_name = "Baghela"
+			ruler = yes
+			culture = cu:hindustani
+			religion = rel:hindu
+			birth_date = 1679.1.1
+			traits = {
+				romantic 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:V47 = {
+		create_character = {
+			first_name = "Johann_VIII_von_Osbeck"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1632.1.13
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

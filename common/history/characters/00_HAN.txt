@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:HAN = {
+		create_character = {
+			first_name = "Georg_I_Ludwig"
+			last_name = "von_Hannover"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:protestant
+			birth_date = 1680.1.23
+			traits = {
+				basic_political_operator tactful 
+			}
+		}
+
+	}
+}

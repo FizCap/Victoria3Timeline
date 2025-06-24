@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:COO = {
+		create_character = {
+			first_name = "Upendra"
+			last_name = "Narayan"
+			heir = yes
+			culture = cu:kamarupan
+			religion = rel:hindu
+			birth_date = 1670.1.1
+			traits = {
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Rup"
+			last_name = "Narayan"
+			ruler = yes
+			culture = cu:kamarupan
+			religion = rel:hindu
+			birth_date = 1673.1.1
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

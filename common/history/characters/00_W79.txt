@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W79 = {
+		create_character = {
+			first_name = "Unsa"
+			last_name = "Senar"
+			heir = yes
+			culture = cu:nilotic
+			religion = rel:sunni
+			birth_date = 1670.1.1
+			traits = {
+				bigoted 
+			}
+		}
+
+		create_character = {
+			first_name = "Badi_III"
+			last_name = "Senar"
+			ruler = yes
+			culture = cu:nilotic
+			religion = rel:sunni
+			birth_date = 1674.6.8
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

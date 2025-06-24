@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:WSG = {
+		create_character = {
+			first_name = "Naleye"
+			last_name = "Gerad"
+			ruler = yes
+			culture = cu:somali
+			religion = rel:sunni
+			birth_date = 1654.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

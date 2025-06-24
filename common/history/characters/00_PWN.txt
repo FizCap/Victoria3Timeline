@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:PWN = {
+		create_character = {
+			first_name = "Aiuwechooneeweeka_Kawaraki"
+			ruler = yes
+			culture = cu:caddoan
+			religion = rel:animist
+			birth_date = 1683.9.1
+			traits = {
+				experienced_political_operator 
+			}
+		}
+
+	}
+}
