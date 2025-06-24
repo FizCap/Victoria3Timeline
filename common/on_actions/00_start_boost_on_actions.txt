@@ -1,0 +1,26 @@
+on_game_started = {
+  on_actions = { start_boost }
+}
+
+start_boost = {
+  effect = {
+    every_country = {
+      create_building = {
+        capital = {
+        building="building_construction_sector"
+        add_ownership = {
+          country={
+            levels=1
+          }
+        reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+        }
+       }
+      }
+      add_modifier = {
+        name = start_boost_country_modifier
+        days = 365
+      }
+    }
+  }
+}
