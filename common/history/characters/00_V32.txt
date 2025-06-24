@@ -1,0 +1,18 @@
+﻿CHARACTERS = {
+	c:V32 = {
+		create_character = {
+			first_name = "Ramathibodi_II"
+			last_name = "Suphannaphum"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_1
+			culture = cu:thai
+			religion = rel:theravada
+			birth_date = 1471.1.1
+			traits = {
+				direct kidney_stones 
+			}
+		}
+
+	}
+}

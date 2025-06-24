@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:ANH = {
+		create_character = {
+			first_name = "Leopold_Maximilian"
+			last_name = "Askanier"
+			heir = yes
+			culture = cu:north_german
+			religion = rel:protestant
+			birth_date = 1700.12.25
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Leopold_I"
+			last_name = "Askanier"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:protestant
+			birth_date = 1676.7.3
+			traits = {
+				persistent 
+			}
+		}
+
+	}
+}

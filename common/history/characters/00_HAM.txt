@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:HAM = {
+		create_character = {
+			first_name = "Reinhard_Vollmer"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:protestant
+			birth_date = 1671.9.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

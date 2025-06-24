@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:BLF = {
+		create_character = {
+			first_name = "Akkakitcipimiwotas_Mokumiks"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1683.9.1
+			traits = {
+				shellshocked 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X95 = {
+		create_character = {
+			first_name = "Orgyen_Tashi"
+			last_name = "Derge"
+			ruler = yes
+			culture = cu:tibetan
+			religion = rel:gelugpa
+			birth_date = 1639.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

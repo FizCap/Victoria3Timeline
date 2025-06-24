@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:KAU = {
+		create_character = {
+			first_name = "Maka_Parri"
+			ruler = yes
+			culture = cu:aborigine
+			religion = rel:animist
+			birth_date = 1680.9.1
+			traits = {
+				ambitious basic_diplomat 
+			}
+		}
+
+	}
+}

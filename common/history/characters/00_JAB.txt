@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:JAB = {
+		create_character = {
+			first_name = "Abdullah"
+			last_name = "Rashid"
+			ruler = yes
+			culture = cu:bedouin
+			religion = rel:sunni
+			birth_date = 1425.1.1
+			traits = {
+				charismatic senile 
+			}
+		}
+
+	}
+}

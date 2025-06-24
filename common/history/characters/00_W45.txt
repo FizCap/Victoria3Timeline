@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W45 = {
+		create_character = {
+			first_name = "Georg_II_Wilhelm"
+			last_name = "von_Welf"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:protestant
+			birth_date = 1624.1.26
+			traits = {
+				basic_diplomat compliant 
+			}
+		}
+
+	}
+}

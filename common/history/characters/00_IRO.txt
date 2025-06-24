@@ -1,0 +1,14 @@
+﻿CHARACTERS = {
+	c:IRO = {
+		create_character = {
+			first_name = "Theyanoguin"
+			ruler = yes
+			culture = cu:iroquoian
+			religion = rel:animist
+			traits = {
+				sickly 
+			}
+		}
+
+	}
+}

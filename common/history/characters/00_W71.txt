@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W71 = {
+		create_character = {
+			first_name = "Friedrich_Christian"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1644.8.8
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

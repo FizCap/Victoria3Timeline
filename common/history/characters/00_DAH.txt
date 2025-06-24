@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:DAH = {
+		create_character = {
+			first_name = "Akaba_Wibega"
+			last_name = "Ahosu"
+			ruler = yes
+			culture = cu:fon
+			religion = rel:animist
+			birth_date = 1666.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

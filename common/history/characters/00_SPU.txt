@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:SPU = {
+		create_character = {
+			first_name = "Diego_de_Borbon"
+			ruler = yes
+			culture = cu:south_andean
+			religion = rel:catholic
+			birth_date = 1664.9.1
+			traits = {
+				experienced_political_operator 
+			}
+		}
+
+	}
+}

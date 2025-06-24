@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:CRI = {
+		create_character = {
+			first_name = "Devlet_II"
+			last_name = "Giray"
+			ruler = yes
+			culture = cu:tatar
+			religion = rel:sunni
+			birth_date = 1648.1.1
+			traits = {
+				tactful 
+			}
+		}
+
+	}
+}

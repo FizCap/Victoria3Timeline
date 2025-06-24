@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W02 = {
+		create_character = {
+			first_name = "Jackoit_Piscataqua"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1681.9.1
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+	}
+}

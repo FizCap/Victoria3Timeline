@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:BAS = {
+		create_character = {
+			first_name = "Rajpal"
+			last_name = "Bhanja"
+			heir = yes
+			culture = cu:gondi
+			religion = rel:hindu
+			birth_date = 1670.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Digpal_Deo"
+			last_name = "Bhanja"
+			ruler = yes
+			culture = cu:gondi
+			religion = rel:hindu
+			birth_date = 1661.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:V26 = {
+		create_character = {
+			first_name = "Johann_Ernst_von_Thun"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1643.7.3
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

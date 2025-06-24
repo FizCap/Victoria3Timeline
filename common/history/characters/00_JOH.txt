@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:JOH = {
+		create_character = {
+			first_name = "Abd_al-Jalil_Shah_IV"
+			last_name = "Bendahara"
+			ruler = yes
+			culture = cu:malay
+			religion = rel:sunni
+			birth_date = 1678.1.1
+			traits = {
+				basic_political_operator direct 
+			}
+		}
+
+	}
+}

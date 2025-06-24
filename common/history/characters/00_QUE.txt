@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:QUE = {
+		create_character = {
+			first_name = "Etienne_de_Vigny"
+			ruler = yes
+			culture = cu:franco_canadian
+			religion = rel:catholic
+			birth_date = 1663.9.1
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+	}
+}

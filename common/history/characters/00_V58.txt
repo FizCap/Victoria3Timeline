@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V58 = {
+		create_character = {
+			first_name = "Heketoro_I"
+			last_name = "Ngati_Paoa"
+			ruler = yes
+			culture = cu:maori
+			religion = rel:animist
+			birth_date = 1681.9.1
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

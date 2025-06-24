@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:YKA = {
+		create_character = {
+			first_name = "Muteeba_Kadi"
+			last_name = "Kyambvu"
+			ruler = yes
+			culture = cu:lunda
+			religion = rel:animist
+			birth_date = 1682.1.1
+			traits = {
+				ambitious basic_diplomat 
+			}
+		}
+
+	}
+}

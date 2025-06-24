@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:IRC = {
+		create_character = {
+			first_name = "Moyanymen_Inwantonwanbina"
+			ruler = yes
+			culture = cu:siouan
+			religion = rel:animist
+			birth_date = 1682.9.1
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

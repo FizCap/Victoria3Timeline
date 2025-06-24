@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:SIA = {
+		create_character = {
+			first_name = "Phrachao_Suea"
+			last_name = "Ban_Phlu_Luang"
+			heir = yes
+			culture = cu:thai
+			religion = rel:theravada
+			birth_date = 1680.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Phetracha"
+			last_name = "Ban_Phlu_Luang"
+			ruler = yes
+			culture = cu:thai
+			religion = rel:theravada
+			birth_date = 1669.7.12
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

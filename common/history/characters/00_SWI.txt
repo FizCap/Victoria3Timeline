@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:SWI = {
+		create_character = {
+			first_name = "Stefan_Hiltbrand"
+			ruler = yes
+			culture = cu:alemannic
+			religion = rel:protestant
+			birth_date = 1671.9.1
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

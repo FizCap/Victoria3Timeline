@@ -1,0 +1,40 @@
+﻿CHARACTERS = {
+	c:MUG = {
+		create_character = {
+			first_name = "Yakut_Khan"
+			is_admiral = yes
+			commander_rank = commander_rank_2
+			birth_date = 1670.1.1
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Mu_azzam"
+			last_name = "Timurid"
+			heir = yes
+			culture = cu:hindustani
+			religion = rel:sunni
+			birth_date = 1643.10.14
+			traits = {
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Aurangzib_Alamgir"
+			last_name = "Timurid"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:hindustani
+			religion = rel:sunni
+			birth_date = 1639.6.8
+			traits = {
+				expert_political_operator innovative resupply_commander 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V34 = {
+		create_character = {
+			first_name = "Daniel_I"
+			last_name = "Silva"
+			ruler = yes
+			culture = cu:bakongo
+			religion = rel:catholic
+			birth_date = 1626.1.1
+			traits = {
+				aesthete expert_political_operator 
+			}
+		}
+
+	}
+}

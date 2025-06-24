@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:MEC = {
+		create_character = {
+			first_name = "Karl_Leopold"
+			last_name = "von_Mecklenburg"
+			heir = yes
+			culture = cu:north_german
+			religion = rel:protestant
+			birth_date = 1678.11.26
+			traits = {
+				hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Friedrich_Wilhelm_I"
+			last_name = "von_Mecklenburg"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:protestant
+			birth_date = 1675.3.28
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

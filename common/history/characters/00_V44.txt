@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:V44 = {
+		create_character = {
+			first_name = "Johann_Michael_von_Spaur"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1646.12.31
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

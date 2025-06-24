@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ALD = {
+		create_character = {
+			first_name = "Mustafa"
+			last_name = "Hajj"
+			ruler = yes
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1650.1.1
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

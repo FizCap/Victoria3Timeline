@@ -1,0 +1,38 @@
+﻿CHARACTERS = {
+	c:TUR = {
+		create_character = {
+			first_name = "Amcazade_Huseyin_Pasha"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1681.1.1
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Ahmed"
+			last_name = "Osmanoglu"
+			heir = yes
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1673.12.30
+			traits = {
+				direct experienced_colonial_administrator 
+			}
+		}
+
+		create_character = {
+			first_name = "Mustafa_II"
+			last_name = "Osmanoglu"
+			ruler = yes
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1664.2.6
+			traits = {
+				basic_political_operator charismatic 
+			}
+		}
+
+	}
+}

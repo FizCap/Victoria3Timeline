@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KHI = {
+		create_character = {
+			first_name = "Niyaz"
+			last_name = "Genghisid"
+			ruler = yes
+			culture = cu:turkmen
+			religion = rel:sunni
+			birth_date = 1680.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

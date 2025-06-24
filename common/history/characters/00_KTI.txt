@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KTI = {
+		create_character = {
+			first_name = "Sri_Gitarja"
+			last_name = "Kartanegara"
+			ruler = yes
+			culture = cu:bornean
+			religion = rel:hindu
+			birth_date = 1681.1.1
+			traits = {
+				ambitious basic_political_operator 
+			}
+		}
+
+	}
+}

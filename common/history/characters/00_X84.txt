@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X84 = {
+		create_character = {
+			first_name = "Kasim_Yakut_Khan"
+			last_name = "Siddhi"
+			ruler = yes
+			culture = cu:amhara
+			religion = rel:sunni
+			birth_date = 1655.1.1
+			traits = {
+				honorable 
+			}
+		}
+
+	}
+}

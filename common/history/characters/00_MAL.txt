@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:MAL = {
+		create_character = {
+			first_name = "Mama_Maghan_I"
+			last_name = "Keita"
+			ruler = yes
+			culture = cu:mande
+			religion = rel:sunni
+			birth_date = 1641.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

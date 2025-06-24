@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:HOB = {
+		create_character = {
+			first_name = "Ali"
+			last_name = "Kenadid"
+			ruler = yes
+			culture = cu:somali
+			religion = rel:sunni
+			birth_date = 1661.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

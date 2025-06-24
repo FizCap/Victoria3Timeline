@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BIK = {
+		create_character = {
+			first_name = "Sujan_Singh"
+			last_name = "Rathore"
+			ruler = yes
+			culture = cu:rajput
+			religion = rel:hindu
+			birth_date = 1682.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

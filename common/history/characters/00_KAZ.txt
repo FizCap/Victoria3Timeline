@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KAZ = {
+		create_character = {
+			first_name = "Tauke"
+			last_name = "Genghisid"
+			ruler = yes
+			culture = cu:kazak
+			religion = rel:sunni
+			birth_date = 1662.1.1
+			traits = {
+				compliant 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X07 = {
+		create_character = {
+			first_name = "Ahmad"
+			last_name = "Shaykiyya"
+			ruler = yes
+			culture = cu:nilotic
+			religion = rel:shiite
+			birth_date = 1661.1.1
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+	}
+}

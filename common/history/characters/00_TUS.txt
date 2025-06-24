@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:TUS = {
+		create_character = {
+			first_name = "Gian_Gastone"
+			last_name = "de__Medici"
+			heir = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			birth_date = 1671.5.24
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Cosimo_III"
+			last_name = "de__Medici"
+			ruler = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			birth_date = 1642.8.14
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

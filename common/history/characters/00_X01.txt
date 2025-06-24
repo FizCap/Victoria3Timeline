@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X01 = {
+		create_character = {
+			first_name = "Masset_Kung"
+			ruler = yes
+			culture = cu:athabaskan
+			religion = rel:animist
+			birth_date = 1682.9.1
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

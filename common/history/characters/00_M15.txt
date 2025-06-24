@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:M15 = {
+		create_character = {
+			first_name = "Shihab_ad-Din_Isma_il"
+			last_name = "Kalopid"
+			heir = yes
+			culture = cu:moluccan
+			religion = rel:sunni
+			birth_date = 1677.1.1
+			traits = {
+				reckless 
+			}
+		}
+
+		create_character = {
+			first_name = "_Abd_al-Jalil"
+			last_name = "Kalopid"
+			ruler = yes
+			culture = cu:moluccan
+			religion = rel:sunni
+			birth_date = 1657.1.1
+			traits = {
+				honorable 
+			}
+		}
+
+	}
+}

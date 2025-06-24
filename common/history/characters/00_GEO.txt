@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:GEO = {
+		create_character = {
+			first_name = "Giorgi_X"
+			last_name = "Bagrationi"
+			ruler = yes
+			culture = cu:georgian
+			religion = rel:orthodox
+			birth_date = 1581.1.1
+			traits = {
+				basic_political_operator hedonist 
+			}
+		}
+
+	}
+}
