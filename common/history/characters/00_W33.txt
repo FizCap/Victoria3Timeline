@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W33 = {
+		create_character = {
+			first_name = "Timoteo_von_Baltharsar"
+			ruler = yes
+			culture = cu:alemannic
+			religion = rel:catholic
+			birth_date = 1413.11.11
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

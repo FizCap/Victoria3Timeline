@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:UZB = {
+		create_character = {
+			first_name = "Abu_l-Khayr"
+			last_name = "Shaybanid"
+			ruler = yes
+			culture = cu:uzbek
+			religion = rel:sunni
+			birth_date = 1405.1.1
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+	}
+}

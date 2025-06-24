@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U53 = {
+		create_character = {
+			first_name = "Andrianalimbe"
+			last_name = "Marorasena"
+			ruler = yes
+			culture = cu:malagasy
+			religion = rel:animist
+			birth_date = 1425.1.1
+			traits = {
+				basic_political_operator cautious 
+			}
+		}
+
+	}
+}

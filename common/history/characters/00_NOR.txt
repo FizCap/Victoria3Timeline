@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:NOR = {
+		create_character = {
+			first_name = "Christopher_III"
+			last_name = "von_Wittelsbach"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1416.2.26
+			traits = {
+				pious 
+			}
+		}
+
+	}
+}

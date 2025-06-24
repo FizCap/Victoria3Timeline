@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:LAD = {
+		create_character = {
+			first_name = "Lotus_Chhogaldan"
+			last_name = "Namgyal"
+			heir = yes
+			culture = cu:tibetan
+			religion = rel:gelugpa
+			birth_date = 1430.1.1
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "Gyalpo_Takpa_Bomlde"
+			last_name = "Namgyal"
+			ruler = yes
+			culture = cu:tibetan
+			religion = rel:gelugpa
+			birth_date = 1410.1.1
+			traits = {
+				basic_political_operator imperious 
+			}
+		}
+
+	}
+}

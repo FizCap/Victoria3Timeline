@@ -1,0 +1,4618 @@
+﻿DIPLOMACY = {
+	c:A06 = {
+		create_diplomatic_pact = {
+			country = c:M09
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X24
+			type = rivalry
+		}
+	}
+	c:ABU = {
+		create_diplomatic_pact = {
+			country = c:OMA
+			type = rivalry
+		}
+	}
+	c:ACE = {
+		create_diplomatic_pact = {
+			country = c:U22
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X53
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X88
+			type = rivalry
+		}
+	}
+	c:AIN = {
+		create_diplomatic_pact = {
+			country = c:V90
+			type = rivalry
+		}
+	}
+	c:AIR = {
+		create_diplomatic_pact = {
+			country = c:BOR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:GAO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V00
+			type = rivalry
+		}
+	}
+	c:ALB = {
+		create_diplomatic_pact = {
+			country = c:E02
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U33
+			type = rivalry
+		}
+	}
+	c:ALI = {
+		create_diplomatic_pact = {
+			country = c:KYR
+			type = rivalry
+		}
+	}
+	c:ANH = {
+		create_diplomatic_pact = {
+			country = c:V34
+			type = rivalry
+		}
+	}
+	c:ANK = {
+		create_diplomatic_pact = {
+			country = c:BUG
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:RWD
+			type = rivalry
+		}
+	}
+	c:ARB = {
+		create_diplomatic_pact = {
+			country = c:BHN
+			type = rivalry
+		}
+	}
+	c:ARK = {
+		create_diplomatic_pact = {
+			country = c:W69
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X48
+			type = rivalry
+		}
+	}
+	c:ARP = {
+		create_diplomatic_pact = {
+			country = c:W84
+			type = rivalry
+		}
+	}
+	c:ASM = {
+		create_diplomatic_pact = {
+			country = c:KHN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U17
+			type = rivalry
+		}
+	}
+	c:AUS = {
+		create_diplomatic_pact = {
+			country = c:PAP
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:TUR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U21
+			type = rivalry
+		}
+	}
+	c:B08 = {
+		create_diplomatic_pact = {
+			country = c:U36
+			type = rivalry
+		}
+	}
+	c:B14 = {
+		create_diplomatic_pact = {
+			country = c:C16
+			type = rivalry
+		}
+	}
+	c:BAD = {
+		create_diplomatic_pact = {
+			country = c:V99
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:WUR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X15
+			type = rivalry
+		}
+	}
+	c:BAL = {
+		create_diplomatic_pact = {
+			country = c:X41
+			type = rivalry
+		}
+	}
+	c:BAS = {
+		create_diplomatic_pact = {
+			country = c:PTN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U41
+			type = rivalry
+		}
+	}
+	c:BEN = {
+		create_diplomatic_pact = {
+			country = c:V89
+			type = rivalry
+		}
+	}
+	c:BHN = {
+		create_diplomatic_pact = {
+			country = c:ARB
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V96
+			type = rivalry
+		}
+	}
+	c:BJA = {
+		create_diplomatic_pact = {
+			country = c:V36
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X07
+			type = rivalry
+		}
+	}
+	c:BLH = {
+		create_diplomatic_pact = {
+			country = c:SIN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V72
+			type = rivalry
+		}
+	}
+	c:BNY = {
+		create_diplomatic_pact = {
+			country = c:ANK
+			type = rivalry
+		}
+	}
+	c:BOH = {
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:POL
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:VEN
+			type = rivalry
+		}
+	}
+	c:BOR = {
+		create_diplomatic_pact = {
+			country = c:AIR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T57
+			type = rivalry
+		}
+	}
+	c:BOS = {
+		create_diplomatic_pact = {
+			country = c:W49
+			type = rivalry
+		}
+	}
+	c:BRA = {
+		create_diplomatic_pact = {
+			country = c:BRE
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V34
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X49
+			type = rivalry
+		}
+	}
+	c:BRD = {
+		create_diplomatic_pact = {
+			country = c:RWD
+			type = rivalry
+		}
+	}
+	c:BRE = {
+		create_diplomatic_pact = {
+			country = c:BRA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T45
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W25
+			type = rivalry
+		}
+	}
+	c:BRI = {
+		create_diplomatic_pact = {
+			country = c:U21
+			type = rivalry
+		}
+	}
+	c:BRU = {
+		create_diplomatic_pact = {
+			country = c:U68
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V57
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X44
+			type = rivalry
+		}
+	}
+	c:BUG = {
+		create_diplomatic_pact = {
+			country = c:KRG
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X54
+			type = rivalry
+		}
+	}
+	c:BUR = {
+		create_diplomatic_pact = {
+			country = c:HTH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V68
+			type = rivalry
+		}
+	}
+	c:BYZ = {
+		create_diplomatic_pact = {
+			country = c:MOL
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W30
+			type = rivalry
+		}
+	}
+	c:C02 = {
+		create_diplomatic_pact = {
+			country = c:P05
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X70
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X77
+			type = rivalry
+		}
+	}
+	c:C03 = {
+		create_diplomatic_pact = {
+			country = c:C04
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X26
+			type = rivalry
+		}
+	}
+	c:C04 = {
+		create_diplomatic_pact = {
+			country = c:U32
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X26
+			type = rivalry
+		}
+	}
+	c:C16 = {
+		create_diplomatic_pact = {
+			country = c:B14
+			type = rivalry
+		}
+	}
+	c:C17 = {
+		create_diplomatic_pact = {
+			country = c:W47
+			type = rivalry
+		}
+	}
+	c:C21 = {
+		create_diplomatic_pact = {
+			country = c:TC1
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U54
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V66
+			type = rivalry
+		}
+	}
+	c:CAM = {
+		create_diplomatic_pact = {
+			country = c:DAI
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:LAO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:SIA
+			type = rivalry
+		}
+	}
+	c:CAS = {
+		create_diplomatic_pact = {
+			country = c:ENG
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X22
+			type = rivalry
+		}
+	}
+	c:CEY = {
+		create_diplomatic_pact = {
+			country = c:TRA
+			type = rivalry
+		}
+	}
+	c:CHE = {
+		create_diplomatic_pact = {
+			country = c:X16
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X77
+			type = rivalry
+		}
+	}
+	c:CHK = {
+		create_diplomatic_pact = {
+			country = c:KSN
+			type = rivalry
+		}
+	}
+	c:CIR = {
+		create_diplomatic_pact = {
+			country = c:DAG
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U63
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U92
+			type = rivalry
+		}
+	}
+	c:CKC = {
+		create_diplomatic_pact = {
+			country = c:I09
+			type = rivalry
+		}
+	}
+	c:CMI = {
+		create_diplomatic_pact = {
+			country = c:HTH
+			type = rivalry
+		}
+	}
+	c:COC = {
+		create_diplomatic_pact = {
+			country = c:TRA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V33
+			type = rivalry
+		}
+	}
+	c:COM = {
+		create_diplomatic_pact = {
+			country = c:N06
+			type = rivalry
+		}
+	}
+	c:COO = {
+		create_diplomatic_pact = {
+			country = c:U17
+			type = rivalry
+		}
+	}
+	c:CRI = {
+		create_diplomatic_pact = {
+			country = c:GEO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W30
+			type = rivalry
+		}
+	}
+	c:CYP = {
+		create_diplomatic_pact = {
+			country = c:U34
+			type = rivalry
+		}
+	}
+	c:DAG = {
+		create_diplomatic_pact = {
+			country = c:CIR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U63
+			type = rivalry
+		}
+	}
+	c:DAH = {
+		create_diplomatic_pact = {
+			country = c:BEN
+			type = rivalry
+		}
+	}
+	c:DAI = {
+		create_diplomatic_pact = {
+			country = c:LAO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:SH0
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:SIA
+			type = rivalry
+		}
+	}
+	c:DE3 = {
+		create_diplomatic_pact = {
+			country = c:V21
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V43
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V66
+			type = rivalry
+		}
+	}
+	c:DEN = {
+		create_diplomatic_pact = {
+			country = c:LIT
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:SCO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X59
+			type = rivalry
+		}
+	}
+	c:E02 = {
+		create_diplomatic_pact = {
+			country = c:ALB
+			type = rivalry
+		}
+	}
+	c:EGY = {
+		create_diplomatic_pact = {
+			country = c:U82
+			type = rivalry
+		}
+	}
+	c:ENG = {
+		create_diplomatic_pact = {
+			country = c:CAS
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:FRA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X22
+			type = rivalry
+		}
+	}
+	c:ETH = {
+		create_diplomatic_pact = {
+			country = c:X08
+			type = rivalry
+		}
+	}
+	c:FRA = {
+		create_diplomatic_pact = {
+			country = c:ENG
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X22
+			type = rivalry
+		}
+	}
+	c:FRM = {
+		create_diplomatic_pact = {
+			country = c:HES
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U93
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V35
+			type = rivalry
+		}
+	}
+	c:GAO = {
+		create_diplomatic_pact = {
+			country = c:T66
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V00
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W65
+			type = rivalry
+		}
+	}
+	c:GAR = {
+		create_diplomatic_pact = {
+			country = c:U62
+			type = rivalry
+		}
+	}
+	c:GEO = {
+		create_diplomatic_pact = {
+			country = c:CRI
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W35
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X12
+			type = rivalry
+		}
+	}
+	c:GUJ = {
+		create_diplomatic_pact = {
+			country = c:MEW
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T46
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X34
+			type = rivalry
+		}
+	}
+	c:GWA = {
+		create_diplomatic_pact = {
+			country = c:V48
+			type = rivalry
+		}
+	}
+	c:H07 = {
+		create_diplomatic_pact = {
+			country = c:T08
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V38
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W27
+			type = rivalry
+		}
+	}
+	c:HAM = {
+		create_diplomatic_pact = {
+			country = c:T45
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V28
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X91
+			type = rivalry
+		}
+	}
+	c:HES = {
+		create_diplomatic_pact = {
+			country = c:FRM
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:NAS
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W95
+			type = rivalry
+		}
+	}
+	c:HTH = {
+		create_diplomatic_pact = {
+			country = c:BUR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:CMI
+			type = rivalry
+		}
+	}
+	c:HUN = {
+		create_diplomatic_pact = {
+			country = c:POL
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:TUR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:VEN
+			type = rivalry
+		}
+	}
+	c:I04 = {
+		create_diplomatic_pact = {
+			country = c:P12
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U45
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W63
+			type = rivalry
+		}
+	}
+	c:I09 = {
+		create_diplomatic_pact = {
+			country = c:CKC
+			type = rivalry
+		}
+	}
+	c:IDA = {
+		create_diplomatic_pact = {
+			country = c:X72
+			type = rivalry
+		}
+	}
+	c:JAB = {
+		create_diplomatic_pact = {
+			country = c:V44
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X21
+			type = rivalry
+		}
+	}
+	c:JAS = {
+		create_diplomatic_pact = {
+			country = c:SIN
+			type = rivalry
+		}
+	}
+	c:JAV = {
+		create_diplomatic_pact = {
+			country = c:BRU
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U68
+			type = rivalry
+		}
+	}
+	c:JLF = {
+		create_diplomatic_pact = {
+			country = c:MAL
+			type = rivalry
+		}
+	}
+	c:JUN = {
+		create_diplomatic_pact = {
+			country = c:KUT
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U26
+			type = rivalry
+		}
+	}
+	c:K16 = {
+		create_diplomatic_pact = {
+			country = c:P13
+			type = rivalry
+		}
+	}
+	c:KAS = {
+		create_diplomatic_pact = {
+			country = c:V72
+			type = rivalry
+		}
+	}
+	c:KAT = {
+		create_diplomatic_pact = {
+			country = c:LAH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:MAH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:ZAI
+			type = rivalry
+		}
+	}
+	c:KBA = {
+		create_diplomatic_pact = {
+			country = c:W86
+			type = rivalry
+		}
+	}
+	c:KFA = {
+		create_diplomatic_pact = {
+			country = c:X96
+			type = rivalry
+		}
+	}
+	c:KHN = {
+		create_diplomatic_pact = {
+			country = c:ASM
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V74
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W70
+			type = rivalry
+		}
+	}
+	c:KNG = {
+		create_diplomatic_pact = {
+			country = c:T52
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X45
+			type = rivalry
+		}
+	}
+	c:KOR = {
+		create_diplomatic_pact = {
+			country = c:V56
+			type = rivalry
+		}
+	}
+	c:KRG = {
+		create_diplomatic_pact = {
+			country = c:ANK
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:BUG
+			type = rivalry
+		}
+	}
+	c:KSN = {
+		create_diplomatic_pact = {
+			country = c:YKA
+			type = rivalry
+		}
+	}
+	c:KTI = {
+		create_diplomatic_pact = {
+			country = c:M15
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X37
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X44
+			type = rivalry
+		}
+	}
+	c:KUT = {
+		create_diplomatic_pact = {
+			country = c:JUN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U26
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W62
+			type = rivalry
+		}
+	}
+	c:KYR = {
+		create_diplomatic_pact = {
+			country = c:UZB
+			type = rivalry
+		}
+	}
+	c:KZM = {
+		create_diplomatic_pact = {
+			country = c:LBA
+			type = rivalry
+		}
+	}
+	c:L03 = {
+		create_diplomatic_pact = {
+			country = c:M04
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:P05
+			type = rivalry
+		}
+	}
+	c:L09 = {
+		create_diplomatic_pact = {
+			country = c:T19
+			type = rivalry
+		}
+	}
+	c:L15 = {
+		create_diplomatic_pact = {
+			country = c:W15
+			type = rivalry
+		}
+	}
+	c:LAD = {
+		create_diplomatic_pact = {
+			country = c:W77
+			type = rivalry
+		}
+	}
+	c:LAH = {
+		create_diplomatic_pact = {
+			country = c:KAT
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:YEM
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:ZAI
+			type = rivalry
+		}
+	}
+	c:LAO = {
+		create_diplomatic_pact = {
+			country = c:CAM
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:DAI
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:SIA
+			type = rivalry
+		}
+	}
+	c:LBA = {
+		create_diplomatic_pact = {
+			country = c:W83
+			type = rivalry
+		}
+	}
+	c:LIT = {
+		create_diplomatic_pact = {
+			country = c:DEN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:TUR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W35
+			type = rivalry
+		}
+	}
+	c:LKT = {
+		create_diplomatic_pact = {
+			country = c:IRC
+			type = rivalry
+		}
+	}
+	c:LND = {
+		create_diplomatic_pact = {
+			country = c:KBA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:KSN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:YKA
+			type = rivalry
+		}
+	}
+	c:LOM = {
+		create_diplomatic_pact = {
+			country = c:SWI
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W00
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W30
+			type = rivalry
+		}
+	}
+	c:LUB = {
+		create_diplomatic_pact = {
+			country = c:T45
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U65
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V18
+			type = rivalry
+		}
+	}
+	c:LUC = {
+		create_diplomatic_pact = {
+			country = c:U51
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V37
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W00
+			type = rivalry
+		}
+	}
+	c:M04 = {
+		create_diplomatic_pact = {
+			country = c:L03
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W02
+			type = rivalry
+		}
+	}
+	c:M09 = {
+		create_diplomatic_pact = {
+			country = c:A06
+			type = rivalry
+		}
+	}
+	c:M15 = {
+		create_diplomatic_pact = {
+			country = c:SLW
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V29
+			type = rivalry
+		}
+	}
+	c:M18 = {
+		create_diplomatic_pact = {
+			country = c:T18
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V52
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V64
+			type = rivalry
+		}
+	}
+	c:MAD = {
+		create_diplomatic_pact = {
+			country = c:X20
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X58
+			type = rivalry
+		}
+	}
+	c:MAH = {
+		create_diplomatic_pact = {
+			country = c:KAT
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V96
+			type = rivalry
+		}
+	}
+	c:MAL = {
+		create_diplomatic_pact = {
+			country = c:U86
+			type = rivalry
+		}
+	}
+	c:MAZ = {
+		create_diplomatic_pact = {
+			country = c:W98
+			type = rivalry
+		}
+	}
+	c:MEC = {
+		create_diplomatic_pact = {
+			country = c:U65
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V18
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W15
+			type = rivalry
+		}
+	}
+	c:MEW = {
+		create_diplomatic_pact = {
+			country = c:GUJ
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:SIN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V72
+			type = rivalry
+		}
+	}
+	c:MKT = {
+		create_diplomatic_pact = {
+			country = c:X68
+			type = rivalry
+		}
+	}
+	c:MKU = {
+		create_diplomatic_pact = {
+			country = c:MRV
+			type = rivalry
+		}
+	}
+	c:MNP = {
+		create_diplomatic_pact = {
+			country = c:TIP
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W68
+			type = rivalry
+		}
+	}
+	c:MOL = {
+		create_diplomatic_pact = {
+			country = c:WAL
+			type = rivalry
+		}
+	}
+	c:MRV = {
+		create_diplomatic_pact = {
+			country = c:T65
+			type = rivalry
+		}
+	}
+	c:MYS = {
+		create_diplomatic_pact = {
+			country = c:W90
+			type = rivalry
+		}
+	}
+	c:N06 = {
+		create_diplomatic_pact = {
+			country = c:COM
+			type = rivalry
+		}
+	}
+	c:N11 = {
+		create_diplomatic_pact = {
+			country = c:U64
+			type = rivalry
+		}
+	}
+	c:NAG = {
+		create_diplomatic_pact = {
+			country = c:X86
+			type = rivalry
+		}
+	}
+	c:NAH = {
+		create_diplomatic_pact = {
+			country = c:T09
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U74
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V38
+			type = rivalry
+		}
+	}
+	c:NAS = {
+		create_diplomatic_pact = {
+			country = c:HES
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V35
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X00
+			type = rivalry
+		}
+	}
+	c:NEJ = {
+		create_diplomatic_pact = {
+			country = c:V44
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X84
+			type = rivalry
+		}
+	}
+	c:NTO = {
+		create_diplomatic_pact = {
+			country = c:U73
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:UNT
+			type = rivalry
+		}
+	}
+	c:O01 = {
+		create_diplomatic_pact = {
+			country = c:C04
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V63
+			type = rivalry
+		}
+	}
+	c:O02 = {
+		create_diplomatic_pact = {
+			country = c:A06
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X09
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X24
+			type = rivalry
+		}
+	}
+	c:O03 = {
+		create_diplomatic_pact = {
+			country = c:APC
+			type = rivalry
+		}
+	}
+	c:OLD = {
+		create_diplomatic_pact = {
+			country = c:HAM
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V73
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X94
+			type = rivalry
+		}
+	}
+	c:OMA = {
+		create_diplomatic_pact = {
+			country = c:V96
+			type = rivalry
+		}
+	}
+	c:ORI = {
+		create_diplomatic_pact = {
+			country = c:T46
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X43
+			type = rivalry
+		}
+	}
+	c:OYO = {
+		create_diplomatic_pact = {
+			country = c:T66
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X85
+			type = rivalry
+		}
+	}
+	c:P05 = {
+		create_diplomatic_pact = {
+			country = c:C02
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:L03
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U95
+			type = rivalry
+		}
+	}
+	c:P11 = {
+		create_diplomatic_pact = {
+			country = c:P12
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U45
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W63
+			type = rivalry
+		}
+	}
+	c:P12 = {
+		create_diplomatic_pact = {
+			country = c:I04
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X53
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X88
+			type = rivalry
+		}
+	}
+	c:P13 = {
+		create_diplomatic_pact = {
+			country = c:K16
+			type = rivalry
+		}
+	}
+	c:PAP = {
+		create_diplomatic_pact = {
+			country = c:SAV
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V17
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:VEN
+			type = rivalry
+		}
+	}
+	c:POL = {
+		create_diplomatic_pact = {
+			country = c:BOH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U78
+			type = rivalry
+		}
+	}
+	c:POR = {
+		create_diplomatic_pact = {
+			country = c:BRI
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W37
+			type = rivalry
+		}
+	}
+	c:PTN = {
+		create_diplomatic_pact = {
+			country = c:BAS
+			type = rivalry
+		}
+	}
+	c:RWD = {
+		create_diplomatic_pact = {
+			country = c:ANK
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T30
+			type = rivalry
+		}
+	}
+	c:S10 = {
+		create_diplomatic_pact = {
+			country = c:O01
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W24
+			type = rivalry
+		}
+	}
+	c:SAV = {
+		create_diplomatic_pact = {
+			country = c:PAP
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:SWI
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X59
+			type = rivalry
+		}
+	}
+	c:SAX = {
+		create_diplomatic_pact = {
+			country = c:T50
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V88
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X49
+			type = rivalry
+		}
+	}
+	c:SCO = {
+		create_diplomatic_pact = {
+			country = c:DEN
+			type = rivalry
+		}
+	}
+	c:SER = {
+		create_diplomatic_pact = {
+			country = c:U33
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:WAL
+			type = rivalry
+		}
+	}
+	c:SH0 = {
+		create_diplomatic_pact = {
+			country = c:DAI
+			type = rivalry
+		}
+	}
+	c:SIA = {
+		create_diplomatic_pact = {
+			country = c:CAM
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:LAO
+			type = rivalry
+		}
+	}
+	c:SIN = {
+		create_diplomatic_pact = {
+			country = c:BLH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:MEW
+			type = rivalry
+		}
+	}
+	c:SLS = {
+		create_diplomatic_pact = {
+			country = c:X74
+			type = rivalry
+		}
+	}
+	c:SLW = {
+		create_diplomatic_pact = {
+			country = c:M15
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V29
+			type = rivalry
+		}
+	}
+	c:SWI = {
+		create_diplomatic_pact = {
+			country = c:AUS
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:LOM
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:SAV
+			type = rivalry
+		}
+	}
+	c:T08 = {
+		create_diplomatic_pact = {
+			country = c:H07
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U90
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X64
+			type = rivalry
+		}
+	}
+	c:T09 = {
+		create_diplomatic_pact = {
+			country = c:NAH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T10
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X78
+			type = rivalry
+		}
+	}
+	c:T10 = {
+		create_diplomatic_pact = {
+			country = c:T09
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V55
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X78
+			type = rivalry
+		}
+	}
+	c:T11 = {
+		create_diplomatic_pact = {
+			country = c:W27
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X03
+			type = rivalry
+		}
+	}
+	c:T14 = {
+		create_diplomatic_pact = {
+			country = c:T60
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T64
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W80
+			type = rivalry
+		}
+	}
+	c:T18 = {
+		create_diplomatic_pact = {
+			country = c:M18
+			type = rivalry
+		}
+	}
+	c:T19 = {
+		create_diplomatic_pact = {
+			country = c:L09
+			type = rivalry
+		}
+	}
+	c:T30 = {
+		create_diplomatic_pact = {
+			country = c:KRG
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:RWD
+			type = rivalry
+		}
+	}
+	c:T40 = {
+		create_diplomatic_pact = {
+			country = c:V19
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V99
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X30
+			type = rivalry
+		}
+	}
+	c:T41 = {
+		create_diplomatic_pact = {
+			country = c:X30
+			type = rivalry
+		}
+	}
+	c:T43 = {
+		create_diplomatic_pact = {
+			country = c:U42
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W25
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X91
+			type = rivalry
+		}
+	}
+	c:T44 = {
+		create_diplomatic_pact = {
+			country = c:U94
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V30
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W70
+			type = rivalry
+		}
+	}
+	c:T45 = {
+		create_diplomatic_pact = {
+			country = c:HAM
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:LUB
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:OLD
+			type = rivalry
+		}
+	}
+	c:T46 = {
+		create_diplomatic_pact = {
+			country = c:V61
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X34
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X43
+			type = rivalry
+		}
+	}
+	c:T47 = {
+		create_diplomatic_pact = {
+			country = c:T48
+			type = rivalry
+		}
+	}
+	c:T48 = {
+		create_diplomatic_pact = {
+			country = c:T47
+			type = rivalry
+		}
+	}
+	c:T49 = {
+		create_diplomatic_pact = {
+			country = c:NTO
+			type = rivalry
+		}
+	}
+	c:T50 = {
+		create_diplomatic_pact = {
+			country = c:SAX
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V88
+			type = rivalry
+		}
+	}
+	c:T51 = {
+		create_diplomatic_pact = {
+			country = c:X09
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X97
+			type = rivalry
+		}
+	}
+	c:T52 = {
+		create_diplomatic_pact = {
+			country = c:KNG
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T59
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X45
+			type = rivalry
+		}
+	}
+	c:T54 = {
+		create_diplomatic_pact = {
+			country = c:KFA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W61
+			type = rivalry
+		}
+	}
+	c:T56 = {
+		create_diplomatic_pact = {
+			country = c:X76
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X79
+			type = rivalry
+		}
+	}
+	c:T57 = {
+		create_diplomatic_pact = {
+			country = c:BOR
+			type = rivalry
+		}
+	}
+	c:T59 = {
+		create_diplomatic_pact = {
+			country = c:T52
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W41
+			type = rivalry
+		}
+	}
+	c:T60 = {
+		create_diplomatic_pact = {
+			country = c:T14
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W57
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W80
+			type = rivalry
+		}
+	}
+	c:T61 = {
+		create_diplomatic_pact = {
+			country = c:ORI
+			type = rivalry
+		}
+	}
+	c:T63 = {
+		create_diplomatic_pact = {
+			country = c:T65
+			type = rivalry
+		}
+	}
+	c:T64 = {
+		create_diplomatic_pact = {
+			country = c:T14
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U90
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X75
+			type = rivalry
+		}
+	}
+	c:T65 = {
+		create_diplomatic_pact = {
+			country = c:T63
+			type = rivalry
+		}
+	}
+	c:T66 = {
+		create_diplomatic_pact = {
+			country = c:GAO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:OYO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V00
+			type = rivalry
+		}
+	}
+	c:TAR = {
+		create_diplomatic_pact = {
+			country = c:W35
+			type = rivalry
+		}
+	}
+	c:TC1 = {
+		create_diplomatic_pact = {
+			country = c:TE1
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U54
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V43
+			type = rivalry
+		}
+	}
+	c:TE1 = {
+		create_diplomatic_pact = {
+			country = c:C21
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:TC1
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W03
+			type = rivalry
+		}
+	}
+	c:TIP = {
+		create_diplomatic_pact = {
+			country = c:MNP
+			type = rivalry
+		}
+	}
+	c:TRA = {
+		create_diplomatic_pact = {
+			country = c:COC
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V33
+			type = rivalry
+		}
+	}
+	c:TUG = {
+		create_diplomatic_pact = {
+			country = c:V76
+			type = rivalry
+		}
+	}
+	c:TUN = {
+		create_diplomatic_pact = {
+			country = c:MOR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U84
+			type = rivalry
+		}
+	}
+	c:U07 = {
+		create_diplomatic_pact = {
+			country = c:DE3
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V21
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W81
+			type = rivalry
+		}
+	}
+	c:U11 = {
+		create_diplomatic_pact = {
+			country = c:V57
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W75
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W76
+			type = rivalry
+		}
+	}
+	c:U12 = {
+		create_diplomatic_pact = {
+			country = c:X18
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X62
+			type = rivalry
+		}
+	}
+	c:U13 = {
+		create_diplomatic_pact = {
+			country = c:V63
+			type = rivalry
+		}
+	}
+	c:U14 = {
+		create_diplomatic_pact = {
+			country = c:L03
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W01
+			type = rivalry
+		}
+	}
+	c:U16 = {
+		create_diplomatic_pact = {
+			country = c:T18
+			type = rivalry
+		}
+	}
+	c:U17 = {
+		create_diplomatic_pact = {
+			country = c:T44
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V30
+			type = rivalry
+		}
+	}
+	c:U19 = {
+		create_diplomatic_pact = {
+			country = c:JUN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W62
+			type = rivalry
+		}
+	}
+	c:U21 = {
+		create_diplomatic_pact = {
+			country = c:AUS
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:BRI
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:PAP
+			type = rivalry
+		}
+	}
+	c:U22 = {
+		create_diplomatic_pact = {
+			country = c:ACE
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:P12
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W75
+			type = rivalry
+		}
+	}
+	c:U25 = {
+		create_diplomatic_pact = {
+			country = c:V40
+			type = rivalry
+		}
+	}
+	c:U26 = {
+		create_diplomatic_pact = {
+			country = c:JUN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:KUT
+			type = rivalry
+		}
+	}
+	c:U31 = {
+		create_diplomatic_pact = {
+			country = c:U82
+			type = rivalry
+		}
+	}
+	c:U32 = {
+		create_diplomatic_pact = {
+			country = c:C03
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V87
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X18
+			type = rivalry
+		}
+	}
+	c:U33 = {
+		create_diplomatic_pact = {
+			country = c:ALB
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W49
+			type = rivalry
+		}
+	}
+	c:U34 = {
+		create_diplomatic_pact = {
+			country = c:CYP
+			type = rivalry
+		}
+	}
+	c:U35 = {
+		create_diplomatic_pact = {
+			country = c:U55
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V88
+			type = rivalry
+		}
+	}
+	c:U36 = {
+		create_diplomatic_pact = {
+			country = c:W58
+			type = rivalry
+		}
+	}
+	c:U41 = {
+		create_diplomatic_pact = {
+			country = c:BAS
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V80
+			type = rivalry
+		}
+	}
+	c:U42 = {
+		create_diplomatic_pact = {
+			country = c:T43
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V73
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W87
+			type = rivalry
+		}
+	}
+	c:U43 = {
+		create_diplomatic_pact = {
+			country = c:V93
+			type = rivalry
+		}
+	}
+	c:U45 = {
+		create_diplomatic_pact = {
+			country = c:I04
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:P11
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W63
+			type = rivalry
+		}
+	}
+	c:U48 = {
+		create_diplomatic_pact = {
+			country = c:W68
+			type = rivalry
+		}
+	}
+	c:U51 = {
+		create_diplomatic_pact = {
+			country = c:V17
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W00
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X40
+			type = rivalry
+		}
+	}
+	c:U53 = {
+		create_diplomatic_pact = {
+			country = c:MAD
+			type = rivalry
+		}
+	}
+	c:U54 = {
+		create_diplomatic_pact = {
+			country = c:C21
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:TE1
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W03
+			type = rivalry
+		}
+	}
+	c:U55 = {
+		create_diplomatic_pact = {
+			country = c:U35
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V19
+			type = rivalry
+		}
+	}
+	c:U56 = {
+		create_diplomatic_pact = {
+			country = c:V57
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X44
+			type = rivalry
+		}
+	}
+	c:U59 = {
+		create_diplomatic_pact = {
+			country = c:V75
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V90
+			type = rivalry
+		}
+	}
+	c:U62 = {
+		create_diplomatic_pact = {
+			country = c:GAR
+			type = rivalry
+		}
+	}
+	c:U63 = {
+		create_diplomatic_pact = {
+			country = c:DAG
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X23
+			type = rivalry
+		}
+	}
+	c:U64 = {
+		create_diplomatic_pact = {
+			country = c:N11
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:O02
+			type = rivalry
+		}
+	}
+	c:U65 = {
+		create_diplomatic_pact = {
+			country = c:MEC
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W15
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X49
+			type = rivalry
+		}
+	}
+	c:U67 = {
+		create_diplomatic_pact = {
+			country = c:V52
+			type = rivalry
+		}
+	}
+	c:U68 = {
+		create_diplomatic_pact = {
+			country = c:BRU
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:JAV
+			type = rivalry
+		}
+	}
+	c:U69 = {
+		create_diplomatic_pact = {
+			country = c:X97
+			type = rivalry
+		}
+	}
+	c:U70 = {
+		create_diplomatic_pact = {
+			country = c:W46
+			type = rivalry
+		}
+	}
+	c:U72 = {
+		create_diplomatic_pact = {
+			country = c:X29
+			type = rivalry
+		}
+	}
+	c:U73 = {
+		create_diplomatic_pact = {
+			country = c:NTO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V31
+			type = rivalry
+		}
+	}
+	c:U74 = {
+		create_diplomatic_pact = {
+			country = c:NAH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X71
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:Y03
+			type = rivalry
+		}
+	}
+	c:U75 = {
+		create_diplomatic_pact = {
+			country = c:MRV
+			type = rivalry
+		}
+	}
+	c:U76 = {
+		create_diplomatic_pact = {
+			country = c:UNT
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V31
+			type = rivalry
+		}
+	}
+	c:U77 = {
+		create_diplomatic_pact = {
+			country = c:U81
+			type = rivalry
+		}
+	}
+	c:U78 = {
+		create_diplomatic_pact = {
+			country = c:POL
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U21
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X49
+			type = rivalry
+		}
+	}
+	c:U81 = {
+		create_diplomatic_pact = {
+			country = c:U77
+			type = rivalry
+		}
+	}
+	c:U82 = {
+		create_diplomatic_pact = {
+			country = c:X87
+			type = rivalry
+		}
+	}
+	c:U83 = {
+		create_diplomatic_pact = {
+			country = c:X28
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X29
+			type = rivalry
+		}
+	}
+	c:U84 = {
+		create_diplomatic_pact = {
+			country = c:MOR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:TUN
+			type = rivalry
+		}
+	}
+	c:U86 = {
+		create_diplomatic_pact = {
+			country = c:MAL
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W65
+			type = rivalry
+		}
+	}
+	c:U89 = {
+		create_diplomatic_pact = {
+			country = c:U96
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V42
+			type = rivalry
+		}
+	}
+	c:U90 = {
+		create_diplomatic_pact = {
+			country = c:H07
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T64
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V55
+			type = rivalry
+		}
+	}
+	c:U92 = {
+		create_diplomatic_pact = {
+			country = c:X73
+			type = rivalry
+		}
+	}
+	c:U93 = {
+		create_diplomatic_pact = {
+			country = c:FRM
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V35
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W95
+			type = rivalry
+		}
+	}
+	c:U94 = {
+		create_diplomatic_pact = {
+			country = c:V15
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W39
+			type = rivalry
+		}
+	}
+	c:U95 = {
+		create_diplomatic_pact = {
+			country = c:P05
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X77
+			type = rivalry
+		}
+	}
+	c:U96 = {
+		create_diplomatic_pact = {
+			country = c:SWI
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V42
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W94
+			type = rivalry
+		}
+	}
+	c:U97 = {
+		create_diplomatic_pact = {
+			country = c:UNT
+			type = rivalry
+		}
+	}
+	c:U98 = {
+		create_diplomatic_pact = {
+			country = c:V85
+			type = rivalry
+		}
+	}
+	c:ULS = {
+		create_diplomatic_pact = {
+			country = c:TE1
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V21
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V66
+			type = rivalry
+		}
+	}
+	c:UN1 = {
+		create_diplomatic_pact = {
+			country = c:X69
+			type = rivalry
+		}
+	}
+	c:UNT = {
+		create_diplomatic_pact = {
+			country = c:U76
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U97
+			type = rivalry
+		}
+	}
+	c:UZB = {
+		create_diplomatic_pact = {
+			country = c:ALI
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:KYR
+			type = rivalry
+		}
+	}
+	c:V00 = {
+		create_diplomatic_pact = {
+			country = c:AIR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:GAO
+			type = rivalry
+		}
+	}
+	c:V15 = {
+		create_diplomatic_pact = {
+			country = c:U94
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W39
+			type = rivalry
+		}
+	}
+	c:V16 = {
+		create_diplomatic_pact = {
+			country = c:T48
+			type = rivalry
+		}
+	}
+	c:V17 = {
+		create_diplomatic_pact = {
+			country = c:PAP
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U51
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V37
+			type = rivalry
+		}
+	}
+	c:V18 = {
+		create_diplomatic_pact = {
+			country = c:LUB
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:MEC
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V28
+			type = rivalry
+		}
+	}
+	c:V19 = {
+		create_diplomatic_pact = {
+			country = c:T40
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U55
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W56
+			type = rivalry
+		}
+	}
+	c:V21 = {
+		create_diplomatic_pact = {
+			country = c:DE3
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U07
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W81
+			type = rivalry
+		}
+	}
+	c:V22 = {
+		create_diplomatic_pact = {
+			country = c:W29
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X00
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X51
+			type = rivalry
+		}
+	}
+	c:V28 = {
+		create_diplomatic_pact = {
+			country = c:HAM
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:MEC
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V18
+			type = rivalry
+		}
+	}
+	c:V29 = {
+		create_diplomatic_pact = {
+			country = c:M15
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:SLW
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X57
+			type = rivalry
+		}
+	}
+	c:V30 = {
+		create_diplomatic_pact = {
+			country = c:COO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T44
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U17
+			type = rivalry
+		}
+	}
+	c:V31 = {
+		create_diplomatic_pact = {
+			country = c:U73
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U76
+			type = rivalry
+		}
+	}
+	c:V32 = {
+		create_diplomatic_pact = {
+			country = c:MYS
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V33
+			type = rivalry
+		}
+	}
+	c:V33 = {
+		create_diplomatic_pact = {
+			country = c:COC
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:TRA
+			type = rivalry
+		}
+	}
+	c:V34 = {
+		create_diplomatic_pact = {
+			country = c:ANH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:BRA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W36
+			type = rivalry
+		}
+	}
+	c:V35 = {
+		create_diplomatic_pact = {
+			country = c:FRM
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X15
+			type = rivalry
+		}
+	}
+	c:V36 = {
+		create_diplomatic_pact = {
+			country = c:BJA
+			type = rivalry
+		}
+	}
+	c:V37 = {
+		create_diplomatic_pact = {
+			country = c:LUC
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W00
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X40
+			type = rivalry
+		}
+	}
+	c:V38 = {
+		create_diplomatic_pact = {
+			country = c:H07
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:NAH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:Y03
+			type = rivalry
+		}
+	}
+	c:V40 = {
+		create_diplomatic_pact = {
+			country = c:V59
+			type = rivalry
+		}
+	}
+	c:V41 = {
+		create_diplomatic_pact = {
+			country = c:V80
+			type = rivalry
+		}
+	}
+	c:V42 = {
+		create_diplomatic_pact = {
+			country = c:U89
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U96
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W94
+			type = rivalry
+		}
+	}
+	c:V43 = {
+		create_diplomatic_pact = {
+			country = c:C21
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:DE3
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:TC1
+			type = rivalry
+		}
+	}
+	c:V44 = {
+		create_diplomatic_pact = {
+			country = c:JAB
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X21
+			type = rivalry
+		}
+	}
+	c:V46 = {
+		create_diplomatic_pact = {
+			country = c:BJA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V50
+			type = rivalry
+		}
+	}
+	c:V48 = {
+		create_diplomatic_pact = {
+			country = c:GWA
+			type = rivalry
+		}
+	}
+	c:V50 = {
+		create_diplomatic_pact = {
+			country = c:V46
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X84
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:YEM
+			type = rivalry
+		}
+	}
+	c:V51 = {
+		create_diplomatic_pact = {
+			country = c:X20
+			type = rivalry
+		}
+	}
+	c:V52 = {
+		create_diplomatic_pact = {
+			country = c:C16
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U67
+			type = rivalry
+		}
+	}
+	c:V53 = {
+		create_diplomatic_pact = {
+			country = c:V75
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W96
+			type = rivalry
+		}
+	}
+	c:V55 = {
+		create_diplomatic_pact = {
+			country = c:T10
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T60
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U90
+			type = rivalry
+		}
+	}
+	c:V56 = {
+		create_diplomatic_pact = {
+			country = c:KOR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V81
+			type = rivalry
+		}
+	}
+	c:V57 = {
+		create_diplomatic_pact = {
+			country = c:BRU
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:P11
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U22
+			type = rivalry
+		}
+	}
+	c:V58 = {
+		create_diplomatic_pact = {
+			country = c:BAD
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W94
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X15
+			type = rivalry
+		}
+	}
+	c:V59 = {
+		create_diplomatic_pact = {
+			country = c:V40
+			type = rivalry
+		}
+	}
+	c:V61 = {
+		create_diplomatic_pact = {
+			country = c:MEW
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W66
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X34
+			type = rivalry
+		}
+	}
+	c:V62 = {
+		create_diplomatic_pact = {
+			country = c:W51
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W52
+			type = rivalry
+		}
+	}
+	c:V63 = {
+		create_diplomatic_pact = {
+			country = c:O01
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W99
+			type = rivalry
+		}
+	}
+	c:V64 = {
+		create_diplomatic_pact = {
+			country = c:M18
+			type = rivalry
+		}
+	}
+	c:V65 = {
+		create_diplomatic_pact = {
+			country = c:V68
+			type = rivalry
+		}
+	}
+	c:V66 = {
+		create_diplomatic_pact = {
+			country = c:C21
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U07
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U54
+			type = rivalry
+		}
+	}
+	c:V67 = {
+		create_diplomatic_pact = {
+			country = c:LIT
+			type = rivalry
+		}
+	}
+	c:V68 = {
+		create_diplomatic_pact = {
+			country = c:BUR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V65
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W52
+			type = rivalry
+		}
+	}
+	c:V70 = {
+		create_diplomatic_pact = {
+			country = c:V92
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:WSG
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X11
+			type = rivalry
+		}
+	}
+	c:V72 = {
+		create_diplomatic_pact = {
+			country = c:BLH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:KAS
+			type = rivalry
+		}
+	}
+	c:V73 = {
+		create_diplomatic_pact = {
+			country = c:W29
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W87
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X51
+			type = rivalry
+		}
+	}
+	c:V74 = {
+		create_diplomatic_pact = {
+			country = c:KHN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W51
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W52
+			type = rivalry
+		}
+	}
+	c:V75 = {
+		create_diplomatic_pact = {
+			country = c:U59
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W96
+			type = rivalry
+		}
+	}
+	c:V76 = {
+		create_diplomatic_pact = {
+			country = c:TUG
+			type = rivalry
+		}
+	}
+	c:V80 = {
+		create_diplomatic_pact = {
+			country = c:V41
+			type = rivalry
+		}
+	}
+	c:V81 = {
+		create_diplomatic_pact = {
+			country = c:V56
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X95
+			type = rivalry
+		}
+	}
+	c:V82 = {
+		create_diplomatic_pact = {
+			country = c:ZAI
+			type = rivalry
+		}
+	}
+	c:V84 = {
+		create_diplomatic_pact = {
+			country = c:TAR
+			type = rivalry
+		}
+	}
+	c:V85 = {
+		create_diplomatic_pact = {
+			country = c:DEN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:L15
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V67
+			type = rivalry
+		}
+	}
+	c:V87 = {
+		create_diplomatic_pact = {
+			country = c:U32
+			type = rivalry
+		}
+	}
+	c:V88 = {
+		create_diplomatic_pact = {
+			country = c:SAX
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T50
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U35
+			type = rivalry
+		}
+	}
+	c:V89 = {
+		create_diplomatic_pact = {
+			country = c:BEN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W71
+			type = rivalry
+		}
+	}
+	c:V90 = {
+		create_diplomatic_pact = {
+			country = c:AIN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U59
+			type = rivalry
+		}
+	}
+	c:V91 = {
+		create_diplomatic_pact = {
+			country = c:W67
+			type = rivalry
+		}
+	}
+	c:V92 = {
+		create_diplomatic_pact = {
+			country = c:V70
+			type = rivalry
+		}
+	}
+	c:V93 = {
+		create_diplomatic_pact = {
+			country = c:U43
+			type = rivalry
+		}
+	}
+	c:V95 = {
+		create_diplomatic_pact = {
+			country = c:X17
+			type = rivalry
+		}
+	}
+	c:V96 = {
+		create_diplomatic_pact = {
+			country = c:BHN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:BLH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:OMA
+			type = rivalry
+		}
+	}
+	c:V97 = {
+		create_diplomatic_pact = {
+			country = c:W02
+			type = rivalry
+		}
+	}
+	c:V98 = {
+		create_diplomatic_pact = {
+			country = c:U11
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W63
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X88
+			type = rivalry
+		}
+	}
+	c:V99 = {
+		create_diplomatic_pact = {
+			country = c:BAD
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T40
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X15
+			type = rivalry
+		}
+	}
+	c:VEN = {
+		create_diplomatic_pact = {
+			country = c:BOH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:TUR
+			type = rivalry
+		}
+	}
+	c:W00 = {
+		create_diplomatic_pact = {
+			country = c:LOM
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:LUC
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U51
+			type = rivalry
+		}
+	}
+	c:W01 = {
+		create_diplomatic_pact = {
+			country = c:U14
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W02
+			type = rivalry
+		}
+	}
+	c:W02 = {
+		create_diplomatic_pact = {
+			country = c:M04
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V97
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W01
+			type = rivalry
+		}
+	}
+	c:W03 = {
+		create_diplomatic_pact = {
+			country = c:TE1
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U54
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W81
+			type = rivalry
+		}
+	}
+	c:W15 = {
+		create_diplomatic_pact = {
+			country = c:LUB
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:MEC
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X91
+			type = rivalry
+		}
+	}
+	c:W23 = {
+		create_diplomatic_pact = {
+			country = c:X17
+			type = rivalry
+		}
+	}
+	c:W24 = {
+		create_diplomatic_pact = {
+			country = c:X97
+			type = rivalry
+		}
+	}
+	c:W25 = {
+		create_diplomatic_pact = {
+			country = c:BRE
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V73
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X94
+			type = rivalry
+		}
+	}
+	c:W26 = {
+		create_diplomatic_pact = {
+			country = c:W31
+			type = rivalry
+		}
+	}
+	c:W27 = {
+		create_diplomatic_pact = {
+			country = c:T11
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X64
+			type = rivalry
+		}
+	}
+	c:W29 = {
+		create_diplomatic_pact = {
+			country = c:V22
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V73
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X00
+			type = rivalry
+		}
+	}
+	c:W30 = {
+		create_diplomatic_pact = {
+			country = c:BYZ
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:CRI
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:LOM
+			type = rivalry
+		}
+	}
+	c:W31 = {
+		create_diplomatic_pact = {
+			country = c:TUG
+			type = rivalry
+		}
+	}
+	c:W35 = {
+		create_diplomatic_pact = {
+			country = c:GEO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:TAR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V84
+			type = rivalry
+		}
+	}
+	c:W36 = {
+		create_diplomatic_pact = {
+			country = c:ANH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V28
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V34
+			type = rivalry
+		}
+	}
+	c:W37 = {
+		create_diplomatic_pact = {
+			country = c:POR
+			type = rivalry
+		}
+	}
+	c:W39 = {
+		create_diplomatic_pact = {
+			country = c:U94
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V15
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W40
+			type = rivalry
+		}
+	}
+	c:W40 = {
+		create_diplomatic_pact = {
+			country = c:LAD
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W39
+			type = rivalry
+		}
+	}
+	c:W41 = {
+		create_diplomatic_pact = {
+			country = c:OYO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T59
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X85
+			type = rivalry
+		}
+	}
+	c:W46 = {
+		create_diplomatic_pact = {
+			country = c:U70
+			type = rivalry
+		}
+	}
+	c:W47 = {
+		create_diplomatic_pact = {
+			country = c:CKC
+			type = rivalry
+		}
+	}
+	c:W49 = {
+		create_diplomatic_pact = {
+			country = c:BOS
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U33
+			type = rivalry
+		}
+	}
+	c:W51 = {
+		create_diplomatic_pact = {
+			country = c:V62
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V65
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V74
+			type = rivalry
+		}
+	}
+	c:W52 = {
+		create_diplomatic_pact = {
+			country = c:V62
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V68
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W51
+			type = rivalry
+		}
+	}
+	c:W55 = {
+		create_diplomatic_pact = {
+			country = c:X16
+			type = rivalry
+		}
+	}
+	c:W56 = {
+		create_diplomatic_pact = {
+			country = c:V19
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X30
+			type = rivalry
+		}
+	}
+	c:W57 = {
+		create_diplomatic_pact = {
+			country = c:T60
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W80
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X75
+			type = rivalry
+		}
+	}
+	c:W58 = {
+		create_diplomatic_pact = {
+			country = c:U36
+			type = rivalry
+		}
+	}
+	c:W61 = {
+		create_diplomatic_pact = {
+			country = c:X96
+			type = rivalry
+		}
+	}
+	c:W62 = {
+		create_diplomatic_pact = {
+			country = c:KUT
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U19
+			type = rivalry
+		}
+	}
+	c:W63 = {
+		create_diplomatic_pact = {
+			country = c:P11
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U45
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V98
+			type = rivalry
+		}
+	}
+	c:W64 = {
+		create_diplomatic_pact = {
+			country = c:X89
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X90
+			type = rivalry
+		}
+	}
+	c:W65 = {
+		create_diplomatic_pact = {
+			country = c:GAO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U86
+			type = rivalry
+		}
+	}
+	c:W66 = {
+		create_diplomatic_pact = {
+			country = c:V61
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X43
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X87
+			type = rivalry
+		}
+	}
+	c:W67 = {
+		create_diplomatic_pact = {
+			country = c:V91
+			type = rivalry
+		}
+	}
+	c:W68 = {
+		create_diplomatic_pact = {
+			country = c:ASM
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:MNP
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V74
+			type = rivalry
+		}
+	}
+	c:W69 = {
+		create_diplomatic_pact = {
+			country = c:ARK
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:MNP
+			type = rivalry
+		}
+	}
+	c:W70 = {
+		create_diplomatic_pact = {
+			country = c:KHN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T44
+			type = rivalry
+		}
+	}
+	c:W71 = {
+		create_diplomatic_pact = {
+			country = c:BOR
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V89
+			type = rivalry
+		}
+	}
+	c:W72 = {
+		create_diplomatic_pact = {
+			country = c:W57
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X68
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X79
+			type = rivalry
+		}
+	}
+	c:W73 = {
+		create_diplomatic_pact = {
+			country = c:CYP
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X73
+			type = rivalry
+		}
+	}
+	c:W75 = {
+		create_diplomatic_pact = {
+			country = c:U11
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W76
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X53
+			type = rivalry
+		}
+	}
+	c:W76 = {
+		create_diplomatic_pact = {
+			country = c:U11
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V98
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W75
+			type = rivalry
+		}
+	}
+	c:W77 = {
+		create_diplomatic_pact = {
+			country = c:LAD
+			type = rivalry
+		}
+	}
+	c:W80 = {
+		create_diplomatic_pact = {
+			country = c:T14
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T64
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W57
+			type = rivalry
+		}
+	}
+	c:W81 = {
+		create_diplomatic_pact = {
+			country = c:U07
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V21
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W03
+			type = rivalry
+		}
+	}
+	c:W83 = {
+		create_diplomatic_pact = {
+			country = c:CHK
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:LBA
+			type = rivalry
+		}
+	}
+	c:W84 = {
+		create_diplomatic_pact = {
+			country = c:ARP
+			type = rivalry
+		}
+	}
+	c:W86 = {
+		create_diplomatic_pact = {
+			country = c:KBA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:LND
+			type = rivalry
+		}
+	}
+	c:W87 = {
+		create_diplomatic_pact = {
+			country = c:U42
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W95
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X00
+			type = rivalry
+		}
+	}
+	c:W88 = {
+		create_diplomatic_pact = {
+			country = c:PTN
+			type = rivalry
+		}
+	}
+	c:W90 = {
+		create_diplomatic_pact = {
+			country = c:MYS
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V32
+			type = rivalry
+		}
+	}
+	c:W91 = {
+		create_diplomatic_pact = {
+			country = c:X90
+			type = rivalry
+		}
+	}
+	c:W93 = {
+		create_diplomatic_pact = {
+			country = c:W30
+			type = rivalry
+		}
+	}
+	c:W94 = {
+		create_diplomatic_pact = {
+			country = c:U96
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V42
+			type = rivalry
+		}
+	}
+	c:W95 = {
+		create_diplomatic_pact = {
+			country = c:HES
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U93
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W87
+			type = rivalry
+		}
+	}
+	c:W96 = {
+		create_diplomatic_pact = {
+			country = c:V53
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V75
+			type = rivalry
+		}
+	}
+	c:W98 = {
+		create_diplomatic_pact = {
+			country = c:X47
+			type = rivalry
+		}
+	}
+	c:W99 = {
+		create_diplomatic_pact = {
+			country = c:C04
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V63
+			type = rivalry
+		}
+	}
+	c:WAD = {
+		create_diplomatic_pact = {
+			country = c:T57
+			type = rivalry
+		}
+	}
+	c:WAL = {
+		create_diplomatic_pact = {
+			country = c:MOL
+			type = rivalry
+		}
+	}
+	c:WSG = {
+		create_diplomatic_pact = {
+			country = c:MAH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V70
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X11
+			type = rivalry
+		}
+	}
+	c:WUR = {
+		create_diplomatic_pact = {
+			country = c:BAD
+			type = rivalry
+		}
+	}
+	c:X00 = {
+		create_diplomatic_pact = {
+			country = c:V22
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W29
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X51
+			type = rivalry
+		}
+	}
+	c:X03 = {
+		create_diplomatic_pact = {
+			country = c:T11
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X71
+			type = rivalry
+		}
+	}
+	c:X07 = {
+		create_diplomatic_pact = {
+			country = c:X14
+			type = rivalry
+		}
+	}
+	c:X08 = {
+		create_diplomatic_pact = {
+			country = c:ETH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:WSG
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:YEM
+			type = rivalry
+		}
+	}
+	c:X09 = {
+		create_diplomatic_pact = {
+			country = c:O02
+			type = rivalry
+		}
+	}
+	c:X11 = {
+		create_diplomatic_pact = {
+			country = c:ETH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T63
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:WSG
+			type = rivalry
+		}
+	}
+	c:X12 = {
+		create_diplomatic_pact = {
+			country = c:GEO
+			type = rivalry
+		}
+	}
+	c:X14 = {
+		create_diplomatic_pact = {
+			country = c:X07
+			type = rivalry
+		}
+	}
+	c:X15 = {
+		create_diplomatic_pact = {
+			country = c:BAD
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V58
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V99
+			type = rivalry
+		}
+	}
+	c:X16 = {
+		create_diplomatic_pact = {
+			country = c:CHE
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W55
+			type = rivalry
+		}
+	}
+	c:X17 = {
+		create_diplomatic_pact = {
+			country = c:W23
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X46
+			type = rivalry
+		}
+	}
+	c:X18 = {
+		create_diplomatic_pact = {
+			country = c:U12
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U32
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X62
+			type = rivalry
+		}
+	}
+	c:X20 = {
+		create_diplomatic_pact = {
+			country = c:MAD
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V51
+			type = rivalry
+		}
+	}
+	c:X21 = {
+		create_diplomatic_pact = {
+			country = c:JAB
+			type = rivalry
+		}
+	}
+	c:X22 = {
+		create_diplomatic_pact = {
+			country = c:CAS
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:ENG
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:FRA
+			type = rivalry
+		}
+	}
+	c:X23 = {
+		create_diplomatic_pact = {
+			country = c:U63
+			type = rivalry
+		}
+	}
+	c:X24 = {
+		create_diplomatic_pact = {
+			country = c:O02
+			type = rivalry
+		}
+	}
+	c:X26 = {
+		create_diplomatic_pact = {
+			country = c:C03
+			type = rivalry
+		}
+	}
+	c:X28 = {
+		create_diplomatic_pact = {
+			country = c:U83
+			type = rivalry
+		}
+	}
+	c:X29 = {
+		create_diplomatic_pact = {
+			country = c:U72
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U83
+			type = rivalry
+		}
+	}
+	c:X30 = {
+		create_diplomatic_pact = {
+			country = c:T40
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T41
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W56
+			type = rivalry
+		}
+	}
+	c:X31 = {
+		create_diplomatic_pact = {
+			country = c:X46
+			type = rivalry
+		}
+	}
+	c:X32 = {
+		create_diplomatic_pact = {
+			country = c:ARK
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:CMI
+			type = rivalry
+		}
+	}
+	c:X34 = {
+		create_diplomatic_pact = {
+			country = c:GUJ
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T46
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V61
+			type = rivalry
+		}
+	}
+	c:X37 = {
+		create_diplomatic_pact = {
+			country = c:KTI
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U67
+			type = rivalry
+		}
+	}
+	c:X38 = {
+		create_diplomatic_pact = {
+			country = c:X72
+			type = rivalry
+		}
+	}
+	c:X40 = {
+		create_diplomatic_pact = {
+			country = c:U51
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V37
+			type = rivalry
+		}
+	}
+	c:X41 = {
+		create_diplomatic_pact = {
+			country = c:BAL
+			type = rivalry
+		}
+	}
+	c:X43 = {
+		create_diplomatic_pact = {
+			country = c:GUJ
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:ORI
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W66
+			type = rivalry
+		}
+	}
+	c:X44 = {
+		create_diplomatic_pact = {
+			country = c:KTI
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:M15
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U56
+			type = rivalry
+		}
+	}
+	c:X45 = {
+		create_diplomatic_pact = {
+			country = c:T52
+			type = rivalry
+		}
+	}
+	c:X46 = {
+		create_diplomatic_pact = {
+			country = c:X17
+			type = rivalry
+		}
+	}
+	c:X47 = {
+		create_diplomatic_pact = {
+			country = c:W98
+			type = rivalry
+		}
+	}
+	c:X48 = {
+		create_diplomatic_pact = {
+			country = c:ARK
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:BUR
+			type = rivalry
+		}
+	}
+	c:X49 = {
+		create_diplomatic_pact = {
+			country = c:BRA
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:SAX
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U78
+			type = rivalry
+		}
+	}
+	c:X51 = {
+		create_diplomatic_pact = {
+			country = c:NAS
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U93
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V22
+			type = rivalry
+		}
+	}
+	c:X53 = {
+		create_diplomatic_pact = {
+			country = c:ACE
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:P12
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W75
+			type = rivalry
+		}
+	}
+	c:X54 = {
+		create_diplomatic_pact = {
+			country = c:BUG
+			type = rivalry
+		}
+	}
+	c:X57 = {
+		create_diplomatic_pact = {
+			country = c:V29
+			type = rivalry
+		}
+	}
+	c:X58 = {
+		create_diplomatic_pact = {
+			country = c:MAD
+			type = rivalry
+		}
+	}
+	c:X59 = {
+		create_diplomatic_pact = {
+			country = c:DEN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:ENG
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:SAV
+			type = rivalry
+		}
+	}
+	c:X62 = {
+		create_diplomatic_pact = {
+			country = c:C05
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U12
+			type = rivalry
+		}
+	}
+	c:X63 = {
+		create_diplomatic_pact = {
+			country = c:X70
+			type = rivalry
+		}
+	}
+	c:X64 = {
+		create_diplomatic_pact = {
+			country = c:T08
+			type = rivalry
+		}
+	}
+	c:X66 = {
+		create_diplomatic_pact = {
+			country = c:U41
+			type = rivalry
+		}
+	}
+	c:X68 = {
+		create_diplomatic_pact = {
+			country = c:MKT
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W72
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X79
+			type = rivalry
+		}
+	}
+	c:X69 = {
+		create_diplomatic_pact = {
+			country = c:UN1
+			type = rivalry
+		}
+	}
+	c:X70 = {
+		create_diplomatic_pact = {
+			country = c:C02
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X63
+			type = rivalry
+		}
+	}
+	c:X71 = {
+		create_diplomatic_pact = {
+			country = c:U74
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:Y03
+			type = rivalry
+		}
+	}
+	c:X72 = {
+		create_diplomatic_pact = {
+			country = c:X38
+			type = rivalry
+		}
+	}
+	c:X73 = {
+		create_diplomatic_pact = {
+			country = c:U92
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X99
+			type = rivalry
+		}
+	}
+	c:X74 = {
+		create_diplomatic_pact = {
+			country = c:SLS
+			type = rivalry
+		}
+	}
+	c:X75 = {
+		create_diplomatic_pact = {
+			country = c:T56
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W57
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X76
+			type = rivalry
+		}
+	}
+	c:X76 = {
+		create_diplomatic_pact = {
+			country = c:T56
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X79
+			type = rivalry
+		}
+	}
+	c:X77 = {
+		create_diplomatic_pact = {
+			country = c:C02
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:CHE
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U95
+			type = rivalry
+		}
+	}
+	c:X78 = {
+		create_diplomatic_pact = {
+			country = c:T09
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V38
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V55
+			type = rivalry
+		}
+	}
+	c:X79 = {
+		create_diplomatic_pact = {
+			country = c:T56
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W72
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X76
+			type = rivalry
+		}
+	}
+	c:X84 = {
+		create_diplomatic_pact = {
+			country = c:BHN
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:NEJ
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V50
+			type = rivalry
+		}
+	}
+	c:X85 = {
+		create_diplomatic_pact = {
+			country = c:OYO
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W41
+			type = rivalry
+		}
+	}
+	c:X86 = {
+		create_diplomatic_pact = {
+			country = c:NAG
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V48
+			type = rivalry
+		}
+	}
+	c:X87 = {
+		create_diplomatic_pact = {
+			country = c:W66
+			type = rivalry
+		}
+	}
+	c:X88 = {
+		create_diplomatic_pact = {
+			country = c:ACE
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:P12
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U45
+			type = rivalry
+		}
+	}
+	c:X89 = {
+		create_diplomatic_pact = {
+			country = c:W64
+			type = rivalry
+		}
+	}
+	c:X90 = {
+		create_diplomatic_pact = {
+			country = c:W91
+			type = rivalry
+		}
+	}
+	c:X91 = {
+		create_diplomatic_pact = {
+			country = c:HAM
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:T43
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X94
+			type = rivalry
+		}
+	}
+	c:X92 = {
+		create_diplomatic_pact = {
+			country = c:U34
+			type = rivalry
+		}
+	}
+	c:X94 = {
+		create_diplomatic_pact = {
+			country = c:BRE
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:OLD
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W25
+			type = rivalry
+		}
+	}
+	c:X95 = {
+		create_diplomatic_pact = {
+			country = c:U59
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V81
+			type = rivalry
+		}
+	}
+	c:X96 = {
+		create_diplomatic_pact = {
+			country = c:W61
+			type = rivalry
+		}
+	}
+	c:X97 = {
+		create_diplomatic_pact = {
+			country = c:T51
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:W24
+			type = rivalry
+		}
+	}
+	c:X99 = {
+		create_diplomatic_pact = {
+			country = c:X73
+			type = rivalry
+		}
+	}
+	c:Y03 = {
+		create_diplomatic_pact = {
+			country = c:NAH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:U74
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X71
+			type = rivalry
+		}
+	}
+	c:Y06 = {
+		create_diplomatic_pact = {
+			country = c:L09
+			type = rivalry
+		}
+	}
+	c:Y07 = {
+		create_diplomatic_pact = {
+			country = c:Y06
+			type = rivalry
+		}
+	}
+	c:YEM = {
+		create_diplomatic_pact = {
+			country = c:LAH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V50
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:X08
+			type = rivalry
+		}
+	}
+	c:YKA = {
+		create_diplomatic_pact = {
+			country = c:LND
+			type = rivalry
+		}
+	}
+	c:ZAI = {
+		create_diplomatic_pact = {
+			country = c:LAH
+			type = rivalry
+		}
+		create_diplomatic_pact = {
+			country = c:V82
+			type = rivalry
+		}
+	}
+}

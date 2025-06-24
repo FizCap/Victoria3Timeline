@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:V40 = {
+		create_character = {
+			first_name = "Misham"
+			last_name = "Mvita"
+			heir = yes
+			culture = cu:swahili
+			religion = rel:sunni
+			birth_date = 1444.1.1
+			traits = {
+				basic_diplomat trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Yusuf"
+			last_name = "Mvita"
+			ruler = yes
+			culture = cu:swahili
+			religion = rel:sunni
+			birth_date = 1425.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

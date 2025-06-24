@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BIK = {
+		create_character = {
+			first_name = "Rao"
+			last_name = "Bhati"
+			ruler = yes
+			culture = cu:rajput
+			religion = rel:hindu
+			birth_date = 1378.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

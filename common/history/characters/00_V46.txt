@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V46 = {
+		create_character = {
+			first_name = "Menas_I"
+			last_name = "Bahrid"
+			ruler = yes
+			culture = cu:tigray
+			religion = rel:oriental_orthodox
+			birth_date = 1378.1.1
+			traits = {
+				basic_political_operator cautious 
+			}
+		}
+
+	}
+}

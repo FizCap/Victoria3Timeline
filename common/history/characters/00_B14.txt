@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:B14 = {
+		create_character = {
+			first_name = "Colambu"
+			last_name = "Butuan"
+			ruler = yes
+			culture = cu:filipino
+			religion = rel:hindu
+			birth_date = 1425.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V89 = {
+		create_character = {
+			first_name = "Tsoede"
+			last_name = "Etsu_Nupe"
+			ruler = yes
+			culture = cu:ibo
+			religion = rel:sunni
+			birth_date = 1423.1.1
+			traits = {
+				basic_political_operator cautious 
+			}
+		}
+
+	}
+}

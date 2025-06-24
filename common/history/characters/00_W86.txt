@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W86 = {
+		create_character = {
+			first_name = "Muteb"
+			last_name = "Kalumbwe"
+			ruler = yes
+			culture = cu:luba
+			religion = rel:animist
+			birth_date = 1409.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

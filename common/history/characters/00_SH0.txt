@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:SH0 = {
+		create_character = {
+			first_name = "Moho_Kouei-Lai"
+			last_name = "Cham"
+			heir = yes
+			culture = cu:cham
+			religion = rel:hindu
+			birth_date = 1427.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Maija_Vijaya"
+			last_name = "Cham"
+			ruler = yes
+			culture = cu:cham
+			religion = rel:hindu
+			birth_date = 1422.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

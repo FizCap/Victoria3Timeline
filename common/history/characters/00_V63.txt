@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:V63 = {
+		create_character = {
+			first_name = "Mishikinakwa_Chippekawkway"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1423.11.11
+			traits = {
+				masterful_diplomat 
+			}
+		}
+
+	}
+}

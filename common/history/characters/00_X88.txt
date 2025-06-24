@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X88 = {
+		create_character = {
+			first_name = "Panglima"
+			last_name = "Deli"
+			ruler = yes
+			culture = cu:sumatran
+			religion = rel:sunni
+			birth_date = 1423.1.1
+			traits = {
+				bigoted 
+			}
+		}
+
+	}
+}

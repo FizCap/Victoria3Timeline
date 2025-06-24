@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W77 = {
+		create_character = {
+			first_name = "Devangga_Chand"
+			last_name = "Katoch"
+			heir = yes
+			culture = cu:pahari
+			religion = rel:hindu
+			birth_date = 1420.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Sansar_Chand_I"
+			last_name = "Katoch"
+			ruler = yes
+			culture = cu:pahari
+			religion = rel:hindu
+			birth_date = 1411.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

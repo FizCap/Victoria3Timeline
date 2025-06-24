@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X48 = {
+		create_character = {
+			first_name = "Saw_Shwe_Khet"
+			last_name = "Pagan"
+			ruler = yes
+			culture = cu:burmese
+			religion = rel:theravada
+			birth_date = 1424.1.1
+			traits = {
+				tactful 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,410 @@
+﻿DIPLOMACY = {
+	c:AFG ?= {
+		create_bidirectional_truce = {
+			country = c:U82
+			months = 17
+		}
+	}
+	c:BOH ?= {
+		create_bidirectional_truce = {
+			country = c:HUN
+			months = 53
+		}
+	}
+	c:BOS ?= {
+		create_bidirectional_truce = {
+			country = c:TUR
+			months = 53
+		}
+	}
+	c:BRI ?= {
+		create_bidirectional_truce = {
+			country = c:X59
+			months = 53
+		}
+	}
+	c:BUN ?= {
+		create_bidirectional_truce = {
+			country = c:V61
+			months = 37
+		}
+	}
+	c:CAS ?= {
+		create_bidirectional_truce = {
+			country = c:W37
+			months = 37
+		}
+	}
+	c:EGY ?= {
+		create_bidirectional_truce = {
+			country = c:W93
+			months = 53
+		}
+	}
+	c:GEO ?= {
+		create_bidirectional_truce = {
+			country = c:U27
+			months = 51
+		}
+	}
+	c:HUN ?= {
+		create_bidirectional_truce = {
+			country = c:BOH
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:POL
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:TUR
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:X49
+			months = 53
+		}
+	}
+	c:KOR ?= {
+		create_bidirectional_truce = {
+			country = c:V56
+			months = 53
+		}
+	}
+	c:L15 ?= {
+		create_bidirectional_truce = {
+			country = c:LIT
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:POL
+			months = 53
+		}
+	}
+	c:LIT ?= {
+		create_bidirectional_truce = {
+			country = c:L15
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:TUR
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:U78
+			months = 53
+		}
+	}
+	c:LOM ?= {
+		create_bidirectional_truce = {
+			country = c:V77
+			months = 18
+		}
+		create_bidirectional_truce = {
+			country = c:VEN
+			months = 18
+		}
+	}
+	c:LUB ?= {
+		create_bidirectional_truce = {
+			country = c:X59
+			months = 16
+		}
+	}
+	c:MOL ?= {
+		create_bidirectional_truce = {
+			country = c:TUR
+			months = 53
+		}
+	}
+	c:PAP ?= {
+		create_bidirectional_truce = {
+			country = c:TUR
+			months = 53
+		}
+	}
+	c:PER ?= {
+		create_bidirectional_truce = {
+			country = c:U82
+			months = 17
+		}
+	}
+	c:POL ?= {
+		create_bidirectional_truce = {
+			country = c:HUN
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:L15
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:TUR
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:U78
+			months = 53
+		}
+	}
+	c:POR ?= {
+		create_bidirectional_truce = {
+			country = c:W37
+			months = 49
+		}
+	}
+	c:SER ?= {
+		create_bidirectional_truce = {
+			country = c:TUR
+			months = 53
+		}
+	}
+	c:SIC ?= {
+		create_bidirectional_truce = {
+			country = c:U21
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:X22
+			months = 26
+		}
+	}
+	c:TJI ?= {
+		create_bidirectional_truce = {
+			country = c:U82
+			months = 17
+		}
+	}
+	c:TUR ?= {
+		create_bidirectional_truce = {
+			country = c:BOS
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:HUN
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:LIT
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:MOL
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:PAP
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:POL
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:SER
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:VEN
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:W73
+			months = 52
+		}
+		create_bidirectional_truce = {
+			country = c:WAL
+			months = 53
+		}
+	}
+	c:U21 ?= {
+		create_bidirectional_truce = {
+			country = c:SIC
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:X22
+			months = 26
+		}
+	}
+	c:U27 ?= {
+		create_bidirectional_truce = {
+			country = c:GEO
+			months = 51
+		}
+	}
+	c:U52 ?= {
+		create_bidirectional_truce = {
+			country = c:U82
+			months = 17
+		}
+	}
+	c:U78 ?= {
+		create_bidirectional_truce = {
+			country = c:LIT
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:POL
+			months = 53
+		}
+	}
+	c:U82 ?= {
+		create_bidirectional_truce = {
+			country = c:AFG
+			months = 17
+		}
+		create_bidirectional_truce = {
+			country = c:PER
+			months = 17
+		}
+		create_bidirectional_truce = {
+			country = c:TJI
+			months = 17
+		}
+		create_bidirectional_truce = {
+			country = c:U52
+			months = 17
+		}
+		create_bidirectional_truce = {
+			country = c:W79
+			months = 17
+		}
+	}
+	c:V26 ?= {
+		create_bidirectional_truce = {
+			country = c:X22
+			months = 26
+		}
+	}
+	c:V56 ?= {
+		create_bidirectional_truce = {
+			country = c:KOR
+			months = 53
+		}
+	}
+	c:V61 ?= {
+		create_bidirectional_truce = {
+			country = c:BUN
+			months = 37
+		}
+		create_bidirectional_truce = {
+			country = c:W28
+			months = 13
+		}
+		create_bidirectional_truce = {
+			country = c:W66
+			months = 37
+		}
+		create_bidirectional_truce = {
+			country = c:X87
+			months = 37
+		}
+	}
+	c:V77 ?= {
+		create_bidirectional_truce = {
+			country = c:LOM
+			months = 18
+		}
+	}
+	c:VEN ?= {
+		create_bidirectional_truce = {
+			country = c:LOM
+			months = 18
+		}
+		create_bidirectional_truce = {
+			country = c:TUR
+			months = 53
+		}
+	}
+	c:W28 ?= {
+		create_bidirectional_truce = {
+			country = c:V61
+			months = 13
+		}
+	}
+	c:W37 ?= {
+		create_bidirectional_truce = {
+			country = c:CAS
+			months = 37
+		}
+		create_bidirectional_truce = {
+			country = c:POR
+			months = 49
+		}
+		create_bidirectional_truce = {
+			country = c:X22
+			months = 49
+		}
+	}
+	c:W66 ?= {
+		create_bidirectional_truce = {
+			country = c:V61
+			months = 37
+		}
+	}
+	c:W73 ?= {
+		create_bidirectional_truce = {
+			country = c:TUR
+			months = 52
+		}
+	}
+	c:W79 ?= {
+		create_bidirectional_truce = {
+			country = c:U82
+			months = 17
+		}
+	}
+	c:W93 ?= {
+		create_bidirectional_truce = {
+			country = c:EGY
+			months = 53
+		}
+	}
+	c:WAL ?= {
+		create_bidirectional_truce = {
+			country = c:TUR
+			months = 53
+		}
+	}
+	c:X22 ?= {
+		create_bidirectional_truce = {
+			country = c:SIC
+			months = 26
+		}
+		create_bidirectional_truce = {
+			country = c:U21
+			months = 26
+		}
+		create_bidirectional_truce = {
+			country = c:V26
+			months = 26
+		}
+		create_bidirectional_truce = {
+			country = c:W37
+			months = 49
+		}
+	}
+	c:X49 ?= {
+		create_bidirectional_truce = {
+			country = c:HUN
+			months = 53
+		}
+	}
+	c:X59 ?= {
+		create_bidirectional_truce = {
+			country = c:BRI
+			months = 53
+		}
+		create_bidirectional_truce = {
+			country = c:LUB
+			months = 16
+		}
+	}
+	c:X87 ?= {
+		create_bidirectional_truce = {
+			country = c:V61
+			months = 37
+		}
+	}
+}

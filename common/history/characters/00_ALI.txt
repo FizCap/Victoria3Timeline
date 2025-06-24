@@ -1,0 +1,18 @@
+﻿CHARACTERS = {
+	c:ALI = {
+		create_character = {
+			first_name = "Esen"
+			last_name = "Choros"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:mongol
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1407.1.1
+			traits = {
+				basic_political_operator imposing 
+			}
+		}
+
+	}
+}

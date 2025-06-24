@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ULS = {
+		create_character = {
+			first_name = "Art_Roe"
+			last_name = "Magginis"
+			ruler = yes
+			culture = cu:irish
+			religion = rel:catholic
+			birth_date = 1424.1.1
+			traits = {
+				arrogant 
+			}
+		}
+
+	}
+}

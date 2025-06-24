@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:A06 = {
+		create_character = {
+			first_name = "Keneobe_Mundua"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1423.11.11
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+	}
+}

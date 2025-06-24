@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U99 = {
+		create_character = {
+			first_name = "Kateng"
+			last_name = "Tyo"
+			ruler = yes
+			culture = cu:bakongo
+			religion = rel:animist
+			birth_date = 1409.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

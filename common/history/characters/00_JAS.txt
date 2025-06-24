@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:JAS = {
+		create_character = {
+			first_name = "Bhanwar"
+			last_name = "Yadava_Bhati"
+			ruler = yes
+			culture = cu:rajput
+			religion = rel:hindu
+			birth_date = 1423.1.1
+			traits = {
+				honorable 
+			}
+		}
+
+	}
+}

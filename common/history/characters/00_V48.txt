@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:V48 = {
+		create_character = {
+			first_name = "Adil_Khan"
+			last_name = "Mewati"
+			heir = yes
+			culture = cu:rajput
+			religion = rel:sunni
+			birth_date = 1410.1.1
+			traits = {
+				tactful 
+			}
+		}
+
+		create_character = {
+			first_name = "Ahmad_Khan"
+			last_name = "Mewati"
+			ruler = yes
+			culture = cu:rajput
+			religion = rel:sunni
+			birth_date = 1421.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U56 = {
+		create_character = {
+			first_name = "Sepudak"
+			last_name = "Sambas"
+			ruler = yes
+			culture = cu:bornean
+			religion = rel:hindu
+			birth_date = 1423.1.1
+			traits = {
+				bigoted 
+			}
+		}
+
+	}
+}

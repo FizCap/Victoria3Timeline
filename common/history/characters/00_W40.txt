@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W40 = {
+		create_character = {
+			first_name = "Namri_Sanggye_De"
+			last_name = "Darma"
+			heir = yes
+			culture = cu:tibetan
+			religion = rel:gelugpa
+			birth_date = 1404.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Namkha_Wangpo_Phuntsog_De"
+			last_name = "Darma"
+			ruler = yes
+			culture = cu:tibetan
+			religion = rel:gelugpa
+			birth_date = 1406.1.1
+			traits = {
+				basic_political_operator hedonist 
+			}
+		}
+
+	}
+}

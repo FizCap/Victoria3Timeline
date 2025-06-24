@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:U69 = {
+		create_character = {
+			first_name = "Waskanecqua_Tehaque"
+			ruler = yes
+			culture = cu:iroquoian
+			religion = rel:animist
+			birth_date = 1424.11.11
+		}
+
+	}
+}

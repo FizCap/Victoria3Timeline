@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:BLF = {
+		create_character = {
+			first_name = "Pitahpekis_Sikokitsimiks"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				syphilis 
+			}
+		}
+
+	}
+}

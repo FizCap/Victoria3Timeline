@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:MAZ = {
+		create_character = {
+			first_name = "Kamal_al-Din"
+			last_name = "Marashi"
+			ruler = yes
+			culture = cu:mazanderani
+			religion = rel:shiite
+			birth_date = 1424.1.1
+			traits = {
+				basic_political_operator cautious 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:TIP = {
+		create_character = {
+			first_name = "Dhanya"
+			last_name = "Manikya"
+			heir = yes
+			culture = cu:manipuri
+			religion = rel:hindu
+			birth_date = 1400.1.1
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Pratap"
+			last_name = "Manikya"
+			ruler = yes
+			culture = cu:manipuri
+			religion = rel:hindu
+			birth_date = 1391.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

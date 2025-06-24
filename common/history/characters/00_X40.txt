@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X40 = {
+		create_character = {
+			first_name = "Annibale"
+			last_name = "Bentivoglio"
+			ruler = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			birth_date = 1415.8.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

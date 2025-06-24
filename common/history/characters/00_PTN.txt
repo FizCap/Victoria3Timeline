@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:PTN = {
+		create_character = {
+			first_name = "Baijal"
+			last_name = "Chauhan"
+			heir = yes
+			culture = cu:oriya
+			religion = rel:hindu
+			birth_date = 1420.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Vikramaditya"
+			last_name = "Chauhan"
+			ruler = yes
+			culture = cu:oriya
+			religion = rel:hindu
+			birth_date = 1400.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

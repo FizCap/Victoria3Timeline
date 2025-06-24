@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:U83 = {
+		create_character = {
+			first_name = "Terhataw_Kakouagoga"
+			ruler = yes
+			culture = cu:iroquoian
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

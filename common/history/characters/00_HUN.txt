@@ -1,0 +1,14 @@
+﻿CHARACTERS = {
+	c:HUN = {
+		create_character = {
+			first_name = "Janos_Hunyadi"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1421.1.1
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+	}
+}

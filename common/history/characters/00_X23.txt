@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X23 = {
+		create_character = {
+			first_name = "Jafar"
+			last_name = "Safavid"
+			ruler = yes
+			culture = cu:azerbaijani
+			religion = rel:shiite
+			birth_date = 1424.1.1
+			traits = {
+				imposing 
+			}
+		}
+
+	}
+}

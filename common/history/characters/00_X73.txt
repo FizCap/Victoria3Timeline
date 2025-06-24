@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X73 = {
+		create_character = {
+			first_name = "Ahmed"
+			last_name = "Candaroglu"
+			heir = yes
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1425.1.1
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Ismail"
+			last_name = "Candaroglu"
+			ruler = yes
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1423.1.1
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

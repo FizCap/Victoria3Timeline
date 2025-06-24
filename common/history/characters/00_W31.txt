@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W31 = {
+		create_character = {
+			first_name = "Abu"
+			last_name = "Banu_Khalef"
+			ruler = yes
+			culture = cu:maghrebi
+			religion = rel:sunni
+			birth_date = 1420.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W67 = {
+		create_character = {
+			first_name = "Kuwalupaukamoku"
+			last_name = "Makikonu"
+			ruler = yes
+			culture = cu:hawaiian
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				ambitious basic_political_operator 
+			}
+		}
+
+	}
+}

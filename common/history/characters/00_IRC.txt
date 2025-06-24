@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:IRC = {
+		create_character = {
+			first_name = "Sukeman_Minisatonwanbi"
+			ruler = yes
+			culture = cu:siouan
+			religion = rel:animist
+			birth_date = 1423.11.11
+			traits = {
+				experienced_diplomat 
+			}
+		}
+
+	}
+}

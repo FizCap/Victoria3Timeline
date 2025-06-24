@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:NAS = {
+		create_character = {
+			first_name = "Philipp_II"
+			last_name = "von_Nassau"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1418.3.14
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

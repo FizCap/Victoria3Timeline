@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:BEN = {
+		create_character = {
+			first_name = "Ezoti"
+			last_name = "Abomey"
+			heir = yes
+			culture = cu:edo
+			religion = rel:animist
+			birth_date = 1420.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Ewuare"
+			last_name = "Abomey"
+			ruler = yes
+			culture = cu:edo
+			religion = rel:animist
+			birth_date = 1420.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:L15 = {
+		create_character = {
+			first_name = "Heinrich_Vincke"
+			ruler = yes
+			culture = cu:weder_german
+			religion = rel:catholic
+			birth_date = 1406.5.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W76 = {
+		create_character = {
+			first_name = "Iskandar_Shah"
+			last_name = "Jambi"
+			ruler = yes
+			culture = cu:malay
+			religion = rel:sunni
+			birth_date = 1424.1.1
+			traits = {
+				bigoted 
+			}
+		}
+
+	}
+}

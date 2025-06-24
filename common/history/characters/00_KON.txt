@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:KON = {
+		create_character = {
+			first_name = "Nzinga_Nkuwa"
+			last_name = "Lukeni"
+			heir = yes
+			culture = cu:bakongo
+			religion = rel:animist
+			birth_date = 1439.1.1
+			traits = {
+				basic_diplomat trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Nkuwu"
+			last_name = "Lukeni"
+			ruler = yes
+			culture = cu:bakongo
+			religion = rel:animist
+			birth_date = 1400.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:GEO = {
+		create_character = {
+			first_name = "Vakhtang_IV"
+			last_name = "Bagrationi"
+			ruler = yes
+			culture = cu:georgian
+			religion = rel:orthodox
+			birth_date = 1414.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

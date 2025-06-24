@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:T66 = {
+		create_character = {
+			first_name = "Amina"
+			last_name = "Zazzau"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			female = yes
+			culture = cu:hausa
+			religion = rel:animist
+			birth_date = 1411.1.1
+			traits = {
+				expert_political_operator wrathful 
+			}
+		}
+
+	}
+}

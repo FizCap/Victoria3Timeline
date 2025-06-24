@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:MYS = {
+		create_character = {
+			first_name = "Ganga_Raja"
+			last_name = "Ummatur"
+			ruler = yes
+			culture = cu:kannada
+			religion = rel:hindu
+			birth_date = 1381.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

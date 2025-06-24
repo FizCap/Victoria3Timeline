@@ -1,0 +1,29 @@
+﻿CHARACTERS = {
+	c:CYP = {
+		create_character = {
+			first_name = "Charlotte"
+			last_name = "de_Lusignan"
+			heir = yes
+			female = yes
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1444.6.28
+			traits = {
+				inexperienced trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Jean_II"
+			last_name = "de_Lusignan"
+			ruler = yes
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1414.5.16
+			traits = {
+				aesthete 
+			}
+		}
+
+	}
+}

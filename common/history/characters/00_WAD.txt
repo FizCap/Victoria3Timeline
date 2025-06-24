@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:WAD = {
+		create_character = {
+			first_name = "Yame"
+			last_name = "ibn_Abbas"
+			ruler = yes
+			culture = cu:teda
+			religion = rel:sunni
+			birth_date = 1422.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

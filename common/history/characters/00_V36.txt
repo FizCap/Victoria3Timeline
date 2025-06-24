@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V36 = {
+		create_character = {
+			first_name = "Siti"
+			last_name = "Dotawo"
+			ruler = yes
+			culture = cu:nilotic
+			religion = rel:oriental_orthodox
+			birth_date = 1422.1.1
+			traits = {
+				experienced_diplomat reckless 
+			}
+		}
+
+	}
+}

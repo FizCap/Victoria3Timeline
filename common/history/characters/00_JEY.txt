@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:JEY = {
+		create_character = {
+			first_name = "Viziachandra"
+			last_name = "Sankara"
+			heir = yes
+			culture = cu:oriya
+			religion = rel:hindu
+			birth_date = 1444.1.1
+			traits = {
+				inept trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Vinayak"
+			last_name = "Sankara"
+			ruler = yes
+			culture = cu:oriya
+			religion = rel:hindu
+			birth_date = 1426.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:GRI = {
+		create_character = {
+			first_name = "Kuarahyrese_Cario"
+			ruler = yes
+			culture = cu:guarani
+			religion = rel:animist
+			birth_date = 1423.11.11
+			traits = {
+				basic_diplomat innovative 
+			}
+		}
+
+	}
+}

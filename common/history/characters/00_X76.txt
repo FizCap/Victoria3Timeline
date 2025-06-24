@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X76 = {
+		create_character = {
+			first_name = "Itan_Kambul"
+			last_name = "Cocom"
+			ruler = yes
+			culture = cu:mayan
+			religion = rel:animist
+			birth_date = 1412.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

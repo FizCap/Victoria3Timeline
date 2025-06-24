@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V96 = {
+		create_character = {
+			first_name = "Fakhr_al-Din"
+			last_name = "Turani"
+			ruler = yes
+			culture = cu:bedouin
+			religion = rel:sunni
+			birth_date = 1423.1.1
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

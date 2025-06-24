@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:KOR = {
+		create_character = {
+			first_name = "Hyang"
+			last_name = "Yi"
+			heir = yes
+			culture = cu:korean
+			religion = rel:confucian
+			birth_date = 1414.11.15
+			traits = {
+				compliant 
+			}
+		}
+
+		create_character = {
+			first_name = "Soheon"
+			last_name = "Sim"
+			female = yes
+			culture = cu:korean
+			religion = rel:confucian
+			birth_date = 1395.10.12
+			traits = {
+				basic_colonial_administrator imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Sejong_Do"
+			last_name = "Yi"
+			ruler = yes
+			culture = cu:korean
+			religion = rel:confucian
+			birth_date = 1397.5.7
+			traits = {
+				cautious expert_colonial_administrator 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

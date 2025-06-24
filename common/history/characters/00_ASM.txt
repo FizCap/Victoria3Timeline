@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ASM = {
+		create_character = {
+			first_name = "Susenpha"
+			last_name = "Ahom"
+			ruler = yes
+			culture = cu:assamese
+			religion = rel:hindu
+			birth_date = 1420.1.1
+			traits = {
+				basic_colonial_administrator direct 
+			}
+		}
+
+	}
+}

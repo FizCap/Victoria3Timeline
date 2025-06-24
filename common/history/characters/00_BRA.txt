@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:BRA = {
+		create_character = {
+			first_name = "Helen"
+			last_name = "von_der_Mark"
+			female = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1423.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Wilhelm"
+			last_name = "von_Welf"
+			heir = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1392.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Heinrich_IV"
+			last_name = "von_Welf"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1411.1.1
+			traits = {
+				cautious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

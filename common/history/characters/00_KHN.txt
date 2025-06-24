@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KHN = {
+		create_character = {
+			first_name = "Kam"
+			last_name = "Sui"
+			ruler = yes
+			culture = cu:shan
+			religion = rel:theravada
+			birth_date = 1425.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

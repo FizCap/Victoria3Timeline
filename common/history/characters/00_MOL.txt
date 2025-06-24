@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:MOL = {
+		create_character = {
+			first_name = "Stefan_II"
+			last_name = "Musat"
+			ruler = yes
+			culture = cu:romanian
+			religion = rel:orthodox
+			birth_date = 1413.1.1
+			traits = {
+				pious 
+			}
+		}
+
+	}
+}

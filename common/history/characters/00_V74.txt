@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:V74 = {
+		create_character = {
+			first_name = "Sao_Hsi_Pha"
+			last_name = "Mong_Kawng"
+			heir = yes
+			culture = cu:shan
+			religion = rel:theravada
+			birth_date = 1420.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Sao_Ngan_Pha"
+			last_name = "Mong_Kawng"
+			ruler = yes
+			culture = cu:shan
+			religion = rel:theravada
+			birth_date = 1414.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

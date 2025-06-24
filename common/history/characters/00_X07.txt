@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X07 = {
+		create_character = {
+			first_name = "Nasr_el_Din"
+			last_name = "Kanz"
+			ruler = yes
+			culture = cu:nilotic
+			religion = rel:shiite
+			birth_date = 1421.1.1
+			traits = {
+				ambitious basic_political_operator 
+			}
+		}
+
+	}
+}

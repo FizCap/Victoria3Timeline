@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:SLW = {
+		create_character = {
+			first_name = "Tumassalangga"
+			last_name = "Bone"
+			ruler = yes
+			culture = cu:moluccan
+			religion = rel:animist
+			birth_date = 1426.1.1
+			traits = {
+				basic_political_operator direct 
+			}
+		}
+
+	}
+}

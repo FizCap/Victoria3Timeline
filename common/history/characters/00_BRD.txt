@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BRD = {
+		create_character = {
+			first_name = "Karemera"
+			last_name = "Ntwero"
+			ruler = yes
+			culture = cu:rundi
+			religion = rel:animist
+			birth_date = 1400.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

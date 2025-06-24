@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W59 = {
+		create_character = {
+			first_name = "Kanakasooriya_Cinkaiariyan"
+			last_name = "Aryacakravarti"
+			ruler = yes
+			culture = cu:tamil
+			religion = rel:hindu
+			birth_date = 1420.1.1
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

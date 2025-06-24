@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V38 = {
+		create_character = {
+			first_name = "Aztatlan"
+			last_name = "Toluca"
+			ruler = yes
+			culture = cu:nahua
+			religion = rel:animist
+			birth_date = 1422.1.1
+			traits = {
+				romantic 
+			}
+		}
+
+	}
+}

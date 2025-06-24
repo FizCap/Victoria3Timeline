@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:C03 = {
+		create_character = {
+			first_name = "Alpatakhuma_Ocatalaya"
+			ruler = yes
+			culture = cu:caddoan
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

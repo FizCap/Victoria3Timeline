@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X75 = {
+		create_character = {
+			first_name = "Ah"
+			last_name = "Ceh_Pech"
+			ruler = yes
+			culture = cu:mayan
+			religion = rel:animist
+			birth_date = 1381.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

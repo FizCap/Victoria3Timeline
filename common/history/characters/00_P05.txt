@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:P05 = {
+		create_character = {
+			first_name = "Ashaquid_Moraughtacund"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1424.11.11
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

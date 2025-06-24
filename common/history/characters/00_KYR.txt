@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KYR = {
+		create_character = {
+			first_name = "Esen_Buqa"
+			last_name = "Chagatayid"
+			ruler = yes
+			culture = cu:kirgiz
+			religion = rel:sunni
+			birth_date = 1409.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

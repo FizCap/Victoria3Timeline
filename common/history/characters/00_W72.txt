@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W72 = {
+		create_character = {
+			first_name = "Wuqu-Batz_"
+			last_name = "Kaqchikel_"
+			ruler = yes
+			culture = cu:mayan
+			religion = rel:animist
+			birth_date = 1417.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,30 @@
+﻿CHARACTERS = {
+	c:X12 = {
+		create_character = {
+			first_name = "Uzun_Hasan"
+			last_name = "Aq_Qoyunlu"
+			heir = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1423.1.6
+			traits = {
+				direct expert_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "Cihangir"
+			last_name = "Aq_Qoyunlu"
+			ruler = yes
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1414.1.1
+			traits = {
+				reserved 
+			}
+		}
+
+	}
+}

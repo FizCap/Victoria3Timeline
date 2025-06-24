@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:PAP = {
+		create_character = {
+			first_name = "Eugenius_IV"
+			ruler = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			birth_date = 1383.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

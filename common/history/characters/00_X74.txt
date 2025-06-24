@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X74 = {
+		create_character = {
+			first_name = "Pulican_Yoncalla"
+			ruler = yes
+			culture = cu:penutian
+			religion = rel:animist
+			birth_date = 1423.11.11
+			traits = {
+				syphilis 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:TAR = {
+		create_character = {
+			first_name = "Mahmudak"
+			last_name = "Genghisid"
+			heir = yes
+			culture = cu:tatar
+			religion = rel:sunni
+			birth_date = 1430.1.1
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Ulugh_Muhammad"
+			last_name = "Genghisid"
+			ruler = yes
+			culture = cu:tatar
+			religion = rel:sunni
+			birth_date = 1419.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

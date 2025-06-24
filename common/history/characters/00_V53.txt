@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:V53 = {
+		create_character = {
+			first_name = "Sirugeminggedo"
+			last_name = "Yehe_Nara"
+			heir = yes
+			culture = cu:manchu
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1420.1.1
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Singgen_Darha"
+			last_name = "Yehe_Nara"
+			ruler = yes
+			culture = cu:manchu
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1423.1.1
+			traits = {
+				basic_political_operator charismatic 
+			}
+		}
+
+	}
+}

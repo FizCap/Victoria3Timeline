@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:C10 = {
+		create_character = {
+			first_name = "Cuauhtemoc_Xochipanitzin"
+			ruler = yes
+			culture = cu:oodham
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				experienced_political_operator 
+			}
+		}
+
+	}
+}

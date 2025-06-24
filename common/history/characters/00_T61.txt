@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:T61 = {
+		create_character = {
+			first_name = "Veerabhadra"
+			last_name = "Reddy"
+			ruler = yes
+			culture = cu:telegu
+			religion = rel:hindu
+			birth_date = 1402.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

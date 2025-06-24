@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X95 = {
+		create_character = {
+			first_name = "Nisiha"
+			last_name = "Hurha"
+			ruler = yes
+			culture = cu:manchu
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1425.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

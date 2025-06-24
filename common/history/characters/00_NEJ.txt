@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:NEJ = {
+		create_character = {
+			first_name = "Mani"
+			last_name = "Sa_ud"
+			heir = yes
+			culture = cu:bedouin
+			religion = rel:sunni
+			birth_date = 1399.1.1
+			traits = {
+				ambitious 
+			}
+		}
+
+		create_character = {
+			first_name = "Watban"
+			last_name = "Sa_ud"
+			ruler = yes
+			culture = cu:bedouin
+			religion = rel:sunni
+			birth_date = 1381.1.1
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

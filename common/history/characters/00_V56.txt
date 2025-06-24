@@ -1,0 +1,30 @@
+﻿CHARACTERS = {
+	c:V56 = {
+		create_character = {
+			first_name = "Tolo"
+			last_name = "Aisin_Gioro"
+			heir = yes
+			culture = cu:manchu
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1433.1.1
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Cungsan"
+			last_name = "Aisin_Gioro"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:manchu
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1412.1.1
+			traits = {
+				basic_political_operator imposing 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,30 @@
+﻿CHARACTERS = {
+	c:ALB = {
+		create_character = {
+			first_name = "Gjon"
+			last_name = "Kastrioti"
+			heir = yes
+			culture = cu:albanian
+			religion = rel:catholic
+			birth_date = 1420.1.1
+			traits = {
+				basic_diplomat charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Gjergj_Skanderbeg"
+			last_name = "Kastrioti"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:albanian
+			religion = rel:catholic
+			birth_date = 1405.1.1
+			traits = {
+				expert_political_operator imposing resupply_commander 
+			}
+		}
+
+	}
+}

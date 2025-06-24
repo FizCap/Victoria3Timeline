@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:HDJ = {
+		create_character = {
+			first_name = "Abu_l_Qasim"
+			last_name = "Hawashim"
+			ruler = yes
+			culture = cu:bedouin
+			religion = rel:sunni
+			birth_date = 1422.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

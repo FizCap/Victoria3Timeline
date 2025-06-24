@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:V72 = {
+		create_character = {
+			first_name = "Hussain"
+			last_name = "Langa"
+			heir = yes
+			culture = cu:panjabi
+			religion = rel:sunni
+			birth_date = 1400.1.1
+			traits = {
+				reckless 
+			}
+		}
+
+		create_character = {
+			first_name = "Qutbudin"
+			last_name = "Langa"
+			ruler = yes
+			culture = cu:panjabi
+			religion = rel:sunni
+			birth_date = 1418.1.1
+			traits = {
+				reserved 
+			}
+		}
+
+	}
+}

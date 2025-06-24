@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:T63 = {
+		create_character = {
+			first_name = "Isma_il"
+			last_name = "al-Mawahib"
+			ruler = yes
+			culture = cu:yao
+			religion = rel:sunni
+			birth_date = 1422.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

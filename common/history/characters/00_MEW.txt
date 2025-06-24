@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:MEW = {
+		create_character = {
+			first_name = "Khumbal_Devi"
+			last_name = "Rathore"
+			female = yes
+			culture = cu:gujarati
+			religion = rel:hindu
+			birth_date = 1400.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Udai"
+			last_name = "Sisodiya"
+			heir = yes
+			culture = cu:rajput
+			religion = rel:hindu
+			birth_date = 1420.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Kumbhakarna_Singh"
+			last_name = "Sisodiya"
+			ruler = yes
+			culture = cu:rajput
+			religion = rel:hindu
+			birth_date = 1414.1.1
+			traits = {
+				experienced_political_operator innovative 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

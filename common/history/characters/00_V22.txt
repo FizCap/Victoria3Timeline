@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:V22 = {
+		create_character = {
+			first_name = "Jean_VIII"
+			ruler = yes
+			culture = cu:flemish
+			religion = rel:catholic
+			birth_date = 1396.1.1
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

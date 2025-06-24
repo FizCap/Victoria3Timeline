@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X66 = {
+		create_character = {
+			first_name = "Babji_Ballal"
+			last_name = "Chandi"
+			heir = yes
+			culture = cu:gondi
+			religion = rel:hindu
+			birth_date = 1420.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Karan_Shah"
+			last_name = "Chandi"
+			ruler = yes
+			culture = cu:gondi
+			religion = rel:hindu
+			birth_date = 1400.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

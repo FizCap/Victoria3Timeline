@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V84 = {
+		create_character = {
+			first_name = "Vakkas"
+			last_name = "Ediguid"
+			ruler = yes
+			culture = cu:tatar
+			religion = rel:sunni
+			birth_date = 1407.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

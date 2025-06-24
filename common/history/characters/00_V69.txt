@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V69 = {
+		create_character = {
+			first_name = "Kham_Sattha"
+			last_name = "Phuan"
+			ruler = yes
+			culture = cu:lao
+			religion = rel:theravada
+			birth_date = 1424.1.1
+			traits = {
+				tactful 
+			}
+		}
+
+	}
+}

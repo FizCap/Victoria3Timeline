@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W43 = {
+		create_character = {
+			first_name = "Bandu"
+			last_name = "Hada-Chauhan"
+			heir = yes
+			culture = cu:rajput
+			religion = rel:hindu
+			birth_date = 1410.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Biru"
+			last_name = "Hada-Chauhan"
+			ruler = yes
+			culture = cu:rajput
+			religion = rel:hindu
+			birth_date = 1394.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X71 = {
+		create_character = {
+			first_name = "Colimotl_Tzome"
+			last_name = "Colliman"
+			heir = yes
+			culture = cu:tarascan
+			religion = rel:animist
+			birth_date = 1440.1.1
+			traits = {
+				experienced_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Mazatl"
+			last_name = "Colliman"
+			ruler = yes
+			culture = cu:tarascan
+			religion = rel:animist
+			birth_date = 1422.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

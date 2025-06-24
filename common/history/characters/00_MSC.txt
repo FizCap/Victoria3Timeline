@@ -1,0 +1,14 @@
+﻿CHARACTERS = {
+	c:MSC = {
+		create_character = {
+			first_name = "Brim"
+			ruler = yes
+			culture = cu:muskogean
+			religion = rel:animist
+			traits = {
+				basic_political_operator kidney_stones 
+			}
+		}
+
+	}
+}

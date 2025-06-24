@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:T41 = {
+		create_character = {
+			first_name = "Karl_Ludwig_Hillensberg"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1411.11.11
+			traits = {
+				basic_colonial_administrator innovative 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ANH = {
+		create_character = {
+			first_name = "Georg_I"
+			last_name = "Askanier"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1390.1.1
+			traits = {
+				persistent 
+			}
+		}
+
+	}
+}

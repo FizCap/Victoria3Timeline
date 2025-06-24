@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BAS = {
+		create_character = {
+			first_name = "Bhaitai_Deo"
+			last_name = "Bhanja"
+			ruler = yes
+			culture = cu:gondi
+			religion = rel:hindu
+			birth_date = 1390.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

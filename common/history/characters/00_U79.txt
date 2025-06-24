@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U79 = {
+		create_character = {
+			first_name = "Abu_Walid"
+			last_name = "Saadi"
+			ruler = yes
+			culture = cu:maghrebi
+			religion = rel:sunni
+			birth_date = 1424.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

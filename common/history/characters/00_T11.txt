@@ -1,0 +1,17 @@
+﻿CHARACTERS = {
+	c:T11 = {
+		create_character = {
+			first_name = "Cihuapilli"
+			last_name = "Tzapotzinco"
+			ruler = yes
+			female = yes
+			culture = cu:nahua
+			religion = rel:animist
+			birth_date = 1421.1.1
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KAT = {
+		create_character = {
+			first_name = "Muhammad_ibn__Ali"
+			last_name = "Al_Kathiri"
+			ruler = yes
+			culture = cu:yemenite
+			religion = rel:sunni
+			birth_date = 1415.1.1
+			traits = {
+				basic_political_operator tactful 
+			}
+		}
+
+	}
+}

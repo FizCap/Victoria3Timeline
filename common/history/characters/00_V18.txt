@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:V18 = {
+		create_character = {
+			first_name = "Johann"
+			last_name = "Askanier"
+			heir = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1439.7.18
+			traits = {
+				inept trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Bernhard_II"
+			last_name = "Askanier"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1385.1.1
+			traits = {
+				persistent 
+			}
+		}
+
+	}
+}

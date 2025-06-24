@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:Y07 = {
+		create_character = {
+			first_name = "Arabanoo_Warrain"
+			ruler = yes
+			culture = cu:aborigine
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

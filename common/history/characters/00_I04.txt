@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:I04 = {
+		create_character = {
+			first_name = "Krisna"
+			last_name = "Indrapura"
+			ruler = yes
+			culture = cu:sumatran
+			religion = rel:hindu
+			birth_date = 1426.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

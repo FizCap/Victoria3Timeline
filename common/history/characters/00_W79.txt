@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W79 = {
+		create_character = {
+			first_name = "Mahmud"
+			last_name = "Timurid"
+			heir = yes
+			culture = cu:persian
+			religion = rel:sunni
+			birth_date = 1444.1.1
+			traits = {
+				alcoholic trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Babur_bin_Baysunkur"
+			last_name = "Timurid"
+			ruler = yes
+			culture = cu:uzbek
+			religion = rel:sunni
+			birth_date = 1425.1.1
+			traits = {
+				direct experienced_political_operator 
+			}
+		}
+
+	}
+}

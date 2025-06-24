@@ -1,0 +1,25 @@
+﻿CHARACTERS = {
+	c:ARK = {
+		create_character = {
+			first_name = "Ba_Saw_Phyu"
+			last_name = "Mrauk-U"
+			heir = yes
+			culture = cu:burmese
+			religion = rel:theravada
+			birth_date = 1430.3.1
+		}
+
+		create_character = {
+			first_name = "_Khayi"
+			last_name = "Mrauk-U"
+			ruler = yes
+			culture = cu:burmese
+			religion = rel:theravada
+			birth_date = 1413.5.9
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

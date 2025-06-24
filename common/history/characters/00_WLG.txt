@@ -1,0 +1,30 @@
+﻿CHARACTERS = {
+	c:WLG = {
+		create_character = {
+			first_name = "Tenagne"
+			last_name = "Solomonid"
+			culture = cu:amhara
+			religion = rel:oriental_orthodox
+			birth_date = 1420.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Mota"
+			last_name = "Damoto"
+			ruler = yes
+			culture = cu:amhara
+			religion = rel:oriental_orthodox
+			birth_date = 1421.1.1
+			traits = {
+				ambitious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

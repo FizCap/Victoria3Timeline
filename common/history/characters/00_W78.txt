@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W78 = {
+		create_character = {
+			first_name = "_Adil_Khan"
+			last_name = "Faruqi"
+			heir = yes
+			culture = cu:marathi
+			religion = rel:sunni
+			birth_date = 1430.1.1
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Miran_Mubarak_Khan_I"
+			last_name = "Faruqi"
+			ruler = yes
+			culture = cu:marathi
+			religion = rel:sunni
+			birth_date = 1420.4.28
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

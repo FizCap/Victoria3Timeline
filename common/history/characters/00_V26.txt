@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:V26 = {
+		create_character = {
+			first_name = "Charles"
+			last_name = "de_Valois"
+			heir = yes
+			culture = cu:occitan
+			religion = rel:catholic
+			birth_date = 1436.1.1
+			traits = {
+				inexperienced trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Isabella"
+			last_name = "de_Metz"
+			female = yes
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1400.1.1
+			traits = {
+				romantic 
+			}
+		}
+
+		create_character = {
+			first_name = "Rene_I"
+			last_name = "de_Valois"
+			ruler = yes
+			culture = cu:occitan
+			religion = rel:catholic
+			birth_date = 1409.1.16
+			traits = {
+				basic_diplomat compliant 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

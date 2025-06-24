@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X99 = {
+		create_character = {
+			first_name = "Manuel"
+			last_name = "Gavras"
+			heir = yes
+			culture = cu:goths
+			religion = rel:orthodox
+			birth_date = 1443.10.29
+			traits = {
+				experienced_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Alexis"
+			last_name = "Gavras"
+			ruler = yes
+			culture = cu:goths
+			religion = rel:orthodox
+			birth_date = 1389.3.8
+			traits = {
+				basic_diplomat persistent 
+			}
+		}
+
+	}
+}

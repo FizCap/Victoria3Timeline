@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:MGL = {
+		create_character = {
+			first_name = "Agbarjin"
+			last_name = "Borjigin"
+			heir = yes
+			culture = cu:mongol
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1418.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Tayisung"
+			last_name = "Borjigin"
+			ruler = yes
+			culture = cu:mongol
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1412.1.1
+			traits = {
+				arrogant 
+			}
+		}
+
+	}
+}

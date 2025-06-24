@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:X62 = {
+		create_character = {
+			first_name = "Hoboi-Hili-Miko_Yaholo"
+			ruler = yes
+			culture = cu:muskogean
+			religion = rel:animist
+			birth_date = 1423.11.11
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:V30 = {
+		create_character = {
+			first_name = "Pungla"
+			last_name = "Ing"
+			heir = yes
+			culture = cu:nepali
+			religion = rel:gelugpa
+			birth_date = 1430.1.1
+			traits = {
+				syphilis 
+			}
+		}
+
+		create_character = {
+			first_name = "Sangla"
+			last_name = "Ing"
+			ruler = yes
+			culture = cu:nepali
+			religion = rel:gelugpa
+			birth_date = 1426.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

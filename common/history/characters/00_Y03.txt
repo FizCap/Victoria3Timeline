@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:Y03 = {
+		create_character = {
+			first_name = "Jituh_Znia"
+			last_name = "Coqui"
+			ruler = yes
+			culture = cu:mixtec
+			religion = rel:animist
+			birth_date = 1420.1.1
+			traits = {
+				compliant 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,29 @@
+﻿CHARACTERS = {
+	c:BAL = {
+		create_character = {
+			first_name = "Dyah_Kertawijaya"
+			last_name = "Vijaya"
+			heir = yes
+			culture = cu:javan
+			religion = rel:hindu
+			birth_date = 1420.1.1
+			traits = {
+				arrogant 
+			}
+		}
+
+		create_character = {
+			first_name = "Suhita"
+			last_name = "Vijaya"
+			ruler = yes
+			female = yes
+			culture = cu:javan
+			religion = rel:hindu
+			birth_date = 1410.1.1
+			traits = {
+				reserved 
+			}
+		}
+
+	}
+}

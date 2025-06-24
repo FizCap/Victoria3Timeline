@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V29 = {
+		create_character = {
+			first_name = "Tuni_Djallo"
+			last_name = "Palopo"
+			ruler = yes
+			culture = cu:moluccan
+			religion = rel:animist
+			birth_date = 1409.1.1
+			traits = {
+				basic_political_operator tactful 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:PUE = {
+		create_character = {
+			first_name = "Bolsas_Tesuque"
+			ruler = yes
+			culture = cu:pueblo
+			religion = rel:animist
+			birth_date = 1423.11.11
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

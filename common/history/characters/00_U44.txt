@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U44 = {
+		create_character = {
+			first_name = "Dlembeu"
+			last_name = "Torwa"
+			ruler = yes
+			culture = cu:sena
+			religion = rel:animist
+			birth_date = 1423.1.1
+			traits = {
+				tactful 
+			}
+		}
+
+	}
+}

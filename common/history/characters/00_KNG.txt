@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KNG = {
+		create_character = {
+			first_name = "Bokar"
+			last_name = "Gorogo"
+			ruler = yes
+			culture = cu:senufo
+			religion = rel:sunni
+			birth_date = 1423.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

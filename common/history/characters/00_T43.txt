@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:T43 = {
+		create_character = {
+			first_name = "Rudolf_I"
+			ruler = yes
+			culture = cu:dutch
+			religion = rel:catholic
+			birth_date = 1390.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:U57 = {
+		create_character = {
+			first_name = "Qvarqvare"
+			last_name = "Jaqeli"
+			heir = yes
+			culture = cu:georgian
+			religion = rel:orthodox
+			birth_date = 1416.1.1
+			traits = {
+				experienced_diplomat tactful 
+			}
+		}
+
+		create_character = {
+			first_name = "Aghbugha_II"
+			last_name = "Jaqeli"
+			ruler = yes
+			culture = cu:georgian
+			religion = rel:orthodox
+			birth_date = 1425.1.1
+			traits = {
+				basic_political_operator reserved 
+			}
+		}
+
+	}
+}

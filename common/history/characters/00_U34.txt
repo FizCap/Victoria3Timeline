@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:U34 = {
+		create_character = {
+			first_name = "Omer"
+			last_name = "Ramazanoglu"
+			heir = yes
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1439.1.1
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Dundar_I"
+			last_name = "Ramazanoglu"
+			ruler = yes
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1415.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X85 = {
+		create_character = {
+			first_name = "Bierigudeera"
+			last_name = "Naa"
+			ruler = yes
+			culture = cu:mossi
+			religion = rel:animist
+			birth_date = 1424.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

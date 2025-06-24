@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U31 = {
+		create_character = {
+			first_name = "Muhammad_bin_Baysonqor"
+			last_name = "Timurid"
+			ruler = yes
+			culture = cu:uzbek
+			religion = rel:sunni
+			birth_date = 1417.1.1
+			traits = {
+				basic_political_operator direct 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V61 = {
+		create_character = {
+			first_name = "Mahmud_I"
+			last_name = "Khalji"
+			ruler = yes
+			culture = cu:rajput
+			religion = rel:sunni
+			birth_date = 1416.5.3
+			traits = {
+				cautious expert_political_operator 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U59 = {
+		create_character = {
+			first_name = "Native_Council"
+			last_name = "Badarhan"
+			ruler = yes
+			culture = cu:evenk
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1392.11.11
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

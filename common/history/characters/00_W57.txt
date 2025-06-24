@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W57 = {
+		create_character = {
+			first_name = "Ahkinxok_Muluchtzekel"
+			last_name = "Itza"
+			ruler = yes
+			culture = cu:mayan
+			religion = rel:animist
+			birth_date = 1422.1.1
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

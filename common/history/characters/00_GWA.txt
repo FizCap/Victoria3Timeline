@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:GWA = {
+		create_character = {
+			first_name = "Man_Singh"
+			last_name = "Tomar"
+			heir = yes
+			culture = cu:hindustani
+			religion = rel:hindu
+			birth_date = 1420.1.1
+			traits = {
+				arrogant 
+			}
+		}
+
+		create_character = {
+			first_name = "Beersingh_Deo"
+			last_name = "Tomar"
+			ruler = yes
+			culture = cu:hindustani
+			religion = rel:hindu
+			birth_date = 1417.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

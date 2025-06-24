@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:SER = {
+		create_character = {
+			first_name = "Lazar"
+			last_name = "Brankovic"
+			heir = yes
+			culture = cu:serb
+			religion = rel:orthodox
+			birth_date = 1421.1.1
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Jerina"
+			last_name = "Kantakouzenos"
+			female = yes
+			culture = cu:greek
+			religion = rel:orthodox
+			birth_date = 1400.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Durad_I"
+			last_name = "Brankovic"
+			ruler = yes
+			culture = cu:serb
+			religion = rel:orthodox
+			birth_date = 1377.1.1
+			traits = {
+				charismatic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

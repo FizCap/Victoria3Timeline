@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W69 = {
+		create_character = {
+			first_name = "Tarabya"
+			last_name = "Kale"
+			ruler = yes
+			culture = cu:shan
+			religion = rel:theravada
+			birth_date = 1400.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

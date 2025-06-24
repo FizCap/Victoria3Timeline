@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U70 = {
+		create_character = {
+			first_name = "Bayan_Temur"
+			last_name = "Giray"
+			ruler = yes
+			culture = cu:mongol
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1381.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

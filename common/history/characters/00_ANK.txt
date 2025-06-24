@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ANK = {
+		create_character = {
+			first_name = "Ruhinda"
+			last_name = "Hinda"
+			ruler = yes
+			culture = cu:baganda
+			religion = rel:animist
+			birth_date = 1420.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

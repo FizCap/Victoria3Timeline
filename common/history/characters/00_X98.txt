@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X98 = {
+		create_character = {
+			first_name = "Qirqmas"
+			last_name = "Al_Abu_Risha"
+			ruler = yes
+			culture = cu:mashriqi
+			religion = rel:sunni
+			birth_date = 1418.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

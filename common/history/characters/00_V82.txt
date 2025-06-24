@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V82 = {
+		create_character = {
+			first_name = "Muhammad"
+			last_name = "Banu_Yam"
+			ruler = yes
+			culture = cu:yemenite
+			religion = rel:shiite
+			birth_date = 1412.1.1
+			traits = {
+				compliant 
+			}
+		}
+
+	}
+}

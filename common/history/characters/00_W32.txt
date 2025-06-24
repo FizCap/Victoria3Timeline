@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W32 = {
+		create_character = {
+			first_name = "Jan_I"
+			last_name = "Piast"
+			ruler = yes
+			culture = cu:polish
+			religion = rel:catholic
+			birth_date = 1425.1.1
+			traits = {
+				aesthete 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W90 = {
+		create_character = {
+			first_name = "Udaya_Varman"
+			last_name = "Kolathiri"
+			ruler = yes
+			culture = cu:malayalam
+			religion = rel:hindu
+			birth_date = 1423.1.1
+			traits = {
+				basic_diplomat reserved 
+			}
+		}
+
+	}
+}

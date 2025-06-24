@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X68 = {
+		create_character = {
+			first_name = "K_iq_ab_"
+			last_name = "Chorti"
+			ruler = yes
+			culture = cu:mayan
+			religion = rel:animist
+			birth_date = 1415.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

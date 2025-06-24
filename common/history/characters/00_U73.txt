@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U73 = {
+		create_character = {
+			first_name = "Ahika_I"
+			last_name = "Ngai_Takoto"
+			ruler = yes
+			culture = cu:maori
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

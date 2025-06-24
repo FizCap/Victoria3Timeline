@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:X49 = {
+		create_character = {
+			first_name = "Albrecht_Achilles"
+			last_name = "von_Hohenzollern"
+			heir = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1414.11.9
+			traits = {
+				imposing 
+			}
+		}
+
+		create_character = {
+			first_name = "Catherine"
+			last_name = "von_Wettin"
+			female = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1421.1.1
+			traits = {
+				romantic 
+			}
+		}
+
+		create_character = {
+			first_name = "Friedrich_II"
+			last_name = "von_Hohenzollern"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1413.11.19
+			traits = {
+				aesthete 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

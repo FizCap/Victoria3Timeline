@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W73 = {
+		create_character = {
+			first_name = "Sultanzade"
+			last_name = "Karamanoglu"
+			heir = yes
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1424.1.1
+			traits = {
+				ambitious 
+			}
+		}
+
+		create_character = {
+			first_name = "Ibrahim_II"
+			last_name = "Karamanoglu"
+			ruler = yes
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1409.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

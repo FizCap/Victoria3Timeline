@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:EE1 = {
+		create_character = {
+			first_name = "Cu_Ix_Nohochacyum"
+			ruler = yes
+			culture = cu:muisca
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				basic_political_operator hedonist 
+			}
+		}
+
+	}
+}

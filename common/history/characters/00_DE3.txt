@@ -1,0 +1,25 @@
+﻿CHARACTERS = {
+	c:DE3 = {
+		create_character = {
+			first_name = "Thomas"
+			last_name = "FitzGerald"
+			heir = yes
+			culture = cu:irish
+			religion = rel:catholic
+			birth_date = 1430.1.1
+		}
+
+		create_character = {
+			first_name = "James"
+			last_name = "FitzGerald"
+			ruler = yes
+			culture = cu:irish
+			religion = rel:catholic
+			birth_date = 1399.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

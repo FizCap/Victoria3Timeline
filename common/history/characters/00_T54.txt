@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:T54 = {
+		create_character = {
+			first_name = "Gaga"
+			last_name = "Tegra_i"
+			heir = yes
+			culture = cu:sidama
+			religion = rel:animist
+			birth_date = 1430.1.1
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "Kote"
+			last_name = "Tegra_i"
+			ruler = yes
+			culture = cu:sidama
+			religion = rel:animist
+			birth_date = 1423.1.1
+			traits = {
+				basic_political_operator wrathful 
+			}
+		}
+
+	}
+}

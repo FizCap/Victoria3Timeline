@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:AIR = {
+		create_character = {
+			first_name = "Yunus"
+			last_name = "Istanbulewa"
+			ruler = yes
+			culture = cu:tuareg
+			religion = rel:sunni
+			birth_date = 1424.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

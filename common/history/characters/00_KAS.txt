@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:KAS = {
+		create_character = {
+			first_name = "Haydar_Shah"
+			last_name = "Shah_Miri"
+			heir = yes
+			culture = cu:kashmiri
+			religion = rel:shiite
+			birth_date = 1440.1.1
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Zayn_al-_Abidin"
+			last_name = "Shah_Miri"
+			ruler = yes
+			culture = cu:kashmiri
+			religion = rel:shiite
+			birth_date = 1400.6.1
+			traits = {
+				basic_political_operator direct 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,6151 @@
+﻿BUILDINGS = {
+	s:STATE_ABRUZZO = {
+		region_state:SIC = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SIC
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ABU_DHABI = {
+		region_state:ABU = {
+		}
+		region_state:BHN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:BHN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V96 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V96
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ACEH = {
+		region_state:ACE = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ACE
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U22 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U22
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X53 = {
+		}
+		region_state:X88 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X88
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ADANA = {
+		region_state:U34 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U34
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W73 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W73
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_AGRA = {
+		region_state:GAR = {
+		}
+		region_state:V48 = {
+		}
+		region_state:W66 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:W66
+						levels = 3
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+		region_state:W89 = {
+		}
+		region_state:W91 = {
+		}
+		region_state:X87 = {
+		}
+	}
+	s:STATE_ALAND = {
+		region_state:SWE = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SWE
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ALBANIA = {
+		region_state:ALB = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ALB
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:TUR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:VEN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:VEN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ALENTEJO = {
+		region_state:POR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:POR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ALEPPO = {
+		region_state:SYR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SYR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ALGIERS = {
+		region_state:TUN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U84 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U84
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V76 = {
+		}
+	}
+	s:STATE_ALSACE_LORRAINE = {
+		region_state:V26 = {
+		}
+		region_state:V58 = {
+		}
+		region_state:X15 = {
+		}
+	}
+	s:STATE_AL_RIF = {
+		region_state:MOR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:MOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U84 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U84
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_AMHARA = {
+		region_state:KFA = {
+		}
+		region_state:T54 = {
+		}
+		region_state:W45 = {
+		}
+		region_state:W61 = {
+		}
+		region_state:WLG = {
+		}
+		region_state:X96 = {
+		}
+	}
+	s:STATE_AMUR = {
+		region_state:V90 = {
+		}
+	}
+	s:STATE_ANDALUSIA = {
+		region_state:CAS = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CAS
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ANHALT = {
+		region_state:ANH = {
+		}
+		region_state:V34 = {
+		}
+	}
+	s:STATE_ANKARA = {
+		region_state:TUR = {
+		}
+	}
+	s:STATE_ANNAM = {
+		region_state:DAI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:DAI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:SH0 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SH0
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_APULIA = {
+		region_state:SIC = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SIC
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_AQUITAINE = {
+		region_state:ENG = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ENG
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W23 = {
+		}
+		region_state:X17 = {
+		}
+	}
+	s:STATE_ARAKAN = {
+		region_state:ARK = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ARK
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ARKHANGELSK = {
+		region_state:V85 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V85
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ASSAM = {
+		region_state:ASM = {
+		}
+		region_state:MNP = {
+		}
+		region_state:TIP = {
+		}
+		region_state:W68 = {
+		}
+	}
+	s:STATE_ASTURIAS = {
+		region_state:CAS = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CAS
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ATTICA = {
+		region_state:E02 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:E02
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X27 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X27
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_AUSTRIA = {
+		region_state:AUS = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:AUS
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_AUVERGNE_LIMOUSIN = {
+		region_state:X31 = {
+		}
+		region_state:X46 = {
+		}
+	}
+	s:STATE_AYDIN = {
+		region_state:TUR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_AZERBAIJAN = {
+		region_state:U63 = {
+		}
+	}
+	s:STATE_AZORES = {
+		region_state:POR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:POR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_BADEN = {
+		region_state:BAD = {
+		}
+		region_state:W94 = {
+		}
+	}
+	s:STATE_BALEARES = {
+		region_state:X22 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X22
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_BALKH = {
+		region_state:U82 = {
+		}
+	}
+	s:STATE_BALUCHISTAN = {
+		region_state:BLH = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:BLH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_BANGKOK = {
+		region_state:SIA = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SIA
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_BASRA = {
+		region_state:ARB = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ARB
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:BHN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:BHN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_BAVARIA = {
+		region_state:T40 = {
+		}
+		region_state:U24 = {
+		}
+		region_state:U35 = {
+		}
+		region_state:V19 = {
+		}
+		region_state:W56 = {
+		}
+		region_state:X30 = {
+		}
+	}
+	s:STATE_BEIJING = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:MGL = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:MGL
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+		region_state:W96 = {
+		}
+	}
+	s:STATE_BEIRA = {
+		region_state:POR = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:POR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:POR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_BESSARABIA = {
+		region_state:MOL = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:MOL
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_BIHAR = {
+		region_state:U94 = {
+		}
+		region_state:V80 = {
+		}
+	}
+	s:STATE_BOHEMIA = {
+		region_state:BOH = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:BOH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_BOMBAY = {
+		region_state:T46 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:T46
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X38 = {
+		}
+	}
+	s:STATE_BOSNIA = {
+		region_state:BOS = {
+		}
+		region_state:W49 = {
+		}
+	}
+	s:STATE_BRANDENBURG = {
+		region_state:X49 = {
+		}
+	}
+	s:STATE_BRITTANY = {
+		region_state:BRI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:BRI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_BRUNSWICK = {
+		region_state:W36 = {
+		}
+	}
+	s:STATE_BULGARIA = {
+		region_state:TUR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_BUNDELKHAND = {
+		region_state:BAG = {
+		}
+		region_state:BUN = {
+		}
+		region_state:U00 = {
+		}
+	}
+	s:STATE_BUSAN = {
+		region_state:KOR = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:KOR
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:KOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CALABRIA = {
+		region_state:SIC = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SIC
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CAMBODIA = {
+		region_state:CAM = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CAM
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CAMPANIA = {
+		region_state:PAP = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:PAP
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:SIC = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:SIC
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SIC
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CANARY_ISLANDS = {
+		region_state:CAS = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CAS
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CASTILE = {
+		region_state:CAS = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:CAS
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+		}
+	}
+	s:STATE_CATALONIA = {
+		region_state:X22 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X22
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CELEBES = {
+		region_state:M15 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:M15
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:SLW = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SLW
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V29 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V29
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X57 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X57
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CENTRAL_JAVA = {
+		region_state:JAV = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:JAV
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U68 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U68
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CENTRAL_PROVINCES = {
+		region_state:BAS = {
+		}
+		region_state:U41 = {
+		}
+		region_state:W28 = {
+		}
+		region_state:W78 = {
+		}
+		region_state:X66 = {
+		}
+	}
+	s:STATE_CEYLON = {
+		region_state:CEY = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CEY
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:MLD = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:MLD
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W59 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W59
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W92 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W92
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CHAMPAGNE = {
+		region_state:V79 = {
+		}
+	}
+	s:STATE_CHERSON = {
+		region_state:LIT = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:LIT
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CHIANG_MAI = {
+		region_state:CMI = {
+		}
+		region_state:U66 = {
+		}
+	}
+	s:STATE_CHONGQING = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 9
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_CHUBU = {
+		region_state:JAP = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:JAP
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:JAP
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CHUGOKU = {
+		region_state:JAP = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:JAP
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CHUKOTKA = {
+		region_state:C17 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:C17
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W47 = {
+		}
+	}
+	s:STATE_CIRCARS = {
+		region_state:JEY = {
+		}
+		region_state:ORI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ORI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:T46 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:T46
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:T61 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:T61
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U20 = {
+		}
+		region_state:W88 = {
+		}
+	}
+	s:STATE_CONNAUGHT = {
+		region_state:C21 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:C21
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U54 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U54
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V66 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V66
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CONSTANTINE = {
+		region_state:TUG = {
+		}
+		region_state:TUN = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:TUN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CORSICA = {
+		region_state:W30 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W30
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_COURLAND = {
+		region_state:L15 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:L15
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CRETE = {
+		region_state:VEN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:VEN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CRIMEA = {
+		region_state:CRI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CRI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W30 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W30
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X99 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X99
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CROATIA = {
+		region_state:CRO = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CRO
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CYPRUS = {
+		region_state:CYP = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CYP
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_DAGESTAN = {
+		region_state:DAG = {
+		}
+	}
+	s:STATE_DALMATIA = {
+		region_state:U33 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U33
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:VEN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:VEN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_DIYARBAKIR = {
+		region_state:W53 = {
+		}
+		region_state:X12 = {
+		}
+		region_state:X92 = {
+		}
+	}
+	s:STATE_DOBRUDJA = {
+		region_state:TUR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_DONGOLA = {
+		region_state:EGY = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:EGY
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_EASTERN_HIMALAYAS = {
+		region_state:U48 = {
+		}
+	}
+	s:STATE_EASTERN_HUBEI = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 7
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_EASTERN_NORWAY = {
+		region_state:NOR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:NOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_EASTERN_THRACE = {
+		region_state:BYZ = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:BYZ
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:TUR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_EAST_AEGEAN_ISLANDS = {
+		region_state:W30 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W30
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W93 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W93
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_EAST_ANGLIA = {
+		region_state:ENG = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ENG
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_EAST_BENGAL = {
+		region_state:X43 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:X43
+						levels = 5
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X43
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_EAST_BORNEO = {
+		region_state:KTI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:KTI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X37 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X37
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X44 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X44
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_EAST_JAVA = {
+		region_state:JAV = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:JAV
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X41 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X41
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_EAST_KARELIA = {
+		region_state:V85 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V85
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_EAST_PRUSSIA = {
+		region_state:U78 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:U78
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U78
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_EAST_SWITZERLAND = {
+		region_state:SWI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:SWI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+		}
+		region_state:U96 = {
+		}
+	}
+	s:STATE_ELBE = {
+		region_state:BRE = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:BRE
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:HAM = {
+		}
+		region_state:T45 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:T45
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V28 = {
+		}
+	}
+	s:STATE_ELIZAVETPOL = {
+		region_state:V60 = {
+		}
+	}
+	s:STATE_EMILIA = {
+		region_state:LUC = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:LUC
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ERITREA = {
+		region_state:V46 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V46
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X08 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X08
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ERZURUM = {
+		region_state:U57 = {
+		}
+		region_state:X56 = {
+		}
+	}
+	s:STATE_ESTREMADURA = {
+		region_state:POR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:POR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_FARS = {
+		region_state:ARB = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ARB
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:PER = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:PER
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_FERGANA = {
+		region_state:KYR = {
+		}
+		region_state:TJI = {
+		}
+	}
+	s:STATE_FEZ = {
+		region_state:MOR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:MOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_FLANDERS = {
+		region_state:FLA = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:FLA
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X50 = {
+		}
+	}
+	s:STATE_FRANCONIA = {
+		region_state:T50 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:T50
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+		}
+		region_state:V88 = {
+		}
+		region_state:X35 = {
+		}
+		region_state:X60 = {
+		}
+	}
+	s:STATE_FRENCH_LOW_COUNTRIES = {
+		region_state:ENG = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ENG
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X59 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X59
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_FRIESLAND = {
+		region_state:T43 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:T43
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W25 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W25
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_FUJIAN = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 8
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_GALICIA = {
+		region_state:CAS = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CAS
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_GANSU = {
+		region_state:W46 = {
+		}
+	}
+	s:STATE_GELRE = {
+		region_state:W29 = {
+		}
+	}
+	s:STATE_GONDER = {
+		region_state:ETH = {
+		}
+	}
+	s:STATE_GOTALAND = {
+		region_state:NOR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:NOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:SWE = {
+		}
+	}
+	s:STATE_GOTLAND = {
+		region_state:G02 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:G02
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_GRANADA = {
+		region_state:W37 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W37
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_GREATER_CAUCASUS = {
+		region_state:GEO = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:GEO
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_GUANGDONG = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_GUJARAT = {
+		region_state:GUJ = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:GUJ
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:IDA = {
+		}
+		region_state:JUN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:JUN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:KUT = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:KUT
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U19 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U19
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U26 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U26
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W62 = {
+		}
+	}
+	s:STATE_HAIL = {
+		region_state:BHN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:BHN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:JAB = {
+		}
+		region_state:X21 = {
+		}
+	}
+	s:STATE_HANNOVER = {
+		region_state:BRA = {
+		}
+		region_state:OLD = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:OLD
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X94 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X94
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_HEDJAZ = {
+		region_state:EGY = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:EGY
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:HDJ = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:HDJ
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V44 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V44
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V50 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V50
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_HENAN = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 8
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_HERAT = {
+		region_state:U82 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:U82
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_HESSE = {
+		region_state:FRM = {
+		}
+		region_state:HES = {
+		}
+		region_state:V35 = {
+		}
+	}
+	s:STATE_HIGHLANDS = {
+		region_state:DR2 = {
+		}
+		region_state:NOR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:NOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:SCO = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SCO
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_HILL_PUNJAB = {
+		region_state:U62 = {
+		}
+		region_state:W77 = {
+		}
+	}
+	s:STATE_HIMALAYAS = {
+		region_state:V15 = {
+		}
+		region_state:V30 = {
+		}
+		region_state:W39 = {
+		}
+		region_state:W64 = {
+		}
+		region_state:X89 = {
+		}
+		region_state:X90 = {
+		}
+	}
+	s:STATE_HINGGAN = {
+		region_state:MGL = {
+		}
+	}
+	s:STATE_HOKKAIDO = {
+		region_state:AIN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:AIN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:JAP = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:JAP
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_HOLLAND = {
+		region_state:T43 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:T43
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+		}
+		region_state:W48 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W48
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_HOME_COUNTIES = {
+		region_state:ENG = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:ENG
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ENG
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_HUDAVENDIGAR = {
+		region_state:TUR = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:TUR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_HYDERABAD = {
+		region_state:U85 = {
+		}
+		region_state:X34 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:X34
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_ICELAND = {
+		region_state:NOR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:NOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_INGRIA = {
+		region_state:V85 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:V85
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V85
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_INNER_MOROCCO = {
+		region_state:U60 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U60
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U79 = {
+		}
+	}
+	s:STATE_IONIAN_ISLANDS = {
+		region_state:E02 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:E02
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:VEN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:VEN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_IRAKAJEMI = {
+		region_state:U31 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:U31
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_ISTRIA = {
+		region_state:AUS = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:AUS
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:VEN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:VEN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_JIANGSU = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_JIANGXI = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_JUTLAND = {
+		region_state:DEN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:DEN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_KABUL = {
+		region_state:AFG = {
+		}
+	}
+	s:STATE_KACHIN = {
+		region_state:KHN = {
+		}
+		region_state:V74 = {
+		}
+	}
+	s:STATE_KAMCHATKA = {
+		region_state:CKC = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CKC
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:I09 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:I09
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_KANDAHAR = {
+		region_state:U52 = {
+		}
+		region_state:U82 = {
+		}
+	}
+	s:STATE_KANSAI = {
+		region_state:JAP = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:JAP
+						levels = 3
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:JAP
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_KANTO = {
+		region_state:JAP = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:JAP
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_KARS = {
+		region_state:GEO = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:GEO
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_KASHMIR = {
+		region_state:LAD = {
+		}
+	}
+	s:STATE_KASTAMONU = {
+		region_state:TUR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X73 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X73
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_KAUNAS = {
+		region_state:LIT = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:LIT
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_KAZAN = {
+		region_state:TAR = {
+		}
+	}
+	s:STATE_KHIVA = {
+		region_state:UZB = {
+		}
+	}
+	s:STATE_KHORASAN = {
+		region_state:U82 = {
+		}
+	}
+	s:STATE_KHUZESTAN = {
+		region_state:ARB = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ARB
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_KIRGHIZIA = {
+		region_state:KYR = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:KYR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_KOLA = {
+		region_state:V85 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V85
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_KONYA = {
+		region_state:TUR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W73 = {
+		}
+	}
+	s:STATE_KORDOFAN = {
+		region_state:EGY = {
+		}
+	}
+	s:STATE_KRASNOYARSK = {
+		region_state:ALI = {
+		}
+	}
+	s:STATE_KUBAN = {
+		region_state:CIR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CIR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:CRI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CRI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W30 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W30
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_KURSK = {
+		region_state:W35 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:W35
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_KYUSHU = {
+		region_state:JAP = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:JAP
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_LANCASHIRE = {
+		region_state:ENG = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ENG
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_LANGUEDOC = {
+		region_state:FRA = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:FRA
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:FRA
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X22 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X22
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_LAOS = {
+		region_state:LAO = {
+		}
+		region_state:V69 = {
+		}
+	}
+	s:STATE_LARISTAN = {
+		region_state:PER = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:PER
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U82 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U82
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V96 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V96
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_LAZIO = {
+		region_state:PAP = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:PAP
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:PAP
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_LEBANON = {
+		region_state:SYR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SYR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_LEINSTER = {
+		region_state:ENG = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ENG
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V21 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V21
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W03 = {
+		}
+		region_state:W81 = {
+		}
+	}
+	s:STATE_LHASA = {
+		region_state:T44 = {
+		}
+		region_state:U17 = {
+		}
+	}
+	s:STATE_LIBYA = {
+		region_state:EGY = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:EGY
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:TUN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W26 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W26
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_LOMBARDY = {
+		region_state:LOM = {
+		}
+		region_state:V37 = {
+		}
+		region_state:VEN = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:VEN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_LOWER_EGYPT = {
+		region_state:EGY = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:EGY
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:EGY
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_LOWLANDS = {
+		region_state:SCO = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SCO
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_LURISTAN = {
+		region_state:LUR = {
+		}
+	}
+	s:STATE_LUZON = {
+		region_state:T18 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:T18
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U16 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U16
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V64 = {
+		}
+	}
+	s:STATE_MACEDONIA = {
+		region_state:TUR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_MADEIRA = {
+		region_state:POR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:POR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_MADRAS = {
+		region_state:T46 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:T46
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:T46
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:TRA = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TRA
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V33 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V33
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_MALAYA = {
+		region_state:V57 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V57
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V98 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V98
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W75 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W75
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W76 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W76
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_MALTA = {
+		region_state:X22 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X22
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_MALWA = {
+		region_state:GWA = {
+		}
+		region_state:V61 = {
+		}
+		region_state:X72 = {
+		}
+	}
+	s:STATE_MANDALAY = {
+		region_state:W69 = {
+		}
+		region_state:X32 = {
+		}
+		region_state:X48 = {
+		}
+	}
+	s:STATE_MARRAKECH = {
+		region_state:MOR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:MOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V71 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V71
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_MATRUH = {
+		region_state:EGY = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:EGY
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_MAZANDARAN = {
+		region_state:MAZ = {
+		}
+		region_state:W79 = {
+		}
+		region_state:W98 = {
+		}
+		region_state:X47 = {
+		}
+	}
+	s:STATE_MAZOVIA = {
+		region_state:M34 = {
+		}
+	}
+	s:STATE_MECKLENBURG = {
+		region_state:MEC = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:MEC
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_MEKONG = {
+		region_state:B08 = {
+		}
+		region_state:CAM = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CAM
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:SH0 = {
+		}
+		region_state:U36 = {
+		}
+		region_state:W58 = {
+		}
+	}
+	s:STATE_MIDDLE_EGYPT = {
+		region_state:EGY = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:EGY
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_MIDLANDS = {
+		region_state:ENG = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:ENG
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ENG
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_MINDANAO = {
+		region_state:B14 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:B14
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U67 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U67
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V52 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V52
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_MOLDAVIA = {
+		region_state:MOL = {
+		}
+	}
+	s:STATE_MOLUCCAS = {
+		region_state:U77 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U77
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U81 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U81
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_MONTENEGRO = {
+		region_state:SER = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SER
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:VEN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:VEN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_MOSCOW = {
+		region_state:V67 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:V67
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+		}
+	}
+	s:STATE_MUNSTER = {
+		region_state:DE3 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:DE3
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U07 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U07
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V43 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V43
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V66 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V66
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_MYSORE = {
+		region_state:MYS = {
+		}
+		region_state:T46 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:T46
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_NAKHON_RATCHASIMA = {
+		region_state:SIA = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SIA
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_NANJING = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 8
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_NAVARRA = {
+		region_state:CAS = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CAS
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:NAV = {
+		}
+	}
+	s:STATE_NEJD = {
+		region_state:BHN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:BHN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:NEJ = {
+		}
+		region_state:V82 = {
+		}
+		region_state:X84 = {
+		}
+	}
+	s:STATE_NENETSIA = {
+		region_state:PRM = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:PRM
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V85 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V85
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_NGARI = {
+		region_state:W40 = {
+		}
+	}
+	s:STATE_NIZHNY_NOVGOROD = {
+		region_state:V67 = {
+		}
+	}
+	s:STATE_NORMANDY = {
+		region_state:ENG = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ENG
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_NORRLAND = {
+		region_state:SWE = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SWE
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_NORTHERN_MANCHURIA = {
+		region_state:U59 = {
+		}
+		region_state:V75 = {
+		}
+	}
+	s:STATE_NORTHERN_NORWAY = {
+		region_state:NOR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:NOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_NORTHERN_THRACE = {
+		region_state:BYZ = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:BYZ
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_NORTH_BORNEO = {
+		region_state:BRU = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:BRU
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_NORTH_CAUCASUS = {
+		region_state:A15 = {
+		}
+	}
+	s:STATE_NORTH_RHINE = {
+		region_state:W87 = {
+		}
+		region_state:X00 = {
+		}
+	}
+	s:STATE_NORTH_SUMATRA = {
+		region_state:ACE = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ACE
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:I04 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:I04
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:P12 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:P12
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U45 = {
+		}
+		region_state:W63 = {
+		}
+		region_state:X88 = {
+		}
+	}
+	s:STATE_NOVGOROD = {
+		region_state:V85 = {
+		}
+		region_state:X42 = {
+		}
+	}
+	s:STATE_OKHOTSK = {
+		region_state:CKC = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CKC
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_OMAN = {
+		region_state:MAH = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:MAH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:OMA = {
+		}
+		region_state:V96 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V96
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ORAN = {
+		region_state:U84 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U84
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ORISSA = {
+		region_state:ORI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ORI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:PTN = {
+		}
+		region_state:W38 = {
+		}
+		region_state:W85 = {
+		}
+	}
+	s:STATE_OROMIA = {
+		region_state:V70 = {
+		}
+		region_state:V92 = {
+		}
+		region_state:X08 = {
+		}
+	}
+	s:STATE_ORYOL = {
+		region_state:U43 = {
+		}
+		region_state:V93 = {
+		}
+	}
+	s:STATE_OSTROBOTHNIA = {
+		region_state:SWE = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SWE
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_OULU = {
+		region_state:SWE = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SWE
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_OUTER_MANCHURIA = {
+		region_state:V56 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V56
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V81 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V81
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_PALESTINE = {
+		region_state:EGY = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:EGY
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_PASHTUNISTAN = {
+		region_state:KAS = {
+		}
+	}
+	s:STATE_PEGU = {
+		region_state:BUR = {
+		}
+		region_state:HTH = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:HTH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_PELOPONNESE = {
+		region_state:BYZ = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:BYZ
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_PERM = {
+		region_state:PRM = {
+		}
+	}
+	s:STATE_PERSIAN_KURDISTAN = {
+		region_state:KUR = {
+		}
+	}
+	s:STATE_PICARDY = {
+		region_state:V95 = {
+		}
+		region_state:X59 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X59
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_PIEDMONT = {
+		region_state:V49 = {
+		}
+		region_state:W30 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:W30
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W30
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_POITOU = {
+		region_state:FRA = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:FRA
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_POMERANIA = {
+		region_state:U65 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U65
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U78 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U78
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W15 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W15
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_PROVENCE = {
+		region_state:SAV = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SAV
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U21 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:U21
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U21
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_PSKOV = {
+		region_state:U23 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:U23
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+		}
+		region_state:V85 = {
+		}
+	}
+	s:STATE_PUNJAB = {
+		region_state:U61 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:U61
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+		region_state:V72 = {
+		}
+	}
+	s:STATE_PYONGYANG = {
+		region_state:KOR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:KOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_QINGHAI = {
+		region_state:U70 = {
+		}
+	}
+	s:STATE_RAJPUTANA = {
+		region_state:BIK = {
+		}
+		region_state:JAS = {
+		}
+		region_state:MEW = {
+		}
+		region_state:NAG = {
+		}
+		region_state:W43 = {
+		}
+		region_state:X86 = {
+		}
+	}
+	s:STATE_RHINELAND = {
+		region_state:U93 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:U93
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+		}
+		region_state:V99 = {
+		}
+	}
+	s:STATE_RHONE = {
+		region_state:FRA = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:FRA
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+		}
+	}
+	s:STATE_RIGA = {
+		region_state:L15 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:L15
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:L15
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U37 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U37
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ROMAGNA = {
+		region_state:VEN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:VEN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W00 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W00
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X40 = {
+		}
+	}
+	s:STATE_ROSTOV = {
+		region_state:CRI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CRI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W30 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W30
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_RUHR = {
+		region_state:NAS = {
+		}
+		region_state:U42 = {
+		}
+	}
+	s:STATE_RYUKYU_ISLANDS = {
+		region_state:DL1 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:DL1
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SAKHALIN = {
+		region_state:AIN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:AIN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SAMARA = {
+		region_state:V84 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:V84
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+		}
+	}
+	s:STATE_SARDINIA = {
+		region_state:X22 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X22
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SARIWON = {
+		region_state:KOR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:KOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SAVOY = {
+		region_state:SAV = {
+		}
+	}
+	s:STATE_SAXONY = {
+		region_state:SAX = {
+		}
+		region_state:U80 = {
+		}
+	}
+	s:STATE_SCANIA = {
+		region_state:DEN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:DEN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:SWE = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SWE
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SCHLESWIG_HOLSTEIN = {
+		region_state:HOL = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:HOL
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:LUB = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:LUB
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V18 = {
+		}
+		region_state:X91 = {
+		}
+	}
+	s:STATE_SEOUL = {
+		region_state:KOR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:KOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SHANDONG = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SHANXI = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 7
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_SHAN_STATES = {
+		region_state:V65 = {
+		}
+		region_state:V68 = {
+		}
+		region_state:W51 = {
+		}
+		region_state:W52 = {
+		}
+	}
+	s:STATE_SHAOZHOU = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SHENGJING = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SHIKOKU = {
+		region_state:JAP = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:JAP
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SICHUAN = {
+		region_state:W70 = {
+		}
+	}
+	s:STATE_SICILY = {
+		region_state:X22 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X22
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SILESIA = {
+		region_state:V94 = {
+		}
+		region_state:W32 = {
+		}
+	}
+	s:STATE_SINAI = {
+		region_state:EGY = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:EGY
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SINDH = {
+		region_state:SIN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SIN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SISTAN = {
+		region_state:BLH = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:BLH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U82 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U82
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SLOVENIA = {
+		region_state:SLO = {
+		}
+	}
+	s:STATE_SOMALILAND = {
+		region_state:V45 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V45
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V70 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V70
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:WSG = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:WSG
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X08 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X08
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X11 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X11
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SOUTHERN_ANHUI = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 8
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_SOUTHERN_MANCHURIA = {
+		region_state:V53 = {
+		}
+		region_state:V56 = {
+		}
+		region_state:X95 = {
+		}
+	}
+	s:STATE_SOUTHERN_SERBIA = {
+		region_state:SER = {
+		}
+	}
+	s:STATE_SOUTH_SUMATRA = {
+		region_state:I04 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:I04
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:P11 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:P11
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SOUTH_TYROL = {
+		region_state:U89 = {
+		}
+	}
+	s:STATE_SUNDA_ISLANDS = {
+		region_state:BAL = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:BAL
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SUZHOU = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SVEALAND = {
+		region_state:SWE = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:SWE
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SWE
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_SYRIA = {
+		region_state:X98 = {
+		}
+	}
+	s:STATE_TABRIZ = {
+		region_state:U27 = {
+		}
+		region_state:U31 = {
+		}
+		region_state:X23 = {
+		}
+	}
+	s:STATE_TALINN = {
+		region_state:L15 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:L15
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_TAMBOV = {
+		region_state:W35 = {
+		}
+	}
+	s:STATE_TARTARIA = {
+		region_state:W35 = {
+		}
+	}
+	s:STATE_TARTU = {
+		region_state:L15 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:L15
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_TAURIDA = {
+		region_state:CRI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CRI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_TENASSERIM = {
+		region_state:HTH = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:HTH
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:SIA = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SIA
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U11 = {
+		}
+		region_state:V23 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V23
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W75 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W75
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_THESSALIA = {
+		region_state:TUR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_TIANSHAN = {
+		region_state:U04 = {
+		}
+	}
+	s:STATE_TOBOLSK = {
+		region_state:UZB = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:UZB
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_TOHOKU = {
+		region_state:JAP = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:JAP
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_TOLEDO = {
+		region_state:CAS = {
+		}
+	}
+	s:STATE_TONKIN = {
+		region_state:DAI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:DAI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:DAI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_TRABZON = {
+		region_state:TUR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U92 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U92
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_TRANSDANUBIA = {
+		region_state:HUN = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:HUN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+		}
+	}
+	s:STATE_TRANSJORDAN = {
+		region_state:EGY = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:EGY
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_TRAVANCORE = {
+		region_state:COC = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:COC
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:TRA = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TRA
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V32 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V32
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W90 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:W90
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_TRIPOLI = {
+		region_state:TUN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W26 = {
+		}
+	}
+	s:STATE_TUNISIA = {
+		region_state:TUN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:W31 = {
+		}
+	}
+	s:STATE_TUSCANY = {
+		region_state:U51 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U51
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V17 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V17
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_TVER = {
+		region_state:U98 = {
+		}
+	}
+	s:STATE_TYROL = {
+		region_state:U55 = {
+		}
+		region_state:V42 = {
+		}
+	}
+	s:STATE_ULIASTAI = {
+		region_state:ALI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:ALI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_ULSTER = {
+		region_state:ENG = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ENG
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:TC1 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TC1
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:TE1 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TE1
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:ULS = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ULS
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_UMBRIA = {
+		region_state:PAP = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:PAP
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:T42 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:T42
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:U15 = {
+		}
+	}
+	s:STATE_UPPER_EGYPT = {
+		region_state:EGY = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:EGY
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_UUSIMAA = {
+		region_state:SWE = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SWE
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_UZBEKIA = {
+		region_state:TJI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:TJI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_VALENCIA = {
+		region_state:CAS = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CAS
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X22 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:X22
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X22
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_VENETIA = {
+		region_state:VEN = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:VEN
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:VEN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_VISAYAS = {
+		region_state:C16 = {
+		}
+		region_state:M18 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:M18
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_VYATKA = {
+		region_state:TAR = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:TAR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_WALES = {
+		region_state:ENG = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ENG
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_WALLACHIA = {
+		region_state:WAL = {
+		}
+	}
+	s:STATE_WALLONIA = {
+		region_state:V22 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:V22
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+		}
+		region_state:X59 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:X59
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_WESTERN_NORWAY = {
+		region_state:NOR = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:NOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:NOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_WESTERN_THRACE = {
+		region_state:TUR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:TUR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_WESTPHALIA = {
+		region_state:V73 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:V73
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+		}
+		region_state:W95 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:W95
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+		region_state:X51 = {
+		}
+	}
+	s:STATE_WEST_AEGEAN_ISLANDS = {
+		region_state:V77 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:V77
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_WEST_BENGAL = {
+		region_state:COO = {
+		}
+		region_state:ORI = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:ORI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ORI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:V41 = {
+		}
+		region_state:X43 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X43
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_WEST_BORNEO = {
+		region_state:U56 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U56
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:X44 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:X44
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_WEST_COUNTRY = {
+		region_state:ENG = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ENG
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_WEST_GALICIA = {
+		region_state:POL = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:POL
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
+			}
+		}
+	}
+	s:STATE_WEST_JAVA = {
+		region_state:U68 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U68
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_WEST_KARELIA = {
+		region_state:SWE = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:SWE
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_WEST_PRUSSIA = {
+		region_state:U78 = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:U78
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_WEST_SLOVAKIA = {
+		region_state:HUN = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:HUN
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+		}
+	}
+	s:STATE_WEST_SWITZERLAND = {
+		region_state:W33 = {
+		}
+	}
+	s:STATE_WURTTEMBERG = {
+		region_state:T41 = {
+		}
+		region_state:WUR = {
+		}
+	}
+	s:STATE_YANGHO = {
+		region_state:KOR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:KOR
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_YAROSLAVL = {
+		region_state:T58 = {
+		}
+		region_state:U40 = {
+		}
+		region_state:V67 = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = c:V67
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+		}
+	}
+	s:STATE_YEMEN = {
+		region_state:KAT = {
+		}
+		region_state:LAH = {
+		}
+		region_state:MAH = {
+		}
+		region_state:YEM = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:YEM
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+		region_state:ZAI = {
+		}
+	}
+	s:STATE_YORKSHIRE = {
+		region_state:ENG = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:ENG
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_YUNNAN = {
+		region_state:V62 = {
+		}
+	}
+	s:STATE_ZEALAND = {
+		region_state:DEN = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:DEN
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ZHEJIANG = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_ZHILI = {
+		region_state:CHI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = c:CHI
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+		}
+	}
+}

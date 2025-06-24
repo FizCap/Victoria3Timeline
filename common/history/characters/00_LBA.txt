@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:LBA = {
+		create_character = {
+			first_name = "Tambwe_Kabongo"
+			last_name = "Luba"
+			ruler = yes
+			culture = cu:luba
+			religion = rel:animist
+			birth_date = 1420.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

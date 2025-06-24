@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:HTH = {
+		create_character = {
+			first_name = "Binnya_Waru"
+			last_name = "Wareru"
+			heir = yes
+			culture = cu:mon
+			religion = rel:theravada
+			birth_date = 1415.1.1
+			traits = {
+				arrogant basic_colonial_administrator 
+			}
+		}
+
+		create_character = {
+			first_name = "Binnya_Ran_I"
+			last_name = "Wareru"
+			ruler = yes
+			culture = cu:mon
+			religion = rel:theravada
+			birth_date = 1395.1.1
+			traits = {
+				charismatic experienced_diplomat 
+			}
+		}
+
+	}
+}

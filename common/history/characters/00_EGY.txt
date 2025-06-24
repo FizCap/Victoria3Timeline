@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:EGY = {
+		create_character = {
+			first_name = "Jaqmaq"
+			last_name = "Burji"
+			ruler = yes
+			culture = cu:circassian
+			religion = rel:sunni
+			birth_date = 1372.1.1
+			traits = {
+				kidney_stones meticulous 
+			}
+		}
+
+	}
+}

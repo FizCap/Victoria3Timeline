@@ -1,0 +1,31 @@
+﻿CHARACTERS = {
+	c:LOM = {
+		create_character = {
+			first_name = "Maria"
+			last_name = "di_Savoia"
+			female = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			birth_date = 1411.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Filippo_Maria_I"
+			last_name = "Visconti"
+			ruler = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			birth_date = 1392.9.3
+			traits = {
+				charismatic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V78 = {
+		create_character = {
+			first_name = "a-Nzinga"
+			last_name = "Ngola"
+			ruler = yes
+			culture = cu:ovimbundu
+			religion = rel:animist
+			birth_date = 1425.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

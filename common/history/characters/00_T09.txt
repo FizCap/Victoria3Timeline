@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:T09 = {
+		create_character = {
+			first_name = "Aztahua"
+			last_name = "Tizatlan"
+			ruler = yes
+			culture = cu:nahua
+			religion = rel:animist
+			birth_date = 1391.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

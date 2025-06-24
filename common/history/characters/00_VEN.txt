@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:VEN = {
+		create_character = {
+			first_name = "Francesco_Foscari"
+			ruler = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			birth_date = 1373.1.1
+			traits = {
+				cautious experienced_political_operator 
+			}
+		}
+
+	}
+}

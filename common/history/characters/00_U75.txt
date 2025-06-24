@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U75 = {
+		create_character = {
+			first_name = "Gonapamuhanya"
+			last_name = "Kisindile"
+			ruler = yes
+			culture = cu:chewa
+			religion = rel:animist
+			birth_date = 1426.1.1
+			traits = {
+				tactful 
+			}
+		}
+
+	}
+}

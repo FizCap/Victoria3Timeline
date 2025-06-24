@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W62 = {
+		create_character = {
+			first_name = "Vagohoji"
+			last_name = "Jhala"
+			ruler = yes
+			culture = cu:gujarati
+			religion = rel:hindu
+			birth_date = 1381.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

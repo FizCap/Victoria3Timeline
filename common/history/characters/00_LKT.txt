@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:LKT = {
+		create_character = {
+			first_name = "Ite_Omagazu_Hunkpapha"
+			ruler = yes
+			culture = cu:dakota
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				experienced_political_operator 
+			}
+		}
+
+	}
+}

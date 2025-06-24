@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:V79 = {
+		create_character = {
+			first_name = "Jean"
+			last_name = "de_Bourgogne"
+			heir = yes
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1415.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Charles_I"
+			last_name = "de_Bourgogne"
+			ruler = yes
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1396.10.25
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

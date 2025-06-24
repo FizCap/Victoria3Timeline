@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:X16 = {
+		create_character = {
+			first_name = "Lamochattee_Lumhe_Chati"
+			ruler = yes
+			culture = cu:muskogean
+			religion = rel:animist
+			birth_date = 1424.11.11
+		}
+
+	}
+}

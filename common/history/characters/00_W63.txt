@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W63 = {
+		create_character = {
+			first_name = "Achmad"
+			last_name = "Jambi"
+			ruler = yes
+			culture = cu:sumatran
+			religion = rel:sunni
+			birth_date = 1425.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

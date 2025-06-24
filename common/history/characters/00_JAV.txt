@@ -1,0 +1,29 @@
+﻿CHARACTERS = {
+	c:JAV = {
+		create_character = {
+			first_name = "Kertawijaya"
+			last_name = "Rajasanagara"
+			heir = yes
+			culture = cu:javan
+			religion = rel:hindu
+			birth_date = 1429.1.1
+			traits = {
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Suhita"
+			last_name = "Rajasanagara"
+			ruler = yes
+			female = yes
+			culture = cu:javan
+			religion = rel:hindu
+			birth_date = 1408.1.1
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+	}
+}

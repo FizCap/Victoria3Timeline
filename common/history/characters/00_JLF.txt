@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:JLF = {
+		create_character = {
+			first_name = "N_Dyelen_Mbey"
+			last_name = "Ndiaye"
+			heir = yes
+			culture = cu:wolof
+			religion = rel:sunni
+			birth_date = 1420.1.1
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Leeyti_Tyukuli"
+			last_name = "Ndiaye"
+			ruler = yes
+			culture = cu:wolof
+			religion = rel:sunni
+			birth_date = 1421.1.1
+			traits = {
+				reserved 
+			}
+		}
+
+	}
+}

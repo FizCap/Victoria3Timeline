@@ -1,0 +1,17 @@
+﻿CHARACTERS = {
+	c:U46 = {
+		create_character = {
+			first_name = "Salamasina"
+			last_name = "Tui_A_ana"
+			ruler = yes
+			female = yes
+			culture = cu:polynesian
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				basic_political_operator reserved 
+			}
+		}
+
+	}
+}

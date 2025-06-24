@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W68 = {
+		create_character = {
+			first_name = "Khorapha"
+			last_name = "Dimasa"
+			heir = yes
+			culture = cu:manipuri
+			religion = rel:hindu
+			birth_date = 1400.1.1
+			traits = {
+				tactful 
+			}
+		}
+
+		create_character = {
+			first_name = "Ladapha"
+			last_name = "Dimasa"
+			ruler = yes
+			culture = cu:manipuri
+			religion = rel:hindu
+			birth_date = 1392.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

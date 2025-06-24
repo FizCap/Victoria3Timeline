@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U26 = {
+		create_character = {
+			first_name = "Banaji"
+			last_name = "Gohil"
+			ruler = yes
+			culture = cu:gujarati
+			religion = rel:hindu
+			birth_date = 1379.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:BOS = {
+		create_character = {
+			first_name = "Stjepan_Tomasevic"
+			last_name = "Kotromanic"
+			heir = yes
+			culture = cu:bosniak
+			religion = rel:catholic
+			birth_date = 1438.1.1
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Stjepan_Tomas_Ostojic"
+			last_name = "Kotromanic"
+			ruler = yes
+			culture = cu:bosniak
+			religion = rel:catholic
+			birth_date = 1412.7.10
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

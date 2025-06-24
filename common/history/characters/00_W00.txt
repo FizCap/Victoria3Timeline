@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W00 = {
+		create_character = {
+			first_name = "Borso"
+			last_name = "d_Este"
+			heir = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			birth_date = 1413.1.1
+			traits = {
+				basic_diplomat cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Leonello_I"
+			last_name = "d_Este"
+			ruler = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			birth_date = 1407.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

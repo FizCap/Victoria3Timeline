@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X26 = {
+		create_character = {
+			first_name = "Ocheehajou_Talof_Harjo"
+			ruler = yes
+			culture = cu:muskogean
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:ETH = {
+		create_character = {
+			first_name = "Ba_eda_Maryam"
+			last_name = "Solomonid"
+			heir = yes
+			culture = cu:amhara
+			religion = rel:oriental_orthodox
+			birth_date = 1420.1.1
+			traits = {
+				ambitious 
+			}
+		}
+
+		create_character = {
+			first_name = "Zara_Yakob"
+			last_name = "Solomonid"
+			ruler = yes
+			culture = cu:amhara
+			religion = rel:oriental_orthodox
+			birth_date = 1413.6.2
+			traits = {
+				direct expert_colonial_administrator 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:U35 = {
+		create_character = {
+			first_name = "Konrad_Oelrichs"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1396.11.11
+			traits = {
+				basic_political_operator honorable 
+			}
+		}
+
+	}
+}

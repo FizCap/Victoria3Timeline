@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X21 = {
+		create_character = {
+			first_name = "Muhammed"
+			last_name = "Dhana_Maslam"
+			heir = yes
+			culture = cu:bedouin
+			religion = rel:sunni
+			birth_date = 1444.1.1
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Abdullah"
+			last_name = "Dhana_Maslam"
+			ruler = yes
+			culture = cu:bedouin
+			religion = rel:sunni
+			birth_date = 1423.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

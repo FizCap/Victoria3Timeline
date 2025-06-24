@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:COO = {
+		create_character = {
+			first_name = "Chakradhwaj"
+			last_name = "Khen"
+			heir = yes
+			culture = cu:kamarupan
+			religion = rel:hindu
+			birth_date = 1420.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Niladhwaj0"
+			last_name = "Khen"
+			ruler = yes
+			culture = cu:kamarupan
+			religion = rel:hindu
+			birth_date = 1421.1.1
+			traits = {
+				honorable 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:LUR = {
+		create_character = {
+			first_name = "Hussein"
+			last_name = "Khorshidi"
+			ruler = yes
+			culture = cu:luri
+			religion = rel:sunni
+			birth_date = 1394.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

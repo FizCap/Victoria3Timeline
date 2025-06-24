@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:C04 = {
+		create_character = {
+			first_name = "Illuppahhumba_Oucthambolo"
+			ruler = yes
+			culture = cu:muskogean
+			religion = rel:animist
+			birth_date = 1425.11.11
+		}
+
+	}
+}

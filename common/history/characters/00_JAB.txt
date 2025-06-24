@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:JAB = {
+		create_character = {
+			first_name = "Muhammed"
+			last_name = "Rashid"
+			heir = yes
+			culture = cu:bedouin
+			religion = rel:sunni
+			birth_date = 1444.1.1
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Abdullah"
+			last_name = "Rashid"
+			ruler = yes
+			culture = cu:bedouin
+			religion = rel:sunni
+			birth_date = 1424.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

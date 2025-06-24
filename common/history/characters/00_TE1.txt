@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:TE1 = {
+		create_character = {
+			first_name = "Einri"
+			last_name = "O_Neill"
+			heir = yes
+			culture = cu:irish
+			religion = rel:catholic
+			birth_date = 1435.1.1
+			traits = {
+				grifter trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Eoghan_II"
+			last_name = "O_Neill"
+			ruler = yes
+			culture = cu:irish
+			religion = rel:catholic
+			birth_date = 1413.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

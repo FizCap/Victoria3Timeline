@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:GAR = {
+		create_character = {
+			first_name = "Hansdeo"
+			last_name = "Parmar"
+			heir = yes
+			culture = cu:pahari
+			religion = rel:hindu
+			birth_date = 1420.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Sundar_Pal"
+			last_name = "Parmar"
+			ruler = yes
+			culture = cu:pahari
+			religion = rel:hindu
+			birth_date = 1379.1.1
+			traits = {
+				compliant 
+			}
+		}
+
+	}
+}

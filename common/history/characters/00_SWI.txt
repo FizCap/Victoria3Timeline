@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:SWI = {
+		create_character = {
+			first_name = "Charles_Helberingen"
+			ruler = yes
+			culture = cu:alemannic
+			religion = rel:catholic
+			birth_date = 1414.11.11
+			traits = {
+				basic_diplomat direct 
+			}
+		}
+
+	}
+}

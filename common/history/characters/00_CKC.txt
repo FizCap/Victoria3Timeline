@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:CKC = {
+		create_character = {
+			first_name = "Native_Council"
+			last_name = "Vadyo"
+			ruler = yes
+			culture = cu:siberian
+			religion = rel:tengri_pagan_reformed
+			birth_date = 1384.11.11
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

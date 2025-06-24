@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W29 = {
+		create_character = {
+			first_name = "Adolf"
+			last_name = "van_Egmond"
+			heir = yes
+			culture = cu:dutch
+			religion = rel:catholic
+			birth_date = 1438.2.12
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Arnold_I"
+			last_name = "van_Egmond"
+			ruler = yes
+			culture = cu:dutch
+			religion = rel:catholic
+			birth_date = 1410.7.14
+			traits = {
+				basic_political_operator cruel 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U97 = {
+		create_character = {
+			first_name = "Ahika_I"
+			last_name = "Ngati_Manuhiri"
+			ruler = yes
+			culture = cu:maori
+			religion = rel:animist
+			birth_date = 1423.11.11
+			traits = {
+				basic_diplomat direct 
+			}
+		}
+
+	}
+}

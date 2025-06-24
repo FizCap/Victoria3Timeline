@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:KAU = {
+		create_character = {
+			first_name = "Allambee_Amaroo"
+			ruler = yes
+			culture = cu:aborigine
+			religion = rel:animist
+			birth_date = 1423.11.11
+			traits = {
+				basic_colonial_administrator reserved 
+			}
+		}
+
+	}
+}

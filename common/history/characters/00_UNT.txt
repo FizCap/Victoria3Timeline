@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:UNT = {
+		create_character = {
+			first_name = "Ikaroa_I"
+			last_name = "Ngai_Ta_ki_Tamaki"
+			ruler = yes
+			culture = cu:maori
+			religion = rel:animist
+			birth_date = 1424.11.11
+			traits = {
+				direct masterful_diplomat 
+			}
+		}
+
+	}
+}

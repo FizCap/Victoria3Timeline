@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W53 = {
+		create_character = {
+			first_name = "al-Kamil_Ahmad"
+			last_name = "Ayyubid"
+			heir = yes
+			culture = cu:kurdish
+			religion = rel:sunni
+			birth_date = 1420.1.1
+			traits = {
+				honorable 
+			}
+		}
+
+		create_character = {
+			first_name = "al-Salih_Salah_al-Din"
+			last_name = "Ayyubid"
+			ruler = yes
+			culture = cu:kurdish
+			religion = rel:sunni
+			birth_date = 1412.1.1
+			traits = {
+				imposing 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,30 @@
+﻿CHARACTERS = {
+	c:U82 = {
+		create_character = {
+			first_name = "Ala_al-Dawla_Abd_Allah"
+			last_name = "Timurid"
+			heir = yes
+			culture = cu:uzbek
+			religion = rel:sunni
+			birth_date = 1417.1.1
+			traits = {
+				persistent 
+			}
+		}
+
+		create_character = {
+			first_name = "Shah_Rukh"
+			last_name = "Timurid"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:uzbek
+			religion = rel:sunni
+			birth_date = 1377.8.20
+			traits = {
+				experienced_political_operator innovative 
+			}
+		}
+
+	}
+}

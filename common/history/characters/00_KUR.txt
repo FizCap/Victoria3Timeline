@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KUR = {
+		create_character = {
+			first_name = "Bawa"
+			last_name = "Ardalan"
+			ruler = yes
+			culture = cu:kurdish
+			religion = rel:sunni
+			birth_date = 1378.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

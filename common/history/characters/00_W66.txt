@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W66 = {
+		create_character = {
+			first_name = "Bhikhan"
+			last_name = "Sharqi"
+			heir = yes
+			culture = cu:avadhi
+			religion = rel:sunni
+			birth_date = 1436.1.1
+			traits = {
+				imperious trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Mahmud_Shah"
+			last_name = "Sharqi"
+			ruler = yes
+			culture = cu:avadhi
+			religion = rel:sunni
+			birth_date = 1415.1.1
+			traits = {
+				basic_colonial_administrator compliant 
+			}
+		}
+
+	}
+}

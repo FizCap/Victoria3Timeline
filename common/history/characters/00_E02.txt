@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:E02 = {
+		create_character = {
+			first_name = "Carlo_II"
+			last_name = "Tocco"
+			ruler = yes
+			culture = cu:south_italian
+			religion = rel:catholic
+			birth_date = 1409.6.4
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

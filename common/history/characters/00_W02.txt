@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W02 = {
+		create_character = {
+			first_name = "Sanboddies_Apikwahki"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				experienced_political_operator 
+			}
+		}
+
+	}
+}

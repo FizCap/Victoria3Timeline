@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X35 = {
+		create_character = {
+			first_name = "Anton_von_Rotenhan"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1390.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

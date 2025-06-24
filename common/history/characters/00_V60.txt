@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V60 = {
+		create_character = {
+			first_name = "Albast"
+			last_name = "Hasan-Jalalyan"
+			ruler = yes
+			culture = cu:armenian
+			religion = rel:oriental_orthodox
+			birth_date = 1423.1.1
+			traits = {
+				tactful 
+			}
+		}
+
+	}
+}

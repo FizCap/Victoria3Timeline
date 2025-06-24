@@ -1,0 +1,3770 @@
+﻿POPULATION = {
+	c:A00 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A10 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A12 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A13 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A15 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A17 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A20 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A21 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A22 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A23 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A24 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A25 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A26 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:A27 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ABS = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ABU = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ACE = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ACH = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ADG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:AFG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:AHG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:AIN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:AIR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ALB = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ALI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ANH = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ANK = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:APC = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ARB = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ARK = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ARP = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ASH = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ASM = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:AUS = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:AYI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:AYM = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B02 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B03 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B10 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B11 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B12 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B14 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B15 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B17 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B27 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:B28 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BAD = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BAG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BAL = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BAS = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BEN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BHN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BIK = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BJA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BLA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BLE = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BLF = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BLH = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BMB = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BND = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BNG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BNJ = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BNY = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BOB = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BOH = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BOR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BOS = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BRA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BRD = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BRE = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:BRI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BRN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BRU = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BRY = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BST = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BUG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BUN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:BUR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:BYZ = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C02 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C03 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C10 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C11 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C13 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C14 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C15 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C16 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C17 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C21 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C23 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C24 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:C25 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:CAM = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:CAS = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:CEY = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:CHE = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:CHI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:CHK = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:CIR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:CKC = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:CMI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:COC = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:COM = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:COO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:CRI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:CRO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:CT1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:CYP = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:DA0 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DA1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DAG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DAH = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DAI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DAK = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DC1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DE0 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DE1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DE2 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DE3 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DEN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DFR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DFT = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DH1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DH2 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DL1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DLA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DNK = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DR2 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DU0 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DU1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DX1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DY1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:DZ1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:E02 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:E03 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:E04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:E05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:E07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:E08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:EE1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:EGY = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:EI1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ENG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ETH = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:EWE = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:FLA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:FNG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:FRA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:FRM = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:FTR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G00 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G02 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G03 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G11 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G13 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G14 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G18 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G19 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G20 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:G21 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:GA1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:GAO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:GAR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:GEO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:GGO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:GML = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:GRI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:GUJ = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:GWA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:H06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:H07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:H08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:H11 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:HAM = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_high = yes
+	}
+	c:HAW = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:HC1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:HDJ = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:HES = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:HH1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:HH2 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:HHE = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:HLA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:HOL = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:HRO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:HTH = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:HUN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:I01 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:I02 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:I03 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:I04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:I06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:I09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:IBO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:IDA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:IN1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:IRC = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:IRO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:J03 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:J04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:J05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:JAB = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:JAP = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:JAS = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:JAV = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:JEY = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:JLF = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:JUN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K00 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K03 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K12 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K13 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K14 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K15 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K16 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K17 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K18 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K21 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K29 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K30 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K31 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K32 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K33 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K34 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K35 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K36 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K37 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K38 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:K39 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KAS = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KAT = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KAU = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KBA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KBD = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KD1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KFA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KG1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KHN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KK1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KKY = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KM1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KNG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KNK = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KON = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KOR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KRG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KRU = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KSN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KTI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KUR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KUT = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KYR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:KZM = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:L02 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:L03 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:L04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:L05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:L06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:L09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:L15 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:L16 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:LAD = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:LAH = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:LAO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:LBA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:LC1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:LF1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:LGA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:LIT = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:LKT = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:LND = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:LNG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:LOM = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:LUB = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:LUC = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:LUO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:LUR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:LZO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M10 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M11 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M12 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M13 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M14 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M15 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M16 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M17 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M18 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M20 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M22 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M23 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M24 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M34 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M35 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M36 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M37 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M38 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M39 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M40 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M41 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M42 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M43 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M44 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M45 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:M46 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MAD = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MAH = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MAL = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MAZ = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MCR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MDK = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MEC = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MEW = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MGD = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MGL = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MKT = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MKU = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MLD = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MNB = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MNP = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MOL = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MOR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MRN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MRV = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MSC = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MSI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MUI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:MYS = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N00 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N10 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N11 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N12 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N13 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N14 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N15 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N16 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N17 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N18 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N20 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N21 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:N22 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NAG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NAH = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NAM = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NAS = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NAV = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NEJ = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NM1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NNG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NOR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NRU = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NTO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NTU = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NUE = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NVJ = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NY1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NY2 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NYM = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:NZP = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:O00 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:O01 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:O02 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:O03 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:O05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:O08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:O09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:OLD = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:OMA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ORI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:OUA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:OVM = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:OYO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P00 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P10 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P11 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P12 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P13 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P14 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P15 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P17 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P18 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P19 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P20 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P21 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P22 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P23 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P24 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:P25 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:PAP = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:PAT = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:PER = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:PLY = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:POL = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:PON = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:POR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:PPU = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:PRM = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:PTN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:PUE = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:PWN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Q01 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Q02 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Q04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:R03 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:R05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:RWD = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:S00 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:S07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:S08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:S10 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:S11 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:S12 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:S13 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:S14 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:S16 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:S20 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:S33 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SAH = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SAV = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SAX = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SCO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SD1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SER = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SG1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SH0 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SH1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SIA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SIC = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SIN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SL1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SLK = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SLO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SLS = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SLW = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SM1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SML = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SNG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SOK = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SSU = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:STG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SUL = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SWE = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SWI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:SYR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:T00 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T01 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T02 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T03 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T10 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T11 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T12 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T13 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T14 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T15 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T16 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T18 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T19 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T20 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T24 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T29 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T30 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T31 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T32 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T33 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T34 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T35 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T36 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T40 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T41 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:T42 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T43 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T44 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T45 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T46 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T47 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T48 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T49 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T50 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T51 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T52 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T53 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T54 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T56 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T57 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T58 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T59 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T60 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T61 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T63 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T64 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T65 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T66 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:T67 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TAR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TBI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TC1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TE1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:THL = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TID = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TIP = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TJI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TNG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TPI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TPS = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TRA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TRI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TRK = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TRZ = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TSW = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TT1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TUA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TUG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TUN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TUR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TWT = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TY1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:TY2 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U00 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U01 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U11 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U12 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U13 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U14 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U15 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U16 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U17 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U19 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U20 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U21 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U22 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U23 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U24 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U25 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U26 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U27 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U31 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U32 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U33 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:U34 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U35 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:U36 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U37 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U40 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U41 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U42 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U43 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U44 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U45 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U46 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U48 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U49 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U51 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_high = yes
+	}
+	c:U52 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U53 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U54 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U55 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:U56 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U57 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U59 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U60 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U61 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U62 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U63 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U64 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U65 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U66 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:U67 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U68 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U69 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U70 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U72 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U73 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U74 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U75 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U76 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U77 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:U78 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U79 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U80 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U81 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:U82 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U83 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U84 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U85 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U86 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U89 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U90 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U92 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U93 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U94 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U95 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U96 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U97 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U98 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:U99 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ULS = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:UN1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:UN2 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:UNT = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:UT1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:UTE = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:UYA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:UZB = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V00 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V10 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V15 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V16 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V17 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_high = yes
+	}
+	c:V18 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V19 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V20 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V21 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V22 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:V23 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V26 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:V28 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V29 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V30 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V31 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V32 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V33 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V34 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V35 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V36 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V37 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_high = yes
+	}
+	c:V38 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V40 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V41 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V42 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V43 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V44 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V45 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V46 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V48 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V49 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V50 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V51 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V52 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V53 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V55 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V56 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V57 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V58 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V59 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V60 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V61 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V62 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V63 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V64 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V65 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V66 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V67 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V68 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V69 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V70 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V71 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V72 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V73 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V74 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V75 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V76 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V77 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V78 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V79 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:V80 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V81 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V82 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V84 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V85 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V87 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V88 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_high = yes
+	}
+	c:V89 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V90 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V91 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V92 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V93 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V94 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V95 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V96 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V97 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V98 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:V99 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:VEN = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:VNT = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W00 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:W01 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W02 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W03 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W11 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W12 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W13 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W14 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W15 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W19 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W20 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W21 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W23 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W24 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W25 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W26 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W27 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W28 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W29 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:W30 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W31 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W32 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W33 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:W35 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W36 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W37 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W38 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W39 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W40 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W41 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W43 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W45 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W46 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W47 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W48 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:W49 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W51 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W52 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W53 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W55 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W56 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W57 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W58 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W59 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W61 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W62 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W63 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W64 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W65 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W66 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W67 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W68 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W69 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W70 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W71 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W72 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W73 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W75 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W76 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W77 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W78 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W79 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W80 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W81 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W83 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W84 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W85 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W86 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W87 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:W88 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W89 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W90 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W91 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W92 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W93 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W94 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:W95 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W96 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W98 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:W99 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:WAD = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:WAL = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:WK1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:WLG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:WSG = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:WTI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:WUR = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:WYU = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X00 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:X01 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X02 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X03 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X11 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X12 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X14 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X15 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:X16 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X17 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X18 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X20 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X21 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X22 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X23 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X24 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X26 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X27 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X28 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X29 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X30 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:X31 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X32 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X34 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X35 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X37 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X38 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X40 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X41 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X42 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X43 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X44 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X45 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X46 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X47 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X48 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X49 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X50 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:X51 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X53 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X54 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X56 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X57 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X58 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X59 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:X60 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X61 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X62 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X63 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X64 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X66 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X68 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X69 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X70 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X71 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X72 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X73 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X74 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X75 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X76 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X77 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X78 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X79 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X84 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X85 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X86 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X87 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_medium = yes
+	}
+	c:X88 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X89 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X90 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X91 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X92 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X94 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X95 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X96 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X97 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X98 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:X99 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:XHO = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:XK1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Y00 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Y01 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Y02 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Y03 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Y04 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Y06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Y07 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Y08 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Y09 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Y10 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Y13 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Y14 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Y15 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:YAK = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:YB1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:YEM = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:YH1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:YK1 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:YKA = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Z05 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:Z06 = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ZAI = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ZND = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+	c:ZUL = {
+		effect_starting_pop_literacy_baseline = yes
+		effect_starting_pop_wealth_low = yes
+	}
+}

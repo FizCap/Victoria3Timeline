@@ -1,0 +1,30 @@
+﻿CHARACTERS = {
+	c:WAL = {
+		create_character = {
+			first_name = "Mircea"
+			last_name = "Basarab"
+			heir = yes
+			culture = cu:romanian
+			religion = rel:orthodox
+			birth_date = 1428.1.1
+			traits = {
+				reckless 
+			}
+		}
+
+		create_character = {
+			first_name = "Vlad_II"
+			last_name = "Draculesti"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:romanian
+			religion = rel:orthodox
+			birth_date = 1390.1.1
+			traits = {
+				arrogant 
+			}
+		}
+
+	}
+}

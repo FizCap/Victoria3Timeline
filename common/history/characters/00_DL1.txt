@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:DL1 = {
+		create_character = {
+			first_name = "Shitatsu"
+			last_name = "Sho"
+			ruler = yes
+			culture = cu:japanese
+			religion = rel:animist
+			birth_date = 1426.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

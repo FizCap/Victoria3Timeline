@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:U54 = {
+		create_character = {
+			first_name = "Maghnus"
+			last_name = "O_Conor"
+			heir = yes
+			culture = cu:irish
+			religion = rel:catholic
+			birth_date = 1430.1.1
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Toirdhealbhach"
+			last_name = "O_Conor"
+			ruler = yes
+			culture = cu:irish
+			religion = rel:catholic
+			birth_date = 1424.1.1
+			traits = {
+				persistent 
+			}
+		}
+
+	}
+}

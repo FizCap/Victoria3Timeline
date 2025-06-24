@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:V88 = {
+		create_character = {
+			first_name = "Gottfried_Praun"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1398.11.11
+			traits = {
+				ambitious basic_diplomat 
+			}
+		}
+
+	}
+}

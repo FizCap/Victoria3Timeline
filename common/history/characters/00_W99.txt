@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:W99 = {
+		create_character = {
+			first_name = "Keemawassa_Tapouara"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1425.11.11
+		}
+
+	}
+}

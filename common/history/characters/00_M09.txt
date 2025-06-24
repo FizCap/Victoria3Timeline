@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:M09 = {
+		create_character = {
+			first_name = "Tepastenam_Chisasibi"
+			ruler = yes
+			culture = cu:cree
+			religion = rel:animist
+			birth_date = 1423.11.11
+			traits = {
+				experienced_diplomat 
+			}
+		}
+
+	}
+}

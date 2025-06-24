@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BHN = {
+		create_character = {
+			first_name = "Ajwad_ibn_Zamil"
+			last_name = "Jabrid"
+			ruler = yes
+			culture = cu:bedouin
+			religion = rel:sunni
+			birth_date = 1425.1.1
+			traits = {
+				arrogant experienced_political_operator 
+			}
+		}
+
+	}
+}

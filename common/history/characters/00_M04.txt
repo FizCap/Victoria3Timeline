@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:M04 = {
+		create_character = {
+			first_name = "Thebeant_Wiatiae"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1424.11.11
+			traits = {
+				experienced_diplomat 
+			}
+		}
+
+	}
+}

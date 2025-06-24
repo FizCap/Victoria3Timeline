@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U43 = {
+		create_character = {
+			first_name = "Ivan_Fyodorovich"
+			last_name = "Rurikovich"
+			ruler = yes
+			culture = cu:russian
+			religion = rel:orthodox
+			birth_date = 1402.1.1
+			traits = {
+				compliant 
+			}
+		}
+
+	}
+}

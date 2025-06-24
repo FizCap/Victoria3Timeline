@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:SLS = {
+		create_character = {
+			first_name = "Seattle_Semiahmoo"
+			ruler = yes
+			culture = cu:salish
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+	}
+}

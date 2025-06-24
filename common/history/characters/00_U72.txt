@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:U72 = {
+		create_character = {
+			first_name = "Cheyawe_Cahiague"
+			ruler = yes
+			culture = cu:iroquoian
+			religion = rel:animist
+			birth_date = 1425.11.11
+		}
+
+	}
+}

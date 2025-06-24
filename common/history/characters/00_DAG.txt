@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:DAG = {
+		create_character = {
+			first_name = "Shamkhal"
+			last_name = "Kumukh"
+			ruler = yes
+			culture = cu:north_caucasian
+			religion = rel:sunni
+			birth_date = 1424.1.1
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

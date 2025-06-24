@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:P11 = {
+		create_character = {
+			first_name = "Jisun"
+			last_name = "Shi"
+			ruler = yes
+			culture = cu:han
+			religion = rel:hindu
+			birth_date = 1424.1.1
+			traits = {
+				bigoted 
+			}
+		}
+
+	}
+}

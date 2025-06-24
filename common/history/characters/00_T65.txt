@@ -1,0 +1,30 @@
+﻿CHARACTERS = {
+	c:T65 = {
+		create_character = {
+			first_name = "Matope"
+			last_name = "Mwenemutapa"
+			heir = yes
+			culture = cu:sena
+			religion = rel:animist
+			birth_date = 1430.1.1
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Nyatsimba"
+			last_name = "Mwenemutapa"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_1
+			culture = cu:sena
+			religion = rel:animist
+			birth_date = 1412.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

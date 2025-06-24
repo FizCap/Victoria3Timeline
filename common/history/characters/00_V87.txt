@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:V87 = {
+		create_character = {
+			first_name = "Tuskenaah_Hopoethe"
+			ruler = yes
+			culture = cu:muskogean
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				expert_political_operator 
+			}
+		}
+
+	}
+}

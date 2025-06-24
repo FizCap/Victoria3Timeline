@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X54 = {
+		create_character = {
+			first_name = "Ntale"
+			last_name = "Zibondo"
+			ruler = yes
+			culture = cu:baganda
+			religion = rel:animist
+			birth_date = 1425.1.1
+			traits = {
+				basic_political_operator direct 
+			}
+		}
+
+	}
+}

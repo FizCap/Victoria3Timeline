@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:ARP = {
+		create_character = {
+			first_name = "Yackatee_Watlala"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				shellshocked 
+			}
+		}
+
+	}
+}

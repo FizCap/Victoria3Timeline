@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X94 = {
+		create_character = {
+			first_name = "Enno_Edzardisna"
+			last_name = "Cirksena"
+			ruler = yes
+			culture = cu:dutch
+			religion = rel:catholic
+			birth_date = 1380.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

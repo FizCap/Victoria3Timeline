@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:V97 = {
+		create_character = {
+			first_name = "Daughshuttayah_Junundat"
+			ruler = yes
+			culture = cu:iroquoian
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				syphilis 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:NAG = {
+		create_character = {
+			first_name = "Shams"
+			last_name = "Dandani"
+			heir = yes
+			culture = cu:pashtun
+			religion = rel:sunni
+			birth_date = 1410.1.1
+			traits = {
+				reserved 
+			}
+		}
+
+		create_character = {
+			first_name = "Qiyam_Khan"
+			last_name = "Dandani"
+			ruler = yes
+			culture = cu:pashtun
+			religion = rel:sunni
+			birth_date = 1410.1.1
+			traits = {
+				tactful 
+			}
+		}
+
+	}
+}

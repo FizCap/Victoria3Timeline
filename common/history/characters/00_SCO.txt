@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:SCO = {
+		create_character = {
+			first_name = "James_II"
+			last_name = "Stuart"
+			ruler = yes
+			culture = cu:scottish
+			religion = rel:catholic
+			birth_date = 1417.2.20
+			traits = {
+				honorable 
+			}
+		}
+
+	}
+}

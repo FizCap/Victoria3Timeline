@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:CIR = {
+		create_character = {
+			first_name = "Petrezok"
+			last_name = "Petrezok"
+			ruler = yes
+			culture = cu:circassian
+			religion = rel:orthodox
+			birth_date = 1423.1.1
+			traits = {
+				arrogant 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:U66 = {
+		create_character = {
+			first_name = "Trailok"
+			last_name = "Suphannaphum"
+			heir = yes
+			culture = cu:thai
+			religion = rel:theravada
+			birth_date = 1431.1.1
+			traits = {
+				experienced_colonial_administrator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Thammaracha_IV"
+			last_name = "Phra_Ruang"
+			ruler = yes
+			culture = cu:thai
+			religion = rel:theravada
+			birth_date = 1400.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:TJI = {
+		create_character = {
+			first_name = "_Abd_Allah_Mirza"
+			last_name = "Timurid"
+			heir = yes
+			culture = cu:uzbek
+			religion = rel:sunni
+			birth_date = 1409.5.13
+			traits = {
+				basic_diplomat direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Ulugh_Beg"
+			last_name = "Timurid"
+			ruler = yes
+			culture = cu:uzbek
+			religion = rel:sunni
+			birth_date = 1394.1.1
+			traits = {
+				experienced_diplomat imperious 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:BAG = {
+		create_character = {
+			first_name = "Shaktivan_Deo"
+			last_name = "Baghela"
+			heir = yes
+			culture = cu:hindustani
+			religion = rel:hindu
+			birth_date = 1440.1.1
+			traits = {
+				alcoholic trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Virama_Dev"
+			last_name = "Baghela"
+			ruler = yes
+			culture = cu:hindustani
+			religion = rel:hindu
+			birth_date = 1419.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

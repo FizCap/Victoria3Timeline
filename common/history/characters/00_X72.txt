@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X72 = {
+		create_character = {
+			first_name = "Prithviraj"
+			last_name = "Chauhan"
+			heir = yes
+			culture = cu:gujarati
+			religion = rel:hindu
+			birth_date = 1440.1.1
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Patai_Rawal"
+			last_name = "Chauhan"
+			ruler = yes
+			culture = cu:gujarati
+			religion = rel:hindu
+			birth_date = 1422.1.1
+			traits = {
+				basic_political_operator charismatic 
+			}
+		}
+
+	}
+}

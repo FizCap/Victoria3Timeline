@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W37 = {
+		create_character = {
+			first_name = "Muhammad_IX"
+			last_name = "Nasrid"
+			ruler = yes
+			culture = cu:andalucian
+			religion = rel:sunni
+			birth_date = 1398.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:LUC = {
+		create_character = {
+			first_name = "Nicolao_Grandi"
+			ruler = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			birth_date = 1391.11.11
+			traits = {
+				reckless 
+			}
+		}
+
+	}
+}

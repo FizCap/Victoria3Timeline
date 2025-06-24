@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:CAM = {
+		create_character = {
+			first_name = "Narayanaraja"
+			last_name = "Khmer"
+			heir = yes
+			culture = cu:khmer
+			religion = rel:theravada
+			birth_date = 1422.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Barom_Reachea_II"
+			last_name = "Khmer"
+			ruler = yes
+			culture = cu:khmer
+			religion = rel:theravada
+			birth_date = 1373.1.1
+			traits = {
+				ambitious kidney_stones 
+			}
+		}
+
+	}
+}

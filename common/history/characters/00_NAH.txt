@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:NAH = {
+		create_character = {
+			first_name = "Axayacatl"
+			last_name = "Acamapichtli"
+			heir = yes
+			culture = cu:nahua
+			religion = rel:animist
+			birth_date = 1440.1.1
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Moctezuma_I_Ilhuicamina"
+			last_name = "Acamapichtli"
+			ruler = yes
+			culture = cu:nahua
+			religion = rel:animist
+			birth_date = 1419.8.14
+			traits = {
+				ambitious experienced_political_operator 
+			}
+		}
+
+	}
+}

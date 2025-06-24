@@ -1,0 +1,31 @@
+﻿CHARACTERS = {
+	c:TWT = {
+		create_character = {
+			first_name = "Pachacuti_Inca"
+			last_name = "Hanan"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:quechua
+			religion = rel:animist
+			traits = {
+				basic_offensive_planner expert_political_operator innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Pachacuti"
+			last_name = "Hanan"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:quechua
+			religion = rel:animist
+			birth_date = 1420.1.1
+			traits = {
+				ambitious basic_offensive_planner experienced_political_operator 
+			}
+		}
+
+	}
+}

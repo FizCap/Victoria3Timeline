@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:IDA = {
+		create_character = {
+			first_name = "Bhan"
+			last_name = "Rathore"
+			ruler = yes
+			culture = cu:gujarati
+			religion = rel:hindu
+			birth_date = 1426.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:T45 = {
+		create_character = {
+			first_name = "Gerhard_III"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1408.7.9
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

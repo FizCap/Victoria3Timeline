@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X91 = {
+		create_character = {
+			first_name = "Johann_Wiben"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1401.11.11
+			traits = {
+				ambitious basic_colonial_administrator 
+			}
+		}
+
+	}
+}

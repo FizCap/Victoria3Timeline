@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ZAI = {
+		create_character = {
+			first_name = "Al-Mutahhar"
+			last_name = "al-Mutahhar"
+			ruler = yes
+			culture = cu:yemenite
+			religion = rel:shiite
+			birth_date = 1418.1.1
+			traits = {
+				arrogant 
+			}
+		}
+
+	}
+}

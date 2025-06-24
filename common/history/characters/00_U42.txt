@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:U42 = {
+		create_character = {
+			first_name = "Konrad_Buchner"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1396.11.11
+			traits = {
+				arrogant basic_political_operator 
+			}
+		}
+
+	}
+}

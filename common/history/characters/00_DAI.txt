@@ -1,0 +1,26 @@
+﻿CHARACTERS = {
+	c:DAI = {
+		create_character = {
+			first_name = "Bang_Co"
+			last_name = "Le"
+			heir = yes
+			culture = cu:vietnamese
+			religion = rel:mahayana
+			birth_date = 1441.1.1
+			traits = {
+				opium_addiction trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Trinh_Kha"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1411.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

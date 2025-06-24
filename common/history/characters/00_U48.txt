@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U48 = {
+		create_character = {
+			first_name = "Jayadhvaj_Pal"
+			last_name = "Chutiya"
+			ruler = yes
+			culture = cu:kamarupan
+			religion = rel:hindu
+			birth_date = 1414.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

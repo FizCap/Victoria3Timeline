@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:BAD = {
+		create_character = {
+			first_name = "Bernhard"
+			last_name = "von_Zahringen"
+			heir = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1428.1.1
+			traits = {
+				honorable 
+			}
+		}
+
+		create_character = {
+			first_name = "Jakob_I"
+			last_name = "von_Zahringen"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1407.3.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

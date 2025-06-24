@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BJA = {
+		create_character = {
+			first_name = "Nazir"
+			last_name = "Balawat"
+			ruler = yes
+			culture = cu:beja
+			religion = rel:sunni
+			birth_date = 1426.1.1
+			traits = {
+				reckless 
+			}
+		}
+
+	}
+}

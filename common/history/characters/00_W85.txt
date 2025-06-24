@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W85 = {
+		create_character = {
+			first_name = "Govind"
+			last_name = "Bhanj"
+			heir = yes
+			culture = cu:oriya
+			religion = rel:hindu
+			birth_date = 1444.1.1
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Batuli"
+			last_name = "Bhanj"
+			ruler = yes
+			culture = cu:oriya
+			religion = rel:hindu
+			birth_date = 1423.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

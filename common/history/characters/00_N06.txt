@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:N06 = {
+		create_character = {
+			first_name = "Moytoy_Mohe"
+			ruler = yes
+			culture = cu:paiute
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

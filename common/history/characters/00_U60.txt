@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:U60 = {
+		create_character = {
+			first_name = "Muhammad_al-Jazuli"
+			ruler = yes
+			culture = cu:berber
+			religion = rel:sunni
+			birth_date = 1399.1.1
+			traits = {
+				basic_diplomat innovative 
+			}
+		}
+
+	}
+}

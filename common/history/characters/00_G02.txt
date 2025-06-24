@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:G02 = {
+		create_character = {
+			first_name = "Eric_VII"
+			last_name = "Gryf"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1382.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

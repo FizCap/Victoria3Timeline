@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:COM = {
+		create_character = {
+			first_name = "Quarahhapoe_Titchakenah"
+			ruler = yes
+			culture = cu:paiute
+			religion = rel:animist
+			birth_date = 1424.11.11
+		}
+
+	}
+}

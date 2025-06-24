@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:SAV = {
+		create_character = {
+			first_name = "Amedeo"
+			last_name = "di_Savoia"
+			heir = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			birth_date = 1435.2.1
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Anne"
+			last_name = "de_Lusignan"
+			female = yes
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1418.9.24
+			traits = {
+				hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Ludovico_I"
+			last_name = "di_Savoia"
+			ruler = yes
+			culture = cu:north_italian
+			religion = rel:catholic
+			birth_date = 1413.2.21
+			traits = {
+				basic_diplomat direct 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

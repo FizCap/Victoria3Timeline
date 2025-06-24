@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:K13 = {
+		create_character = {
+			first_name = "Minar_Uwan"
+			ruler = yes
+			culture = cu:aborigine
+			religion = rel:animist
+			birth_date = 1424.11.11
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

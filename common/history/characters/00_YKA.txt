@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:YKA = {
+		create_character = {
+			first_name = "Mukulu"
+			last_name = "Kyambvu"
+			ruler = yes
+			culture = cu:lunda
+			religion = rel:animist
+			birth_date = 1412.1.1
+			traits = {
+				arrogant 
+			}
+		}
+
+	}
+}

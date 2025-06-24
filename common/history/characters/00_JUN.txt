@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:JUN = {
+		create_character = {
+			first_name = "Mandalika_III"
+			last_name = "Chudasama"
+			heir = yes
+			culture = cu:gujarati
+			religion = rel:hindu
+			birth_date = 1440.1.1
+			traits = {
+				experienced_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Mahipala_III"
+			last_name = "Chudasama"
+			ruler = yes
+			culture = cu:gujarati
+			religion = rel:hindu
+			birth_date = 1421.1.1
+			traits = {
+				basic_political_operator hedonist 
+			}
+		}
+
+	}
+}

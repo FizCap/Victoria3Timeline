@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BUG = {
+		create_character = {
+			first_name = "Kiggala"
+			last_name = "Abalasangeye"
+			ruler = yes
+			culture = cu:baganda
+			religion = rel:animist
+			birth_date = 1410.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W65 = {
+		create_character = {
+			first_name = "Ansa_Mani_Sourya"
+			last_name = "Konboro"
+			ruler = yes
+			culture = cu:bambara
+			religion = rel:sunni
+			birth_date = 1425.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

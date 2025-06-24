@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:MKU = {
+		create_character = {
+			first_name = "Gallo"
+			last_name = "Makua"
+			ruler = yes
+			culture = cu:makua
+			religion = rel:animist
+			birth_date = 1424.1.1
+			traits = {
+				bigoted 
+			}
+		}
+
+	}
+}

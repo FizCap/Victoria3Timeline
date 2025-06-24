@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W71 = {
+		create_character = {
+			first_name = "Abdullah_Burja_I"
+			last_name = "Kano"
+			ruler = yes
+			culture = cu:hausa
+			religion = rel:animist
+			birth_date = 1417.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

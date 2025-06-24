@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:P13 = {
+		create_character = {
+			first_name = "Amaroo_Gelar"
+			ruler = yes
+			culture = cu:aborigine
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				basic_colonial_administrator meticulous 
+			}
+		}
+
+	}
+}

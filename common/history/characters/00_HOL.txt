@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:HOL = {
+		create_character = {
+			first_name = "Adolf_VIII"
+			last_name = "von_Schauenburg"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1401.1.1
+			traits = {
+				basic_political_operator charismatic 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V70 = {
+		create_character = {
+			first_name = "Abdallah_I"
+			last_name = "Darod"
+			ruler = yes
+			culture = cu:somali
+			religion = rel:sunni
+			birth_date = 1424.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

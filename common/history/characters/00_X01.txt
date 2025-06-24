@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:X01 = {
+		create_character = {
+			first_name = "Koya_Tanu"
+			ruler = yes
+			culture = cu:athabaskan
+			religion = rel:animist
+			birth_date = 1423.11.11
+		}
+
+	}
+}

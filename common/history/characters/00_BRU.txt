@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BRU = {
+		create_character = {
+			first_name = "Sulayman"
+			last_name = "Bolkiah"
+			ruler = yes
+			culture = cu:bornean
+			religion = rel:sunni
+			birth_date = 1412.1.1
+			traits = {
+				ambitious basic_political_operator 
+			}
+		}
+
+	}
+}

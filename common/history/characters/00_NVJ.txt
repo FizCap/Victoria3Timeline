@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:NVJ = {
+		create_character = {
+			first_name = "Ahway_Eskay_Totshnii"
+			ruler = yes
+			culture = cu:navajo
+			religion = rel:animist
+			birth_date = 1423.11.11
+			traits = {
+				shellshocked 
+			}
+		}
+
+	}
+}

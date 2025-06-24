@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V21 = {
+		create_character = {
+			first_name = "Donnchad"
+			last_name = "MacMurrough-Kavanagh"
+			ruler = yes
+			culture = cu:irish
+			religion = rel:catholic
+			birth_date = 1398.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

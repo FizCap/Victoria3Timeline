@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X79 = {
+		create_character = {
+			first_name = "Itan_Kambul"
+			last_name = "Chactemal"
+			ruler = yes
+			culture = cu:mayan
+			religion = rel:animist
+			birth_date = 1410.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

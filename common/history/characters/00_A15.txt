@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:A15 = {
+		create_character = {
+			first_name = "Gebek"
+			last_name = "Avari"
+			ruler = yes
+			culture = cu:north_caucasian
+			religion = rel:sunni
+			birth_date = 1419.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

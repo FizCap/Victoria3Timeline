@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W24 = {
+		create_character = {
+			first_name = "Quashquame_Kickapoo"
+			ruler = yes
+			culture = cu:siouan
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				grifter 
+			}
+		}
+
+	}
+}

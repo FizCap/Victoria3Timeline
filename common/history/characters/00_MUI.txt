@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:MUI = {
+		create_character = {
+			first_name = "Saguamanchica"
+			last_name = "Bacata"
+			heir = yes
+			culture = cu:muisca
+			religion = rel:animist
+			birth_date = 1425.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Meicuchuca"
+			last_name = "Bacata"
+			ruler = yes
+			culture = cu:muisca
+			religion = rel:animist
+			birth_date = 1425.1.1
+			traits = {
+				reserved 
+			}
+		}
+
+	}
+}

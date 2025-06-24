@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BUN = {
+		create_character = {
+			first_name = "Arjun_Dev"
+			last_name = "Bundela"
+			ruler = yes
+			culture = cu:hindustani
+			religion = rel:hindu
+			birth_date = 1417.1.1
+			traits = {
+				tactful 
+			}
+		}
+
+	}
+}

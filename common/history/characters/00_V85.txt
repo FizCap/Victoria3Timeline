@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:V85 = {
+		create_character = {
+			first_name = "Evfimy_II"
+			ruler = yes
+			culture = cu:russian
+			religion = rel:orthodox
+			birth_date = 1385.1.1
+			traits = {
+				basic_diplomat imperious 
+			}
+		}
+
+	}
+}

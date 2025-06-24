@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:T30 = {
+		create_character = {
+			first_name = "Ruhaga"
+			last_name = "Buhaya"
+			ruler = yes
+			culture = cu:ruanda
+			religion = rel:animist
+			birth_date = 1420.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

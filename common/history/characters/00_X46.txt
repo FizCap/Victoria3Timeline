@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X46 = {
+		create_character = {
+			first_name = "Jean"
+			last_name = "de_Bourbon"
+			heir = yes
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1426.1.1
+			traits = {
+				pious 
+			}
+		}
+
+		create_character = {
+			first_name = "Charles_I"
+			last_name = "de_Bourbon"
+			ruler = yes
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1401.1.1
+			traits = {
+				basic_political_operator cautious 
+			}
+		}
+
+	}
+}

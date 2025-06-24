@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X45 = {
+		create_character = {
+			first_name = "Nana_Yaw_Awere"
+			last_name = "Bonomanhene"
+			ruler = yes
+			culture = cu:akan
+			religion = rel:animist
+			birth_date = 1423.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

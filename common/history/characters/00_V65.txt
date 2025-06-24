@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V65 = {
+		create_character = {
+			first_name = "Twet_Nga_Lu"
+			last_name = "Mong_Nai"
+			ruler = yes
+			culture = cu:shan
+			religion = rel:theravada
+			birth_date = 1425.1.1
+			traits = {
+				pious 
+			}
+		}
+
+	}
+}

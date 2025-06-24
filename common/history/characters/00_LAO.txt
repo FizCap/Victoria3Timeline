@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:LAO = {
+		create_character = {
+			first_name = "Theng_Kham"
+			last_name = "Khun_Lo"
+			heir = yes
+			culture = cu:lao
+			religion = rel:theravada
+			birth_date = 1430.1.1
+			traits = {
+				opium_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Sai_Tia_Kaphut"
+			last_name = "Khun_Lo"
+			ruler = yes
+			culture = cu:lao
+			religion = rel:theravada
+			birth_date = 1420.1.1
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+	}
+}

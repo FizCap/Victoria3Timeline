@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:WUR = {
+		create_character = {
+			first_name = "Ulrich_V"
+			last_name = "von_Wurttemberg"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1413.1.1
+			traits = {
+				persistent 
+			}
+		}
+
+	}
+}

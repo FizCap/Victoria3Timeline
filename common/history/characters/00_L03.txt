@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:L03 = {
+		create_character = {
+			first_name = "Tamaqua_Minisin"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				experienced_colonial_administrator 
+			}
+		}
+
+	}
+}

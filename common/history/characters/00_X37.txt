@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X37 = {
+		create_character = {
+			first_name = "Hayam"
+			last_name = "Berau"
+			ruler = yes
+			culture = cu:bornean
+			religion = rel:hindu
+			birth_date = 1423.1.1
+			traits = {
+				basic_political_operator romantic 
+			}
+		}
+
+	}
+}

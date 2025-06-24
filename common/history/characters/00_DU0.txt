@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:DU0 = {
+		create_character = {
+			first_name = "Marron_Jerara"
+			ruler = yes
+			culture = cu:aborigine
+			religion = rel:animist
+			birth_date = 1424.11.11
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

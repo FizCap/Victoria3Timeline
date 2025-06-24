@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W03 = {
+		create_character = {
+			first_name = "An_Calbhach"
+			last_name = "Ua_Conchobhair_Failghe"
+			ruler = yes
+			culture = cu:irish
+			religion = rel:catholic
+			birth_date = 1407.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

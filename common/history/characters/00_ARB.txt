@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ARB = {
+		create_character = {
+			first_name = "Muhammad_ibn_Falah"
+			last_name = "Musha_sha_iya"
+			ruler = yes
+			culture = cu:mashriqi
+			religion = rel:shiite
+			birth_date = 1422.1.16
+			traits = {
+				basic_political_operator bigoted 
+			}
+		}
+
+	}
+}

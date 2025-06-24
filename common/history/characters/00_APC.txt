@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:APC = {
+		create_character = {
+			first_name = "Oahtekah_Mogollon"
+			ruler = yes
+			culture = cu:apache
+			religion = rel:animist
+			birth_date = 1426.11.11
+		}
+
+	}
+}

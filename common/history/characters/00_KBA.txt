@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KBA = {
+		create_character = {
+			first_name = "Bope_Mobinji"
+			last_name = "Kuba"
+			ruler = yes
+			culture = cu:mongo
+			religion = rel:animist
+			birth_date = 1425.1.1
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

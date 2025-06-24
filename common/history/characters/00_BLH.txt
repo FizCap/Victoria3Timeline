@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BLH = {
+		create_character = {
+			first_name = "Kumbar"
+			last_name = "Mirwari"
+			ruler = yes
+			culture = cu:baluchi
+			religion = rel:sunni
+			birth_date = 1426.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

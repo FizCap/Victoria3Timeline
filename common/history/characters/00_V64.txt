@@ -1,0 +1,31 @@
+﻿CHARACTERS = {
+	c:V64 = {
+		create_character = {
+			first_name = "Ysmeria"
+			last_name = "Maynila"
+			female = yes
+			culture = cu:moro
+			religion = rel:sunni
+			birth_date = 1420.1.1
+			traits = {
+				basic_political_operator charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Salilla"
+			last_name = "Soliman"
+			ruler = yes
+			culture = cu:moro
+			religion = rel:sunni
+			birth_date = 1421.1.1
+			traits = {
+				basic_colonial_administrator charismatic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

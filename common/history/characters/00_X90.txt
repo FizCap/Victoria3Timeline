@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X90 = {
+		create_character = {
+			first_name = "Suratan"
+			last_name = "Malla"
+			heir = yes
+			culture = cu:nepali
+			religion = rel:hindu
+			birth_date = 1443.1.1
+			traits = {
+				alcoholic trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Kalyan"
+			last_name = "Malla"
+			ruler = yes
+			culture = cu:nepali
+			religion = rel:hindu
+			birth_date = 1424.1.1
+			traits = {
+				bigoted 
+			}
+		}
+
+	}
+}

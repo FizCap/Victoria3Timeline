@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W80 = {
+		create_character = {
+			first_name = "K_iq_ab_"
+			last_name = "K_iche_"
+			ruler = yes
+			culture = cu:mayan
+			religion = rel:animist
+			birth_date = 1417.1.1
+			traits = {
+				reserved 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:BRI = {
+		create_character = {
+			first_name = "Isabel"
+			last_name = "Stuart"
+			female = yes
+			culture = cu:scottish
+			religion = rel:catholic
+			birth_date = 1426.1.1
+			traits = {
+				romantic 
+			}
+		}
+
+		create_character = {
+			first_name = "Pierre"
+			last_name = "de_Dreux"
+			heir = yes
+			culture = cu:breton
+			religion = rel:catholic
+			birth_date = 1418.7.7
+			traits = {
+				charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Francois_I"
+			last_name = "de_Dreux"
+			ruler = yes
+			culture = cu:breton
+			religion = rel:catholic
+			birth_date = 1414.5.14
+			traits = {
+				charismatic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

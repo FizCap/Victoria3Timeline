@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W93 = {
+		create_character = {
+			first_name = "Jean_Bonpar_de_Lastic"
+			ruler = yes
+			culture = cu:occitan
+			religion = rel:catholic
+			birth_date = 1371.1.1
+			traits = {
+				kidney_stones meticulous 
+			}
+		}
+
+	}
+}

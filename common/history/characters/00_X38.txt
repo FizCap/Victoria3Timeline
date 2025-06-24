@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X38 = {
+		create_character = {
+			first_name = "Bhairava"
+			last_name = "Rastraudha"
+			heir = yes
+			culture = cu:marathi
+			religion = rel:hindu
+			birth_date = 1425.1.1
+			traits = {
+				romantic 
+			}
+		}
+
+		create_character = {
+			first_name = "Nanadeva_II"
+			last_name = "Rastraudha"
+			ruler = yes
+			culture = cu:marathi
+			religion = rel:hindu
+			birth_date = 1413.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W23 = {
+		create_character = {
+			first_name = "Gaston_IV"
+			last_name = "de_Foix"
+			ruler = yes
+			culture = cu:occitan
+			religion = rel:catholic
+			birth_date = 1423.2.26
+			traits = {
+				basic_political_operator honorable 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X47 = {
+		create_character = {
+			first_name = "Ala_al-Din"
+			last_name = "Eshaqvand"
+			ruler = yes
+			culture = cu:mazanderani
+			religion = rel:sunni
+			birth_date = 1410.1.1
+			traits = {
+				basic_diplomat hedonist 
+			}
+		}
+
+	}
+}

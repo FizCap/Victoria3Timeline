@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U41 = {
+		create_character = {
+			first_name = "Shankersai"
+			last_name = "Haihaya"
+			ruler = yes
+			culture = cu:gondi
+			religion = rel:hindu
+			birth_date = 1418.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:LUB = {
+		create_character = {
+			first_name = "Konrad_Nanne"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1388.11.11
+			traits = {
+				expert_political_operator meticulous 
+			}
+		}
+
+	}
+}

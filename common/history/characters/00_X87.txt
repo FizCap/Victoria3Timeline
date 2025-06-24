@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X87 = {
+		create_character = {
+			first_name = "Aladdin_Alam"
+			last_name = "Sayyid"
+			heir = yes
+			culture = cu:hindustani
+			religion = rel:sunni
+			birth_date = 1420.1.1
+			traits = {
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Mohammed_Shah_IV"
+			last_name = "Sayyid"
+			ruler = yes
+			culture = cu:hindustani
+			religion = rel:sunni
+			birth_date = 1416.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

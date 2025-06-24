@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:T57 = {
+		create_character = {
+			first_name = "Keda"
+			last_name = "Mahamat"
+			ruler = yes
+			culture = cu:teda
+			religion = rel:sunni
+			birth_date = 1425.1.1
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:MAL = {
+		create_character = {
+			first_name = "Uli"
+			last_name = "Keita"
+			heir = yes
+			culture = cu:mande
+			religion = rel:sunni
+			birth_date = 1430.1.1
+			traits = {
+				inexperienced 
+			}
+		}
+
+		create_character = {
+			first_name = "Musa_III"
+			last_name = "Keita"
+			ruler = yes
+			culture = cu:mande
+			religion = rel:sunni
+			birth_date = 1410.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

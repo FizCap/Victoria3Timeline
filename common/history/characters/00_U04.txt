@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:U04 = {
+		create_character = {
+			first_name = "Mirza_Abu_Bakr"
+			last_name = "Dughlat"
+			heir = yes
+			culture = cu:uighur
+			religion = rel:sunni
+			birth_date = 1440.1.1
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Sayyid_Ali"
+			last_name = "Dughlat"
+			ruler = yes
+			culture = cu:uighur
+			religion = rel:sunni
+			birth_date = 1416.1.1
+			traits = {
+				basic_colonial_administrator romantic 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,171 @@
+﻿POWER_BLOCS = {
+	c:CHI = {
+		create_power_bloc = {
+			name = CHI_BLOC
+			map_color = { 252 185 61 }
+			founding_date = 1438.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:CAM
+			member = c:DAI
+			member = c:DL1
+			member = c:KOR
+			member = c:LAO
+			member = c:SH0
+			member = c:SIA
+			member = c:T18
+			member = c:U16
+			member = c:U70
+			member = c:V53
+			member = c:V56
+			member = c:V62
+			member = c:V69
+			member = c:W46
+			member = c:W96
+		}
+	}
+
+	c:EGY = {
+		create_power_bloc = {
+			name = EGY_BLOC
+			map_color = { 255 205 155 }
+			founding_date = 1444.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:HDJ
+			member = c:SYR
+			member = c:X98
+		}
+	}
+
+	c:FRA = {
+		create_power_bloc = {
+			name = FRA_BLOC
+			map_color = { 20 50 210 }
+			founding_date = 1444.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:V95
+			member = c:W23
+			member = c:X17
+			member = c:X31
+			member = c:X46
+		}
+	}
+
+	c:U82 = {
+		create_power_bloc = {
+			name = U82_BLOC
+			map_color = { 213 0 39 }
+			founding_date = 1444.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:AFG
+			member = c:PER
+			member = c:TJI
+			member = c:U52
+			member = c:W79
+		}
+	}
+
+	c:X22 = {
+		create_power_bloc = {
+			name = X22_BLOC
+			map_color = { 166 68 72 }
+			founding_date = 1442.3.3
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+			
+			member = c:SIC
+		}
+	}
+
+	c:AUS = {
+		create_power_bloc = {
+			name = HOLY_ROMAN_EMPIRE_BLOC
+			map_color = { 150 177 161 }
+			founding_date = 962.2.2
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_2
+			
+			member = c:ANH
+			member = c:BAD
+			member = c:BOH
+			member = c:BRA
+			member = c:BRE
+			member = c:FRM
+			member = c:HAM
+			member = c:HES
+			member = c:HOL
+			member = c:LOM
+			member = c:LUB
+			member = c:LUC
+			member = c:MEC
+			member = c:NAS
+			member = c:OLD
+			member = c:SAV
+			member = c:SAX
+			member = c:SLO
+			member = c:SWI
+			member = c:T40
+			member = c:T41
+			member = c:T43
+			member = c:T45
+			member = c:T50
+			member = c:U24
+			member = c:U35
+			member = c:U42
+			member = c:U51
+			member = c:U55
+			member = c:U65
+			member = c:U80
+			member = c:U89
+			member = c:U93
+			member = c:U96
+			member = c:V17
+			member = c:V18
+			member = c:V19
+			member = c:V22
+			member = c:V26
+			member = c:V28
+			member = c:V34
+			member = c:V35
+			member = c:V37
+			member = c:V42
+			member = c:V49
+			member = c:V58
+			member = c:V73
+			member = c:V88
+			member = c:V94
+			member = c:V99
+			member = c:W00
+			member = c:W15
+			member = c:W25
+			member = c:W29
+			member = c:W30
+			member = c:W32
+			member = c:W33
+			member = c:W36
+			member = c:W48
+			member = c:W56
+			member = c:W87
+			member = c:W94
+			member = c:W95
+			member = c:WUR
+			member = c:X00
+			member = c:X15
+			member = c:X30
+			member = c:X35
+			member = c:X49
+			member = c:X50
+			member = c:X51
+			member = c:X60
+			member = c:X91
+		}
+	}
+
+}

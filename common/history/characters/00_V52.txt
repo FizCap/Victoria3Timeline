@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:V52 = {
+		create_character = {
+			first_name = "Tabunaway"
+			last_name = "Maguindanao"
+			heir = yes
+			culture = cu:filipino
+			religion = rel:animist
+			birth_date = 1444.1.1
+			traits = {
+				basic_diplomat trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Maraja"
+			last_name = "Maguindanao"
+			ruler = yes
+			culture = cu:filipino
+			religion = rel:animist
+			birth_date = 1423.1.1
+			traits = {
+				bigoted 
+			}
+		}
+
+	}
+}

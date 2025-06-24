@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X44 = {
+		create_character = {
+			first_name = "Amrullah_Bagus_Kasuma_I"
+			last_name = "Kutai"
+			ruler = yes
+			culture = cu:bornean
+			religion = rel:hindu
+			birth_date = 1426.11.11
+			traits = {
+				romantic 
+			}
+		}
+
+	}
+}

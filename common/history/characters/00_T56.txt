@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:T56 = {
+		create_character = {
+			first_name = "Tutul"
+			last_name = "Xiu"
+			heir = yes
+			culture = cu:mayan
+			religion = rel:animist
+			birth_date = 1420.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Ah"
+			last_name = "Xiu"
+			ruler = yes
+			culture = cu:mayan
+			religion = rel:animist
+			birth_date = 1381.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

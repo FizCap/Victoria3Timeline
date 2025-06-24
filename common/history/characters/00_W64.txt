@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W64 = {
+		create_character = {
+			first_name = "Vaksaraja"
+			last_name = "Kalyana"
+			heir = yes
+			culture = cu:nepali
+			religion = rel:hindu
+			birth_date = 1400.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Baliraja"
+			last_name = "Kalyana"
+			ruler = yes
+			culture = cu:nepali
+			religion = rel:hindu
+			birth_date = 1426.1.1
+			traits = {
+				honorable 
+			}
+		}
+
+	}
+}

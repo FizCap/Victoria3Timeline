@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:FRM = {
+		create_character = {
+			first_name = "Gerhard_Becker"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1396.11.11
+			traits = {
+				basic_political_operator bigoted 
+			}
+		}
+
+	}
+}

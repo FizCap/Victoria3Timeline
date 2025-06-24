@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X51 = {
+		create_character = {
+			first_name = "Gerhard_I"
+			last_name = "von_Julich-Berg"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1416.1.1
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+	}
+}

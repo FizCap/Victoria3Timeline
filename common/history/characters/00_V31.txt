@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V31 = {
+		create_character = {
+			first_name = "Ropata_I"
+			last_name = "Ngati_Tamatera"
+			ruler = yes
+			culture = cu:maori
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				experienced_political_operator meticulous 
+			}
+		}
+
+	}
+}

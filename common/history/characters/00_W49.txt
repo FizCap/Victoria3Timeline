@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:W49 = {
+		create_character = {
+			first_name = "Vladislav"
+			last_name = "Kosaca"
+			heir = yes
+			culture = cu:bosniak
+			religion = rel:orthodox
+			birth_date = 1426.1.1
+			traits = {
+				arrogant 
+			}
+		}
+
+		create_character = {
+			first_name = "Jelena"
+			last_name = "Balsic"
+			female = yes
+			culture = cu:bosniak
+			religion = rel:catholic
+			birth_date = 1407.1.1
+			traits = {
+				basic_political_operator reserved 
+			}
+		}
+
+		create_character = {
+			first_name = "Stjepan_I"
+			last_name = "Kosaca"
+			ruler = yes
+			culture = cu:bosniak
+			religion = rel:orthodox
+			birth_date = 1404.1.1
+			traits = {
+				experienced_diplomat wrathful 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:BRE = {
+		create_character = {
+			first_name = "Ernst_Krefting"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1392.11.11
+			traits = {
+				basic_diplomat charismatic 
+			}
+		}
+
+	}
+}

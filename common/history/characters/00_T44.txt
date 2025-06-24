@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:T44 = {
+		create_character = {
+			first_name = "Norzang"
+			last_name = "Rinpungpa"
+			ruler = yes
+			culture = cu:tibetan
+			religion = rel:gelugpa
+			birth_date = 1415.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,45 @@
+﻿CHARACTERS = {
+	c:FLA = {
+		create_character = {
+			first_name = "Charles"
+			last_name = "de_Bourgogne"
+			heir = yes
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1433.11.10
+			traits = {
+				direct trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Isabella"
+			last_name = "de_Avis"
+			female = yes
+			culture = cu:portuguese
+			religion = rel:catholic
+			birth_date = 1397.2.21
+			traits = {
+				reserved 
+			}
+		}
+
+		create_character = {
+			first_name = "Philippe_III"
+			last_name = "de_Bourgogne"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1396.7.31
+			traits = {
+				cautious expert_political_operator 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

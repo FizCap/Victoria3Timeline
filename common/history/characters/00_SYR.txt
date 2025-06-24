@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:SYR = {
+		create_character = {
+			first_name = "Izz_al-Din"
+			last_name = "Buhtur"
+			ruler = yes
+			culture = cu:mashriqi
+			religion = rel:sunni
+			birth_date = 1426.11.11
+			traits = {
+				basic_diplomat charismatic 
+			}
+		}
+
+	}
+}

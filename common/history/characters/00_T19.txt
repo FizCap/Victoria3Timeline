@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:T19 = {
+		create_character = {
+			first_name = "Jerara_Amaroo"
+			ruler = yes
+			culture = cu:aborigine
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				experienced_political_operator reserved 
+			}
+		}
+
+	}
+}

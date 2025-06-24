@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:LND = {
+		create_character = {
+			first_name = "Mbala"
+			last_name = "Mwaantaangaand"
+			ruler = yes
+			culture = cu:lunda
+			religion = rel:animist
+			birth_date = 1421.1.1
+			traits = {
+				tactful 
+			}
+		}
+
+	}
+}

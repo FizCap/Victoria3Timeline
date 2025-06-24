@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W52 = {
+		create_character = {
+			first_name = "Hkun_Neng"
+			last_name = "Hsipaw"
+			ruler = yes
+			culture = cu:shan
+			religion = rel:theravada
+			birth_date = 1423.1.1
+			traits = {
+				basic_political_operator hedonist 
+			}
+		}
+
+	}
+}

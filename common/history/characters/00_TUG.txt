@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:TUG = {
+		create_character = {
+			first_name = "Ali"
+			last_name = "Beni_Djellab"
+			heir = yes
+			culture = cu:maghrebi
+			religion = rel:sunni
+			birth_date = 1410.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Mubarak"
+			last_name = "Beni_Djellab"
+			ruler = yes
+			culture = cu:maghrebi
+			religion = rel:sunni
+			birth_date = 1411.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

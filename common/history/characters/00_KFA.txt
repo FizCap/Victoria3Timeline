@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KFA = {
+		create_character = {
+			first_name = "Shongetato_I"
+			last_name = "Minjo"
+			ruler = yes
+			culture = cu:sidama
+			religion = rel:oriental_orthodox
+			birth_date = 1406.1.1
+			traits = {
+				basic_colonial_administrator innovative 
+			}
+		}
+
+	}
+}

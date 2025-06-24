@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KUT = {
+		create_character = {
+			first_name = "Bhenji"
+			last_name = "Jadeja"
+			ruler = yes
+			culture = cu:gujarati
+			religion = rel:hindu
+			birth_date = 1409.1.1
+			traits = {
+				compliant 
+			}
+		}
+
+	}
+}

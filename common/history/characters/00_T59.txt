@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:T59 = {
+		create_character = {
+			first_name = "Komdao_I"
+			last_name = "Tenga_Niama"
+			ruler = yes
+			culture = cu:mossi
+			religion = rel:animist
+			birth_date = 1425.1.1
+			traits = {
+				compliant 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V95 = {
+		create_character = {
+			first_name = "Charles_I"
+			last_name = "de_Valois"
+			ruler = yes
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1394.11.24
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

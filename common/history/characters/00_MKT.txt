@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:MKT = {
+		create_character = {
+			first_name = "Pacal_Balam_Hnuyg"
+			ruler = yes
+			culture = cu:miskito
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				direct experienced_colonial_administrator 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,63 @@
+﻿CHARACTERS = {
+	c:FRA = {
+		create_character = {
+			first_name = "Jean_Bureau"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1423.1.1
+			traits = {
+				cautious resupply_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Jean_de_Dunois"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1411.1.1
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+		create_character = {
+			first_name = "Louis"
+			last_name = "de_Valois"
+			heir = yes
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1423.7.3
+			traits = {
+				basic_colonial_administrator tactful 
+			}
+		}
+
+		create_character = {
+			first_name = "Marie"
+			last_name = "d_Anjou"
+			female = yes
+			culture = cu:occitan
+			religion = rel:catholic
+			birth_date = 1404.10.14
+			traits = {
+				bigoted experienced_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "Charles_VII"
+			last_name = "de_Valois"
+			ruler = yes
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1403.2.22
+			traits = {
+				basic_political_operator imposing 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

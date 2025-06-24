@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:CRI = {
+		create_character = {
+			first_name = "Nur_Devlet"
+			last_name = "Giray"
+			heir = yes
+			culture = cu:tatar
+			religion = rel:sunni
+			birth_date = 1420.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Haji_I"
+			last_name = "Giray"
+			ruler = yes
+			culture = cu:tatar
+			religion = rel:sunni
+			birth_date = 1397.1.1
+			traits = {
+				basic_political_operator tactful 
+			}
+		}
+
+	}
+}

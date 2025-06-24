@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:NAV = {
+		create_character = {
+			first_name = "Joan_II"
+			last_name = "de_Trastamara"
+			ruler = yes
+			culture = cu:basque
+			religion = rel:catholic
+			birth_date = 1397.6.29
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

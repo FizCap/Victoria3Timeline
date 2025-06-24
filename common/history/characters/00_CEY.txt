@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:CEY = {
+		create_character = {
+			first_name = "Jayabahu"
+			last_name = "Savulu"
+			heir = yes
+			culture = cu:sinhala
+			religion = rel:theravada
+			birth_date = 1408.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Parakramabahu_VII"
+			last_name = "Savulu"
+			ruler = yes
+			culture = cu:sinhala
+			religion = rel:theravada
+			birth_date = 1390.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

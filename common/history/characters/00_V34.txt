@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:V34 = {
+		create_character = {
+			first_name = "Gunther_II"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1382.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

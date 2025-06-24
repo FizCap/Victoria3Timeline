@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:T46 = {
+		create_character = {
+			first_name = "Mallikarjuna"
+			last_name = "Sangama"
+			heir = yes
+			culture = cu:kannada
+			religion = rel:hindu
+			birth_date = 1424.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Devaraya_II"
+			last_name = "Sangama"
+			ruler = yes
+			culture = cu:kannada
+			religion = rel:hindu
+			birth_date = 1405.1.1
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+	}
+}

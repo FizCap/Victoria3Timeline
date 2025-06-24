@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:C05 = {
+		create_character = {
+			first_name = "Tinnehinan_Nacogdoche"
+			ruler = yes
+			culture = cu:caddoan
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+	}
+}

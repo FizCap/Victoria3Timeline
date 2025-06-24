@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:OMA = {
+		create_character = {
+			first_name = "Abul_Hassan"
+			last_name = "Nabhan"
+			ruler = yes
+			culture = cu:bedouin
+			religion = rel:ibadi
+			birth_date = 1414.1.1
+			traits = {
+				persistent 
+			}
+		}
+
+	}
+}

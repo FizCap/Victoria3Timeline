@@ -1,0 +1,30 @@
+﻿CHARACTERS = {
+	c:SIA = {
+		create_character = {
+			first_name = "Trailok"
+			last_name = "Suphannaphum"
+			heir = yes
+			culture = cu:thai
+			religion = rel:theravada
+			birth_date = 1431.1.1
+			traits = {
+				experienced_colonial_administrator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Borommaracha_II"
+			last_name = "Suphannaphum"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:thai
+			religion = rel:theravada
+			birth_date = 1405.1.1
+			traits = {
+				basic_political_operator direct 
+			}
+		}
+
+	}
+}

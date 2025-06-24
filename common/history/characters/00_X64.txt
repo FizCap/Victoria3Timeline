@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X64 = {
+		create_character = {
+			first_name = "Acalan_I"
+			last_name = "Zacateco"
+			ruler = yes
+			culture = cu:chichimecan
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

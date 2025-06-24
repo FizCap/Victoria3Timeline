@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ACE = {
+		create_character = {
+			first_name = "Inayat_Shah"
+			last_name = "Inayat"
+			ruler = yes
+			culture = cu:sumatran
+			religion = rel:sunni
+			birth_date = 1381.1.1
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

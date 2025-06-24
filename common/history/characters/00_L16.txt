@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:L16 = {
+		create_character = {
+			first_name = "Toratora_Panapi"
+			ruler = yes
+			culture = cu:guajiro
+			religion = rel:animist
+			birth_date = 1424.11.11
+			traits = {
+				basic_political_operator meticulous 
+			}
+		}
+
+	}
+}

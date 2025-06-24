@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X92 = {
+		create_character = {
+			first_name = "Melik"
+			last_name = "Dulkadiroglu"
+			heir = yes
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1428.1.1
+			traits = {
+				imposing 
+			}
+		}
+
+		create_character = {
+			first_name = "Sulayman"
+			last_name = "Dulkadiroglu"
+			ruler = yes
+			culture = cu:turkish
+			religion = rel:sunni
+			birth_date = 1398.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

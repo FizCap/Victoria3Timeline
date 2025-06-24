@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U86 = {
+		create_character = {
+			first_name = "Akil"
+			last_name = "Akamalwal"
+			ruler = yes
+			culture = cu:tuareg
+			religion = rel:sunni
+			birth_date = 1413.1.1
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

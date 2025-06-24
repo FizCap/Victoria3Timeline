@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:SIN = {
+		create_character = {
+			first_name = "Sikander"
+			last_name = "Samma"
+			heir = yes
+			culture = cu:sindi
+			religion = rel:sunni
+			birth_date = 1444.1.1
+			traits = {
+				alcoholic trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Tughluq"
+			last_name = "Samma"
+			ruler = yes
+			culture = cu:sindi
+			religion = rel:sunni
+			birth_date = 1404.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

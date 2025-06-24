@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:TUN = {
+		create_character = {
+			first_name = "Yahya"
+			last_name = "Hafsid"
+			heir = yes
+			culture = cu:maghrebi
+			religion = rel:sunni
+			birth_date = 1435.9.18
+			traits = {
+				alcoholic trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "_Uthman"
+			last_name = "Hafsid"
+			ruler = yes
+			culture = cu:maghrebi
+			religion = rel:sunni
+			birth_date = 1415.9.18
+			traits = {
+				wrathful 
+			}
+		}
+
+	}
+}

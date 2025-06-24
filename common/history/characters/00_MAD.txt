@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:MAD = {
+		create_character = {
+			first_name = "Andrianampandrandrandava"
+			last_name = "Vazimba"
+			ruler = yes
+			culture = cu:malagasy
+			religion = rel:animist
+			birth_date = 1420.1.1
+			traits = {
+				bigoted 
+			}
+		}
+
+	}
+}

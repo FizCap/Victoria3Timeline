@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:SLO = {
+		create_character = {
+			first_name = "Ulrik"
+			last_name = "von_Cilli"
+			heir = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1406.1.1
+			traits = {
+				basic_diplomat pious 
+			}
+		}
+
+		create_character = {
+			first_name = "Friderik_II"
+			last_name = "von_Cilli"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1379.1.17
+			traits = {
+				basic_political_operator wrathful 
+			}
+		}
+
+	}
+}

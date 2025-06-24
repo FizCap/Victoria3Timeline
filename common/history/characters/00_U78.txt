@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:U78 = {
+		create_character = {
+			first_name = "Konrad_von_Erlichshausen"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1393.1.1
+			traits = {
+				tactful 
+			}
+		}
+
+	}
+}

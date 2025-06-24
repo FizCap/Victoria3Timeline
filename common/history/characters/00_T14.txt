@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:T14 = {
+		create_character = {
+			first_name = "Vahxak"
+			last_name = "Tzotzil"
+			ruler = yes
+			culture = cu:mayan
+			religion = rel:animist
+			birth_date = 1416.1.1
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

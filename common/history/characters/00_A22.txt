@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:A22 = {
+		create_character = {
+			first_name = "Janduwy_Aimore"
+			ruler = yes
+			culture = cu:je
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				direct experienced_colonial_administrator 
+			}
+		}
+
+	}
+}

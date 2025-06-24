@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:U64 = {
+		create_character = {
+			first_name = "Dunquat_Atiraguenrek"
+			ruler = yes
+			culture = cu:iroquoian
+			religion = rel:animist
+			birth_date = 1424.11.11
+			traits = {
+				inept 
+			}
+		}
+
+	}
+}

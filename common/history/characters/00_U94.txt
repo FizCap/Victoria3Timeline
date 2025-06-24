@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:U94 = {
+		create_character = {
+			first_name = "Dhir_Singh"
+			last_name = "Oinwara"
+			heir = yes
+			culture = cu:bihari
+			religion = rel:hindu
+			birth_date = 1420.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Nar_Singh"
+			last_name = "Oinwara"
+			ruler = yes
+			culture = cu:bihari
+			religion = rel:hindu
+			birth_date = 1421.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

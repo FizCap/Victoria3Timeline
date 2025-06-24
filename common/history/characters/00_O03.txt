@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:O03 = {
+		create_character = {
+			first_name = "Kaviu_Tohono"
+			ruler = yes
+			culture = cu:oodham
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				basic_colonial_administrator 
+			}
+		}
+
+	}
+}

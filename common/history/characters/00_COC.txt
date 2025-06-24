@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:COC = {
+		create_character = {
+			first_name = "Unni_Rama_Koil_I"
+			last_name = "Perumal"
+			ruler = yes
+			culture = cu:malayalam
+			religion = rel:hindu
+			birth_date = 1423.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

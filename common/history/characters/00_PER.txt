@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:PER = {
+		create_character = {
+			first_name = "Abdallah_bin_Ibrahim"
+			last_name = "Timurid"
+			heir = yes
+			culture = cu:uzbek
+			religion = rel:sunni
+			birth_date = 1433.1.1
+			traits = {
+				basic_colonial_administrator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Mu_izz_al-Din_Malik"
+			last_name = "Simnani"
+			ruler = yes
+			culture = cu:persian
+			religion = rel:sunni
+			birth_date = 1391.1.1
+			traits = {
+				shellshocked 
+			}
+		}
+
+	}
+}

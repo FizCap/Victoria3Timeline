@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:U92 = {
+		create_character = {
+			first_name = "Dauid"
+			last_name = "Komnenos"
+			heir = yes
+			culture = cu:greek
+			religion = rel:orthodox
+			birth_date = 1408.1.1
+			traits = {
+				honorable 
+			}
+		}
+
+		create_character = {
+			first_name = "Ioannes_IV"
+			last_name = "Komnenos"
+			ruler = yes
+			culture = cu:greek
+			religion = rel:orthodox
+			birth_date = 1409.10.29
+			traits = {
+				aesthete basic_diplomat 
+			}
+		}
+
+	}
+}

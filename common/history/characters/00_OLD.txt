@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:OLD = {
+		create_character = {
+			first_name = "Gerhard"
+			last_name = "von_Oldenburg"
+			heir = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1430.1.1
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+		create_character = {
+			first_name = "Christian_VI"
+			last_name = "von_Oldenburg"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1426.1.1
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

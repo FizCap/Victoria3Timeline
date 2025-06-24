@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:T29 = {
+		create_character = {
+			first_name = "Mbicy_Tupina"
+			ruler = yes
+			culture = cu:tupinamba
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				aesthete basic_political_operator 
+			}
+		}
+
+	}
+}

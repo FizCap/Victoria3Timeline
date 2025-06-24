@@ -1,0 +1,12 @@
+﻿CHARACTERS = {
+	c:X29 = {
+		create_character = {
+			first_name = "Tehaawtorens_Anonatea"
+			ruler = yes
+			culture = cu:iroquoian
+			religion = rel:animist
+			birth_date = 1423.11.11
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U90 = {
+		create_character = {
+			first_name = "Acamapichtli_Panitzin"
+			last_name = "Tlantli"
+			ruler = yes
+			culture = cu:nahua
+			religion = rel:animist
+			birth_date = 1421.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

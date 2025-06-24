@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X57 = {
+		create_character = {
+			first_name = "Tuni_Palonga"
+			last_name = "Bau-Bau"
+			ruler = yes
+			culture = cu:moluccan
+			religion = rel:animist
+			birth_date = 1409.1.1
+			traits = {
+				basic_political_operator pious 
+			}
+		}
+
+	}
+}

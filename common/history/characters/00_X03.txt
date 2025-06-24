@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X03 = {
+		create_character = {
+			first_name = "Coatl"
+			last_name = "Xalisco"
+			ruler = yes
+			culture = cu:nahua
+			religion = rel:animist
+			birth_date = 1422.1.1
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

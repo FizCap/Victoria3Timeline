@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U74 = {
+		create_character = {
+			first_name = "Tangaxuan"
+			last_name = "Uacusecha"
+			ruler = yes
+			culture = cu:tarascan
+			religion = rel:animist
+			birth_date = 1409.1.1
+			traits = {
+				basic_political_operator hedonist 
+			}
+		}
+
+	}
+}

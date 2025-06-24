@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:AIN = {
+		create_character = {
+			first_name = "Native_Council"
+			last_name = "Saru"
+			ruler = yes
+			culture = cu:ainu
+			religion = rel:animist
+			birth_date = 1386.11.11
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

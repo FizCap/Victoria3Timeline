@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X30 = {
+		create_character = {
+			first_name = "Peter_von_Schaumberg"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:catholic
+			birth_date = 1388.2.22
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

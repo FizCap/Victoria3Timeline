@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X89 = {
+		create_character = {
+			first_name = "Dan_Bahadur"
+			last_name = "Chauhan"
+			heir = yes
+			culture = cu:nepali
+			religion = rel:hindu
+			birth_date = 1444.1.1
+			traits = {
+				inept trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Udat"
+			last_name = "Chauhan"
+			ruler = yes
+			culture = cu:nepali
+			religion = rel:hindu
+			birth_date = 1426.1.1
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

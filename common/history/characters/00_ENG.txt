@@ -1,0 +1,26 @@
+﻿CHARACTERS = {
+	c:ENG = {
+		create_character = {
+			first_name = "John_Talbot"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1428.1.1
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+		create_character = {
+			first_name = "Henry_VI"
+			last_name = "Lancaster"
+			ruler = yes
+			culture = cu:british
+			religion = rel:catholic
+			birth_date = 1421.12.6
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

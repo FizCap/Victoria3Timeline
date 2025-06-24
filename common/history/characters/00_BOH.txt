@@ -1,0 +1,13 @@
+﻿CHARACTERS = {
+	c:BOH = {
+		create_character = {
+			first_name = "Landfriedens"
+			last_name = "Kutscha"
+			ruler = yes
+			culture = cu:czech
+			religion = rel:catholic
+			birth_date = 1392.10.27
+		}
+
+	}
+}

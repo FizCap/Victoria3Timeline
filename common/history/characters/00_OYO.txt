@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:OYO = {
+		create_character = {
+			first_name = "Sango"
+			last_name = "Alaafin"
+			heir = yes
+			culture = cu:edo
+			religion = rel:animist
+			birth_date = 1420.1.1
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Oranyan"
+			last_name = "Alaafin"
+			ruler = yes
+			culture = cu:edo
+			religion = rel:animist
+			birth_date = 1381.1.1
+			traits = {
+				persistent 
+			}
+		}
+
+	}
+}

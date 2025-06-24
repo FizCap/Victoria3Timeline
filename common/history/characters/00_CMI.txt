@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:CMI = {
+		create_character = {
+			first_name = "Tilokaracha"
+			last_name = "Mangrai"
+			ruler = yes
+			culture = cu:thai
+			religion = rel:theravada
+			birth_date = 1420.1.1
+			traits = {
+				experienced_political_operator tactful 
+			}
+		}
+
+	}
+}

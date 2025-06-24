@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:PAT = {
+		create_character = {
+			first_name = "Aillavilu_Abajino"
+			ruler = yes
+			culture = cu:patagonian
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				cautious experienced_colonial_administrator 
+			}
+		}
+
+	}
+}

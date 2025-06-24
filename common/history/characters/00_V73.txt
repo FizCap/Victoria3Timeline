@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:V73 = {
+		create_character = {
+			first_name = "Heinrich_II"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:catholic
+			birth_date = 1391.1.1
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

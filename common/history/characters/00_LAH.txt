@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:LAH = {
+		create_character = {
+			first_name = "Salah_ad-Din__Amir_I"
+			last_name = "Tahirid"
+			ruler = yes
+			culture = cu:yemenite
+			religion = rel:sunni
+			birth_date = 1425.1.1
+			traits = {
+				aesthete experienced_political_operator 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:C21 = {
+		create_character = {
+			first_name = "Ulick_Fionn"
+			last_name = "Burke"
+			heir = yes
+			culture = cu:irish
+			religion = rel:catholic
+			birth_date = 1440.1.1
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Ulick_Ruadh"
+			last_name = "Burke"
+			ruler = yes
+			culture = cu:irish
+			religion = rel:catholic
+			birth_date = 1409.1.1
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

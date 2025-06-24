@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:Y01 = {
+		create_character = {
+			first_name = "Axacaya_Tzompantli"
+			ruler = yes
+			culture = cu:penutian
+			religion = rel:animist
+			birth_date = 1425.11.11
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

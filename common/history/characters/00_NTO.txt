@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:NTO = {
+		create_character = {
+			first_name = "Rongo_I"
+			last_name = "Ngati_Makino"
+			ruler = yes
+			culture = cu:maori
+			religion = rel:animist
+			birth_date = 1426.11.11
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

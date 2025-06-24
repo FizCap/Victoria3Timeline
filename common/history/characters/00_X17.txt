@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:X17 = {
+		create_character = {
+			first_name = "Jean"
+			last_name = "d_Armagnac"
+			heir = yes
+			culture = cu:occitan
+			religion = rel:catholic
+			birth_date = 1420.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Jean_IV"
+			last_name = "d_Armagnac"
+			ruler = yes
+			culture = cu:occitan
+			religion = rel:catholic
+			birth_date = 1396.10.15
+			traits = {
+				pious 
+			}
+		}
+
+	}
+}

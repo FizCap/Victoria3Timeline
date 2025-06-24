@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:U00 = {
+		create_character = {
+			first_name = "Pahar_Chand"
+			last_name = "Chandella"
+			ruler = yes
+			culture = cu:hindustani
+			religion = rel:hindu
+			birth_date = 1409.1.1
+			traits = {
+				basic_political_operator tactful 
+			}
+		}
+
+	}
+}

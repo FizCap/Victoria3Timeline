@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:RWD = {
+		create_character = {
+			first_name = "Yuhi_II"
+			last_name = "Abami"
+			ruler = yes
+			culture = cu:ruanda
+			religion = rel:animist
+			birth_date = 1380.1.1
+			traits = {
+				basic_diplomat hedonist 
+			}
+		}
+
+	}
+}

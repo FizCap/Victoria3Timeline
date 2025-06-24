@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W51 = {
+		create_character = {
+			first_name = "Ai_Lao_Hkham"
+			last_name = "Kengtung"
+			heir = yes
+			culture = cu:shan
+			religion = rel:theravada
+			birth_date = 1430.1.1
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Sao_Hsam_Si-Li"
+			last_name = "Kengtung"
+			ruler = yes
+			culture = cu:shan
+			religion = rel:theravada
+			birth_date = 1420.1.1
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}
