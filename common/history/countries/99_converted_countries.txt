@@ -3071,7 +3071,7 @@
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_interventionism
@@ -3086,7 +3086,7 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_slave_trade
 		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_women_own_property
 		set_institution_investment_level = {
@@ -3361,7 +3361,7 @@
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_interventionism
@@ -3376,7 +3376,7 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_slave_trade
 		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_women_own_property
 		set_institution_investment_level = {
@@ -4007,7 +4007,7 @@
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_interventionism
@@ -4022,7 +4022,7 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_slave_trade
 		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_women_own_property
 		set_institution_investment_level = {
@@ -4594,7 +4594,7 @@
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_interventionism
@@ -4609,7 +4609,7 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_slave_trade
 		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_women_own_property
 		set_institution_investment_level = {
@@ -5705,7 +5705,7 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_local_police
-		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_no_colonial_affairs
@@ -8174,7 +8174,7 @@
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_interventionism
@@ -8189,7 +8189,7 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_slave_trade
 		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_women_own_property
 		set_institution_investment_level = {
@@ -8885,7 +8885,7 @@
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_private_schools
 		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_debt_slavery
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 3
@@ -9401,7 +9401,7 @@
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_interventionism
@@ -9416,7 +9416,7 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_slave_trade
 		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_women_own_property
 		set_institution_investment_level = {
@@ -10762,7 +10762,7 @@
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_interventionism
@@ -10777,7 +10777,7 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_slave_trade
 		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_women_own_property
 		set_institution_investment_level = {
@@ -11783,7 +11783,7 @@
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_interventionism
@@ -11798,7 +11798,7 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_slave_trade
 		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_women_own_property
 		set_institution_investment_level = {
@@ -12572,7 +12572,7 @@
 		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_slave_trade
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
 			level = 1
@@ -18895,7 +18895,7 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_slave_trade
 		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_women_own_property
 		set_institution_investment_level = {
@@ -20183,7 +20183,7 @@
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_interventionism
@@ -20198,7 +20198,7 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_slave_trade
 		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_women_own_property
 		set_institution_investment_level = {
@@ -20258,7 +20258,7 @@
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_interventionism
@@ -20273,7 +20273,7 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_slave_trade
 		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_women_own_property
 		set_institution_investment_level = {
@@ -20411,7 +20411,7 @@
 		add_technology_researched = urbanization
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_elected_bureaucrats
 		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_homesteading
@@ -20427,7 +20427,7 @@
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_protectionism
 		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_slavery_banned
+		activate_law = law_type:law_slave_trade
 		activate_law = law_type:law_wealth_voting
 		activate_law = law_type:law_women_own_property
 		set_institution_investment_level = {
