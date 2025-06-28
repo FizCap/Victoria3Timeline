@@ -2,6 +2,10 @@ on_game_started = {
   on_actions = { start_boost }
 }
 
+on_game_started = {
+  on_actions = { start_boost2 }
+}
+
 start_boost = {
   effect = {
     every_country = {
@@ -20,6 +24,17 @@ start_boost = {
       add_modifier = {
         name = start_boost_country_modifier
         days = 365
+      }
+    }
+  }
+}
+
+start_boost2 = {
+  effect = {
+    every_country = {
+      add_modifier = {
+        name = start_boost_country_modifier2
+        days = 1825
       }
     }
   }

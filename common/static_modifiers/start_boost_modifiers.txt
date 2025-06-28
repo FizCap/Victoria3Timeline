@@ -7,6 +7,11 @@ start_boost_country_modifier = {
     state_pop_qualifications_mult = 100
     country_tax_income_add = 10000
     country_construction_add = 1000
-    country_bureaucracy_add = -500
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+}
+
+
+start_boost_country_modifier2 = {
+    country_tax_income_add = 15000
     icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 }
