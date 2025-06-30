@@ -10,6 +10,10 @@ on_game_started = {
   on_actions = { start_boost3 }
 }
 
+on_game_started = {
+  on_actions = { holy_roman_emperor }
+}
+
 start_boost = {
   effect = {
     every_country = {
@@ -41,6 +45,17 @@ start_boost3 = {
           level = 1
           reserves = 1
         }
+      }
+    }
+  }
+}
+
+holy_roman_emperor = {
+  effect = {
+    c:AUS = {
+      add_modifier = {
+        name = holy_roman_emperor
+        days = 17520
       }
     }
   }

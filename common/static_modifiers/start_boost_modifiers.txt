@@ -15,3 +15,7 @@ start_boost_country_modifier2 = {
     country_tax_income_add = 15000
     icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 }
+
+holy_roman_emperor = {
+    power_bloc_invite_acceptance_add = 200
+}

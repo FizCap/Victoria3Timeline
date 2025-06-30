@@ -75,8 +75,9 @@
 			name = HOLY_ROMAN_EMPIRE_BLOC
 			map_color = { 150 177 161 }
 			founding_date = 962.2.2
-			identity = identity_sovereign_empire
-			principle = principle_vassalization_2
+			identity = identity_holy_roman_empire
+			principle = principle_vassalization_1
+			principle = principle_market_unification_2
 			
 			member = c:ANH
 			member = c:BAD
@@ -118,6 +119,7 @@
 			member = c:X32
 			member = c:X61
 			member = c:X73
+			member = c:W44
 		}
 	}
 
