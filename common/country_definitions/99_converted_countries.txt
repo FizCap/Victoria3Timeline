@@ -7095,7 +7095,7 @@ PLC = {
 	color = { 219 31 62 }
 	country_type = recognized
 	tier = empire
-	cultures = { polish }
+	cultures = { polish lithuanian }
 	religion = catholic
 	capital = STATE_GREATER_POLAND
 }
@@ -11323,7 +11323,7 @@ X38 = {
 	color = { 196 63 33 }
 	country_type = colonial
 	tier = principality
-	cultures = { yankee }
+	cultures = { yankee dixie }
 	religion = protestant
 	capital = STATE_MAINE
 }

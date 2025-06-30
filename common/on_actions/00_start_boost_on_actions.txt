@@ -71,11 +71,5 @@ remove_primary_cultures = {
       remove_primary_culture = cu:occitan
       remove_primary_culture = cu:breton
     }
-    c:PLC = {
-      add_primary_culture = cu:lithuanian
-    }
-    c:X38 = {
-      add_primary_culture = cu:dixie
-    }
   }
 }
