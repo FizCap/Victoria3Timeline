@@ -853,7 +853,7 @@ identity_holy_roman_empire = {
 	}
 
 	possible = {
-		game_date >= 1000.01.01
+		always = no
 	}
 
 	can_leave = {
