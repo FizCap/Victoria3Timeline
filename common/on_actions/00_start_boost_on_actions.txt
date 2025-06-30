@@ -11,7 +11,7 @@ on_game_started = {
 }
 
 on_game_started = {
-  on_actions = { holy_roman_emperor }
+  on_actions = { remove_primary_cultures }
 }
 
 start_boost = {
@@ -57,6 +57,25 @@ holy_roman_emperor = {
         name = holy_roman_emperor
         days = 17520
       }
+    }
+  }
+}
+
+remove_primary_cultures = {
+  effect = {
+    c:SPA = {
+      remove_primary_culture = cu:south_italian
+    }
+    c:FRA = {
+      remove_primary_culture = cu:wallonian
+      remove_primary_culture = cu:occitan
+      remove_primary_culture = cu:breton
+    }
+    c:PLC = {
+      add_primary_culture = cu:lithuanian
+    }
+    c:X38 = {
+      add_primary_culture = cu:dixie
     }
   }
 }
