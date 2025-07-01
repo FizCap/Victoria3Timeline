@@ -87,5 +87,8 @@ remove_primary_cultures = {
       remove_primary_culture = cu:russian
       remove_primary_culture = cu:ukrainian
     }
+    c:M34 = {
+      remove_primary_culture = cu:ukrainian
+    }
   }
 }
