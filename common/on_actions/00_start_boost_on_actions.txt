@@ -2,25 +2,90 @@ on_game_started = {
   on_actions = { start_boost }
 }
 
+on_game_started = {
+  on_actions = { start_boost2 }
+}
+
+on_game_started = {
+  on_actions = { start_boost3 }
+}
+
+on_game_started = {
+  on_actions = { holy_roman_emperor }
+}
+
+on_game_started = {
+  on_actions = { remove_primary_cultures }
+}
+
 start_boost = {
   effect = {
     every_country = {
-      create_building = {
-        capital = {
-        building="building_construction_sector"
-        add_ownership = {
-          country={
-            levels=1
-          }
-        reserves=1
-				activate_production_methods={ "pm_wooden_buildings" }
-        }
-       }
-      }
       add_modifier = {
         name = start_boost_country_modifier
         days = 365
       }
+    }
+  }
+}
+
+start_boost2 = {
+  effect = {
+    every_country = {
+      add_modifier = {
+        name = start_boost_country_modifier2
+        days = 1825
+      }
+    }
+  }
+}
+
+start_boost3 = {
+  effect = {
+    every_country = {
+      capital = {
+        create_building = {
+          building = "building_construction_sector"
+          level = 1
+          reserves = 1
+        }
+      }
+    }
+  }
+}
+
+holy_roman_emperor = {
+  effect = {
+    c:AUS = {
+      add_modifier = {
+        name = holy_roman_emperor
+        days = 17520
+        is_decaying = yes
+      }
+    }
+  }
+}
+
+remove_primary_cultures = {
+  effect = {
+    c:X22 = {
+      remove_primary_culture = cu:south_italian
+    }
+    c:FRA = {
+      remove_primary_culture = cu:wallonian
+      remove_primary_culture = cu:occitan
+      remove_primary_culture = cu:breton
+    }
+    c:ENG = {
+      remove_primary_culture = cu:french
+    }
+    c:LIT = {
+      remove_primary_culture = cu:ukrainian
+      remove_primary_culture = cu:russian
+    }
+    c:POL = {
+      remove_primary_culture = cu:russian
+      remove_primary_culture = cu:ukrainian
     }
   }
 }
