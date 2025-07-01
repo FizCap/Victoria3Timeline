@@ -43,6 +43,17 @@ start_boost2 = {
 start_boost3 = {
   effect = {
     every_country = {
+      every_scope_state = {
+        limit = { 
+          is_coastal = yes 
+          owner = { has_technology_researched = admiralty }
+        }
+        create_building = {
+          building = "building_naval_base"
+          level = 1
+          reserves = 1
+        }
+      }
       capital = {
         create_building = {
           building = "building_construction_sector"
@@ -51,11 +62,6 @@ start_boost3 = {
         }
         create_building = {
           building = "building_barracks"
-          level = 1
-          reserves = 1
-        }
-        create_building = {
-          building = "building_military_shipyards"
           level = 1
           reserves = 1
         }
