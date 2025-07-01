@@ -2082,7 +2082,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -4600,7 +4600,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -4682,7 +4682,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slave_trade
 		ig:ig_armed_forces = {
@@ -5205,7 +5205,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -7325,7 +7325,7 @@
 		activate_law = law_type:law_no_social_security
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -7884,7 +7884,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -7950,7 +7950,7 @@
 		activate_law = law_type:law_oligarchy
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -8255,7 +8255,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -10582,7 +10582,7 @@
 		activate_law = law_type:law_no_social_security
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
 		activate_law = law_type:law_state_religion
@@ -11932,7 +11932,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -12567,7 +12567,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -12711,7 +12711,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -12836,7 +12836,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -13073,7 +13073,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -14739,7 +14739,7 @@
 		activate_law = law_type:law_oligarchy
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -15133,7 +15133,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -15208,7 +15208,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -15547,7 +15547,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -15689,7 +15689,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -15799,7 +15799,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -15984,7 +15984,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -16331,7 +16331,7 @@
 		activate_law = law_type:law_oligarchy
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -16569,7 +16569,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -16786,7 +16786,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -17551,7 +17551,7 @@
 		activate_law = law_type:law_no_social_security
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -18046,7 +18046,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -18223,7 +18223,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -18386,7 +18386,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -18962,7 +18962,7 @@
 		activate_law = law_type:law_oligarchy
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -19259,7 +19259,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -19729,7 +19729,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -19794,7 +19794,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -20830,7 +20830,7 @@
 		activate_law = law_type:law_oligarchy
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -21633,7 +21633,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -22252,7 +22252,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -22372,7 +22372,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -23009,7 +23009,7 @@
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
 		activate_law = law_type:law_private_schools
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
 		set_institution_investment_level = {
@@ -23491,7 +23491,7 @@
 		activate_law = law_type:law_parliamentary_republic
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_private_schools
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_slavery_banned
 		ig:ig_landowners = {
 			remove_ideology = ideology_paternalistic
@@ -23756,7 +23756,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -23934,7 +23934,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -24061,7 +24061,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -26427,7 +26427,7 @@
 		activate_law = law_type:law_no_social_security
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -26513,7 +26513,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -26581,7 +26581,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -27070,7 +27070,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -27344,7 +27344,7 @@
 		activate_law = law_type:law_no_social_security
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -27532,7 +27532,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -28161,7 +28161,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -28401,7 +28401,7 @@
 		activate_law = law_type:law_no_womens_rights
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_oligarchy
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_slavery_banned
@@ -28576,7 +28576,7 @@
 		activate_law = law_type:law_oligarchy
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_slavery_banned
@@ -30591,7 +30591,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_parliamentary_republic
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_slavery_banned
 		ig:ig_landowners = {
@@ -30747,7 +30747,7 @@
 		activate_law = law_type:law_no_workers_rights
 		activate_law = law_type:law_parliamentary_republic
 		activate_law = law_type:law_per_capita_based_taxation
-		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_slavery_banned
 		ig:ig_landowners = {
