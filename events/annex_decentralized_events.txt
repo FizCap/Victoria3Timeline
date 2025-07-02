@@ -1,7 +1,7 @@
 ﻿namespace = annex_decentralized
 
 annex_decentralized.1 = {
-    hide_window = yes
+    hidden = yes
 
     immediate = {
         random_decentralized_country = {
