@@ -1,0 +1,22 @@
+on_yearly_pulse = {
+  on_actions = { force_colonialism }
+}
+
+
+force_colonialism = {
+trigger = { year = 1492 }
+  effect = {
+    every_country = {
+      limit = { 
+        OR = {
+          country_has_primary_culture = cu:english
+          country_has_primary_culture = cu:spanish
+          country_has_primary_culture = cu:portuguese
+          country_has_primary_culture = cu:french
+        }
+      }
+      activate_law = law_type:law_slave_trade
+      activate_law = law_type:law_colonial_exploitation
+    }
+  }
+}

@@ -9963,7 +9963,7 @@
 			owned_provinces = { x3020D0 x5E9DB3 x9EF337 }
 			state_type = incorporated
 		}
-		add_homeland = cu:british
+		add_homeland = cu:dragon
 	}
 	s:STATE_SOUTH_AUSTRALIA = {
 		create_state = {

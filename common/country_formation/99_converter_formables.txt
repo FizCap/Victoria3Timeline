@@ -455,6 +455,13 @@ FLA = { #Flanders, Flemish People
 	
 	ai_will_do = { always = yes }
 }
+GBR = { #English, Scottish, Welsh, Irish, British People
+	use_culture_states = yes
+
+	required_states_fraction = 1.00
+	
+	ai_will_do = { always = yes }
+}
 GEO = { #Georgia, Georgian People
 	use_culture_states = yes
 
