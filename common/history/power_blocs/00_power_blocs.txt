@@ -6,6 +6,7 @@
 			founding_date = 1438.1.1
 			identity = identity_sovereign_empire
 			principle = principle_vassalization_1
+			principle = principle_exploit_members_3
 			
 			member = c:CAM
 			member = c:DAI
