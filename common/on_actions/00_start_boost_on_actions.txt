@@ -2,16 +2,12 @@ on_game_started = {
   on_actions = { start_boost }
 }
 
-on_game_started = {
+on_yearly_pulse = {
   on_actions = { start_boost2 }
 }
 
 on_game_started = {
   on_actions = { start_boost3 }
-}
-
-on_yearly_pulse = {
-  on_actions = { force_colonialism }
 }
 
 on_game_started = {
@@ -34,11 +30,12 @@ start_boost = {
 }
 
 start_boost2 = {
+  trigger = { game_date <= 1544.1.1 }
   effect = {
     every_country = {
       add_modifier = {
         name = start_boost_country_modifier2
-        days = 1825
+        days = 365
       }
     }
   }
@@ -73,8 +70,6 @@ start_boost3 = {
     }
   }
 }
-
-
 
 holy_roman_emperor = {
   effect = {
@@ -112,23 +107,9 @@ remove_primary_cultures = {
     c:M34 = {
       remove_primary_culture = cu:ukrainian
     }
-  }
-}
-
-force_colonialism = {
-trigger = { year = 1492 }
-  effect = {
-    every_country = {
-      limit = { 
-        OR = {
-          country_has_primary_culture = cu:english
-          country_has_primary_culture = cu:spanish
-          country_has_primary_culture = cu:portuguese
-          country_has_primary_culture = cu:french
-        }
-      }
-      activate_law = law_type:law_slave_trade
-      activate_law = law_type:law_colonial_exploitation
+    c:HUN = {
+      remove_primary_culture = cu:romanian
+      remove_primary_culture = cu:slovak
     }
   }
 }
