@@ -1,0 +1,15 @@
+on_game_started = {
+  on_actions = { holy_roman_emperor }
+}
+
+holy_roman_emperor = {
+  effect = {
+    c:AUS = {
+      add_modifier = {
+        name = holy_roman_emperor
+        days = 17520
+        is_decaying = yes
+      }
+    }
+  }
+}

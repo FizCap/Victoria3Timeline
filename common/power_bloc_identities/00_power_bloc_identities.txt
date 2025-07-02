@@ -841,6 +841,7 @@ identity_holy_roman_empire = {
 		power_bloc_invite_acceptance_unrecognized_major_power_add = -10
 		power_bloc_invite_acceptance_add = 100
 		power_bloc_cohesion_per_member_add = 0.25
+		power_bloc_income_transfer_to_leader_factor = 0.05
 	}
 
 	leader_modifier = {
