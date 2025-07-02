@@ -1,0 +1,19 @@
+﻿namespace = annex_decentralized
+
+annex_decentralized.1 = {
+    hide_window = yes
+
+    immediate = {
+        random_decentralized_country = {
+            save_scope_as = annexing_country
+        }
+        every_decentralized_country = {
+            limit = {
+                is_country_alive = yes
+            }
+            scope:annexing_country = {
+                annex = PREV
+            }
+        }
+    }
+}

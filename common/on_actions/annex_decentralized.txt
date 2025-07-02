@@ -1,0 +1,5 @@
+﻿on_game_started = {
+    events = {
+        annex_decentralized.1
+    }
+}
