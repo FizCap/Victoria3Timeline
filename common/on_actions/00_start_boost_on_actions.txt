@@ -39,23 +39,28 @@ start_boost2 = {
 start_boost3 = {
   effect = {
     every_country = {
+      every_scope_state = {
+        limit = { 
+          is_coastal = yes 
+          owner = { has_technology_researched = admiralty }
+        }
+        create_building = {
+          building = "building_naval_base"
+          level = 1
+          reserves = 1
+        }
+      }
       capital = {
         create_building = {
           building = "building_construction_sector"
           level = 1
           reserves = 1
         }
-      }
-    }
-  }
-}
-
-holy_roman_emperor = {
-  effect = {
-    c:AUS = {
-      add_modifier = {
-        name = holy_roman_emperor
-        days = 17520
+        create_building = {
+          building = "building_barracks"
+          level = 1
+          reserves = 1
+        }
       }
     }
   }
