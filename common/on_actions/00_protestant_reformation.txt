@@ -1,0 +1,84 @@
+on_yearly_pulse = {
+  on_actions = { protestant_reformation1 }
+}
+
+on_yearly_pulse = {
+  on_actions = { protestant_reformation2 }
+}
+
+on_yearly_pulse = {
+  on_actions = { protestant_reformation3 }
+}
+
+on_yearly_pulse = {
+  on_actions = { protestant_reformation4 }
+}
+
+on_yearly_pulse = {
+  on_actions = { protestant_reformation5 }
+}
+
+on_yearly_pulse = {
+  on_actions = { protestant_reformation6 }
+}
+
+on_yearly_pulse = {
+  on_actions = { protestant_reformation7 }
+}
+
+protestant_reformation1 = {
+  trigger = { year = 1518 }
+  effect = {
+    every_country = {
+      limit = {
+        OR = {
+          country_has_primary_culture = cu:british
+          country_has_primary_culture = cu:scottish
+          country_has_primary_culture = cu:norwegian
+          country_has_primary_culture = cu:swedish
+          country_has_primary_culture = cu:dutch
+          country_has_primary_culture = cu:danish
+        }
+      }
+      add_modifier = {
+        name = protestant_reformation_conversion_modifier
+        days = 10950
+      }
+      set_state_religion = rel:protestant
+      every_scope_state = {
+        if = {
+          limit = { is_incorporated = yes }
+          convert_population = {
+            target = rel:protestant
+            value = 0.1
+          }
+        }
+      }
+    }
+  }
+}
+
+protestant_reformation2 = {
+  trigger = { year = 1518 }
+  effect = {
+    every_country = {
+      limit = {
+        country_has_primary_culture = cu:north_german
+      }
+      add_modifier = {
+        name = protestant_reformation_conversion_modifier
+        days = 10950
+      }
+      set_state_religion = rel:protestant
+      every_scope_state = {
+        if = {
+          limit = { is_incorporated = yes }
+          convert_population = {
+            target = rel:protestant
+            value = 0.1
+          }
+        }
+      }
+    }
+  }
+}

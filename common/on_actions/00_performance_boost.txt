@@ -1,0 +1,25 @@
+# common/on_actions/00_u78_annex.yml
+
+# 1) Hook into the built-in on_game_start action list
+on_game_started = {
+    add = u78_annex_north_german
+}
+
+# 2) Define our custom action
+u78_annex_north_german = {
+    # Set scope to U78
+    set_global_variable = { name = annexor value = root }
+    
+    # Iterate through all countries
+    every_country = {
+        limit = {
+            # Target countries with North German primary culture
+            primary_culture = cu:north_german
+            NOT = { has_country_flag = already_annexed } # Prevent duplicate annexation
+        }
+        # Annex target to U78
+        annex = global:annexor
+        # Set flag to prevent re-annexation
+        set_country_flag = already_annexed
+    }
+}

@@ -14,6 +14,11 @@ start_boost_country_modifier = {
 start_boost_country_modifier2 = {
     country_tax_income_add = 10000
     state_tax_collection_mult = 1
+    state_aristocrats_investment_pool_efficiency_mult = 1
+    state_capitalists_investment_pool_efficiency_mult = 1
+    state_clergymen_investment_pool_efficiency_mult = 1
+    state_farmers_investment_pool_efficiency_mult = 1
+    state_shopkeepers_investment_pool_efficiency_mult = 1
     icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 }
 

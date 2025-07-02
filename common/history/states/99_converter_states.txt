@@ -11705,7 +11705,6 @@
 		add_homeland = cu:british
 		add_homeland = cu:french
 		add_homeland = cu:welsh
-		add_claim = c:FRA
 	}
 	s:STATE_WEST_GALICIA = {
 		create_state = {

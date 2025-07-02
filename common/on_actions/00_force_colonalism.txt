@@ -12,10 +12,11 @@ force_colonialism = {
     every_country = {
       limit = { 
         OR = {
-          country_has_primary_culture = cu:english
+          country_has_primary_culture = cu:british
           country_has_primary_culture = cu:spanish
           country_has_primary_culture = cu:portuguese
           country_has_primary_culture = cu:french
+          country_has_primary_culture = cu:dutch
         }
       }
       activate_law = law_type:law_slave_trade
