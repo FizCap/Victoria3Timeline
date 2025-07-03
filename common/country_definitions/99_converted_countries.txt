@@ -10551,7 +10551,7 @@ W63 = {
 
 W64 = {
 	color = { 153 210 135 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = principality
 	cultures = { swahili }
 	religion = sunni
@@ -11078,7 +11078,7 @@ X06 = {
 
 X07 = {
 	color = { 50 162 50 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = principality
 	cultures = { nilotic }
 	religion = shiite
