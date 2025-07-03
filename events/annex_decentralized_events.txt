@@ -4,16 +4,18 @@ annex_decentralized.1 = {
     hidden = yes
 
     immediate = {
-        random_decentralized_country = {
-            save_scope_as = annexing_country
-        }
         every_decentralized_country = {
-            limit = {
-                is_country_alive = yes
-            }
-            scope:annexing_country = {
-                annex = PREV
+            save_scope_as = annexing_country # save scope for use
+            every_decentralized_country = { # Check all decentralized nations
+                limit = {
+                    any_scope_state = { # That neighbor the current annexer
+                        any_neighbouring_state = { owner = scope:annexing_country }
+                    }
+                }
+                scope:annexing_country = { annex = PREV }
             }
         }
     }
 }
+
+# Credit to CaesarVincens for helping make the script
