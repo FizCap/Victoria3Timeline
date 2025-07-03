@@ -1,4 +1,4 @@
-protestant_reformation_conversion_modifier = {
+﻿protestant_reformation_conversion_modifier = {
     state_conversion_mult = 5
     country_acceptance_shared_religious_trait_add = -10
 }

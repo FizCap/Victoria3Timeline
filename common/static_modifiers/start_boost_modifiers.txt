@@ -1,4 +1,4 @@
-start_boost_country_modifier = {
+﻿start_boost_country_modifier = {
     state_aristocrats_investment_pool_efficiency_mult = 5
     state_capitalists_investment_pool_efficiency_mult = 5
     state_clergymen_investment_pool_efficiency_mult = 5
