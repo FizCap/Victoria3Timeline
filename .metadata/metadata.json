@@ -5,7 +5,7 @@
 	"picture" : "thumbnail.png",
 	"supported_game_version" : "1.9.*",
 	"short_description" : "Play Victoria 3 in 1700",
-	"tags" : ["Alternative History", "Conversion"],
+	"tags" : ["Alternative History", "Total Conversion"],
 	"relationships" : [],
 	"game_custom_data" : {
 		"multiplayer_synchronized" : true,
