@@ -6,25 +6,6 @@ on_yearly_pulse = {
   on_actions = { protestant_reformation2 }
 }
 
-on_yearly_pulse = {
-  on_actions = { protestant_reformation3 }
-}
-
-on_yearly_pulse = {
-  on_actions = { protestant_reformation4 }
-}
-
-on_yearly_pulse = {
-  on_actions = { protestant_reformation5 }
-}
-
-on_yearly_pulse = {
-  on_actions = { protestant_reformation6 }
-}
-
-on_yearly_pulse = {
-  on_actions = { protestant_reformation7 }
-}
 
 protestant_reformation1 = {
   trigger = { year = 1518 }
@@ -59,26 +40,35 @@ protestant_reformation1 = {
 }
 
 protestant_reformation2 = {
-  trigger = { year = 1518 }
-  effect = {
-    every_country = {
-      limit = {
-        country_has_primary_culture = cu:north_german
-      }
-      add_modifier = {
-        name = protestant_reformation_conversion_modifier
-        days = 10950
-      }
-      set_state_religion = rel:protestant
-      every_scope_state = {
-        if = {
-          limit = { is_incorporated = yes }
-          convert_population = {
-            target = rel:protestant
-            value = 0.1
-          }
-        }
-      }
-    }
-  }
+	trigger = { year = 1518 }
+	effect = {
+		set_local_variable = { name = protestants_count value = 0 }
+		while = {
+			limit = {
+				local_var:protestants_count < 5
+			}
+			random_country = {
+				limit = {
+					country_has_primary_culture = cu:north_german
+					NOT = { this = c:U78 }
+					NOT = { state_religion = rel:protestant }
+				}
+				add_modifier = {
+					name = protestant_reformation_conversion_modifier
+					days = 10950
+				}
+				set_state_religion = rel:protestant
+				every_scope_state = {
+					if = {
+						limit = { is_incorporated = yes }
+						convert_population = {
+							target = rel:protestant
+							value = 0.1
+						}
+					}
+				}
+				change_local_variable = { name = protestants_count add = 1 }
+			}
+		}
+	}
 }
