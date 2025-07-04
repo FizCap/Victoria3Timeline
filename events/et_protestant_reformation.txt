@@ -1,23 +1,7 @@
-﻿namespace = et_protestant_reformation
-
-# Protestant Reformation Immersion Event
-et_protestant_reformation.1 = {
-  type = major_event
-  title = et_protestant_reformation.1.t
-  desc = et_protestant_reformation.1.d
-  picture = GFX_evt_reformation
-  duration = 3
-  option = {
-    name = et_protestant_reformation.1.a
-  }
-}
-
-
 et_protestant_reformation.2 = {
 	title = "The Protestant Reformation"
 	desc = "Will you remain Catholic or embrace Protestantism?"
 	picture = event_picture_religion
-	duration = 3
 
 	option = {
 		name = "Remain Catholic"
