@@ -4,10 +4,6 @@
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 0.5
 	unit_army_defense_mult = 1.5
-	building_subsistence_output_mult = 0.5
-	state_food_security_add = 10
-	state_migration_pull_add = 5
-	state_migration_push_mult = -0.5
 }
 
 native_conscription_2 = {
@@ -16,10 +12,6 @@ native_conscription_2 = {
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 0.5
 	unit_army_defense_mult = 1.5
-	building_subsistence_output_mult = 0.5
-	state_food_security_add = 10
-	state_migration_pull_add = 5
-	state_migration_push_mult = -0.5
 }
 
 native_conscription_3 = {
@@ -28,10 +20,6 @@ native_conscription_3 = {
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 0.5
 	unit_army_defense_mult = 1.5
-	building_subsistence_output_mult = 0.5
-	state_food_security_add = 10
-	state_migration_pull_add = 5
-	state_migration_push_mult = -0.5
 }
 
 native_conscription_4 = {
@@ -40,10 +28,6 @@ native_conscription_4 = {
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 0.5
 	unit_army_defense_mult = 1.5
-	building_subsistence_output_mult = 0.5
-	state_food_security_add = 10
-	state_migration_pull_add = 5
-	state_migration_push_mult = -0.5
 }
 
 native_conscription_5 = {
@@ -52,10 +36,6 @@ native_conscription_5 = {
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 0.5
 	unit_army_defense_mult = 1.5
-	building_subsistence_output_mult = 0.5
-	state_food_security_add = 10
-	state_migration_pull_add = 5
-	state_migration_push_mult = -0.5
 }
 
 native_conscription_6 = {
@@ -64,10 +44,6 @@ native_conscription_6 = {
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 0.5
 	unit_army_defense_mult = 1.5
-	building_subsistence_output_mult = 0.5
-	state_food_security_add = 10
-	state_migration_pull_add = 5
-	state_migration_push_mult = -0.5
 }
 
 native_conscription_7 = {
@@ -76,10 +52,6 @@ native_conscription_7 = {
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 0.5
 	unit_army_defense_mult = 1.5
-	building_subsistence_output_mult = 0.5
-	state_food_security_add = 10
-	state_migration_pull_add = 5
-	state_migration_push_mult = -0.5
 }
 
 native_conscription_8 = {
@@ -88,10 +60,6 @@ native_conscription_8 = {
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 0.5
 	unit_army_defense_mult = 1.5
-	building_subsistence_output_mult = 0.5
-	state_food_security_add = 10
-	state_migration_pull_add = 5
-	state_migration_push_mult = -0.5
 }
 
 native_conscription_9 = {
@@ -100,10 +68,6 @@ native_conscription_9 = {
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 0.5
 	unit_army_defense_mult = 1.5
-	building_subsistence_output_mult = 0.5
-	state_food_security_add = 10
-	state_migration_pull_add = 5
-	state_migration_push_mult = -0.5
 }
 
 native_conscription_10 = {
@@ -112,10 +76,6 @@ native_conscription_10 = {
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 0.5
 	unit_army_defense_mult = 1.5
-	building_subsistence_output_mult = 0.5
-	state_food_security_add = 10
-	state_migration_pull_add = 5
-	state_migration_push_mult = -0.5
 }
 
 native_conscription_11 = {
@@ -124,10 +84,6 @@ native_conscription_11 = {
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 0.5
 	unit_army_defense_mult = 1.5
-	building_subsistence_output_mult = 0.5
-	state_food_security_add = 10
-	state_migration_pull_add = 5
-	state_migration_push_mult = -0.5
 }
 
 native_conscription_12 = {
@@ -136,9 +92,5 @@ native_conscription_12 = {
 	building_training_rate_add = 1000
 	unit_army_offense_mult = 0.5
 	unit_army_defense_mult = 1.5
-	building_subsistence_output_mult = 0.5
-	state_food_security_add = 10
-	state_migration_pull_add = 5
-	state_migration_push_mult = -0.5
 }
 

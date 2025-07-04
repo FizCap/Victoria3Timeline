@@ -15548,7 +15548,7 @@
 		}
 	}
 	s:STATE_KORDOFAN = {
-		region_state:EGY = {
+		region_state:BJA = {
 			create_pop = {
 				culture = sudanese
 				religion = sunni
@@ -28726,8 +28726,6 @@
 				religion = tengri_pagan_reformed
 				size = 16292
 			}
-		}
-		region_state:KYR = {
 			create_pop = {
 				culture = kirgiz
 				religion = animist

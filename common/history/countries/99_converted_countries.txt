@@ -7328,7 +7328,7 @@
 		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
-		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_slavery_banned
 		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_tenant_farmers
 		activate_law = law_type:law_theocracy
@@ -17554,7 +17554,7 @@
 		activate_law = law_type:law_peasant_levies
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_religious_schools
-		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_slavery_banned
 		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_tenant_farmers
 		activate_law = law_type:law_theocracy

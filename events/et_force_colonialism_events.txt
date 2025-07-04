@@ -1,0 +1,25 @@
+﻿namespace = et_force_colonialism
+
+# Colonialism Immersion Event
+et_force_colonialism.1 = {
+  type = major_event
+  title = et_force_colonialism.1.t
+  desc = et_force_colonialism.1.d
+  picture = GFX_evt_colonialism
+  duration = 3
+  option = {
+    name = et_force_colonialism.1.a
+  }
+}
+
+# Russian Colonialism Immersion Event
+et_force_colonialism.2 = {
+  type = major_event
+  title = et_force_colonialism.2.t
+  desc = et_force_colonialism.2.d
+  picture = GFX_evt_colonialism
+  duration = 3
+  option = {
+    name = et_force_colonialism.2.a
+  }
+}

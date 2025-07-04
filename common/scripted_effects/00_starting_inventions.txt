@@ -1,0 +1,128 @@
+# Starting techs for the cutting edge Western powers - Britain, America, France, Belgium etc
+# Removed era 2 technologies to respect era dates
+
+effect_starting_technology_tier_1_tech = {
+	add_era_researched = era_1
+
+	# Economic - only era 1 technologies
+	# Removed: railways, intensive_agriculture, mechanical_tools, atmospheric_engine (all era 2)
+
+	# Military - only era 1 technologies  
+	# Removed: screw_frigate, general_staff, percussion_cap, power_of_the_purse (all era 2)
+
+	# Cultural - only era 1 technologies
+	# Removed: dialectics, central_archives, central_banking, egalitarianism, corporate_charters (all era 2)
+}
+
+# Starting techs for advanced European and American powers - Austria, Prussia, Sweden etc
+
+effect_starting_technology_tier_2_tech = {
+	add_era_researched = era_1
+}
+
+# Starting techs for backwards European and American powers - Spain, Sicily, Russia
+
+effect_starting_technology_tier_3_tech = {
+
+	# Economic
+	add_technology_researched = enclosure
+	add_technology_researched = manufacturies
+	add_technology_researched = shaft_mining
+	add_technology_researched = distillation
+	add_technology_researched = steelworking
+	add_technology_researched = prospecting
+	add_technology_researched = cotton_gin
+
+	# Military
+	add_technology_researched = military_drill
+	add_technology_researched = standing_army
+	add_technology_researched = navigation
+	add_technology_researched = gunsmithing
+	add_technology_researched = artillery
+
+	# Cultural
+	add_technology_researched = tech_bureaucracy
+	add_technology_researched = currency_standards
+	add_technology_researched = democracy
+	add_technology_researched = rationalism
+	add_technology_researched = romanticism
+}
+
+# Starting techs for backwards Asian powers - China, Korea, Japan
+
+effect_starting_technology_tier_4_tech = {
+
+	# Economic
+	add_technology_researched = enclosure
+	add_technology_researched = manufacturies
+	add_technology_researched = shaft_mining
+	add_technology_researched = distillation
+	add_technology_researched = steelworking
+
+	# Military
+	add_technology_researched = military_drill
+	add_technology_researched = standing_army
+	add_technology_researched = navigation
+	add_technology_researched = gunsmithing
+
+	# Cultural
+	add_technology_researched = tech_bureaucracy
+	add_technology_researched = currency_standards
+	add_technology_researched = rationalism
+}
+
+# Starting techs for backwards Middle Eastern and African powers - Persia, Egypt, Morocco
+
+effect_starting_technology_tier_5_tech = {
+
+	# Economic
+	add_technology_researched = enclosure
+	add_technology_researched = manufacturies
+	add_technology_researched = shaft_mining
+	add_technology_researched = distillation
+
+	# Military
+	add_technology_researched = military_drill
+	add_technology_researched = standing_army
+	add_technology_researched = navigation
+
+	# Cultural
+	add_technology_researched = tech_bureaucracy
+	add_technology_researched = currency_standards
+}
+
+# Starting techs for backwards tribal and American indigenous powers
+
+effect_starting_technology_tier_6_tech = {
+
+	# Economic
+	add_technology_researched = enclosure
+	add_technology_researched = manufacturies
+	add_technology_researched = shaft_mining
+
+	# Military
+	add_technology_researched = military_drill
+	add_technology_researched = standing_army
+
+	# Cultural
+	add_technology_researched = tech_bureaucracy
+}
+
+# Starting techs for very backwards powers - Decentralized nations and some Sub-Saharan African nations
+
+effect_starting_technology_tier_7_tech = {
+
+	# Economic
+	add_technology_researched = enclosure
+	add_technology_researched = manufacturies
+
+	# Military
+	add_technology_researched = military_drill
+
+	# Cultural
+	# No technologies
+}
+
+effect_starting_technology_tier_8_tech = {
+	# No starting technologies - completely starting from scratch
+}

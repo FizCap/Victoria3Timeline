@@ -1,0 +1,25 @@
+﻿on_game_started = {
+  on_actions = { force_slavery_startup }
+}
+
+
+
+force_slavery_startup = {
+  effect = {
+    every_country = {
+      limit = {
+        has_trait_with_state_religion = muslim
+      }
+      activate_law = law_type:law_slave_trade
+    }
+    every_scope_country = {
+      limit = {
+        OR = {
+          capital = { is_in_region = strategic_region_indonesia }
+          capital = { is_in_region = strategic_region_indochina }
+        }
+      }
+      activate_law = law_type:law_slave_trade
+    }
+  }
+}

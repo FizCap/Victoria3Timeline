@@ -1,0 +1,30 @@
+remove_primary_cultures = {
+  effect = {
+    c:X22 = {
+      remove_primary_culture = cu:south_italian
+    }
+    c:FRA = {
+      remove_primary_culture = cu:wallonian
+      remove_primary_culture = cu:occitan
+      remove_primary_culture = cu:breton
+    }
+    c:ENG = {
+      remove_primary_culture = cu:french
+    }
+    c:LIT = {
+      remove_primary_culture = cu:ukrainian
+      remove_primary_culture = cu:russian
+    }
+    c:POL = {
+      remove_primary_culture = cu:russian
+      remove_primary_culture = cu:ukrainian
+    }
+    c:M34 = {
+      remove_primary_culture = cu:ukrainian
+    }
+    c:HUN = {
+      remove_primary_culture = cu:romanian
+      remove_primary_culture = cu:slovak
+    }
+  }
+}

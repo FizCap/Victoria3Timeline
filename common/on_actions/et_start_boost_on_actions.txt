@@ -10,9 +10,15 @@ on_game_started = {
   on_actions = { start_boost3 }
 }
 
+on_yearly_pulse = { 
+  on_actions = { start_boost4 } 
+}
+
 on_game_started = {
   on_actions = { remove_primary_cultures }
 }
+
+
 
 start_boost = {
   effect = {
@@ -62,38 +68,31 @@ start_boost3 = {
           level = 1
           reserves = 1
         }
+        create_building = {
+          building = "building_trade_center"
+          level = 1
+          reserves = 1
+        }
       }
     }
   }
 }
 
-remove_primary_cultures = {
+start_boost4 = {
   effect = {
-    c:X22 = {
-      remove_primary_culture = cu:south_italian
+    every_country = {
+      limit = { total_population < 50000 }
+      add_modifier = {
+        name = start_boost_country_modifier4
+        days = 365
+      }
     }
-    c:FRA = {
-      remove_primary_culture = cu:wallonian
-      remove_primary_culture = cu:occitan
-      remove_primary_culture = cu:breton
-    }
-    c:ENG = {
-      remove_primary_culture = cu:french
-    }
-    c:LIT = {
-      remove_primary_culture = cu:ukrainian
-      remove_primary_culture = cu:russian
-    }
-    c:POL = {
-      remove_primary_culture = cu:russian
-      remove_primary_culture = cu:ukrainian
-    }
-    c:M34 = {
-      remove_primary_culture = cu:ukrainian
-    }
-    c:HUN = {
-      remove_primary_culture = cu:romanian
-      remove_primary_culture = cu:slovak
+    every_decentralized_country = {
+      limit = { total_population < 5000 }
+      add_modifier = {
+        name = start_boost_country_modifier4
+        days = 365
+      }
     }
   }
 }

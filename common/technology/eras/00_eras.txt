@@ -1,0 +1,32 @@
+﻿# When changing these, don't forget to update progress bonuses in events and JEs
+
+era_1 = {
+	start_date = 1444.11.11
+	end_date = 1836.01.01
+	icon = "gfx/interface/icons/eras/era_1.dds"
+	technology_cost = 7500
+}
+era_2 = {
+	start_date = 1836.01.01
+	end_date = 1861.01.01
+	icon = "gfx/interface/icons/eras/era_2.dds"
+	technology_cost = 10000
+}
+era_3 = {
+	start_date = 1862.01.01
+	end_date = 1886.01.01
+	icon = "gfx/interface/icons/eras/era_3.dds"
+	technology_cost = 12500
+}
+era_4 = {
+	start_date = 1887.01.01
+	end_date = 1911.01.01
+	icon = "gfx/interface/icons/eras/era_4.dds"
+	technology_cost = 15000
+}
+era_5 = {
+	start_date = 1911.01.01
+	end_date = 1936.01.01
+	icon = "gfx/interface/icons/eras/era_5.dds"
+	technology_cost = 17500
+}

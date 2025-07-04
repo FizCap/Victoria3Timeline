@@ -1,0 +1,13 @@
+﻿namespace = et_protestant_reformation
+
+# Protestant Reformation Immersion Event
+et_protestant_reformation.1 = {
+  type = major_event
+  title = et_protestant_reformation.1.t
+  desc = et_protestant_reformation.1.d
+  picture = GFX_evt_reformation
+  duration = 3
+  option = {
+    name = et_protestant_reformation.1.a
+  }
+}

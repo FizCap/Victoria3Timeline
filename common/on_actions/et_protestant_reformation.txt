@@ -36,6 +36,10 @@ protestant_reformation1 = {
         }
       }
     }
+    every_country = {
+      limit = { is_player = yes }
+      trigger_event = { id = et_protestant_reformation.1 }
+    }
   }
 }
 
