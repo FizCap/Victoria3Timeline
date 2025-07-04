@@ -1,4 +1,4 @@
-﻿BUILDINGS = {
+BUILDINGS = {
 	s:STATE_ABRUZZO = {
 		region_state:SPA = {
 			create_building = {
@@ -21,7 +21,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_port"
@@ -279,7 +279,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_barracks"
@@ -788,7 +788,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_barracks"
@@ -864,7 +864,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_atmospheric_engine_pump_building_coal_mine" }
+				activate_production_methods = { "pm_shaft_building_coal_mine" }
 			}
 			create_building = {
 				building = "building_port"
@@ -1752,7 +1752,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_barracks"
@@ -2016,19 +2016,18 @@
 			}
 			create_building = {
 				building = "building_coal_mine"
-				add_ownership = {
-					building = {
-						type = building_coal_mine
-						country = c:AUS
-						levels = 1
-						region = STATE_BOHEMIA
-					}
+				add_ownership = {				building = {
+					type = building_coal_mine
+					country = c:AUS
+					levels = 1
+					region = STATE_BOHEMIA
 				}
-				reserves = 1
-				activate_production_methods = { "pm_atmospheric_engine_pump_building_coal_mine" }
 			}
-			create_building = {
-				building = "building_government_administration"
+			reserves = 1
+			activate_production_methods = { "pm_shaft_building_coal_mine" }
+		}
+		create_building = {
+			building = "building_government_administration"
 				add_ownership = {
 					country = {
 						country = c:AUS
@@ -2673,7 +2672,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_port"
@@ -2729,7 +2728,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_logging_camp"
@@ -3927,7 +3926,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_port"
@@ -7136,7 +7135,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_barracks"
@@ -7712,7 +7711,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_port"
@@ -8606,7 +8605,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -8680,7 +8679,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_barracks"
@@ -9271,19 +9270,18 @@
 		region_state:TUR = {
 			create_building = {
 				building = "building_glassworks"
-				add_ownership = {
-					building = {
-						type = building_glassworks
-						country = c:TUR
-						levels = 1
-						region = STATE_LOWER_EGYPT
-					}
+				add_ownership = {				building = {
+					type = building_glassworks
+					country = c:TUR
+					levels = 1
+					region = STATE_LOWER_EGYPT
 				}
-				reserves = 1
-				activate_production_methods = { "pm_leaded_glass" }
 			}
-			create_building = {
-				building = "building_fishing_wharf"
+			reserves = 1
+			activate_production_methods = { "pm_glassblowing" }
+		}
+		create_building = {
+			building = "building_fishing_wharf"
 				add_ownership = {
 					building = {
 						type = building_fishing_wharf
@@ -12298,7 +12296,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_vineyard_plantation"
@@ -12374,7 +12372,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_trade_center"
@@ -12474,7 +12472,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_port"
@@ -13336,7 +13334,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_port"
@@ -13457,23 +13455,22 @@
 		region_state:V39 = {
 			create_building = {
 				building = "building_coal_mine"
-				add_ownership = {
-					building = {
-						type = building_coal_mine
-						country = c:V39
-						levels = 1
-						region = STATE_SAXONY
-					}
+				add_ownership = {				building = {
+					type = building_coal_mine
+					country = c:V39
+					levels = 1
+					region = STATE_SAXONY
 				}
-				reserves = 1
-				activate_production_methods = { "pm_atmospheric_engine_pump_building_coal_mine" }
 			}
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = c:V39
-						levels = 1
+			reserves = 1
+			activate_production_methods = { "pm_shaft_building_coal_mine" }
+		}
+		create_building = {
+			building = "building_government_administration"
+			add_ownership = {
+				country = {
+					country = c:V39
+					levels = 1
 					}
 				}
 				reserves = 1
@@ -13531,7 +13528,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_port"
@@ -13942,7 +13939,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_barracks"
@@ -15764,7 +15761,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_port"
@@ -15838,7 +15835,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_rice_farm"
@@ -16157,7 +16154,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_barracks"
@@ -16553,23 +16550,22 @@
 			}
 			create_building = {
 				building = "building_coal_mine"
-				add_ownership = {
-					building = {
-						type = building_coal_mine
-						country = c:ENG
-						levels = 1
-						region = STATE_WEST_BENGAL
-					}
+				add_ownership = {				building = {
+					type = building_coal_mine
+					country = c:ENG
+					levels = 1
+					region = STATE_WEST_BENGAL
 				}
-				reserves = 1
-				activate_production_methods = { "pm_atmospheric_engine_pump_building_coal_mine" }
 			}
-			create_building = {
-				building = "building_paper_mills"
-				add_ownership = {
-					building = {
-						type = building_financial_district
-						country = c:ENG
+			reserves = 1
+			activate_production_methods = { "pm_shaft_building_coal_mine" }
+		}
+		create_building = {
+			building = "building_paper_mills"
+			add_ownership = {
+				building = {
+					type = building_financial_district
+					country = c:ENG
 						levels = 1
 						region = STATE_WEST_BENGAL
 					}
@@ -16718,7 +16714,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_barracks"
@@ -17377,7 +17373,7 @@
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_power_of_the_purse" }
+				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
 				building = "building_barracks"
