@@ -10,7 +10,6 @@
     icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 }
 
-
 start_boost_country_modifier2 = {
     country_tax_income_add = 10000
     country_overlord_income_transfer_mult = -0.9
@@ -18,8 +17,13 @@ start_boost_country_modifier2 = {
 }
 
 start_boost_country_modifier4 = {
-    state_mortality_mult = -0.5
-    state_birth_rate_mult = 5.0
+    state_tax_capacity_add = 25
+    state_infrastructure_add = 10
+    state_food_security_add = 0.30
+    state_migration_pull_add = 0.30
+    state_pop_qualifications_mult = 0.30
+    state_birth_rate_mult = 2.0
+    state_mortality_mult = -1.0
     icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 }
 

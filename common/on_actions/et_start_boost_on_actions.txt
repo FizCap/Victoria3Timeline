@@ -14,8 +14,8 @@ on_yearly_pulse = {
   on_actions = { start_boost4 } 
 }
 
-on_game_started = {
-  on_actions = { remove_primary_cultures }
+on_yearly_pulse = { 
+  on_actions = { start_boost5 } 
 }
 
 
@@ -80,18 +80,11 @@ start_boost3 = {
 
 start_boost4 = {
   effect = {
-    every_country = {
-      limit = { total_population < 50000 }
+    every_state = {
+      limit = { state_population < 10000 }
       add_modifier = {
         name = start_boost_country_modifier4
-        days = 365
-      }
-    }
-    every_decentralized_country = {
-      limit = { total_population < 5000 }
-      add_modifier = {
-        name = start_boost_country_modifier4
-        days = 365
+        days = 1095
       }
     }
   }

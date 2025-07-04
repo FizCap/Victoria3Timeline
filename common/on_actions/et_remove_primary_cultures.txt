@@ -1,3 +1,7 @@
+on_game_started = {
+  on_actions = { remove_primary_cultures }
+}
+
 remove_primary_cultures = {
   effect = {
     c:X22 = {
