@@ -1,4 +1,4 @@
-start_boost_country_modifier = {
+﻿start_boost_country_modifier = {
     state_aristocrats_investment_pool_efficiency_mult = 5
     state_capitalists_investment_pool_efficiency_mult = 5
     state_clergymen_investment_pool_efficiency_mult = 5
@@ -12,10 +12,19 @@ start_boost_country_modifier = {
 
 
 start_boost_country_modifier2 = {
-    country_tax_income_add = 15000
+    country_tax_income_add = 10000
+    country_overlord_income_transfer_mult = -0.9
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+}
+
+start_boost_country_modifier4 = {
+    state_mortality_mult = -0.5
+    state_birth_rate_mult = 5.0
     icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 }
 
 holy_roman_emperor = {
-    power_bloc_invite_acceptance_add = 200
+    country_prestige_mult = 5
+    country_prestige_add = 500
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 }

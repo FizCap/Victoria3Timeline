@@ -1,0 +1,5 @@
+﻿holy_roman_empire = {
+	trigger = {
+		scope:selected_identity = identity:identity_holy_roman_empire
+	}
+}
