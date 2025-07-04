@@ -23621,7 +23621,6 @@
 				size = 75
 			}
 		}
-		}
 		region_state:W15 = {
 			create_pop = {
 				culture = north_german
