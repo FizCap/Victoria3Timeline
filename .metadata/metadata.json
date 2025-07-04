@@ -29,7 +29,7 @@
 			"common/history/states",
 			"common/history/trade_routes",
 			"common/religions",
-			"common/technology",
+			"common/technology"
 		]
 	}
 }
