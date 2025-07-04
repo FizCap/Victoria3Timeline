@@ -58,9 +58,16 @@
 			country = c:M34
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:LIT
+			type = personal_union
+		}
 	}
 	c:M34 = {
 		add_liberty_desire = -40.725
+	}
+	c:LIT = {
+		add_liberty_desire = -50
 	}
 	c:X59 = {
 		create_diplomatic_pact = {
