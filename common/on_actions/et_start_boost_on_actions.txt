@@ -1,8 +1,8 @@
-on_game_started = {
+﻿on_game_started = {
   on_actions = { start_boost }
 }
 
-on_game_started = {
+on_yearly_pulse = {
   on_actions = { start_boost2 }
 }
 
@@ -10,9 +10,15 @@ on_game_started = {
   on_actions = { start_boost3 }
 }
 
+on_yearly_pulse = { 
+  on_actions = { start_boost4 } 
+}
+
 on_game_started = {
   on_actions = { remove_primary_cultures }
 }
+
+
 
 start_boost = {
   effect = {
@@ -26,11 +32,12 @@ start_boost = {
 }
 
 start_boost2 = {
+  trigger = { game_date <= 1544.1.1 }
   effect = {
     every_country = {
       add_modifier = {
         name = start_boost_country_modifier2
-        days = 1825
+        days = 365
       }
     }
   }
@@ -61,6 +68,30 @@ start_boost3 = {
           level = 1
           reserves = 1
         }
+        create_building = {
+          building = "building_trade_center"
+          level = 1
+          reserves = 1
+        }
+      }
+    }
+  }
+}
+
+start_boost4 = {
+  effect = {
+    every_country = {
+      limit = { total_population < 50000 }
+      add_modifier = {
+        name = start_boost_country_modifier4
+        days = 365
+      }
+    }
+    every_decentralized_country = {
+      limit = { total_population < 5000 }
+      add_modifier = {
+        name = start_boost_country_modifier4
+        days = 365
       }
     }
   }
