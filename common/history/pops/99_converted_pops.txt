@@ -23567,18 +23567,6 @@
 		}
 	}
 	s:STATE_POMERANIA = {
-		region_state:POL = {
-			create_pop = {
-				culture = polish
-				religion = catholic
-				size = 16060
-			}
-			create_pop = {
-				culture = ashkenazi
-				religion = jewish
-				size = 75
-			}
-		}
 		region_state:U65 = {
 			create_pop = {
 				culture = north_german
@@ -23622,6 +23610,17 @@
 				religion = jewish
 				size = 124
 			}
+			create_pop = {
+				culture = polish
+				religion = catholic
+				size = 16060
+			}
+			create_pop = {
+				culture = ashkenazi
+				religion = jewish
+				size = 75
+			}
+		}
 		}
 		region_state:W15 = {
 			create_pop = {

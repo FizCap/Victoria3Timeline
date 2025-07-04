@@ -8667,18 +8667,13 @@
 	}
 	s:STATE_POMERANIA = {
 		create_state = {
-			country = c:POL
-			owned_provinces = { xA0C020 xCDEAE4 }
-			state_type = incorporated
-		}
-		create_state = {
 			country = c:U65
 			owned_provinces = { xA04121 xA9BD82 }
 			state_type = incorporated
 		}
 		create_state = {
 			country = c:U78
-			owned_provinces = { x3C26DD x6A53CF x86E6F2 }
+			owned_provinces = { x3C26DD x6A53CF x86E6F2 xA0C020 xCDEAE4 }
 			state_type = incorporated
 		}
 		create_state = {

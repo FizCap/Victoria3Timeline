@@ -2,21 +2,24 @@
   on_actions = { force_slavery_startup }
 }
 
-
-
 force_slavery_startup = {
   effect = {
     every_country = {
       limit = {
-        has_trait_with_state_religion = muslim
-      }
-      activate_law = law_type:law_slave_trade
-    }
-    every_scope_country = {
-      limit = {
         OR = {
-          capital = { is_in_region = strategic_region_indonesia }
-          capital = { is_in_region = strategic_region_indochina }
+          country_has_state_religion = rel:ibadi
+          country_has_state_religion = rel:mutazila
+          country_has_state_religion = rel:quranist
+          country_has_state_religion = rel:alawite
+          country_has_state_religion = rel:zikri
+          country_has_state_religion = rel:kharijite
+          country_has_state_religion = rel:druze
+          country_has_state_religion = rel:qarmatian
+          country_has_state_religion = rel:masmudi
+           country_has_state_religion = rel:sunni
+          country_has_state_religion = rel:shiite
+          any_scope_state = { is_capital = yes region = sr:region_indonesia }
+          any_scope_state = { is_capital = yes region = sr:region_indochina }
         }
       }
       activate_law = law_type:law_slave_trade
