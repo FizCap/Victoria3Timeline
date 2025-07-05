@@ -1,0 +1,12 @@
+﻿l_english:
+ culture_merging:0 "Culture Merging"
+ culture_merging_desc:0 "Choose whether to merge similar cultures for performance. When enabled, related cultures will be consolidated into their dominant regional culture at game start."
+ disabled:0 "Disabled"
+ disabled_desc:0 "Cultures will not be merged and will remain as separate entities."
+ enabled:0 "Enabled"
+ enabled_desc:0 "Related cultures will be merged into their dominant regional culture for better performance."
+ rule_culture_merging:0 "Extended Timeline Culture Merging (BETA)"
+ setting_disabled:0 "Cultures will not be merged."
+ setting_disabled_desc:0 "Cultures will not be merged and will remain as separate entities."
+ setting_enabled:0 "Cultures will be merged."
+ setting_enabled_desc:0 "Related cultures will be merged into their dominant regional culture for better performance. This will be wacky and not supported. Game restart may be required for it to take effect."

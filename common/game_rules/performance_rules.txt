@@ -1,0 +1,10 @@
+﻿culture_merging = {
+	default = disabled
+
+	disabled = {
+	}
+
+	enabled = {
+		flag = culture_merging_enabled
+	}
+}

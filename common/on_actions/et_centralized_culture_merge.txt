@@ -1,0 +1,6466 @@
+on_game_started = {
+	effect = {
+		if = {
+			limit = { 
+				has_game_rule:culture_merging = enabled
+			}
+			every_country = {
+				# Iberian cultures merge into Spanish/Portuguese
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:catalan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:catalan }
+							change_pop_culture = { target = cu:spanish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish }
+							}
+							state_region = {
+								remove_homeland = cu:catalan
+								add_homeland = cu:spanish
+							}
+						}
+					}
+					remove_primary_culture = cu:catalan
+					add_primary_culture = cu:spanish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:galician }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:galician }
+							change_pop_culture = { target = cu:spanish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish }
+							}
+							state_region = {
+								remove_homeland = cu:galician
+								add_homeland = cu:spanish
+							}
+						}
+					}
+					remove_primary_culture = cu:galician
+					add_primary_culture = cu:spanish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:basque }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:basque }
+							change_pop_culture = { target = cu:spanish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish }
+							}
+							state_region = {
+								remove_homeland = cu:basque
+								add_homeland = cu:spanish
+							}
+						}
+					}
+					remove_primary_culture = cu:basque
+					add_primary_culture = cu:spanish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:mirandese }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:mirandese }
+							change_pop_culture = { target = cu:portuguese value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:portuguese }
+							}
+							state_region = {
+								remove_homeland = cu:mirandese
+								add_homeland = cu:portuguese
+							}
+						}
+					}
+					remove_primary_culture = cu:mirandese
+					add_primary_culture = cu:portuguese
+				}
+				
+				# French regional cultures merge into French
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:occitan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:occitan }
+							change_pop_culture = { target = cu:french value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:french }
+							}
+							state_region = {
+								remove_homeland = cu:occitan
+								add_homeland = cu:french
+							}
+						}
+					}
+					remove_primary_culture = cu:occitan
+					add_primary_culture = cu:french
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:breton }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:breton }
+							change_pop_culture = { target = cu:french value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:french }
+							}
+							state_region = {
+								remove_homeland = cu:breton
+								add_homeland = cu:french
+							}
+						}
+					}
+					remove_primary_culture = cu:breton
+					add_primary_culture = cu:french
+				}
+				
+				# Benelux cultures merge into Dutch
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:flemish }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:flemish }
+							change_pop_culture = { target = cu:dutch value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:dutch }
+							}
+							state_region = {
+								remove_homeland = cu:flemish
+								add_homeland = cu:dutch
+							}
+						}
+					}
+					remove_primary_culture = cu:flemish
+					add_primary_culture = cu:dutch
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:wallonian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:wallonian }
+							change_pop_culture = { target = cu:dutch value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:dutch }
+							}
+							state_region = {
+								remove_homeland = cu:wallonian
+								add_homeland = cu:dutch
+							}
+						}
+					}
+					remove_primary_culture = cu:wallonian
+					add_primary_culture = cu:dutch
+				}
+				
+				# Swiss culture merges into appropriate German culture
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:alemannic }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:alemannic }
+							change_pop_culture = { target = cu:south_german value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:south_german }
+							}
+							state_region = {
+								remove_homeland = cu:alemannic
+								add_homeland = cu:south_german
+							}
+						}
+					}
+					remove_primary_culture = cu:alemannic
+					add_primary_culture = cu:south_german
+				}
+				
+				# South Slavic cultures merge into common South Slavic
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:croat }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:croat }
+							change_pop_culture = { target = cu:serb value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:serb }
+							}
+							state_region = {
+								remove_homeland = cu:croat
+								add_homeland = cu:serb
+							}
+						}
+					}
+					remove_primary_culture = cu:croat
+					add_primary_culture = cu:serb
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:slovene }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:slovene }
+							change_pop_culture = { target = cu:serb value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:serb }
+							}
+							state_region = {
+								remove_homeland = cu:slovene
+								add_homeland = cu:serb
+							}
+						}
+					}
+					remove_primary_culture = cu:slovene
+					add_primary_culture = cu:serb
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:bosniak }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:bosniak }
+							change_pop_culture = { target = cu:serb value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:serb }
+							}
+							state_region = {
+								remove_homeland = cu:bosniak
+								add_homeland = cu:serb
+							}
+						}
+					}
+					remove_primary_culture = cu:bosniak
+					add_primary_culture = cu:serb
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:bulgarian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:bulgarian }
+							change_pop_culture = { target = cu:serb value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:serb }
+							}
+							state_region = {
+								remove_homeland = cu:bulgarian
+								add_homeland = cu:serb
+							}
+						}
+					}
+					remove_primary_culture = cu:bulgarian
+					add_primary_culture = cu:serb
+				}   
+				
+				# West Slavic cultures merge appropriately
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:slovak }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:slovak }
+							change_pop_culture = { target = cu:czech value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:czech }
+							}
+							state_region = {
+								remove_homeland = cu:slovak
+								add_homeland = cu:czech
+							}
+						}
+					}
+					remove_primary_culture = cu:slovak
+					add_primary_culture = cu:czech
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:sorb }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:sorb }
+							change_pop_culture = { target = cu:czech value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:czech }
+							}
+							state_region = {
+								remove_homeland = cu:sorb
+								add_homeland = cu:czech
+							}
+						}
+					}
+					remove_primary_culture = cu:sorb
+					add_primary_culture = cu:czech
+				}
+				
+				# Baltic cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:latvian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:latvian }
+							change_pop_culture = { target = cu:lithuanian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:lithuanian }
+							}
+							state_region = {
+								remove_homeland = cu:latvian
+								add_homeland = cu:lithuanian
+							}
+						}
+					}
+					remove_primary_culture = cu:latvian
+					add_primary_culture = cu:lithuanian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:estonian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:estonian }
+							change_pop_culture = { target = cu:finnish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:finnish }
+							}
+							state_region = {
+								remove_homeland = cu:estonian
+								add_homeland = cu:finnish
+							}
+						}
+					}
+					remove_primary_culture = cu:estonian
+					add_primary_culture = cu:finnish
+				}
+				
+				# Finno-Ugric cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:sami }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:sami }
+							change_pop_culture = { target = cu:finnish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:finnish }
+							}
+							state_region = {
+								remove_homeland = cu:sami
+								add_homeland = cu:finnish
+							}
+						}
+					}
+					remove_primary_culture = cu:sami
+					add_primary_culture = cu:finnish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:ugrian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:ugrian }
+							change_pop_culture = { target = cu:hungarian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hungarian }
+							}
+							state_region = {
+								remove_homeland = cu:ugrian
+								add_homeland = cu:hungarian
+							}
+						}
+					}
+					remove_primary_culture = cu:ugrian
+					add_primary_culture = cu:hungarian
+				}
+				
+				# Maltese merges into South Italian
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:maltese }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:maltese }
+							change_pop_culture = { target = cu:south_italian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:south_italian }
+							}
+							state_region = {
+								remove_homeland = cu:maltese
+								add_homeland = cu:south_italian
+							}
+						}
+					}
+					remove_primary_culture = cu:maltese
+					add_primary_culture = cu:south_italian
+				}
+				
+				# Celtic cultures merge into Irish
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:irish }
+					}
+					OR = {
+						any_scope_pop = { culture = cu:breton }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:breton }
+							change_pop_culture = { target = cu:irish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:irish }
+							}
+							state_region = {
+								remove_homeland = cu:breton
+								add_homeland = cu:irish
+							}
+						}
+					}
+					remove_primary_culture = cu:breton
+					add_primary_culture = cu:irish
+				}
+				
+				# Turkic cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:azerbaijani }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:azerbaijani }
+							change_pop_culture = { target = cu:turkish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:turkish }
+							}
+							state_region = {
+								remove_homeland = cu:azerbaijani
+								add_homeland = cu:turkish
+							}
+						}
+					}
+					remove_primary_culture = cu:azerbaijani
+					add_primary_culture = cu:turkish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tatar }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tatar }
+							change_pop_culture = { target = cu:turkish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:turkish }
+							}
+							state_region = {
+								remove_homeland = cu:tatar
+								add_homeland = cu:turkish
+							}
+						}
+					}
+					remove_primary_culture = cu:tatar
+					add_primary_culture = cu:turkish
+				}
+				
+				# Central Asian Turkic cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kazak }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kazak }
+							change_pop_culture = { target = cu:uzbek value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:uzbek }
+							}
+							state_region = {
+								remove_homeland = cu:kazak
+								add_homeland = cu:uzbek
+							}
+						}
+					}
+					remove_primary_culture = cu:kazak
+					add_primary_culture = cu:uzbek
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kirgiz }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kirgiz }
+							change_pop_culture = { target = cu:uzbek value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:uzbek }
+							}
+							state_region = {
+								remove_homeland = cu:kirgiz
+								add_homeland = cu:uzbek
+							}
+						}
+					}
+					remove_primary_culture = cu:kirgiz
+					add_primary_culture = cu:uzbek
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:turkmen }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:turkmen }
+							change_pop_culture = { target = cu:uzbek value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:uzbek }
+							}
+							state_region = {
+								remove_homeland = cu:turkmen
+								add_homeland = cu:uzbek
+							}
+						}
+					}
+					remove_primary_culture = cu:turkmen
+					add_primary_culture = cu:uzbek
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:uighur }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:uighur }
+							change_pop_culture = { target = cu:uzbek value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:uzbek }
+							}
+							state_region = {
+								remove_homeland = cu:uighur
+								add_homeland = cu:uzbek
+							}
+						}
+					}
+					remove_primary_culture = cu:uighur
+					add_primary_culture = cu:uzbek
+				}
+				
+				# Iranian cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tajik }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tajik }
+							change_pop_culture = { target = cu:persian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:persian }
+							}
+							state_region = {
+								remove_homeland = cu:tajik
+								add_homeland = cu:persian
+							}
+						}
+					}
+					remove_primary_culture = cu:tajik
+					add_primary_culture = cu:persian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kurdish }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kurdish }
+							change_pop_culture = { target = cu:persian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:persian }
+							}
+							state_region = {
+								remove_homeland = cu:kurdish
+								add_homeland = cu:persian
+							}
+						}
+					}
+					remove_primary_culture = cu:kurdish
+					add_primary_culture = cu:persian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:pashtun }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:pashtun }
+							change_pop_culture = { target = cu:persian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:persian }
+							}
+							state_region = {
+								remove_homeland = cu:pashtun
+								add_homeland = cu:persian
+							}
+						}
+					}
+					remove_primary_culture = cu:pashtun
+					add_primary_culture = cu:persian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:baluchi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:baluchi }
+							change_pop_culture = { target = cu:persian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:persian }
+							}
+							state_region = {
+								remove_homeland = cu:baluchi
+								add_homeland = cu:persian
+							}
+						}
+					}
+					remove_primary_culture = cu:baluchi
+					add_primary_culture = cu:persian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:hazara }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:hazara }
+							change_pop_culture = { target = cu:persian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:persian }
+							}
+							state_region = {
+								remove_homeland = cu:hazara
+								add_homeland = cu:persian
+							}
+						}
+					}
+					remove_primary_culture = cu:hazara
+					add_primary_culture = cu:persian
+				}
+				
+				# Mongolic cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kalmyk }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kalmyk }
+							change_pop_culture = { target = cu:mongol value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mongol }
+							}
+							state_region = {
+								remove_homeland = cu:kalmyk
+								add_homeland = cu:mongol
+							}
+						}
+					}
+					remove_primary_culture = cu:kalmyk
+					add_primary_culture = cu:mongol
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tuvan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tuvan }
+							change_pop_culture = { target = cu:mongol value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mongol }
+							}
+							state_region = {
+								remove_homeland = cu:tuvan
+								add_homeland = cu:mongol
+							}
+						}
+					}
+					remove_primary_culture = cu:tuvan
+					add_primary_culture = cu:mongol
+				}
+				
+				# Siberian cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:yakut }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:yakut }
+							change_pop_culture = { target = cu:siberian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:siberian }
+							}
+							state_region = {
+								remove_homeland = cu:yakut
+								add_homeland = cu:siberian
+							}
+						}
+					}
+					remove_primary_culture = cu:yakut
+					add_primary_culture = cu:siberian
+				}
+				
+				# Corsican merges into South Italian
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:corsican }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:corsican }
+							change_pop_culture = { target = cu:south_italian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:south_italian }
+							}
+							state_region = {
+								remove_homeland = cu:corsican
+								add_homeland = cu:south_italian
+							}
+						}
+					}
+					remove_primary_culture = cu:corsican
+					add_primary_culture = cu:south_italian
+				}
+				
+				# Szekely merges into Hungarian
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:szekely }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:szekely }
+							change_pop_culture = { target = cu:hungarian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hungarian }
+							}
+							state_region = {
+								remove_homeland = cu:szekely
+								add_homeland = cu:hungarian
+							}
+						}
+					}
+					remove_primary_culture = cu:szekely
+					add_primary_culture = cu:hungarian
+				}
+				
+				# West African cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:bambara }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:bambara }
+							change_pop_culture = { target = cu:mande value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mande }
+							}
+							state_region = {
+								remove_homeland = cu:bambara
+								add_homeland = cu:mande
+							}
+						}
+					}
+					remove_primary_culture = cu:bambara
+					add_primary_culture = cu:mande
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:dyula }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:dyula }
+							change_pop_culture = { target = cu:mande value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mande }
+							}
+							state_region = {
+								remove_homeland = cu:dyula
+								add_homeland = cu:mande
+							}
+						}
+					}
+					remove_primary_culture = cu:dyula
+					add_primary_culture = cu:mande
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kissi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kissi }
+							change_pop_culture = { target = cu:mande value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mande }
+							}
+							state_region = {
+								remove_homeland = cu:kissi
+								add_homeland = cu:mande
+							}
+						}
+					}
+					remove_primary_culture = cu:kissi
+					add_primary_culture = cu:mande
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:senufo }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:senufo }
+							change_pop_culture = { target = cu:mande value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mande }
+							}
+							state_region = {
+								remove_homeland = cu:senufo
+								add_homeland = cu:mande
+							}
+						}
+					}
+					remove_primary_culture = cu:senufo
+					add_primary_culture = cu:mande
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:mossi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:mossi }
+							change_pop_culture = { target = cu:mande value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mande }
+							}
+							state_region = {
+								remove_homeland = cu:mossi
+								add_homeland = cu:mande
+							}
+						}
+					}
+					remove_primary_culture = cu:mossi
+					add_primary_culture = cu:mande
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:songhai }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:songhai }
+							change_pop_culture = { target = cu:mande value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mande }
+							}
+							state_region = {
+								remove_homeland = cu:songhai
+								add_homeland = cu:mande
+							}
+						}
+					}
+					remove_primary_culture = cu:songhai
+					add_primary_culture = cu:mande
+				}
+				
+				# Akan group cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:bassa }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:bassa }
+							change_pop_culture = { target = cu:akan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:akan }
+							}
+							state_region = {
+								remove_homeland = cu:bassa
+								add_homeland = cu:akan
+							}
+						}
+					}
+					remove_primary_culture = cu:bassa
+					add_primary_culture = cu:akan
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kru }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kru }
+							change_pop_culture = { target = cu:akan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:akan }
+							}
+							state_region = {
+								remove_homeland = cu:kru
+								add_homeland = cu:akan
+							}
+						}
+					}
+					remove_primary_culture = cu:kru
+					add_primary_culture = cu:akan
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:ewe }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:ewe }
+							change_pop_culture = { target = cu:akan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:akan }
+							}
+							state_region = {
+								remove_homeland = cu:ewe
+								add_homeland = cu:akan
+							}
+						}
+					}
+					remove_primary_culture = cu:ewe
+					add_primary_culture = cu:akan
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:fon }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:fon }
+							change_pop_culture = { target = cu:akan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:akan }
+							}
+							state_region = {
+								remove_homeland = cu:fon
+								add_homeland = cu:akan
+							}
+						}
+					}
+					remove_primary_culture = cu:fon
+					add_primary_culture = cu:akan
+				}
+				
+				# Nigerian cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:ibibio }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:ibibio }
+							change_pop_culture = { target = cu:ibo value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:ibo }
+							}
+							state_region = {
+								remove_homeland = cu:ibibio
+								add_homeland = cu:ibo
+							}
+						}
+					}
+					remove_primary_culture = cu:ibibio
+					add_primary_culture = cu:ibo
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:edo }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:edo }
+							change_pop_culture = { target = cu:ibo value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:ibo }
+							}
+							state_region = {
+								remove_homeland = cu:edo
+								add_homeland = cu:ibo
+							}
+						}
+					}
+					remove_primary_culture = cu:edo
+					add_primary_culture = cu:ibo
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tiv }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tiv }
+							change_pop_culture = { target = cu:hausa value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hausa }
+							}
+							state_region = {
+								remove_homeland = cu:tiv
+								add_homeland = cu:hausa
+							}
+						}
+					}
+					remove_primary_culture = cu:tiv
+					add_primary_culture = cu:hausa
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:fulbe }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:fulbe }
+							change_pop_culture = { target = cu:hausa value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hausa }
+							}
+							state_region = {
+								remove_homeland = cu:fulbe
+								add_homeland = cu:hausa
+							}
+						}
+					}
+					remove_primary_culture = cu:fulbe
+					add_primary_culture = cu:hausa
+				}
+				
+				# Central African cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:baguirmi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:baguirmi }
+							change_pop_culture = { target = cu:sara value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:sara }
+							}
+							state_region = {
+								remove_homeland = cu:baguirmi
+								add_homeland = cu:sara
+							}
+						}
+					}
+					remove_primary_culture = cu:baguirmi
+					add_primary_culture = cu:sara
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kanuri }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kanuri }
+							change_pop_culture = { target = cu:sara value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:sara }
+							}
+							state_region = {
+								remove_homeland = cu:kanuri
+								add_homeland = cu:sara
+							}
+						}
+					}
+					remove_primary_culture = cu:kanuri
+					add_primary_culture = cu:sara
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:teda }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:teda }
+							change_pop_culture = { target = cu:sara value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:sara }
+							}
+							state_region = {
+								remove_homeland = cu:teda
+								add_homeland = cu:sara
+							}
+						}
+					}
+					remove_primary_culture = cu:teda
+					add_primary_culture = cu:sara
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:fang }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:fang }
+							change_pop_culture = { target = cu:equatorial_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:equatorial_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:fang
+								add_homeland = cu:equatorial_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:fang
+					add_primary_culture = cu:equatorial_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:bakongo }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:bakongo }
+							change_pop_culture = { target = cu:fluvian_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:fluvian_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:bakongo
+								add_homeland = cu:fluvian_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:bakongo
+					add_primary_culture = cu:fluvian_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:luba }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:luba }
+							change_pop_culture = { target = cu:fluvian_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:fluvian_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:luba
+								add_homeland = cu:fluvian_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:luba
+					add_primary_culture = cu:fluvian_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:lunda }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:lunda }
+							change_pop_culture = { target = cu:fluvian_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:fluvian_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:lunda
+								add_homeland = cu:fluvian_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:lunda
+					add_primary_culture = cu:fluvian_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:mongo }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:mongo }
+							change_pop_culture = { target = cu:fluvian_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:fluvian_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:mongo
+								add_homeland = cu:fluvian_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:mongo
+					add_primary_culture = cu:fluvian_bantu
+				}
+				
+				# East African cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:baganda }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:baganda }
+							change_pop_culture = { target = cu:lacustrine_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:lacustrine_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:baganda
+								add_homeland = cu:lacustrine_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:baganda
+					add_primary_culture = cu:lacustrine_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:ruanda }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:ruanda }
+							change_pop_culture = { target = cu:lacustrine_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:lacustrine_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:ruanda
+								add_homeland = cu:lacustrine_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:ruanda
+					add_primary_culture = cu:lacustrine_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:rundi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:rundi }
+							change_pop_culture = { target = cu:lacustrine_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:lacustrine_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:rundi
+								add_homeland = cu:lacustrine_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:rundi
+					add_primary_culture = cu:lacustrine_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kikuyu }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kikuyu }
+							change_pop_culture = { target = cu:lacustrine_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:lacustrine_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:kikuyu
+								add_homeland = cu:lacustrine_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:kikuyu
+					add_primary_culture = cu:lacustrine_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:sukuma }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:sukuma }
+							change_pop_culture = { target = cu:swahili value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:swahili }
+							}
+							state_region = {
+								remove_homeland = cu:sukuma
+								add_homeland = cu:swahili
+							}
+						}
+					}
+					remove_primary_culture = cu:sukuma
+					add_primary_culture = cu:swahili
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:unyamwezi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:unyamwezi }
+							change_pop_culture = { target = cu:swahili value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:swahili }
+							}
+							state_region = {
+								remove_homeland = cu:unyamwezi
+								add_homeland = cu:swahili
+							}
+						}
+					}
+					remove_primary_culture = cu:unyamwezi
+					add_primary_culture = cu:swahili
+				}
+				
+				# Nilotic cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:dinka }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:dinka }
+							change_pop_culture = { target = cu:nilotic value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:nilotic }
+							}
+							state_region = {
+								remove_homeland = cu:dinka
+								add_homeland = cu:nilotic
+							}
+						}
+					}
+					remove_primary_culture = cu:dinka
+					add_primary_culture = cu:nilotic
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:nuer }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:nuer }
+							change_pop_culture = { target = cu:nilotic value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:nilotic }
+							}
+							state_region = {
+								remove_homeland = cu:nuer
+								add_homeland = cu:nilotic
+							}
+						}
+					}
+					remove_primary_culture = cu:nuer
+					add_primary_culture = cu:nilotic
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:luo }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:luo }
+							change_pop_culture = { target = cu:nilotic value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:nilotic }
+							}
+							state_region = {
+								remove_homeland = cu:luo
+								add_homeland = cu:nilotic
+							}
+						}
+					}
+					remove_primary_culture = cu:luo
+					add_primary_culture = cu:nilotic
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:maasai }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:maasai }
+							change_pop_culture = { target = cu:nilotic value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:nilotic }
+							}
+							state_region = {
+								remove_homeland = cu:maasai
+								add_homeland = cu:nilotic
+							}
+						}
+					}
+					remove_primary_culture = cu:maasai
+					add_primary_culture = cu:nilotic
+				}
+				
+				# Horn of Africa cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tigray }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tigray }
+							change_pop_culture = { target = cu:amhara value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:amhara }
+							}
+							state_region = {
+								remove_homeland = cu:tigray
+								add_homeland = cu:amhara
+							}
+						}
+					}
+					remove_primary_culture = cu:tigray
+					add_primary_culture = cu:amhara
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:sidama }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:sidama }
+							change_pop_culture = { target = cu:oromo value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:oromo }
+							}
+							state_region = {
+								remove_homeland = cu:sidama
+								add_homeland = cu:oromo
+							}
+						}
+					}
+					remove_primary_culture = cu:sidama
+					add_primary_culture = cu:oromo
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:afar }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:afar }
+							change_pop_culture = { target = cu:somali value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:somali }
+							}
+							state_region = {
+								remove_homeland = cu:afar
+								add_homeland = cu:somali
+							}
+						}
+					}
+					remove_primary_culture = cu:afar
+					add_primary_culture = cu:somali
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:beja }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:beja }
+							change_pop_culture = { target = cu:sudanese value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:sudanese }
+							}
+							state_region = {
+								remove_homeland = cu:beja
+								add_homeland = cu:sudanese
+							}
+						}
+					}
+					remove_primary_culture = cu:beja
+					add_primary_culture = cu:sudanese
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:fur }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:fur }
+							change_pop_culture = { target = cu:sudanese value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:sudanese }
+							}
+							state_region = {
+								remove_homeland = cu:fur
+								add_homeland = cu:sudanese
+							}
+						}
+					}
+					remove_primary_culture = cu:fur
+					add_primary_culture = cu:sudanese
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:masalit }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:masalit }
+							change_pop_culture = { target = cu:sudanese value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:sudanese }
+							}
+							state_region = {
+								remove_homeland = cu:masalit
+								add_homeland = cu:sudanese
+							}
+						}
+					}
+					remove_primary_culture = cu:masalit
+					add_primary_culture = cu:sudanese
+				}
+				
+				# Chinese cultures merge into Han
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:manchu }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:manchu }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:manchu
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:manchu
+					add_primary_culture = cu:han
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:miao }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:miao }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:miao
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:miao
+					add_primary_culture = cu:han
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:yi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:yi }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:yi
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:yi
+					add_primary_culture = cu:han
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:zhuang }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:zhuang }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:zhuang
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:zhuang
+					add_primary_culture = cu:han
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tibetan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tibetan }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:tibetan
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:tibetan
+					add_primary_culture = cu:han
+				}
+				
+				# Indian cultures merge into Hindustani
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:bengali }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:bengali }
+							change_pop_culture = { target = cu:hindustani value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hindustani }
+							}
+							state_region = {
+								remove_homeland = cu:bengali
+								add_homeland = cu:hindustani
+							}
+						}
+					}
+					remove_primary_culture = cu:bengali
+					add_primary_culture = cu:hindustani
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:gujarati }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:gujarati }
+							change_pop_culture = { target = cu:hindustani value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hindustani }
+							}
+							state_region = {
+								remove_homeland = cu:gujarati
+								add_homeland = cu:hindustani
+							}
+						}
+					}
+					remove_primary_culture = cu:gujarati
+					add_primary_culture = cu:hindustani
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:marathi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:marathi }
+							change_pop_culture = { target = cu:hindustani value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hindustani }
+							}
+							state_region = {
+								remove_homeland = cu:marathi
+								add_homeland = cu:hindustani
+							}
+						}
+					}
+					remove_primary_culture = cu:marathi
+					add_primary_culture = cu:hindustani
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tamil }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tamil }
+							change_pop_culture = { target = cu:hindustani value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hindustani }
+							}
+							state_region = {
+								remove_homeland = cu:tamil
+								add_homeland = cu:hindustani
+							}
+						}
+					}
+					remove_primary_culture = cu:tamil
+					add_primary_culture = cu:hindustani
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:assamese }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:assamese }
+							change_pop_culture = { target = cu:hindustani value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hindustani }
+							}
+							state_region = {
+								remove_homeland = cu:assamese
+								add_homeland = cu:hindustani
+							}
+						}
+					}
+					remove_primary_culture = cu:assamese
+					add_primary_culture = cu:hindustani
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:avadhi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:avadhi }
+							change_pop_culture = { target = cu:hindustani value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hindustani }
+							}
+							state_region = {
+								remove_homeland = cu:avadhi
+								add_homeland = cu:hindustani
+							}
+						}
+					}
+					remove_primary_culture = cu:avadhi
+					add_primary_culture = cu:hindustani
+				}
+				
+				# Chinese dialects merge into Han
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:min }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:min }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:min
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:min
+					add_primary_culture = cu:han
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:hakka }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:hakka }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:hakka
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:hakka
+					add_primary_culture = cu:han
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:yue }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:yue }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:yue
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:yue
+					add_primary_culture = cu:han
+				}
+				
+				# Southeast Asian/Indochina cultures merge into Vietnamese
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:khmer }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:khmer }
+							change_pop_culture = { target = cu:vietnamese value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:vietnamese }
+							}
+							state_region = {
+								remove_homeland = cu:khmer
+								add_homeland = cu:vietnamese
+							}
+						}
+					}
+					remove_primary_culture = cu:khmer
+					add_primary_culture = cu:vietnamese
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:lao }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:lao }
+							change_pop_culture = { target = cu:vietnamese value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:vietnamese }
+							}
+							state_region = {
+								remove_homeland = cu:lao
+								add_homeland = cu:vietnamese
+							}
+						}
+					}
+					remove_primary_culture = cu:lao
+					add_primary_culture = cu:vietnamese
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:thai }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:thai }
+							change_pop_culture = { target = cu:vietnamese value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:vietnamese }
+							}
+							state_region = {
+								remove_homeland = cu:thai
+								add_homeland = cu:vietnamese
+							}
+						}
+					}
+					remove_primary_culture = cu:thai
+					add_primary_culture = cu:vietnamese
+				}
+				
+				# Indonesian/Malay cultures merge into Javan
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:batak }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:batak }
+							change_pop_culture = { target = cu:javan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:javan }
+							}
+							state_region = {
+								remove_homeland = cu:batak
+								add_homeland = cu:javan
+							}
+						}
+					}
+					remove_primary_culture = cu:batak
+					add_primary_culture = cu:javan
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:dayak }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:dayak }
+							change_pop_culture = { target = cu:javan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:javan }
+							}
+							state_region = {
+								remove_homeland = cu:dayak
+								add_homeland = cu:javan
+							}
+						}
+					}
+					remove_primary_culture = cu:dayak
+					add_primary_culture = cu:javan
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:moro }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:moro }
+							change_pop_culture = { target = cu:javan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:javan }
+							}
+							state_region = {
+								remove_homeland = cu:moro
+								add_homeland = cu:javan
+							}
+						}
+					}
+					remove_primary_culture = cu:moro
+					add_primary_culture = cu:javan
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:moluccan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:moluccan }
+							change_pop_culture = { target = cu:javan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:javan }
+							}
+							state_region = {
+								remove_homeland = cu:moluccan
+								add_homeland = cu:javan
+							}
+						}
+					}
+					remove_primary_culture = cu:moluccan
+					add_primary_culture = cu:javan
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:filipino }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:filipino }
+							change_pop_culture = { target = cu:javan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:javan }
+							}
+							state_region = {
+								remove_homeland = cu:filipino
+								add_homeland = cu:javan
+							}
+						}
+					}
+					remove_primary_culture = cu:filipino
+					add_primary_culture = cu:javan
+				}
+				
+				# German cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:south_german }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:south_german }
+							change_pop_culture = { target = cu:north_german value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:north_german }
+							}
+							state_region = {
+								remove_homeland = cu:south_german
+								add_homeland = cu:north_german
+							}
+						}
+					}
+					remove_primary_culture = cu:south_german
+					add_primary_culture = cu:north_german
+				}
+				
+				# Italian cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:south_italian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:south_italian }
+							change_pop_culture = { target = cu:north_italian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:north_italian }
+							}
+							state_region = {
+								remove_homeland = cu:south_italian
+								add_homeland = cu:north_italian
+							}
+						}
+					}
+					remove_primary_culture = cu:south_italian
+					add_primary_culture = cu:north_italian
+				}
+				
+				# East Slavic cultures merge into Russian
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:byelorussian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:byelorussian }
+							change_pop_culture = { target = cu:russian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:russian }
+							}
+							state_region = {
+								remove_homeland = cu:byelorussian
+								add_homeland = cu:russian
+							}
+						}
+					}
+					remove_primary_culture = cu:byelorussian
+					add_primary_culture = cu:russian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:ukrainian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:ukrainian }
+							change_pop_culture = { target = cu:russian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:russian }
+							}
+							state_region = {
+								remove_homeland = cu:ukrainian
+								add_homeland = cu:russian
+							}
+						}
+					}
+					remove_primary_culture = cu:ukrainian
+					add_primary_culture = cu:russian
+				}
+				
+				# Scandinavian cultures merge into Swedish
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:danish }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:danish }
+							change_pop_culture = { target = cu:swedish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:swedish }
+							}
+							state_region = {
+								remove_homeland = cu:danish
+								add_homeland = cu:swedish
+							}
+						}
+					}
+					remove_primary_culture = cu:danish
+					add_primary_culture = cu:swedish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:norwegian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:norwegian }
+							change_pop_culture = { target = cu:swedish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:swedish }
+							}
+							state_region = {
+								remove_homeland = cu:norwegian
+								add_homeland = cu:swedish
+							}
+						}
+					}
+					remove_primary_culture = cu:norwegian
+					add_primary_culture = cu:swedish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:finnish }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:finnish }
+							change_pop_culture = { target = cu:swedish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:swedish }
+							}
+							state_region = {
+								remove_homeland = cu:finnish
+								add_homeland = cu:swedish
+							}
+						}
+					}
+					remove_primary_culture = cu:finnish
+					add_primary_culture = cu:swedish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:icelandic }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:icelandic }
+							change_pop_culture = { target = cu:swedish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:swedish }
+							}
+							state_region = {
+								remove_homeland = cu:icelandic
+								add_homeland = cu:swedish
+							}
+						}
+					}
+					remove_primary_culture = cu:icelandic
+					add_primary_culture = cu:swedish
+				}
+				
+				# Arab cultures merge into Bedouin
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:levantine }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:levantine }
+							change_pop_culture = { target = cu:bedouin value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:bedouin }
+							}
+							state_region = {
+								remove_homeland = cu:levantine
+								add_homeland = cu:bedouin
+							}
+						}
+					}
+					remove_primary_culture = cu:levantine
+					add_primary_culture = cu:bedouin
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:maghrebi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:maghrebi }
+							change_pop_culture = { target = cu:bedouin value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:bedouin }
+							}
+							state_region = {
+								remove_homeland = cu:maghrebi
+								add_homeland = cu:bedouin
+							}
+						}
+					}
+					remove_primary_culture = cu:maghrebi
+					add_primary_culture = cu:bedouin
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:mashriqi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:mashriqi }
+							change_pop_culture = { target = cu:bedouin value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:bedouin }
+							}
+							state_region = {
+								remove_homeland = cu:mashriqi
+								add_homeland = cu:bedouin
+							}
+						}
+					}
+					remove_primary_culture = cu:mashriqi
+					add_primary_culture = cu:bedouin
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:misri }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:misri }
+							change_pop_culture = { target = cu:bedouin value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:bedouin }
+							}
+							state_region = {
+								remove_homeland = cu:misri
+								add_homeland = cu:bedouin
+							}
+						}
+					}
+					remove_primary_culture = cu:misri
+					add_primary_culture = cu:bedouin
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:berber }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:berber }
+							change_pop_culture = { target = cu:bedouin value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:bedouin }
+							}
+							state_region = {
+								remove_homeland = cu:berber
+								add_homeland = cu:bedouin
+							}
+						}
+					}
+					remove_primary_culture = cu:berber
+					add_primary_culture = cu:bedouin
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:yemenite }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:yemenite }
+							change_pop_culture = { target = cu:bedouin value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:bedouin }
+							}
+							state_region = {
+								remove_homeland = cu:yemenite
+								add_homeland = cu:bedouin
+							}
+						}
+					}
+					remove_primary_culture = cu:yemenite
+					add_primary_culture = cu:bedouin
+				}
+				
+				# North American cultures merge into Anglo-American
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:french_canadian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:french_canadian }
+							change_pop_culture = { target = cu:anglo_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:anglo_american }
+							}
+							state_region = {
+								remove_homeland = cu:french_canadian
+								add_homeland = cu:anglo_american
+							}
+						}
+					}
+					remove_primary_culture = cu:french_canadian
+					add_primary_culture = cu:anglo_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:anglo_canadian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:anglo_canadian }
+							change_pop_culture = { target = cu:anglo_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:anglo_american }
+							}
+							state_region = {
+								remove_homeland = cu:anglo_canadian
+								add_homeland = cu:anglo_american
+							}
+						}
+					}
+					remove_primary_culture = cu:anglo_canadian
+					add_primary_culture = cu:anglo_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:dixie }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:dixie }
+							change_pop_culture = { target = cu:anglo_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:anglo_american }
+							}
+							state_region = {
+								remove_homeland = cu:dixie
+								add_homeland = cu:anglo_american
+							}
+						}
+					}
+					remove_primary_culture = cu:dixie
+					add_primary_culture = cu:anglo_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tejano }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tejano }
+							change_pop_culture = { target = cu:anglo_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:anglo_american }
+							}
+							state_region = {
+								remove_homeland = cu:tejano
+								add_homeland = cu:anglo_american
+							}
+						}
+					}
+					remove_primary_culture = cu:tejano
+					add_primary_culture = cu:anglo_american
+				}
+				
+				# South American cultures merge into Spanish Latin American
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:platinean }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:platinean }
+							change_pop_culture = { target = cu:spanish_latin_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish_latin_american }
+							}
+							state_region = {
+								remove_homeland = cu:platinean
+								add_homeland = cu:spanish_latin_american
+							}
+						}
+					}
+					remove_primary_culture = cu:platinean
+					add_primary_culture = cu:spanish_latin_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:north_andean }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:north_andean }
+							change_pop_culture = { target = cu:spanish_latin_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish_latin_american }
+							}
+							state_region = {
+								remove_homeland = cu:north_andean
+								add_homeland = cu:spanish_latin_american
+							}
+						}
+					}
+					remove_primary_culture = cu:north_andean
+					add_primary_culture = cu:spanish_latin_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:south_andean }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:south_andean }
+							change_pop_culture = { target = cu:spanish_latin_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish_latin_american }
+							}
+							state_region = {
+								remove_homeland = cu:south_andean
+								add_homeland = cu:spanish_latin_american
+							}
+						}
+					}
+					remove_primary_culture = cu:south_andean
+					add_primary_culture = cu:spanish_latin_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:central_american }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:central_american }
+							change_pop_culture = { target = cu:spanish_latin_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish_latin_american }
+							}
+							state_region = {
+								remove_homeland = cu:central_american
+								add_homeland = cu:spanish_latin_american
+							}
+						}
+					}
+					remove_primary_culture = cu:central_american
+					add_primary_culture = cu:spanish_latin_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:mexican }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:mexican }
+							change_pop_culture = { target = cu:spanish_latin_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish_latin_american }
+							}
+							state_region = {
+								remove_homeland = cu:mexican
+								add_homeland = cu:spanish_latin_american
+							}
+						}
+					}
+					remove_primary_culture = cu:mexican
+					add_primary_culture = cu:spanish_latin_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:caribeno }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:caribeno }
+							change_pop_culture = { target = cu:spanish_latin_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish_latin_american }
+							}
+							state_region = {
+								remove_homeland = cu:caribeno
+								add_homeland = cu:spanish_latin_american
+							}
+						}
+					}
+					remove_primary_culture = cu:caribeno
+					add_primary_culture = cu:spanish_latin_american
+				}
+				
+				# Portuguese Latin American cultures merge into Brazilian
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:brazilian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:brazilian }
+							change_pop_culture = { target = cu:brazilian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:brazilian }
+							}
+							state_region = {
+								remove_homeland = cu:brazilian
+								add_homeland = cu:brazilian
+							}
+						}
+					}
+					remove_primary_culture = cu:brazilian
+					add_primary_culture = cu:brazilian
+				}
+				
+				# North American Native cultures merge into Iroquoian
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:metis }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:metis }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:metis
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:metis
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:dakota }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:dakota }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:dakota
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:dakota
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:cherokee }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:cherokee }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:cherokee
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:cherokee
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:muskogean }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:muskogean }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:muskogean
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:muskogean
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:navajo }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:navajo }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:navajo
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:navajo
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:athabaskan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:athabaskan }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:athabaskan
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:athabaskan
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:salish }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:salish }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:salish
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:salish
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:nez_perce }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:nez_perce }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:nez_perce
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:nez_perce
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:siouan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:siouan }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:siouan
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:siouan
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:comanche }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:comanche }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:comanche
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:comanche
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:algonquian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:algonquian }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:algonquian
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:algonquian
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:caddoan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:caddoan }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:caddoan
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:caddoan
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:paiute }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:paiute }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:paiute
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:paiute
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:hokan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:hokan }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:hokan
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:hokan
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:apache }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:apache }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:apache
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:apache
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:oodham }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:oodham }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:oodham
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:oodham
+					add_primary_culture = cu:iroquoian
+				}
+				
+				# South American Native cultures merge into Quechua
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:aymara }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:aymara }
+							change_pop_culture = { target = cu:quechua value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:quechua }
+							}
+							state_region = {
+								remove_homeland = cu:aymara
+								add_homeland = cu:quechua
+							}
+						}
+					}
+					remove_primary_culture = cu:aymara
+					add_primary_culture = cu:quechua
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:amazonian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:amazonian }
+							change_pop_culture = { target = cu:quechua value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:quechua }
+							}
+							state_region = {
+								remove_homeland = cu:amazonian
+								add_homeland = cu:quechua
+							}
+						}
+					}
+					remove_primary_culture = cu:amazonian
+					add_primary_culture = cu:quechua
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:patagonian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:patagonian }
+							change_pop_culture = { target = cu:quechua value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:quechua }
+							}
+							state_region = {
+								remove_homeland = cu:patagonian
+								add_homeland = cu:quechua
+							}
+						}
+					}
+					remove_primary_culture = cu:patagonian
+					add_primary_culture = cu:quechua
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:guajiro }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:guajiro }
+							change_pop_culture = { target = cu:quechua value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:quechua }
+							}
+							state_region = {
+								remove_homeland = cu:guajiro
+								add_homeland = cu:quechua
+							}
+						}
+					}
+					remove_primary_culture = cu:guajiro
+					add_primary_culture = cu:quechua
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tupinamba }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tupinamba }
+							change_pop_culture = { target = cu:quechua value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:quechua }
+							}
+							state_region = {
+								remove_homeland = cu:tupinamba
+								add_homeland = cu:quechua
+							}
+						}
+					}
+					remove_primary_culture = cu:tupinamba
+					add_primary_culture = cu:quechua
+				}
+			}
+			every_decentralized_country = {
+				# Iberian cultures merge into Spanish/Portuguese
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:catalan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:catalan }
+							change_pop_culture = { target = cu:spanish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish }
+							}
+							state_region = {
+								remove_homeland = cu:catalan
+								add_homeland = cu:spanish
+							}
+						}
+					}
+					remove_primary_culture = cu:catalan
+					add_primary_culture = cu:spanish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:galician }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:galician }
+							change_pop_culture = { target = cu:spanish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish }
+							}
+							state_region = {
+								remove_homeland = cu:galician
+								add_homeland = cu:spanish
+							}
+						}
+					}
+					remove_primary_culture = cu:galician
+					add_primary_culture = cu:spanish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:basque }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:basque }
+							change_pop_culture = { target = cu:spanish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish }
+							}
+							state_region = {
+								remove_homeland = cu:basque
+								add_homeland = cu:spanish
+							}
+						}
+					}
+					remove_primary_culture = cu:basque
+					add_primary_culture = cu:spanish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:mirandese }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:mirandese }
+							change_pop_culture = { target = cu:portuguese value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:portuguese }
+							}
+							state_region = {
+								remove_homeland = cu:mirandese
+								add_homeland = cu:portuguese
+							}
+						}
+					}
+					remove_primary_culture = cu:mirandese
+					add_primary_culture = cu:portuguese
+				}
+				
+				# French regional cultures merge into French
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:occitan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:occitan }
+							change_pop_culture = { target = cu:french value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:french }
+							}
+							state_region = {
+								remove_homeland = cu:occitan
+								add_homeland = cu:french
+							}
+						}
+					}
+					remove_primary_culture = cu:occitan
+					add_primary_culture = cu:french
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:breton }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:breton }
+							change_pop_culture = { target = cu:french value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:french }
+							}
+							state_region = {
+								remove_homeland = cu:breton
+								add_homeland = cu:french
+							}
+						}
+					}
+					remove_primary_culture = cu:breton
+					add_primary_culture = cu:french
+				}
+				
+				# Benelux cultures merge into Dutch
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:flemish }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:flemish }
+							change_pop_culture = { target = cu:dutch value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:dutch }
+							}
+							state_region = {
+								remove_homeland = cu:flemish
+								add_homeland = cu:dutch
+							}
+						}
+					}
+					remove_primary_culture = cu:flemish
+					add_primary_culture = cu:dutch
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:wallonian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:wallonian }
+							change_pop_culture = { target = cu:dutch value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:dutch }
+							}
+							state_region = {
+								remove_homeland = cu:wallonian
+								add_homeland = cu:dutch
+							}
+						}
+					}
+					remove_primary_culture = cu:wallonian
+					add_primary_culture = cu:dutch
+				}
+				
+				# Swiss culture merges into appropriate German culture
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:alemannic }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:alemannic }
+							change_pop_culture = { target = cu:south_german value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:south_german }
+							}
+							state_region = {
+								remove_homeland = cu:alemannic
+								add_homeland = cu:south_german
+							}
+						}
+					}
+					remove_primary_culture = cu:alemannic
+					add_primary_culture = cu:south_german
+				}
+				
+				# South Slavic cultures merge into common South Slavic
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:croat }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:croat }
+							change_pop_culture = { target = cu:serb value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:serb }
+							}
+							state_region = {
+								remove_homeland = cu:croat
+								add_homeland = cu:serb
+							}
+						}
+					}
+					remove_primary_culture = cu:croat
+					add_primary_culture = cu:serb
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:slovene }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:slovene }
+							change_pop_culture = { target = cu:serb value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:serb }
+							}
+							state_region = {
+								remove_homeland = cu:slovene
+								add_homeland = cu:serb
+							}
+						}
+					}
+					remove_primary_culture = cu:slovene
+					add_primary_culture = cu:serb
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:bosniak }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:bosniak }
+							change_pop_culture = { target = cu:serb value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:serb }
+							}
+							state_region = {
+								remove_homeland = cu:bosniak
+								add_homeland = cu:serb
+							}
+						}
+					}
+					remove_primary_culture = cu:bosniak
+					add_primary_culture = cu:serb
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:bulgarian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:bulgarian }
+							change_pop_culture = { target = cu:serb value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:serb }
+							}
+							state_region = {
+								remove_homeland = cu:bulgarian
+								add_homeland = cu:serb
+							}
+						}
+					}
+					remove_primary_culture = cu:bulgarian
+					add_primary_culture = cu:serb
+				}   
+				
+				# West Slavic cultures merge appropriately
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:slovak }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:slovak }
+							change_pop_culture = { target = cu:czech value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:czech }
+							}
+							state_region = {
+								remove_homeland = cu:slovak
+								add_homeland = cu:czech
+							}
+						}
+					}
+					remove_primary_culture = cu:slovak
+					add_primary_culture = cu:czech
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:sorb }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:sorb }
+							change_pop_culture = { target = cu:czech value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:czech }
+							}
+							state_region = {
+								remove_homeland = cu:sorb
+								add_homeland = cu:czech
+							}
+						}
+					}
+					remove_primary_culture = cu:sorb
+					add_primary_culture = cu:czech
+				}
+				
+				# Baltic cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:latvian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:latvian }
+							change_pop_culture = { target = cu:lithuanian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:lithuanian }
+							}
+							state_region = {
+								remove_homeland = cu:latvian
+								add_homeland = cu:lithuanian
+							}
+						}
+					}
+					remove_primary_culture = cu:latvian
+					add_primary_culture = cu:lithuanian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:estonian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:estonian }
+							change_pop_culture = { target = cu:finnish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:finnish }
+							}
+							state_region = {
+								remove_homeland = cu:estonian
+								add_homeland = cu:finnish
+							}
+						}
+					}
+					remove_primary_culture = cu:estonian
+					add_primary_culture = cu:finnish
+				}
+				
+				# Finno-Ugric cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:sami }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:sami }
+							change_pop_culture = { target = cu:finnish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:finnish }
+							}
+							state_region = {
+								remove_homeland = cu:sami
+								add_homeland = cu:finnish
+							}
+						}
+					}
+					remove_primary_culture = cu:sami
+					add_primary_culture = cu:finnish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:ugrian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:ugrian }
+							change_pop_culture = { target = cu:hungarian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hungarian }
+							}
+							state_region = {
+								remove_homeland = cu:ugrian
+								add_homeland = cu:hungarian
+							}
+						}
+					}
+					remove_primary_culture = cu:ugrian
+					add_primary_culture = cu:hungarian
+				}
+				
+				# Maltese merges into South Italian
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:maltese }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:maltese }
+							change_pop_culture = { target = cu:south_italian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:south_italian }
+							}
+							state_region = {
+								remove_homeland = cu:maltese
+								add_homeland = cu:south_italian
+							}
+						}
+					}
+					remove_primary_culture = cu:maltese
+					add_primary_culture = cu:south_italian
+				}
+				
+				# Celtic cultures merge into Irish
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:irish }
+					}
+					OR = {
+						any_scope_pop = { culture = cu:breton }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:breton }
+							change_pop_culture = { target = cu:irish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:irish }
+							}
+							state_region = {
+								remove_homeland = cu:breton
+								add_homeland = cu:irish
+							}
+						}
+					}
+					remove_primary_culture = cu:breton
+					add_primary_culture = cu:irish
+				}
+				
+				# Turkic cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:azerbaijani }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:azerbaijani }
+							change_pop_culture = { target = cu:turkish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:turkish }
+							}
+							state_region = {
+								remove_homeland = cu:azerbaijani
+								add_homeland = cu:turkish
+							}
+						}
+					}
+					remove_primary_culture = cu:azerbaijani
+					add_primary_culture = cu:turkish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tatar }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tatar }
+							change_pop_culture = { target = cu:turkish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:turkish }
+							}
+							state_region = {
+								remove_homeland = cu:tatar
+								add_homeland = cu:turkish
+							}
+						}
+					}
+					remove_primary_culture = cu:tatar
+					add_primary_culture = cu:turkish
+				}
+				
+				# Central Asian Turkic cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kazak }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kazak }
+							change_pop_culture = { target = cu:uzbek value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:uzbek }
+							}
+							state_region = {
+								remove_homeland = cu:kazak
+								add_homeland = cu:uzbek
+							}
+						}
+					}
+					remove_primary_culture = cu:kazak
+					add_primary_culture = cu:uzbek
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kirgiz }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kirgiz }
+							change_pop_culture = { target = cu:uzbek value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:uzbek }
+							}
+							state_region = {
+								remove_homeland = cu:kirgiz
+								add_homeland = cu:uzbek
+							}
+						}
+					}
+					remove_primary_culture = cu:kirgiz
+					add_primary_culture = cu:uzbek
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:turkmen }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:turkmen }
+							change_pop_culture = { target = cu:uzbek value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:uzbek }
+							}
+							state_region = {
+								remove_homeland = cu:turkmen
+								add_homeland = cu:uzbek
+							}
+						}
+					}
+					remove_primary_culture = cu:turkmen
+					add_primary_culture = cu:uzbek
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:uighur }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:uighur }
+							change_pop_culture = { target = cu:uzbek value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:uzbek }
+							}
+							state_region = {
+								remove_homeland = cu:uighur
+								add_homeland = cu:uzbek
+							}
+						}
+					}
+					remove_primary_culture = cu:uighur
+					add_primary_culture = cu:uzbek
+				}
+				
+				# Iranian cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tajik }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tajik }
+							change_pop_culture = { target = cu:persian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:persian }
+							}
+							state_region = {
+								remove_homeland = cu:tajik
+								add_homeland = cu:persian
+							}
+						}
+					}
+					remove_primary_culture = cu:tajik
+					add_primary_culture = cu:persian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kurdish }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kurdish }
+							change_pop_culture = { target = cu:persian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:persian }
+							}
+							state_region = {
+								remove_homeland = cu:kurdish
+								add_homeland = cu:persian
+							}
+						}
+					}
+					remove_primary_culture = cu:kurdish
+					add_primary_culture = cu:persian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:pashtun }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:pashtun }
+							change_pop_culture = { target = cu:persian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:persian }
+							}
+							state_region = {
+								remove_homeland = cu:pashtun
+								add_homeland = cu:persian
+							}
+						}
+					}
+					remove_primary_culture = cu:pashtun
+					add_primary_culture = cu:persian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:baluchi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:baluchi }
+							change_pop_culture = { target = cu:persian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:persian }
+							}
+							state_region = {
+								remove_homeland = cu:baluchi
+								add_homeland = cu:persian
+							}
+						}
+					}
+					remove_primary_culture = cu:baluchi
+					add_primary_culture = cu:persian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:hazara }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:hazara }
+							change_pop_culture = { target = cu:persian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:persian }
+							}
+							state_region = {
+								remove_homeland = cu:hazara
+								add_homeland = cu:persian
+							}
+						}
+					}
+					remove_primary_culture = cu:hazara
+					add_primary_culture = cu:persian
+				}
+				
+				# Mongolic cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kalmyk }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kalmyk }
+							change_pop_culture = { target = cu:mongol value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mongol }
+							}
+							state_region = {
+								remove_homeland = cu:kalmyk
+								add_homeland = cu:mongol
+							}
+						}
+					}
+					remove_primary_culture = cu:kalmyk
+					add_primary_culture = cu:mongol
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tuvan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tuvan }
+							change_pop_culture = { target = cu:mongol value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mongol }
+							}
+							state_region = {
+								remove_homeland = cu:tuvan
+								add_homeland = cu:mongol
+							}
+						}
+					}
+					remove_primary_culture = cu:tuvan
+					add_primary_culture = cu:mongol
+				}
+				
+				# Siberian cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:yakut }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:yakut }
+							change_pop_culture = { target = cu:siberian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:siberian }
+							}
+							state_region = {
+								remove_homeland = cu:yakut
+								add_homeland = cu:siberian
+							}
+						}
+					}
+					remove_primary_culture = cu:yakut
+					add_primary_culture = cu:siberian
+				}
+				
+				# Corsican merges into South Italian
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:corsican }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:corsican }
+							change_pop_culture = { target = cu:south_italian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:south_italian }
+							}
+							state_region = {
+								remove_homeland = cu:corsican
+								add_homeland = cu:south_italian
+							}
+						}
+					}
+					remove_primary_culture = cu:corsican
+					add_primary_culture = cu:south_italian
+				}
+				
+				# Szekely merges into Hungarian
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:szekely }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:szekely }
+							change_pop_culture = { target = cu:hungarian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hungarian }
+							}
+							state_region = {
+								remove_homeland = cu:szekely
+								add_homeland = cu:hungarian
+							}
+						}
+					}
+					remove_primary_culture = cu:szekely
+					add_primary_culture = cu:hungarian
+				}
+				
+				# West African cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:bambara }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:bambara }
+							change_pop_culture = { target = cu:mande value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mande }
+							}
+							state_region = {
+								remove_homeland = cu:bambara
+								add_homeland = cu:mande
+							}
+						}
+					}
+					remove_primary_culture = cu:bambara
+					add_primary_culture = cu:mande
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:dyula }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:dyula }
+							change_pop_culture = { target = cu:mande value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mande }
+							}
+							state_region = {
+								remove_homeland = cu:dyula
+								add_homeland = cu:mande
+							}
+						}
+					}
+					remove_primary_culture = cu:dyula
+					add_primary_culture = cu:mande
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kissi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kissi }
+							change_pop_culture = { target = cu:mande value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mande }
+							}
+							state_region = {
+								remove_homeland = cu:kissi
+								add_homeland = cu:mande
+							}
+						}
+					}
+					remove_primary_culture = cu:kissi
+					add_primary_culture = cu:mande
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:senufo }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:senufo }
+							change_pop_culture = { target = cu:mande value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mande }
+							}
+							state_region = {
+								remove_homeland = cu:senufo
+								add_homeland = cu:mande
+							}
+						}
+					}
+					remove_primary_culture = cu:senufo
+					add_primary_culture = cu:mande
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:mossi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:mossi }
+							change_pop_culture = { target = cu:mande value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mande }
+							}
+							state_region = {
+								remove_homeland = cu:mossi
+								add_homeland = cu:mande
+							}
+						}
+					}
+					remove_primary_culture = cu:mossi
+					add_primary_culture = cu:mande
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:songhai }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:songhai }
+							change_pop_culture = { target = cu:mande value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:mande }
+							}
+							state_region = {
+								remove_homeland = cu:songhai
+								add_homeland = cu:mande
+							}
+						}
+					}
+					remove_primary_culture = cu:songhai
+					add_primary_culture = cu:mande
+				}
+				
+				# Akan group cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:bassa }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:bassa }
+							change_pop_culture = { target = cu:akan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:akan }
+							}
+							state_region = {
+								remove_homeland = cu:bassa
+								add_homeland = cu:akan
+							}
+						}
+					}
+					remove_primary_culture = cu:bassa
+					add_primary_culture = cu:akan
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kru }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kru }
+							change_pop_culture = { target = cu:akan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:akan }
+							}
+							state_region = {
+								remove_homeland = cu:kru
+								add_homeland = cu:akan
+							}
+						}
+					}
+					remove_primary_culture = cu:kru
+					add_primary_culture = cu:akan
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:ewe }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:ewe }
+							change_pop_culture = { target = cu:akan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:akan }
+							}
+							state_region = {
+								remove_homeland = cu:ewe
+								add_homeland = cu:akan
+							}
+						}
+					}
+					remove_primary_culture = cu:ewe
+					add_primary_culture = cu:akan
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:fon }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:fon }
+							change_pop_culture = { target = cu:akan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:akan }
+							}
+							state_region = {
+								remove_homeland = cu:fon
+								add_homeland = cu:akan
+							}
+						}
+					}
+					remove_primary_culture = cu:fon
+					add_primary_culture = cu:akan
+				}
+				
+				# Nigerian cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:ibibio }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:ibibio }
+							change_pop_culture = { target = cu:ibo value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:ibo }
+							}
+							state_region = {
+								remove_homeland = cu:ibibio
+								add_homeland = cu:ibo
+							}
+						}
+					}
+					remove_primary_culture = cu:ibibio
+					add_primary_culture = cu:ibo
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:edo }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:edo }
+							change_pop_culture = { target = cu:ibo value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:ibo }
+							}
+							state_region = {
+								remove_homeland = cu:edo
+								add_homeland = cu:ibo
+							}
+						}
+					}
+					remove_primary_culture = cu:edo
+					add_primary_culture = cu:ibo
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tiv }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tiv }
+							change_pop_culture = { target = cu:hausa value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hausa }
+							}
+							state_region = {
+								remove_homeland = cu:tiv
+								add_homeland = cu:hausa
+							}
+						}
+					}
+					remove_primary_culture = cu:tiv
+					add_primary_culture = cu:hausa
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:fulbe }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:fulbe }
+							change_pop_culture = { target = cu:hausa value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hausa }
+							}
+							state_region = {
+								remove_homeland = cu:fulbe
+								add_homeland = cu:hausa
+							}
+						}
+					}
+					remove_primary_culture = cu:fulbe
+					add_primary_culture = cu:hausa
+				}
+				
+				# Central African cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:baguirmi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:baguirmi }
+							change_pop_culture = { target = cu:sara value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:sara }
+							}
+							state_region = {
+								remove_homeland = cu:baguirmi
+								add_homeland = cu:sara
+							}
+						}
+					}
+					remove_primary_culture = cu:baguirmi
+					add_primary_culture = cu:sara
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kanuri }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kanuri }
+							change_pop_culture = { target = cu:sara value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:sara }
+							}
+							state_region = {
+								remove_homeland = cu:kanuri
+								add_homeland = cu:sara
+							}
+						}
+					}
+					remove_primary_culture = cu:kanuri
+					add_primary_culture = cu:sara
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:teda }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:teda }
+							change_pop_culture = { target = cu:sara value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:sara }
+							}
+							state_region = {
+								remove_homeland = cu:teda
+								add_homeland = cu:sara
+							}
+						}
+					}
+					remove_primary_culture = cu:teda
+					add_primary_culture = cu:sara
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:fang }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:fang }
+							change_pop_culture = { target = cu:equatorial_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:equatorial_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:fang
+								add_homeland = cu:equatorial_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:fang
+					add_primary_culture = cu:equatorial_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:bakongo }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:bakongo }
+							change_pop_culture = { target = cu:fluvian_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:fluvian_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:bakongo
+								add_homeland = cu:fluvian_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:bakongo
+					add_primary_culture = cu:fluvian_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:luba }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:luba }
+							change_pop_culture = { target = cu:fluvian_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:fluvian_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:luba
+								add_homeland = cu:fluvian_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:luba
+					add_primary_culture = cu:fluvian_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:lunda }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:lunda }
+							change_pop_culture = { target = cu:fluvian_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:fluvian_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:lunda
+								add_homeland = cu:fluvian_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:lunda
+					add_primary_culture = cu:fluvian_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:mongo }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:mongo }
+							change_pop_culture = { target = cu:fluvian_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:fluvian_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:mongo
+								add_homeland = cu:fluvian_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:mongo
+					add_primary_culture = cu:fluvian_bantu
+				}
+				
+				# East African cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:baganda }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:baganda }
+							change_pop_culture = { target = cu:lacustrine_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:lacustrine_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:baganda
+								add_homeland = cu:lacustrine_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:baganda
+					add_primary_culture = cu:lacustrine_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:ruanda }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:ruanda }
+							change_pop_culture = { target = cu:lacustrine_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:lacustrine_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:ruanda
+								add_homeland = cu:lacustrine_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:ruanda
+					add_primary_culture = cu:lacustrine_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:rundi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:rundi }
+							change_pop_culture = { target = cu:lacustrine_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:lacustrine_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:rundi
+								add_homeland = cu:lacustrine_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:rundi
+					add_primary_culture = cu:lacustrine_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:kikuyu }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:kikuyu }
+							change_pop_culture = { target = cu:lacustrine_bantu value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:lacustrine_bantu }
+							}
+							state_region = {
+								remove_homeland = cu:kikuyu
+								add_homeland = cu:lacustrine_bantu
+							}
+						}
+					}
+					remove_primary_culture = cu:kikuyu
+					add_primary_culture = cu:lacustrine_bantu
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:sukuma }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:sukuma }
+							change_pop_culture = { target = cu:swahili value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:swahili }
+							}
+							state_region = {
+								remove_homeland = cu:sukuma
+								add_homeland = cu:swahili
+							}
+						}
+					}
+					remove_primary_culture = cu:sukuma
+					add_primary_culture = cu:swahili
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:unyamwezi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:unyamwezi }
+							change_pop_culture = { target = cu:swahili value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:swahili }
+							}
+							state_region = {
+								remove_homeland = cu:unyamwezi
+								add_homeland = cu:swahili
+							}
+						}
+					}
+					remove_primary_culture = cu:unyamwezi
+					add_primary_culture = cu:swahili
+				}
+				
+				# Nilotic cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:dinka }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:dinka }
+							change_pop_culture = { target = cu:nilotic value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:nilotic }
+							}
+							state_region = {
+								remove_homeland = cu:dinka
+								add_homeland = cu:nilotic
+							}
+						}
+					}
+					remove_primary_culture = cu:dinka
+					add_primary_culture = cu:nilotic
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:nuer }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:nuer }
+							change_pop_culture = { target = cu:nilotic value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:nilotic }
+							}
+							state_region = {
+								remove_homeland = cu:nuer
+								add_homeland = cu:nilotic
+							}
+						}
+					}
+					remove_primary_culture = cu:nuer
+					add_primary_culture = cu:nilotic
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:luo }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:luo }
+							change_pop_culture = { target = cu:nilotic value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:nilotic }
+							}
+							state_region = {
+								remove_homeland = cu:luo
+								add_homeland = cu:nilotic
+							}
+						}
+					}
+					remove_primary_culture = cu:luo
+					add_primary_culture = cu:nilotic
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:maasai }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:maasai }
+							change_pop_culture = { target = cu:nilotic value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:nilotic }
+							}
+							state_region = {
+								remove_homeland = cu:maasai
+								add_homeland = cu:nilotic
+							}
+						}
+					}
+					remove_primary_culture = cu:maasai
+					add_primary_culture = cu:nilotic
+				}
+				
+				# Horn of Africa cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tigray }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tigray }
+							change_pop_culture = { target = cu:amhara value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:amhara }
+							}
+							state_region = {
+								remove_homeland = cu:tigray
+								add_homeland = cu:amhara
+							}
+						}
+					}
+					remove_primary_culture = cu:tigray
+					add_primary_culture = cu:amhara
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:sidama }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:sidama }
+							change_pop_culture = { target = cu:oromo value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:oromo }
+							}
+							state_region = {
+								remove_homeland = cu:sidama
+								add_homeland = cu:oromo
+							}
+						}
+					}
+					remove_primary_culture = cu:sidama
+					add_primary_culture = cu:oromo
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:afar }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:afar }
+							change_pop_culture = { target = cu:somali value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:somali }
+							}
+							state_region = {
+								remove_homeland = cu:afar
+								add_homeland = cu:somali
+							}
+						}
+					}
+					remove_primary_culture = cu:afar
+					add_primary_culture = cu:somali
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:beja }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:beja }
+							change_pop_culture = { target = cu:sudanese value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:sudanese }
+							}
+							state_region = {
+								remove_homeland = cu:beja
+								add_homeland = cu:sudanese
+							}
+						}
+					}
+					remove_primary_culture = cu:beja
+					add_primary_culture = cu:sudanese
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:fur }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:fur }
+							change_pop_culture = { target = cu:sudanese value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:sudanese }
+							}
+							state_region = {
+								remove_homeland = cu:fur
+								add_homeland = cu:sudanese
+							}
+						}
+					}
+					remove_primary_culture = cu:fur
+					add_primary_culture = cu:sudanese
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:masalit }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:masalit }
+							change_pop_culture = { target = cu:sudanese value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:sudanese }
+							}
+							state_region = {
+								remove_homeland = cu:masalit
+								add_homeland = cu:sudanese
+							}
+						}
+					}
+					remove_primary_culture = cu:masalit
+					add_primary_culture = cu:sudanese
+				}
+				
+				# Chinese cultures merge into Han
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:manchu }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:manchu }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:manchu
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:manchu
+					add_primary_culture = cu:han
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:miao }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:miao }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:miao
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:miao
+					add_primary_culture = cu:han
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:yi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:yi }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:yi
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:yi
+					add_primary_culture = cu:han
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:zhuang }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:zhuang }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:zhuang
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:zhuang
+					add_primary_culture = cu:han
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tibetan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tibetan }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:tibetan
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:tibetan
+					add_primary_culture = cu:han
+				}
+				
+				# Indian cultures merge into Hindustani
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:bengali }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:bengali }
+							change_pop_culture = { target = cu:hindustani value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hindustani }
+							}
+							state_region = {
+								remove_homeland = cu:bengali
+								add_homeland = cu:hindustani
+							}
+						}
+					}
+					remove_primary_culture = cu:bengali
+					add_primary_culture = cu:hindustani
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:gujarati }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:gujarati }
+							change_pop_culture = { target = cu:hindustani value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hindustani }
+							}
+							state_region = {
+								remove_homeland = cu:gujarati
+								add_homeland = cu:hindustani
+							}
+						}
+					}
+					remove_primary_culture = cu:gujarati
+					add_primary_culture = cu:hindustani
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:marathi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:marathi }
+							change_pop_culture = { target = cu:hindustani value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hindustani }
+							}
+							state_region = {
+								remove_homeland = cu:marathi
+								add_homeland = cu:hindustani
+							}
+						}
+					}
+					remove_primary_culture = cu:marathi
+					add_primary_culture = cu:hindustani
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tamil }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tamil }
+							change_pop_culture = { target = cu:hindustani value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hindustani }
+							}
+							state_region = {
+								remove_homeland = cu:tamil
+								add_homeland = cu:hindustani
+							}
+						}
+					}
+					remove_primary_culture = cu:tamil
+					add_primary_culture = cu:hindustani
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:assamese }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:assamese }
+							change_pop_culture = { target = cu:hindustani value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hindustani }
+							}
+							state_region = {
+								remove_homeland = cu:assamese
+								add_homeland = cu:hindustani
+							}
+						}
+					}
+					remove_primary_culture = cu:assamese
+					add_primary_culture = cu:hindustani
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:avadhi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:avadhi }
+							change_pop_culture = { target = cu:hindustani value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:hindustani }
+							}
+							state_region = {
+								remove_homeland = cu:avadhi
+								add_homeland = cu:hindustani
+							}
+						}
+					}
+					remove_primary_culture = cu:avadhi
+					add_primary_culture = cu:hindustani
+				}
+				
+				# Chinese dialects merge into Han
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:min }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:min }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:min
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:min
+					add_primary_culture = cu:han
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:hakka }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:hakka }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:hakka
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:hakka
+					add_primary_culture = cu:han
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:yue }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:yue }
+							change_pop_culture = { target = cu:han value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:han }
+							}
+							state_region = {
+								remove_homeland = cu:yue
+								add_homeland = cu:han
+							}
+						}
+					}
+					remove_primary_culture = cu:yue
+					add_primary_culture = cu:han
+				}
+				
+				# Southeast Asian/Indochina cultures merge into Vietnamese
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:khmer }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:khmer }
+							change_pop_culture = { target = cu:vietnamese value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:vietnamese }
+							}
+							state_region = {
+								remove_homeland = cu:khmer
+								add_homeland = cu:vietnamese
+							}
+						}
+					}
+					remove_primary_culture = cu:khmer
+					add_primary_culture = cu:vietnamese
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:lao }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:lao }
+							change_pop_culture = { target = cu:vietnamese value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:vietnamese }
+							}
+							state_region = {
+								remove_homeland = cu:lao
+								add_homeland = cu:vietnamese
+							}
+						}
+					}
+					remove_primary_culture = cu:lao
+					add_primary_culture = cu:vietnamese
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:thai }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:thai }
+							change_pop_culture = { target = cu:vietnamese value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:vietnamese }
+							}
+							state_region = {
+								remove_homeland = cu:thai
+								add_homeland = cu:vietnamese
+							}
+						}
+					}
+					remove_primary_culture = cu:thai
+					add_primary_culture = cu:vietnamese
+				}
+				
+				# Indonesian/Malay cultures merge into Javan
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:batak }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:batak }
+							change_pop_culture = { target = cu:javan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:javan }
+							}
+							state_region = {
+								remove_homeland = cu:batak
+								add_homeland = cu:javan
+							}
+						}
+					}
+					remove_primary_culture = cu:batak
+					add_primary_culture = cu:javan
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:dayak }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:dayak }
+							change_pop_culture = { target = cu:javan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:javan }
+							}
+							state_region = {
+								remove_homeland = cu:dayak
+								add_homeland = cu:javan
+							}
+						}
+					}
+					remove_primary_culture = cu:dayak
+					add_primary_culture = cu:javan
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:moro }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:moro }
+							change_pop_culture = { target = cu:javan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:javan }
+							}
+							state_region = {
+								remove_homeland = cu:moro
+								add_homeland = cu:javan
+							}
+						}
+					}
+					remove_primary_culture = cu:moro
+					add_primary_culture = cu:javan
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:moluccan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:moluccan }
+							change_pop_culture = { target = cu:javan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:javan }
+							}
+							state_region = {
+								remove_homeland = cu:moluccan
+								add_homeland = cu:javan
+							}
+						}
+					}
+					remove_primary_culture = cu:moluccan
+					add_primary_culture = cu:javan
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:filipino }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:filipino }
+							change_pop_culture = { target = cu:javan value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:javan }
+							}
+							state_region = {
+								remove_homeland = cu:filipino
+								add_homeland = cu:javan
+							}
+						}
+					}
+					remove_primary_culture = cu:filipino
+					add_primary_culture = cu:javan
+				}
+				
+				# German cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:south_german }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:south_german }
+							change_pop_culture = { target = cu:north_german value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:north_german }
+							}
+							state_region = {
+								remove_homeland = cu:south_german
+								add_homeland = cu:north_german
+							}
+						}
+					}
+					remove_primary_culture = cu:south_german
+					add_primary_culture = cu:north_german
+				}
+				
+				# Italian cultures merge
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:south_italian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:south_italian }
+							change_pop_culture = { target = cu:north_italian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:north_italian }
+							}
+							state_region = {
+								remove_homeland = cu:south_italian
+								add_homeland = cu:north_italian
+							}
+						}
+					}
+					remove_primary_culture = cu:south_italian
+					add_primary_culture = cu:north_italian
+				}
+				
+				# East Slavic cultures merge into Russian
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:byelorussian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:byelorussian }
+							change_pop_culture = { target = cu:russian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:russian }
+							}
+							state_region = {
+								remove_homeland = cu:byelorussian
+								add_homeland = cu:russian
+							}
+						}
+					}
+					remove_primary_culture = cu:byelorussian
+					add_primary_culture = cu:russian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:ukrainian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:ukrainian }
+							change_pop_culture = { target = cu:russian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:russian }
+							}
+							state_region = {
+								remove_homeland = cu:ukrainian
+								add_homeland = cu:russian
+							}
+						}
+					}
+					remove_primary_culture = cu:ukrainian
+					add_primary_culture = cu:russian
+				}
+				
+				# Scandinavian cultures merge into Swedish
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:danish }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:danish }
+							change_pop_culture = { target = cu:swedish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:swedish }
+							}
+							state_region = {
+								remove_homeland = cu:danish
+								add_homeland = cu:swedish
+							}
+						}
+					}
+					remove_primary_culture = cu:danish
+					add_primary_culture = cu:swedish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:norwegian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:norwegian }
+							change_pop_culture = { target = cu:swedish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:swedish }
+							}
+							state_region = {
+								remove_homeland = cu:norwegian
+								add_homeland = cu:swedish
+							}
+						}
+					}
+					remove_primary_culture = cu:norwegian
+					add_primary_culture = cu:swedish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:finnish }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:finnish }
+							change_pop_culture = { target = cu:swedish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:swedish }
+							}
+							state_region = {
+								remove_homeland = cu:finnish
+								add_homeland = cu:swedish
+							}
+						}
+					}
+					remove_primary_culture = cu:finnish
+					add_primary_culture = cu:swedish
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:icelandic }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:icelandic }
+							change_pop_culture = { target = cu:swedish value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:swedish }
+							}
+							state_region = {
+								remove_homeland = cu:icelandic
+								add_homeland = cu:swedish
+							}
+						}
+					}
+					remove_primary_culture = cu:icelandic
+					add_primary_culture = cu:swedish
+				}
+				
+				# Arab cultures merge into Bedouin
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:levantine }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:levantine }
+							change_pop_culture = { target = cu:bedouin value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:bedouin }
+							}
+							state_region = {
+								remove_homeland = cu:levantine
+								add_homeland = cu:bedouin
+							}
+						}
+					}
+					remove_primary_culture = cu:levantine
+					add_primary_culture = cu:bedouin
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:maghrebi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:maghrebi }
+							change_pop_culture = { target = cu:bedouin value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:bedouin }
+							}
+							state_region = {
+								remove_homeland = cu:maghrebi
+								add_homeland = cu:bedouin
+							}
+						}
+					}
+					remove_primary_culture = cu:maghrebi
+					add_primary_culture = cu:bedouin
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:mashriqi }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:mashriqi }
+							change_pop_culture = { target = cu:bedouin value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:bedouin }
+							}
+							state_region = {
+								remove_homeland = cu:mashriqi
+								add_homeland = cu:bedouin
+							}
+						}
+					}
+					remove_primary_culture = cu:mashriqi
+					add_primary_culture = cu:bedouin
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:misri }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:misri }
+							change_pop_culture = { target = cu:bedouin value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:bedouin }
+							}
+							state_region = {
+								remove_homeland = cu:misri
+								add_homeland = cu:bedouin
+							}
+						}
+					}
+					remove_primary_culture = cu:misri
+					add_primary_culture = cu:bedouin
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:berber }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:berber }
+							change_pop_culture = { target = cu:bedouin value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:bedouin }
+							}
+							state_region = {
+								remove_homeland = cu:berber
+								add_homeland = cu:bedouin
+							}
+						}
+					}
+					remove_primary_culture = cu:berber
+					add_primary_culture = cu:bedouin
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:yemenite }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:yemenite }
+							change_pop_culture = { target = cu:bedouin value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:bedouin }
+							}
+							state_region = {
+								remove_homeland = cu:yemenite
+								add_homeland = cu:bedouin
+							}
+						}
+					}
+					remove_primary_culture = cu:yemenite
+					add_primary_culture = cu:bedouin
+				}
+				
+				# North American cultures merge into Anglo-American
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:french_canadian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:french_canadian }
+							change_pop_culture = { target = cu:anglo_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:anglo_american }
+							}
+							state_region = {
+								remove_homeland = cu:french_canadian
+								add_homeland = cu:anglo_american
+							}
+						}
+					}
+					remove_primary_culture = cu:french_canadian
+					add_primary_culture = cu:anglo_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:anglo_canadian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:anglo_canadian }
+							change_pop_culture = { target = cu:anglo_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:anglo_american }
+							}
+							state_region = {
+								remove_homeland = cu:anglo_canadian
+								add_homeland = cu:anglo_american
+							}
+						}
+					}
+					remove_primary_culture = cu:anglo_canadian
+					add_primary_culture = cu:anglo_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:dixie }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:dixie }
+							change_pop_culture = { target = cu:anglo_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:anglo_american }
+							}
+							state_region = {
+								remove_homeland = cu:dixie
+								add_homeland = cu:anglo_american
+							}
+						}
+					}
+					remove_primary_culture = cu:dixie
+					add_primary_culture = cu:anglo_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tejano }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tejano }
+							change_pop_culture = { target = cu:anglo_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:anglo_american }
+							}
+							state_region = {
+								remove_homeland = cu:tejano
+								add_homeland = cu:anglo_american
+							}
+						}
+					}
+					remove_primary_culture = cu:tejano
+					add_primary_culture = cu:anglo_american
+				}
+				
+				# South American cultures merge into Spanish Latin American
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:platinean }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:platinean }
+							change_pop_culture = { target = cu:spanish_latin_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish_latin_american }
+							}
+							state_region = {
+								remove_homeland = cu:platinean
+								add_homeland = cu:spanish_latin_american
+							}
+						}
+					}
+					remove_primary_culture = cu:platinean
+					add_primary_culture = cu:spanish_latin_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:north_andean }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:north_andean }
+							change_pop_culture = { target = cu:spanish_latin_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish_latin_american }
+							}
+							state_region = {
+								remove_homeland = cu:north_andean
+								add_homeland = cu:spanish_latin_american
+							}
+						}
+					}
+					remove_primary_culture = cu:north_andean
+					add_primary_culture = cu:spanish_latin_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:south_andean }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:south_andean }
+							change_pop_culture = { target = cu:spanish_latin_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish_latin_american }
+							}
+							state_region = {
+								remove_homeland = cu:south_andean
+								add_homeland = cu:spanish_latin_american
+							}
+						}
+					}
+					remove_primary_culture = cu:south_andean
+					add_primary_culture = cu:spanish_latin_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:central_american }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:central_american }
+							change_pop_culture = { target = cu:spanish_latin_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish_latin_american }
+							}
+							state_region = {
+								remove_homeland = cu:central_american
+								add_homeland = cu:spanish_latin_american
+							}
+						}
+					}
+					remove_primary_culture = cu:central_american
+					add_primary_culture = cu:spanish_latin_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:mexican }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:mexican }
+							change_pop_culture = { target = cu:spanish_latin_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish_latin_american }
+							}
+							state_region = {
+								remove_homeland = cu:mexican
+								add_homeland = cu:spanish_latin_american
+							}
+						}
+					}
+					remove_primary_culture = cu:mexican
+					add_primary_culture = cu:spanish_latin_american
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:caribeno }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:caribeno }
+							change_pop_culture = { target = cu:spanish_latin_american value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:spanish_latin_american }
+							}
+							state_region = {
+								remove_homeland = cu:caribeno
+								add_homeland = cu:spanish_latin_american
+							}
+						}
+					}
+					remove_primary_culture = cu:caribeno
+					add_primary_culture = cu:spanish_latin_american
+				}
+				
+				# Portuguese Latin American cultures merge into Brazilian
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:brazilian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:brazilian }
+							change_pop_culture = { target = cu:brazilian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:brazilian }
+							}
+							state_region = {
+								remove_homeland = cu:brazilian
+								add_homeland = cu:brazilian
+							}
+						}
+					}
+					remove_primary_culture = cu:brazilian
+					add_primary_culture = cu:brazilian
+				}
+				
+				# North American Native cultures merge into Iroquoian
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:metis }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:metis }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:metis
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:metis
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:dakota }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:dakota }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:dakota
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:dakota
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:cherokee }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:cherokee }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:cherokee
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:cherokee
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:muskogean }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:muskogean }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:muskogean
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:muskogean
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:navajo }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:navajo }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:navajo
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:navajo
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:athabaskan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:athabaskan }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:athabaskan
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:athabaskan
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:salish }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:salish }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:salish
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:salish
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:nez_perce }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:nez_perce }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:nez_perce
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:nez_perce
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:siouan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:siouan }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:siouan
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:siouan
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:comanche }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:comanche }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:comanche
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:comanche
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:algonquian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:algonquian }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:algonquian
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:algonquian
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:caddoan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:caddoan }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:caddoan
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:caddoan
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:paiute }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:paiute }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:paiute
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:paiute
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:hokan }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:hokan }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:hokan
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:hokan
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:apache }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:apache }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:apache
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:apache
+					add_primary_culture = cu:iroquoian
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:oodham }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:oodham }
+							change_pop_culture = { target = cu:iroquoian value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:iroquoian }
+							}
+							state_region = {
+								remove_homeland = cu:oodham
+								add_homeland = cu:iroquoian
+							}
+						}
+					}
+					remove_primary_culture = cu:oodham
+					add_primary_culture = cu:iroquoian
+				}
+				
+				# South American Native cultures merge into Quechua
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:aymara }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:aymara }
+							change_pop_culture = { target = cu:quechua value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:quechua }
+							}
+							state_region = {
+								remove_homeland = cu:aymara
+								add_homeland = cu:quechua
+							}
+						}
+					}
+					remove_primary_culture = cu:aymara
+					add_primary_culture = cu:quechua
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:amazonian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:amazonian }
+							change_pop_culture = { target = cu:quechua value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:quechua }
+							}
+							state_region = {
+								remove_homeland = cu:amazonian
+								add_homeland = cu:quechua
+							}
+						}
+					}
+					remove_primary_culture = cu:amazonian
+					add_primary_culture = cu:quechua
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:patagonian }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:patagonian }
+							change_pop_culture = { target = cu:quechua value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:quechua }
+							}
+							state_region = {
+								remove_homeland = cu:patagonian
+								add_homeland = cu:quechua
+							}
+						}
+					}
+					remove_primary_culture = cu:patagonian
+					add_primary_culture = cu:quechua
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:guajiro }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:guajiro }
+							change_pop_culture = { target = cu:quechua value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:quechua }
+							}
+							state_region = {
+								remove_homeland = cu:guajiro
+								add_homeland = cu:quechua
+							}
+						}
+					}
+					remove_primary_culture = cu:guajiro
+					add_primary_culture = cu:quechua
+				}
+				if = {
+					limit = {
+						any_scope_pop = { culture = cu:tupinamba }
+					}
+					every_scope_state = {
+						every_scope_pop = {
+							limit = { culture = cu:tupinamba }
+							change_pop_culture = { target = cu:quechua value = 1.0 }
+						}
+						if = {
+							limit = {
+								any_scope_pop = { culture = cu:quechua }
+							}
+							state_region = {
+								remove_homeland = cu:tupinamba
+								add_homeland = cu:quechua
+							}
+						}
+					}
+					remove_primary_culture = cu:tupinamba
+					add_primary_culture = cu:quechua
+				}
+			}
+		}
+	}
+}
+
