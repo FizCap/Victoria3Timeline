@@ -1,0 +1,55 @@
+fatpenguin_tech_unlock = {
+	every_country = {
+		# Production fatpenguin
+		if = {
+			limit = { NOT = { has_technology_researched = fatpenguin_production } }
+			add_technology_researched = fatpenguin_production
+		}
+		# Society fatpenguins - simple branch locks
+		if = {
+			limit = { NOT = { has_technology_researched = fatpenguin_banking } }
+			add_technology_researched = fatpenguin_banking
+		}
+		if = {
+			limit = { NOT = { has_technology_researched = fatpenguin_colonization } }
+			add_technology_researched = fatpenguin_colonization
+		}
+		if = {
+			limit = { NOT = { has_technology_researched = fatpenguin_mass_communication } }
+			add_technology_researched = fatpenguin_mass_communication
+		}
+		if = {
+			limit = { NOT = { has_technology_researched = fatpenguin_medical_degrees } }
+			add_technology_researched = fatpenguin_medical_degrees
+		}
+		if = {
+			limit = { NOT = { has_technology_researched = fatpenguin_romanticism } }
+			add_technology_researched = fatpenguin_romanticism
+		}
+		if = {
+			limit = { NOT = { has_technology_researched = fatpenguin_empiricism } }
+			add_technology_researched = fatpenguin_empiricism
+		}
+		if = {
+			limit = { NOT = { has_technology_researched = fatpenguin_urban_planning } }
+			add_technology_researched = fatpenguin_urban_planning
+		}
+		if = {
+			limit = { NOT = { has_technology_researched = fatpenguin_centralization } }
+			add_technology_researched = fatpenguin_centralization
+		}
+		if = {
+			limit = { NOT = { has_technology_researched = fatpenguin_democracy } }
+			add_technology_researched = fatpenguin_democracy
+		}
+		# Military fatpenguins
+		if = {
+			limit = { NOT = { has_technology_researched = fatpenguin_sailor } }
+			add_technology_researched = fatpenguin_sailor
+		}
+		if = {
+			limit = { NOT = { has_technology_researched = fatpenguin_warrior } }
+			add_technology_researched = fatpenguin_warrior
+		}
+	}
+}

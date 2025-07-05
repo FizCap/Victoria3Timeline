@@ -1,5 +1,17 @@
-on_yearly_pulse = {
+﻿on_yearly_pulse = {
 	on_actions = { fatpenguin_tech_unlock }
+}
+
+on_game_started_after_lobby = {
+	effect = {
+		every_country = {
+			limit = { is_player = yes }
+			trigger_event = {
+				popup = yes
+				id = et_fatpenguin_tech_choice.1
+			}
+		}
+	}
 }
 
 #Will unlock technology in 1820 for era 2, change the date for game_date if you want to modify it to something else

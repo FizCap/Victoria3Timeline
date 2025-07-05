@@ -1,0 +1,5 @@
+﻿l_english:
+ et_fatpenguin_tech_choice.1.t: "The Fat Penguin's Hoard: Technology Locked! (READ THIS!)"
+ et_fatpenguin_tech_choice.1.d: "IMPORTANT: For this mod to work correctly, it MUST be at the BOTTOM of your load order!\n\nFor years, the mysterious Fat Penguin has jealously guarded the secrets of advanced technology, preventing any nation from progressing beyond 1820. Now, you face a choice: respect the natural, historical pace of technological development, or break the seal and unlock all fatpenguin technologies immediately. The latter will give you a powerful advantage, but it will be highly ahistorical!\n\nAGAIN: Place this mod LAST in your load order, or it may not function as intended."
+ et_fatpenguin_tech_choice.1.a: "Respect history and progress naturally (tech unlocks after 1820)"
+ et_fatpenguin_tech_choice.1.b: "Break the seal and unlock all fatpenguin tech now (ahistorical)"

@@ -1,0 +1,20 @@
+namespace = et_fatpenguin_tech_choice
+
+# Fatpenguin Technology Choice Event
+et_fatpenguin_tech_choice.1 = {
+	type = country_event
+	placement = ROOT
+	title = et_fatpenguin_tech_choice.1.t
+	desc = et_fatpenguin_tech_choice.1.d
+	picture = GFX_evt_technology
+	duration = 3
+	trigger = { always = yes }
+	option = {
+		name = et_fatpenguin_tech_choice.1.a
+		# Do nothing - keep normal tech progression
+	}
+	option = {
+		name = et_fatpenguin_tech_choice.1.b
+		fatpenguin_tech_unlock = yes
+	}
+}
